@@ -1,0 +1,10 @@
+{
+  "env": [
+    "browser",
+    "development",
+    "module"
+  ],
+  "imports": {
+    "flexsearch": "https://ga.jspm.io/npm:flexsearch@0.7.31/dist/flexsearch.bundle.js"
+  }
+}
