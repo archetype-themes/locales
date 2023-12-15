@@ -343,7 +343,7 @@
       "shipping_policy_html": "<a href='{{ link }}'>Frais d'expédition<\/a> calculés lors du passage à la caisse.",
       "will_not_ship_until": "Sera expédié après {{ date }}",
       "will_be_in_stock_after": "Sera en stock à compter de {{ date }}",
-      "waiting_for_stock": "Inventaire sur le chemin",
+      "waiting_for_stock": "En rupture de stock, expédition prochainement",
       "view_in_space": "Afficher dans votre espace",
       "view_in_space_label": "Affichage dans votre espace, charge l'article dans une fenêtre de réalité augmentée"
     }
@@ -380,10 +380,7 @@
       "name": "Nom",
       "message_label": "Message (facultatif)",
       "message": "Message",
-      "max_characters": "{{ max_chars }} caractères au maximum",
-      "email_label_optional_for_no_js_behavior": "E‑mail du destinataire (facultatif)",
-      "send_on": "AAAA-MM-JJ",
-      "send_on_label": "Envoyer le (facultatif)"
+      "max_characters": "{{ max_chars }} caractères au maximum"
     }
   },
   "date_formats":{

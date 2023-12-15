@@ -342,7 +342,7 @@
       "shipping_policy_html": "zzgl. <a href='{{ link }}'>Versandkosten<\/a>",
       "will_not_ship_until": "Wird nach dem {{ date }} versendet",
       "will_be_in_stock_after": "Wird nach dem {{ date }} auf Lager sein",
-      "waiting_for_stock": "Inventar auf dem Weg",
+      "waiting_for_stock": "Nachbestellt, bald verfügbar",
       "view_in_space": "In Ihrem Bereich ansehen",
       "view_in_space_label": "„Ansicht in Ihrem Raum“ lädt den Artikel im Augmented-Reality-Fenster"
     }
@@ -379,10 +379,7 @@
       "name": "Name",
       "message_label": "Nachricht (optional)",
       "message": "Nachricht",
-      "max_characters": "Maximal {{ max_chars }} Zeichen",
-      "email_label_optional_for_no_js_behavior": "E-Mail-Adresse des Empfängers (optional)",
-      "send_on": "JJJJ-MM-TT",
-      "send_on_label": "Senden am (optional)"
+      "max_characters": "Maximal {{ max_chars }} Zeichen"
     }
   },
   "date_formats":{

@@ -343,7 +343,7 @@
       "shipping_policy_html": "Los <a href='{{ link }}'>gastos de envío<\/a> se calculan en la pantalla de pagos.",
       "will_not_ship_until": "Será enviado después {{ date }}",
       "will_be_in_stock_after": "Estará disponible después {{ date }}",
-      "waiting_for_stock": "Inventario en el camino",
+      "waiting_for_stock": "Pedido pendiente, envío pronto",
       "view_in_space": "Ver en tu espacio",
       "view_in_space_label": "Ver en tu espacio, carga el artículo en la ventana de realidad aumentada"
     }
@@ -380,10 +380,7 @@
       "name": "Nombre",
       "message_label": "Mensaje (opcional)",
       "message": "Mensaje",
-      "max_characters": "{{ max_chars }} caracteres máx.",
-      "email_label_optional_for_no_js_behavior": "Correo electrónico de la persona destinataria (opcional)",
-      "send_on": "AAAA-MM-DD",
-      "send_on_label": "Enviar el (opcional)"
+      "max_characters": "{{ max_chars }} caracteres máx."
     }
   },
   "date_formats":{
