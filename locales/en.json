@@ -346,7 +346,7 @@
       "shipping_policy_html": "<a href='{{ link }}'>Shipping</a> calculated at checkout.",
       "will_not_ship_until": "Ready to ship {{ date }}",
       "will_be_in_stock_after": "Back in stock {{ date }}",
-      "waiting_for_stock": "Inventory on the way",
+      "waiting_for_stock": "Backordered, shipping soon",
       "view_in_space": "View in your space",
       "view_in_space_label": "View in your space, loads item in augmented reality window"
     }
@@ -378,15 +378,12 @@
     "form": {
       "checkbox": "I want to send this as a gift",
       "email_label": "Recipient email",
-      "email_label_optional": "Recipient email (optional)",
       "email": "Email",
       "name_label": "Recipient name (optional)",
       "name": "Name",
       "message_label": "Message (optional)",
       "message": "Message",
-      "max_characters": "{{ max_chars }} characters max",
-      "send_on": "YYYY-MM-DD",
-      "send_on_label": "Send on (optional)"
+      "max_characters": "{{ max_chars }} characters max"
     }
   },
   "date_formats": {

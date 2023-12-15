@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Hello, world!</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="" />
+  <script async src="https://ga.jspm.io/npm:es-module-shims@1.8.2/dist/es-module-shims.js" crossorigin="anonymous"></script>
+  <script type="importmap">
+  {
+    "imports": {
+      "flexsearch": "https://ga.jspm.io/npm:flexsearch@0.7.31/dist/flexsearch.bundle.js"
+    }
+  }
+  </script>
+  <link rel="icon" href="favicon.png">
+</head>
+<body>
+  <h1>Hello, world!</h1>
+  <script type="module">
+    import flexsearch from 'flexsearch'
+    import {dotNotate} from './public/utils.js'
+
+    console.log(flexsearch)
+    const SUPPORTED_IETF_LANGS = ['de', 'en', 'es', 'fr', 'it', 'pt-BR', 'pt-PT']
+
+    const locales = {};
+
+    await Promise.all(SUPPORTED_IETF_LANGS.map(async (tag) => {
+      const url = `/locales/${tag}.json`
+      const resp = await fetch(url)
+      locales[tag] = await resp.json()
+    }))
+
+    const en = dotNotate(locales.en)
+
+    const index = new flexsearch.Index()
+
+    Object.entries(en).forEach(([key, value]) => index.add(key, value))
+
+    const result = index.search('Enter');
+    console.log("Results: ", result);
+  </script>
+</body>
+</html>
