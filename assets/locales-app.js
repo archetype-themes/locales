@@ -96,7 +96,7 @@ export class LocalesApp extends LitElement {
   }
 
   async getConfig() {
-    const url = `/locales.config.json`
+    const url = `locales.config.json`
     const resp = await fetch(url)
     return await resp.json()
   }
