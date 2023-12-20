@@ -144,7 +144,7 @@ export class LocalesApp extends LitElement {
 
     await Promise.all(this.storefrontLocaleCodes.map(async (code) => {
       if (this.repo === 'archetype-themes/locales') {
-        const url = `/locales/${code}.json`
+        const url = `locales/${code}.json`
         const resp = await fetch(url)
         locales[code] = dotNotate(await resp.json())
       } else {
