@@ -2,6 +2,7 @@
   "repos": [
     {
       "repo": "archetype-themes/locales",
+      "directory": "https://github.com/archetype-themes/locales/tree/main/locales",
       "defaultCode": "en",
       "storefront": [
         "de",
@@ -24,6 +25,7 @@
     },
     {
       "repo": "shopify/dawn",
+      "directory": "https://github.com/Shopify/dawn/tree/main/locales",
       "defaultCode": "en",
       "storefront": [
         "bg-BG",

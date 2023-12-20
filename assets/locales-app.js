@@ -16,27 +16,45 @@ export class LocalesApp extends LitElement {
     .container {
       max-width: 720px; 
       margin: 0 auto;
+      padding: 0 var(--sl-spacing-medium);
     }
 
     .input-group {
       display: flex;
       justify-content: center;
+      flex-wrap: nowrap;
     }
 
     .input-group > * {
+      flex-grow: 1;
+      align-content: stretch;
       margin-right: var(--sl-spacing-medium);
+      margin-top: var(--sl-spacing-medium);
+    }
+
+    @media (max-width: 600px) {
+      .input-group {
+        flex-wrap: wrap;
+      }
+
+      .input-group > * {
+        margin-right: 0;
+        margin-top: var(--sl-spacing-medium);
+      }
+    }
+
+    
+
+    .input-group > *:last-child {
+      margin-right: 0;
     }
 
     .input-group: {
-      display: flex;
-    }
-
-    sl-select {
-      margin: var(--sl-spacing-medium) 0;
+      display: flex; 
     }
 
     .search-results__list {
-      margin: 0;
+      margin: var(--sl-spacing-medium) 0;
       padding: 0
     }
 
@@ -249,14 +267,20 @@ export class LocalesApp extends LitElement {
     } else {
       return ''
     }
+  }
 
+  get repoLink() {
+    const {directory} = this.config.repos.find(({repo}) => repo === this.repo)
+    return directory
   }
 
   mainContent () {
     return html`
       <div class="container">
+        <h1 style="text-align: center;">Locales Detective</h1>
+        <p style="text-align: center;">Add <a href="${this.repoLink}">JSON files</a> to your theme. Search for translations. Copy Liquid to your clipboard!</p>
         <sl-input 
-          placeholder="Search for some translations..."
+          placeholder="Search..."
           size="large"
           @sl-input="${(e) => this.query = e.target.value}"
           pill
@@ -265,26 +289,30 @@ export class LocalesApp extends LitElement {
         ></sl-input>
 
         <div class="input-group">
-          <sl-select
-            size="small"
-            value="${this.repo}" 
-            @sl-change="${(e) => {
-                this.initialized = null;
-                this.results = [];
-                this.repo = e.target.value;
-              }}" 
-            pill
-          >
-            ${this.config.repos.map(({repo}) => html`<sl-option value="${repo}">${repo}</sl-option>`)}
-          </sl-select>
-          <sl-select 
-            size="small"
-            value=${this.language} 
-            @sl-change="${(e) => this.language = e.target.value}" 
-            pill
-          >
-            ${this.optionsTemplate()}
-          </sl-select>
+          <div>
+            <sl-select
+              size="small"
+              value="${this.repo}" 
+              @sl-change="${(e) => {
+                  this.initialized = null;
+                  this.results = [];
+                  this.repo = e.target.value;
+                }}" 
+              pill
+            >
+              ${this.config.repos.map(({repo}) => html`<sl-option value="${repo}">${repo}</sl-option>`)}
+            </sl-select>
+          </div>
+          <div>
+            <sl-select 
+              size="small"
+              value=${this.language} 
+              @sl-change="${(e) => this.language = e.target.value}" 
+              pill
+            >
+              ${this.optionsTemplate()}
+            </sl-select>
+          </div>
         </div>
 
         ${this.resultsTemplate(this.query)}
@@ -294,6 +322,8 @@ export class LocalesApp extends LitElement {
 
   placeholderContent () {
     return html`
+      <h1 style="text-align: center;">Locales Detective</h1>
+      <p style="text-align: center;">Add <a href="#">JSON files</a> to your theme. Search for translations. Copy Liquid to your clipboard!</p>
       <div class="container">
         <sl-input 
           placeholder="Search for some translations..."
@@ -304,18 +334,22 @@ export class LocalesApp extends LitElement {
         ></sl-input>
 
         <div class="input-group">
-          <sl-select
-            size="small"
-            placeholder="${this.repo}" 
-            pill
-          >
-          </sl-select>
-          <sl-select 
-            size="small"
-            placeholder="English (en)" 
-            pill
-          >
-          </sl-select>
+          <div>
+            <sl-select
+              size="small"
+              placeholder="${this.repo}" 
+              pill
+            >
+            </sl-select>
+          </div>
+          <div>
+            <sl-select 
+              size="small"
+              placeholder="English (en)" 
+              pill
+            >
+            </sl-select>
+          </div>
         </div>
       </div>
     `
