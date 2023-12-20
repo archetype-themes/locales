@@ -9,37 +9,150 @@
   <script type="importmap">
   {
     "imports": {
-      "flexsearch": "https://ga.jspm.io/npm:flexsearch@0.7.31/dist/flexsearch.bundle.js"
+      "@shoelace-style/shoelace/dist/components/copy-button/copy-button.js": "https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/dist/components/copy-button/copy-button.js",
+      "@shoelace-style/shoelace/dist/components/input/input.js": "https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/dist/components/input/input.js",
+      "@shoelace-style/shoelace/dist/components/option/option.js": "https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/dist/components/option/option.js",
+      "@shoelace-style/shoelace/dist/components/select/select.js": "https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/dist/components/select/select.js",
+      "@shoelace-style/shoelace/dist/components/spinner/spinner.js": "https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/dist/components/spinner/spinner.js",
+      "@shoelace-style/shoelace/dist/components/tag/tag.js": "https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/dist/components/tag/tag.js",
+      "@shoelace-style/shoelace/dist/components/tooltip/tooltip.js": "https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/dist/components/tooltip/tooltip.js",
+      "flexsearch": "https://ga.jspm.io/npm:flexsearch@0.7.31/dist/flexsearch.bundle.js",
+      "lit": "https://ga.jspm.io/npm:lit@3.1.0/index.js",
+      "lit/directives/until.js": "https://ga.jspm.io/npm:lit@3.1.0/directives/until.js"
+    },
+    "scopes": {
+      "https://ga.jspm.io/": {
+        "@floating-ui/core": "https://ga.jspm.io/npm:@floating-ui/core@1.5.2/dist/floating-ui.core.mjs",
+        "@floating-ui/dom": "https://ga.jspm.io/npm:@floating-ui/dom@1.5.3/dist/floating-ui.dom.mjs",
+        "@floating-ui/utils": "https://ga.jspm.io/npm:@floating-ui/utils@0.1.6/dist/floating-ui.utils.mjs",
+        "@floating-ui/utils/dom": "https://ga.jspm.io/npm:@floating-ui/utils@0.1.6/dom/dist/floating-ui.utils.dom.mjs",
+        "@lit/reactive-element": "https://ga.jspm.io/npm:@lit/reactive-element@2.0.2/reactive-element.js",
+        "@lit/reactive-element/decorators/": "https://ga.jspm.io/npm:@lit/reactive-element@2.0.2/decorators/",
+        "@shoelace-style/localize": "https://ga.jspm.io/npm:@shoelace-style/localize@3.1.2/dist/index.js",
+        "composed-offset-position": "https://ga.jspm.io/npm:composed-offset-position@0.0.4/dist/composed-offset-position.browser.min.mjs",
+        "lit-element/lit-element.js": "https://ga.jspm.io/npm:lit-element@4.0.2/lit-element.js",
+        "lit-html": "https://ga.jspm.io/npm:lit-html@3.1.0/lit-html.js",
+        "lit-html/": "https://ga.jspm.io/npm:lit-html@3.1.0/",
+        "lit/": "https://ga.jspm.io/npm:lit@3.1.0/"
+      }
     }
   }
   </script>
+  <link rel="modulepreload" href="./assets/locales-app.js" />
+  <link rel="modulepreload" href="./assets/utils.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@floating-ui/core@1.5.2/dist/floating-ui.core.mjs" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@floating-ui/dom@1.5.3/dist/floating-ui.dom.mjs" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@floating-ui/utils@0.1.6/dist/floating-ui.utils.mjs" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@floating-ui/utils@0.1.6/dom/dist/floating-ui.utils.dom.mjs" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@lit/reactive-element@2.0.2/css-tag.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@lit/reactive-element@2.0.2/decorators/base.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@lit/reactive-element@2.0.2/decorators/custom-element.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@lit/reactive-element@2.0.2/decorators/event-options.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@lit/reactive-element@2.0.2/decorators/property.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@lit/reactive-element@2.0.2/decorators/query-all.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@lit/reactive-element@2.0.2/decorators/query-assigned-elements.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@lit/reactive-element@2.0.2/decorators/query-assigned-nodes.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@lit/reactive-element@2.0.2/decorators/query-async.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@lit/reactive-element@2.0.2/decorators/query.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@lit/reactive-element@2.0.2/decorators/state.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@lit/reactive-element@2.0.2/reactive-element.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@shoelace-style/localize@3.1.2/dist/index.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/_/0rmnJKlf.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/_/1yF0wzen.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/_/6Sk2VeMY.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/_/7U0Yb7vT.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/_/8Hz2QLwN.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/_/AW7tsQJs.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/_/BFslxh3G.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/_/BvvQCP9L.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/_/C3FbAytO.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/_/DPytQ_8F.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/_/ELUoH_Op.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/_/Fw0Ckaqa.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/_/G91KVTal.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/_/GsCwmZt1.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/_/He3AEAiv.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/_/JqQGc8Oj.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/_/MaJ5-SyD.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/_/NUXoX5cV.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/_/O_k0V34P.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/_/QVWLOyZ-.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/_/RS9rrd4y.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/_/SQrYojem.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/_/Sz4LwUbX.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/_/SzhgxK3J.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/_/T3S11G_l.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/_/VclMrpeI.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/_/WUCdzjkW.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/_/Y5Tay6N5.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/_/YBW19tR_.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/_/_bP3sh-v.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/_/_rHlAxur.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/_/ak3cRFoM.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/_/b2dEa5Pv.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/_/bmEx7_Ye.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/_/cIE6ZHRC.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/_/com96aEB.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/_/gL1PqUqH.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/_/iIY4LTqp.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/_/krXvSJL5.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/_/lQWmtfkm.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/_/pSdSrT-A.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/_/s1itHuEg.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/_/stmHZ6pQ.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/_/vqhr7Hh7.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/_/yCODKk2G.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/dist/components/copy-button/copy-button.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/dist/components/input/input.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/dist/components/option/option.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/dist/components/select/select.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/dist/components/spinner/spinner.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/dist/components/tag/tag.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:@shoelace-style/shoelace@2.12.0/dist/components/tooltip/tooltip.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:composed-offset-position@0.0.4/dist/composed-offset-position.browser.min.mjs" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:flexsearch@0.7.31/dist/flexsearch.bundle.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:lit-element@4.0.2/lit-element.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:lit-html@3.1.0/_/Q5AP4fgA.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:lit-html@3.1.0/async-directive.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:lit-html@3.1.0/directive-helpers.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:lit-html@3.1.0/directive.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:lit-html@3.1.0/directives/class-map.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:lit-html@3.1.0/directives/if-defined.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:lit-html@3.1.0/directives/live.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:lit-html@3.1.0/directives/unsafe-html.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:lit-html@3.1.0/directives/until.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:lit-html@3.1.0/is-server.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:lit-html@3.1.0/lit-html.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:lit-html@3.1.0/static.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:lit@3.1.0/decorators.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:lit@3.1.0/directive-helpers.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:lit@3.1.0/directives/class-map.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:lit@3.1.0/directives/if-defined.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:lit@3.1.0/directives/live.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:lit@3.1.0/directives/unsafe-html.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:lit@3.1.0/directives/until.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:lit@3.1.0/index.js" />
+  <link rel="modulepreload" href="https://ga.jspm.io/npm:lit@3.1.0/static-html.js" />
   <link rel="icon" href="favicon.png">
+  <link
+    rel="stylesheet"
+    media="(prefers-color-scheme:light)"
+    href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.12.0/cdn/themes/light.css"
+  />
+  <link
+    rel="stylesheet"
+    media="(prefers-color-scheme:dark)"
+    href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.12.0/cdn/themes/dark.css"
+    onload="document.documentElement.classList.add('sl-theme-dark');"
+  />
+  <link
+    rel="stylesheet"
+    href="/assets/styles.css"
+  />
 </head>
 <body>
-  <h1>Hello, world!</h1>
-  <script type="module">
-    import flexsearch from 'flexsearch'
-    import {dotNotate} from './public/utils.js'
-
-    console.log(flexsearch)
-    const SUPPORTED_IETF_LANGS = ['de', 'en', 'es', 'fr', 'it', 'pt-BR', 'pt-PT']
-
-    const locales = {};
-
-    await Promise.all(SUPPORTED_IETF_LANGS.map(async (tag) => {
-      const url = `/locales/${tag}.json`
-      const resp = await fetch(url)
-      locales[tag] = await resp.json()
-    }))
-
-    const en = dotNotate(locales.en)
-
-    const index = new flexsearch.Index()
-
-    Object.entries(en).forEach(([key, value]) => index.add(key, value))
-
-    const result = index.search('Enter');
-    console.log("Results: ", result);
-  </script>
+  <h1 style="text-align: center;">🕵️ Locales Detective 🕵️</h1>
+  <locales-app></locales-app>
+  <script type="module" src="./assets/locales-app.js" integrity="sha384-WzilKolQDbTXu0W2bvrgWfyh9J3Nq56GHfNlCtjD0khiuluiU4CXGignG8uxJbej"></script>
 </body>
 </html>
