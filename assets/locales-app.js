@@ -121,7 +121,6 @@ export class LocalesApp extends LitElement {
   }
 
   get defaultCode() {
-    console.log(this.config, this.repo, this.config.repos.find(({repo}) => repo === this.repo))
     const {defaultCode} = this.config.repos.find(({repo}) => repo === this.repo)
     return defaultCode
   }
@@ -159,7 +158,6 @@ export class LocalesApp extends LitElement {
         locales[code] = dotNotate(await resp.json())
       }
     }))
-    console.log(locales)
     return locales
   }
 
@@ -184,21 +182,8 @@ export class LocalesApp extends LitElement {
         : html`<span>${part}</span>`);
   }
 
-  copyToClipboard(e) {
-    const {key, value} = e.target.dataset;
-    const text = createLiquidTranslationString(value, key)
-    navigator.clipboard.writeText(text)
-        .then(() => {
-            console.log('Text copied to clipboard');
-        })
-        .catch(err => {
-            console.error('Failed to copy text: ', err);
-        });
-  }
-
   resultsTemplate(query) {
     const results = this.getSearchResults(query);
-    console.log(results);
 
     const listItems = results.map(key => {
       const value = this.index[key];
