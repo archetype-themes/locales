@@ -167,7 +167,7 @@
     },
     "sorting": {
       "title": "Sort",
-      "sort_by": "Sort by"
+      "sorting_by": "Sorting by"
     },
     "filters": {
       "title_tags": "Filter",
