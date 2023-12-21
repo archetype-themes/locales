@@ -12,6 +12,8 @@ on:
 # GitHub automatically creates a GITHUB_TOKEN secret to use in your workflow.
 env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  AZURE_TRANSLATOR_SUBSCRIPTION_KEY: ${{ secrets.AZURE_TRANSLATOR_SUBSCRIPTION_KEY }}
+  AZURE_TRANSLATOR_ENDPOINT: ${{ secrets.AZURE_TRANSLATOR_ENDPOINT }}
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -34,9 +36,9 @@ jobs:
           # for which resource (**/*.en.resx) files to use as input
           sourceLocale: 'en'
           # The Azure Cognitive Services translator resource subscription key
-          subscriptionKey: ${{ secrets.AZURE_TRANSLATOR_SUBSCRIPTION_KEY }}
+          subscriptionKey: $AZURE_TRANSLATOR_SUBSCRIPTION_KEY
           # The Azure Cognitive Services translator resource endpoint.
-          endpoint: ${{ secrets.AZURE_TRANSLATOR_ENDPOINT }}
+          endpoint: $AZURE_TRANSLATOR_ENDPOINT
           # (Optional) The Azure Cognitive Services translator resource region.
           # This is optional when using a global translator resource.
           # region: ${{ secrets.AZURE_TRANSLATOR_REGION }}
