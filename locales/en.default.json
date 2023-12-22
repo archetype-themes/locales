@@ -2,8 +2,9 @@
     "blogs": {
         "article": {
             "back_to_blog": "Back to {{ title }}",
-            "explore_more": "Explore more",
-            "featured_product": "Featured product",
+            "explore_more": "Explore more and more",
+            "featured_products": "Featured products",
+            "something_new": "here is a new translation!",
             "latest_posts": "Latest posts",
             "more_from": "More from",
             "popular_posts": "Popular posts",
