@@ -1,4 +1,5 @@
 {
+    "account": "Cuenta",
     "blogs": {
         "article": {
             "back_to_blog": "Volver a {{ title }}",
@@ -277,7 +278,6 @@
             "title": "Carrito"
         },
         "customer": {
-            "account": "Cuenta",
             "create_account": "Crear cuenta"
         },
         "footer": {

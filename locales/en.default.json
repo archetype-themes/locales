@@ -1,4 +1,5 @@
 {
+    "account": "Account",
     "blogs": {
         "article": {
             "back_to_blog": "Back to {{ title }}",
@@ -278,7 +279,6 @@
             "title": "Cart"
         },
         "customer": {
-            "account": "Account",
             "create_account": "Create account"
         },
         "footer": {

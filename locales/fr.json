@@ -1,4 +1,5 @@
 {
+    "account": "Compte",
     "blogs": {
         "article": {
             "back_to_blog": "Retour à {{ title }}",
@@ -277,7 +278,6 @@
             "title": "Panier"
         },
         "customer": {
-            "account": "Compte",
             "create_account": "Créer un compte"
         },
         "footer": {
