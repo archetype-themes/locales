@@ -62,7 +62,6 @@
             "no_matches": "Lo sentimos, no hay productos que coincidan con su búsqueda.",
             "see_less": "Muestra menos",
             "see_more": "Mostrar más",
-            "small": "Small",
             "view_all_products_html": "ver los<br>{{ count }} productos"
         },
         "sorting": {
@@ -354,6 +353,7 @@
             "play_slideshow": "Juego de diapositivas"
         }
     },
+    "small": "Small",
     "store_availability": {
         "general": {
             "check_other_stores": "Consulte la disponibilidad en otras tiendas",

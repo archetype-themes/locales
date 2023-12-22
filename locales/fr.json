@@ -62,7 +62,6 @@
             "no_matches": "Aucun produit ne correspond à votre recherche.",
             "see_less": "Voir moins",
             "see_more": "Afficher plus",
-            "small": "Petit",
             "view_all_products_html": "Voir tous les<br>{{ count }} produits"
         },
         "sorting": {
@@ -354,6 +353,7 @@
             "play_slideshow": "Lire le diaporama"
         }
     },
+    "small": "Petit",
     "store_availability": {
         "general": {
             "check_other_stores": "Vérifier la disponibilité dans d'autres magasins",

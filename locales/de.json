@@ -61,7 +61,6 @@
             "no_matches": "Es tut uns leid, aber Ihre Suche nach Produkten hat keine Treffer ergeben.",
             "see_less": "Zeige weniger",
             "see_more": "Zeig mehr",
-            "small": "Klein",
             "view_all_products_html": "zeige alle<br>{{ count }} Produkte an"
         },
         "sorting": {
@@ -353,6 +352,7 @@
             "play_slideshow": "Diashow abspielen"
         }
     },
+    "small": "Klein",
     "store_availability": {
         "general": {
             "check_other_stores": "Prüfen Sie die Verfügbarkeit von anderen Shops",

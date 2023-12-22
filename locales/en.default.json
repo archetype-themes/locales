@@ -62,7 +62,6 @@
             "no_matches": "Sorry, there are no products in this collection.",
             "see_less": "Show less",
             "see_more": "Show more",
-            "small": "Small",
             "view_all_products_html": "View all<br>{{ count }} products"
         },
         "sorting": {
@@ -358,6 +357,7 @@
             "play_slideshow": "Play slideshow"
         }
     },
+    "small": "Small",
     "store_availability": {
         "general": {
             "check_other_stores": "Check availability at other stores",
