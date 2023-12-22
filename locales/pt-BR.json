@@ -49,7 +49,6 @@
             "update": "Atualizar Carrinho"
         },
         "label": {
-            "price": "Preço",
             "quantity": "Quantidade",
             "total": "Total"
         }
@@ -146,7 +145,6 @@
             "fulfilled_at_html": "Processado em {{ date }}",
             "fulfillment_status": "Status do processamento",
             "payment_status": "Status do pagamento",
-            "price": "Preço",
             "product": "Produto",
             "quantity": "Quantidade",
             "shipping": "Frete",
@@ -314,6 +312,7 @@
             "social_title": "Siga-nos"
         }
     },
+    "price": "Preço",
     "products": {
         "general": {
             "collection_return": "Voltar à {{ collection }}",

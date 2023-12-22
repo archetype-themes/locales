@@ -49,7 +49,6 @@
             "update": "Atualizar Carrinho de Compras"
         },
         "label": {
-            "price": "Preço",
             "quantity": "Quantidade",
             "total": "Total"
         }
@@ -146,7 +145,6 @@
             "fulfilled_at_html": "Concluído em {{ date }}",
             "fulfillment_status": "Estado de Atendimento",
             "payment_status": "Estado de Pagamento",
-            "price": "Preço",
             "product": "Produto",
             "quantity": "Quantidade",
             "shipping": "Envio",
@@ -314,6 +312,7 @@
             "social_title": "Siga-nos"
         }
     },
+    "price": "Preço",
     "products": {
         "general": {
             "collection_return": "Regressar à {{ collection }}",

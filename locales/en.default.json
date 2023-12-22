@@ -49,7 +49,6 @@
             "update": "Update cart"
         },
         "label": {
-            "price": "Price",
             "quantity": "Quantity",
             "total": "Total"
         }
@@ -147,7 +146,6 @@
             "fulfilled_at_html": "Fulfilled {{ date }}",
             "fulfillment_status": "Fulfillment status",
             "payment_status": "Payment status",
-            "price": "Price",
             "product": "Product",
             "quantity": "Quantity",
             "shipping": "Shipping",
@@ -317,6 +315,7 @@
             "social_title": "Follow us"
         }
     },
+    "price": "Price",
     "products": {
         "general": {
             "collection_return": "Back to {{ collection }}",

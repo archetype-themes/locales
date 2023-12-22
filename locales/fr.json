@@ -49,7 +49,6 @@
             "update": "Mettre à jour"
         },
         "label": {
-            "price": "Prix",
             "quantity": "Quantité",
             "total": "Total"
         }
@@ -146,7 +145,6 @@
             "fulfilled_at_html": "Traitée le {{ date }}",
             "fulfillment_status": "Statut du traitement de la commande",
             "payment_status": "Statut du paiement",
-            "price": "Prix",
             "product": "Produit",
             "quantity": "Quantité",
             "shipping": "Livraison",
@@ -316,6 +314,7 @@
             "social_title": "Suivez nous"
         }
     },
+    "price": "Prix",
     "products": {
         "general": {
             "collection_return": "Retour à {{ collection }}",

@@ -49,7 +49,6 @@
             "update": "Aggiorna il carrello"
         },
         "label": {
-            "price": "Prezzo",
             "quantity": "Quantità",
             "total": "Totale"
         }
@@ -146,7 +145,6 @@
             "fulfilled_at_html": "Evaso il {{ date }}",
             "fulfillment_status": "Stato di evasione",
             "payment_status": "Stato del pagamento",
-            "price": "Prezzo",
             "product": "Prodotto",
             "quantity": "Quantità",
             "shipping": "Spedizione",
@@ -316,6 +314,7 @@
             "social_title": "Seguici su"
         }
     },
+    "price": "Prezzo",
     "products": {
         "general": {
             "collection_return": "Torna a {{ collection }}",

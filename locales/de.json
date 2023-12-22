@@ -48,7 +48,6 @@
             "update": "Einkaufswagen aktualisieren"
         },
         "label": {
-            "price": "Preis",
             "quantity": "Menge",
             "total": "Gesamt"
         }
@@ -145,7 +144,6 @@
             "fulfilled_at_html": "Geliefert am {{ date }}",
             "fulfillment_status": "Lieferstatus",
             "payment_status": "Zahlungsstatus",
-            "price": "Preis",
             "product": "Artikel",
             "quantity": "Menge",
             "shipping": "Versand",
@@ -315,6 +313,7 @@
             "social_title": "Folge uns"
         }
     },
+    "price": "Preis",
     "products": {
         "general": {
             "collection_return": "Zurück zur {{ collection }}",

@@ -49,7 +49,6 @@
             "update": "Actualizar carrito"
         },
         "label": {
-            "price": "Precio",
             "quantity": "Cantidad",
             "total": "Total"
         }
@@ -146,7 +145,6 @@
             "fulfilled_at_html": "Finalizado {{ date }}",
             "fulfillment_status": "Estado de finalización",
             "payment_status": "Estado del pago",
-            "price": "Precio",
             "product": "Producto",
             "quantity": "Cantidad",
             "shipping": "Envío",
@@ -316,6 +314,7 @@
             "social_title": "Síganos"
         }
     },
+    "price": "Precio",
     "products": {
         "general": {
             "collection_return": "Volver a {{ collection }}",
