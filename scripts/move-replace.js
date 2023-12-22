@@ -60,7 +60,7 @@ function modifyJsonFiles(oldPath, newPath, similarKeys) {
             }
         });
         setKeyPathValue(data, newPath, originalValue);
-        fs.writeFileSync(file, JSON.stringify(data, null, 2));
+        fs.writeFileSync(file, JSON.stringify(sortObjectKeys(data), null, 4));
     });
 }
 
@@ -77,12 +77,12 @@ function updateLiquidFiles(similarKeys, newPath) {
       let modified = false;
       similarKeys.filter(onlyUnique).forEach(oldPath => {
           // Regex pattern to match {{ 'old.path' | t: }} pattern
-          const regex = new RegExp(`${oldPath.replace(/\./g, '\\.')}`, 'g');
+          const regex = new RegExp(`'${oldPath.replace(/\./g, '\\.')}'`, 'g');
 
           // Check if the current file contains the old path
           if (regex.test(content)) {
               console.log(`Updating key '${oldPath}' to '${newPath}' in ${file}`);
-              content = content.replace(regex, `${newPath}`);
+              content = content.replace(regex, `'${newPath}'`);
               modified = true;
           }
       });
@@ -96,6 +96,56 @@ function updateLiquidFiles(similarKeys, newPath) {
   });
 }
 
+function sortObjectKeys(obj) {
+    // Create a new object with sorted keys
+    const sortedObject = {};
+
+    // Sort the keys of the current object
+    Object.keys(obj).sort().forEach(key => {
+        // Check if the value is an object and not an array
+        if (typeof obj[key] === 'object' && !Array.isArray(obj[key])) {
+            // Recursively sort the keys of the nested object
+            sortedObject[key] = sortObjectKeys(obj[key]);
+        } else {
+            // Directly assign the value if it's not an object
+            sortedObject[key] = obj[key];
+        }
+    });
+
+    return sortedObject;
+}
+
+function flattenObject(obj, prefix = '') {
+    let flattened = {};
+
+    for (const key in obj) {
+        const pref = prefix.length ? prefix + '.' : '';
+
+        if (typeof obj[key] === 'object' && obj[key] !== null && !Array.isArray(obj[key])) {
+            Object.assign(flattened, flattenObject(obj[key], pref + key));
+        } else {
+            flattened[pref + key] = obj[key];
+        }
+    }
+
+    return flattened;
+}
+
+function processJsonFiles() {
+    const files = glob.sync('./locales/*.json');
+
+    if (!fs.existsSync('./flat')) {
+        fs.mkdirSync('./flat');
+    }
+
+    files.forEach(file => {
+        const data = JSON.parse(fs.readFileSync(file, 'utf8'));
+        const flattenedData = flattenObject(data);
+        const baseName = path.basename(file);
+        fs.writeFileSync(`./flat/${baseName}`, JSON.stringify(flattenedData, null, 2));
+    });
+}
+
 const [oldPath, newPath] = process.argv.slice(2);
 
 const enDefaultData = JSON.parse(fs.readFileSync('./locales/en.default.json', 'utf8'));
@@ -107,3 +157,5 @@ console.log(similarKeys)
 similarKeys.push(oldPath); // Include the original oldPath in similarKeys for replacement
 modifyJsonFiles(oldPath, newPath, similarKeys);
 updateLiquidFiles(similarKeys, newPath); 
+
+processJsonFiles();
