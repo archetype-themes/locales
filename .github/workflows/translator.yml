@@ -52,7 +52,7 @@ jobs:
       run: git show HEAD~1:locales/${{ env.DEFAULT_CODE }}.default.json > locales/${{ env.DEFAULT_CODE }}.default.old.json
 
     - name: Run Translation Script
-      run: node translation-script.js
+      run: node scripts/translate-locales.js
 
     - name: Delete Previous Version of the File
       run: rm locales/${{ env.DEFAULT_CODE }}.default.old.json
