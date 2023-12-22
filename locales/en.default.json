@@ -182,6 +182,7 @@
         "month_day_year": "%b %d, %Y"
     },
     "email": "Email",
+    "follow_us": "Follow us",
     "general": {
         "404": {
             "subtext_html": "<p>The page you were looking for does not exist. </p><p><a href='{{ url }}'>Continue shopping</a></p>",
@@ -299,8 +300,7 @@
             "chat_link": "Live chat",
             "contact_title": "Get in touch",
             "email_link": "Email us",
-            "social_platform": "{{ name }} on {{ platform }}",
-            "social_title": "Follow us"
+            "social_platform": "{{ name }} on {{ platform }}"
         }
     },
     "message": "Message",

@@ -181,6 +181,7 @@
         "month_day_year": "%d %B, %Y"
     },
     "email": "Courriel",
+    "follow_us": "Suivez nous",
     "general": {
         "404": {
             "subtext_html": "Cette page n'est pas disponible. <a href='{{ url }}'>Retourner au magasinage</a>",
@@ -298,8 +299,7 @@
             "chat_link": "Chat en direct",
             "contact_title": "Entrer en contact",
             "email_link": "Envoyez-nous un email",
-            "social_platform": "{{ name }} sur {{ platform }}",
-            "social_title": "Suivez nous"
+            "social_platform": "{{ name }} sur {{ platform }}"
         }
     },
     "message": "Message",

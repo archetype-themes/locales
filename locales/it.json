@@ -181,6 +181,7 @@
         "month_day_year": "%b %d, %Y"
     },
     "email": "Indirizzo email",
+    "follow_us": "Seguici su",
     "general": {
         "404": {
             "subtext_html": "<p>La pagina che stavi cercando non esiste. </p><p><a href='{{ url }}'>Continua a comprare</a></p>",
@@ -298,8 +299,7 @@
             "chat_link": "Chat dal vivo",
             "contact_title": "Mettiti in contatto",
             "email_link": "Inviaci un'e-mail",
-            "social_platform": "{{ name }} su {{ platform }}",
-            "social_title": "Seguici su"
+            "social_platform": "{{ name }} su {{ platform }}"
         }
     },
     "message": "Messaggio",

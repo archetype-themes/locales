@@ -181,6 +181,7 @@
         "month_day_year": "%d de %B de %Y"
     },
     "email": "Email",
+    "follow_us": "Siga-nos",
     "general": {
         "404": {
             "subtext_html": "A página que solicitou não existe. Clique <a href='{{ url }}'>aqui</a> para continuar as suas compras.",
@@ -296,8 +297,7 @@
             "chat_link": "Bate-papo ao vivo",
             "contact_title": "Entrar em contato",
             "email_link": "Envia-nos um email",
-            "social_platform": "{{ name }} na {{ platform }}",
-            "social_title": "Siga-nos"
+            "social_platform": "{{ name }} na {{ platform }}"
         }
     },
     "message": "Mensagem",
