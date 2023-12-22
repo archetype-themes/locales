@@ -8,7 +8,6 @@
             "more_from": "Mas de",
             "popular_posts": "Articulos populares",
             "read_more": "Leer más",
-            "tags": "Etiquetas",
             "view_all": "Ver todo"
         },
         "comments": {
@@ -384,5 +383,6 @@
             "pick_up_unavailable_at_html": "Recogida está disponible en <strong> {{location_name}} </strong>",
             "view_store_info": "Información de la tienda"
         }
-    }
+    },
+    "tags": "Etiquetas"
 }

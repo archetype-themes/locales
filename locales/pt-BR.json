@@ -8,7 +8,6 @@
             "more_from": "Mais de",
             "popular_posts": "Artigos populares",
             "read_more": "Ler mais",
-            "tags": "Marcadores",
             "view_all": "Ver todo"
         },
         "comments": {
@@ -370,5 +369,6 @@
             "pick_up_unavailable_at_html": "Captador disponível atualmente em <strong> {{location_name}} </strong>",
             "view_store_info": "Exibir informações de loja"
         }
-    }
+    },
+    "tags": "Marcadores"
 }

@@ -8,7 +8,6 @@
             "more_from": "More from",
             "popular_posts": "Popular posts",
             "read_more": "Continue reading",
-            "tags": "Tags",
             "view_all": "View all"
         },
         "comments": {
@@ -388,5 +387,6 @@
             "pick_up_unavailable_at_html": "Pickup currently unavailable at <strong>{{ location_name }}</strong>",
             "view_store_info": "View store information"
         }
-    }
+    },
+    "tags": "Tags"
 }
