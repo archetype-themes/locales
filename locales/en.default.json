@@ -7,8 +7,7 @@
             "latest_posts": "Latest posts",
             "more_from": "More from",
             "popular_posts": "Popular posts",
-            "read_more": "Continue reading",
-            "view_all": "View all"
+            "read_more": "Continue reading"
         },
         "comments": {
             "moderated": "Please note, comments must be approved before they are published",
@@ -56,7 +55,6 @@
             "title_tags": "Filter"
         },
         "general": {
-            "all_of_collection": "View all",
             "catalog_title": "Catalog",
             "items_with_count": {
                 "one": "{{ count }} product",
@@ -378,5 +376,6 @@
             "view_store_info": "View store information"
         }
     },
-    "tags": "Tags"
+    "tags": "Tags",
+    "view_all": "View all"
 }

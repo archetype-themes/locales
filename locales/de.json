@@ -7,8 +7,7 @@
             "latest_posts": "Neueste Artikel",
             "more_from": "Mehr von",
             "popular_posts": "Populäre Artikel",
-            "read_more": "Weiterlesen",
-            "view_all": "Alle anzeigen"
+            "read_more": "Weiterlesen"
         },
         "comments": {
             "moderated": "Bitte beachten Sie, dass Kommentare vor der Veröffentlichung freigegeben werden müssen",
@@ -55,7 +54,6 @@
             "title_tags": "Filtern"
         },
         "general": {
-            "all_of_collection": "Alle",
             "catalog_title": "Katalog",
             "items_with_count": {
                 "one": "{{ count }} Produkt",
@@ -373,5 +371,6 @@
             "view_store_info": "Ansicht speichern Informationen"
         }
     },
-    "tags": "Tags"
+    "tags": "Tags",
+    "view_all": "Alle anzeigen"
 }

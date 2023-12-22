@@ -7,8 +7,7 @@
             "latest_posts": "Ultimi messaggi",
             "more_from": "Più da",
             "popular_posts": "Messaggi popolari",
-            "read_more": "Continua a leggere",
-            "view_all": "Visualizza tutto"
+            "read_more": "Continua a leggere"
         },
         "comments": {
             "moderated": "Attenzione, i commenti devono essere approvati prima di essere pubblicati",
@@ -56,7 +55,6 @@
             "title_tags": "Filtra"
         },
         "general": {
-            "all_of_collection": "Visualizza tutto",
             "catalog_title": "Catalogo",
             "items_with_count": {
                 "one": "{{ count }} prodotto",
@@ -377,5 +375,6 @@
             "view_store_info": "Visualizza i dettagli del negozio"
         }
     },
-    "tags": "Tags"
+    "tags": "Tags",
+    "view_all": "Visualizza tutto"
 }
