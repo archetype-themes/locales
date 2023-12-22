@@ -350,12 +350,14 @@
             "get_directions": "Ottieni indicazioni"
         },
         "slideshow": {
-            "pause_slideshow": "Metti in pausa presentazione",
-            "play_slideshow": "Avvia presentazione"
+            "pause_slideshow": "Metti in pausa presentazione"
         }
     },
     "send": "Invia",
     "show_more": "Mostra di più",
+    "slideshow": {
+        "play": "Avvia presentazione"
+    },
     "small": "Piccola",
     "store_availability": {
         "general": {

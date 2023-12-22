@@ -351,12 +351,14 @@
             "get_directions": "Get directions"
         },
         "slideshow": {
-            "pause_slideshow": "Pause slideshow",
-            "play_slideshow": "Play slideshow"
+            "pause_slideshow": "Pause slideshow"
         }
     },
     "send": "Send",
     "show_more": "Show more",
+    "slideshow": {
+        "play": "Play slideshow"
+    },
     "small": "Small",
     "store_availability": {
         "general": {

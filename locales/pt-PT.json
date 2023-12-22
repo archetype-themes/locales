@@ -336,12 +336,14 @@
             "get_directions": "Obter direções"
         },
         "slideshow": {
-            "pause_slideshow": "slideshow pausa",
-            "play_slideshow": "Reproduzir de slides"
+            "pause_slideshow": "slideshow pausa"
         }
     },
     "send": "Enviar",
     "show_more": "Mostre mais",
+    "slideshow": {
+        "play": "Reproduzir de slides"
+    },
     "small": "Small",
     "store_availability": {
         "general": {

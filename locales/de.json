@@ -346,12 +346,14 @@
             "get_directions": "Richtungen"
         },
         "slideshow": {
-            "pause_slideshow": "Pause Diashow",
-            "play_slideshow": "Diashow abspielen"
+            "pause_slideshow": "Pause Diashow"
         }
     },
     "send": "Absenden",
     "show_more": "Zeig mehr",
+    "slideshow": {
+        "play": "Diashow abspielen"
+    },
     "small": "Klein",
     "store_availability": {
         "general": {

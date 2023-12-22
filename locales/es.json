@@ -347,12 +347,14 @@
             "get_directions": "Obtener las direcciones"
         },
         "slideshow": {
-            "pause_slideshow": "diapositivas pausa",
-            "play_slideshow": "Juego de diapositivas"
+            "pause_slideshow": "diapositivas pausa"
         }
     },
     "send": "Enviar",
     "show_more": "Mostrar más",
+    "slideshow": {
+        "play": "Juego de diapositivas"
+    },
     "small": "Small",
     "store_availability": {
         "general": {
