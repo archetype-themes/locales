@@ -20,6 +20,8 @@ jobs:
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v2
+      with:
+        fetch-depth: 2
 
     - name: Set up Node.js
       uses: actions/setup-node@v2
@@ -51,19 +53,13 @@ jobs:
     - name: Run Translation Script
       run: node translation-script.js
 
-    - name: Commit and Push Changes
-      run: |
-        git config --global user.name 'Your Name'
-        git config --global user.email 'your-email@example.com'
-        git add .
-        git commit -m "Update locale translations" || echo "No changes to commit"
-        git push
+    - name: Delete Previous Version of the File
+      run: rm locales/${{ env.DEFAULT_CODE }}.default.old.json
 
     - name: Create Pull Request
-      uses: peter-evans/create-pull-request@v3
+      uses: peter-evans/create-pull-request@v5
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}
         commit-message: Update locale translations
         title: 'Automated Locale Updates'
         body: 'This PR contains automated locale translation updates.'
-        branch: 'feature/translation-updates'
+        branch: 'action/translation-updates'
