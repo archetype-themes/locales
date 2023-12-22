@@ -14,7 +14,6 @@
             "email": "Correo electrónico",
             "message": "Mensaje",
             "moderated": "Por favor tenga en cuenta que los comentarios deben ser aprobados antes de ser publicados",
-            "name": "Nombre",
             "post": "Publicar comentario",
             "success": "¡Su comentario se ha compartido con éxito! ¡Gracias!",
             "success_moderated": "Su comentario se ha compartido con éxito. Lo publicaremos en un momento, en tanto nuestro blog sea moderado.",
@@ -81,7 +80,6 @@
         "form": {
             "email": "Correo electrónico",
             "message": "Mensaje",
-            "name": "Nombre",
             "phone": "Número de teléfono",
             "post_success": "Gracias por contactarnos. Le responderemos lo antes posible.",
             "send": "Enviar"
@@ -313,6 +311,7 @@
             "social_title": "Síganos"
         }
     },
+    "name": "Nombre",
     "price": "Precio",
     "products": {
         "general": {
@@ -357,7 +356,6 @@
             "max_characters": "{{ max_chars }} caracteres máx.",
             "message": "Mensaje",
             "message_label": "Mensaje (opcional)",
-            "name": "Nombre",
             "name_label": "Nombre de la persona destinataria (opcional)"
         }
     },

@@ -14,7 +14,6 @@
             "email": "Courriel",
             "message": "Message",
             "moderated": "Veuillez noter que les commentaires doivent être approvés avant d'être affichés",
-            "name": "Nom",
             "post": "Publier le commentaire",
             "success": "Votre commentaire a été publié avec succès!",
             "success_moderated": "Votre commentaire a été soumis avec succès. Nous le publierons sous peu, suite à notre processus de modération.",
@@ -81,7 +80,6 @@
         "form": {
             "email": "Courriel",
             "message": "Message",
-            "name": "Nom",
             "phone": "Téléphone",
             "post_success": "Merci de nous avoir avoir contacté. Nous vous reviendrons le plus rapidement possible.",
             "send": "Envoyer"
@@ -313,6 +311,7 @@
             "social_title": "Suivez nous"
         }
     },
+    "name": "Nom",
     "price": "Prix",
     "products": {
         "general": {
@@ -357,7 +356,6 @@
             "max_characters": "{{ max_chars }} caractères au maximum",
             "message": "Message",
             "message_label": "Message (facultatif)",
-            "name": "Nom",
             "name_label": "Nom du destinataire (facultatif)"
         }
     },
