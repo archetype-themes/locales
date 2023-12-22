@@ -43,9 +43,7 @@
             "title": "Carrinho de Compras",
             "update": "Atualizar Carrinho de Compras"
         },
-        "label": {
-            "total": "Total"
-        }
+        "label": {}
     },
     "collections": {
         "filters": {
@@ -140,8 +138,7 @@
             "sku": "SKU",
             "subtotal": "Subtotal",
             "tax": "Taxa",
-            "title": "Pedido {{ name }}",
-            "total": "Total"
+            "title": "Pedido {{ name }}"
         },
         "orders": {
             "date": "Data",
@@ -149,8 +146,7 @@
             "none": "Ainda não efetuou nenhum pedido.",
             "order_number": "Pedido",
             "payment_status": "Estado de Pagamento",
-            "title": "Histórico de Pedidos",
-            "total": "Total"
+            "title": "Histórico de Pedidos"
         },
         "recover_password": {
             "cancel": "Cancelar",
@@ -358,5 +354,6 @@
         }
     },
     "tags": "Etiquetas",
+    "total": "Total",
     "view_all": "Ver todo"
 }

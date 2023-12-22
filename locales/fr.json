@@ -43,9 +43,7 @@
             "title": "Panier",
             "update": "Mettre à jour"
         },
-        "label": {
-            "total": "Total"
-        }
+        "label": {}
     },
     "collections": {
         "filters": {
@@ -140,8 +138,7 @@
             "sku": "SKU",
             "subtotal": "Sous-total",
             "tax": "Taxes",
-            "title": "Commande {{ name }}",
-            "total": "Total"
+            "title": "Commande {{ name }}"
         },
         "orders": {
             "date": "Date",
@@ -149,8 +146,7 @@
             "none": "Vous n'avez pas placé de commande à ce jour.",
             "order_number": "Commande",
             "payment_status": "Statut du paiement",
-            "title": "Historique des commandes",
-            "total": "Total"
+            "title": "Historique des commandes"
         },
         "recover_password": {
             "cancel": "Annuler",
@@ -369,5 +365,6 @@
         }
     },
     "tags": "Tags",
+    "total": "Total",
     "view_all": "Voir toutes"
 }

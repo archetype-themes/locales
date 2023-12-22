@@ -42,9 +42,7 @@
             "title": "Einkaufswagen",
             "update": "Einkaufswagen aktualisieren"
         },
-        "label": {
-            "total": "Gesamt"
-        }
+        "label": {}
     },
     "collections": {
         "filters": {
@@ -139,8 +137,7 @@
             "sku": "SKU",
             "subtotal": "Zwischensumme",
             "tax": "Steuern",
-            "title": "Bestellung {{ name }}",
-            "total": "Gesamt"
+            "title": "Bestellung {{ name }}"
         },
         "orders": {
             "date": "Datum",
@@ -148,8 +145,7 @@
             "none": "Sie haben noch keine Bestellungen aufgegeben.",
             "order_number": "Bestellung",
             "payment_status": "Zahlungsstatus",
-            "title": "Bestellungen",
-            "total": "Gesamt"
+            "title": "Bestellungen"
         },
         "recover_password": {
             "cancel": "Abbrechen",
@@ -368,5 +364,6 @@
         }
     },
     "tags": "Tags",
+    "total": "Gesamt",
     "view_all": "Alle anzeigen"
 }

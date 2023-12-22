@@ -43,9 +43,7 @@
             "title": "Carrito de compra",
             "update": "Actualizar carrito"
         },
-        "label": {
-            "total": "Total"
-        }
+        "label": {}
     },
     "collections": {
         "filters": {
@@ -140,8 +138,7 @@
             "sku": "SKU",
             "subtotal": "Subtotal",
             "tax": "Impuesto",
-            "title": "Pedido {{ name }}",
-            "total": "Total"
+            "title": "Pedido {{ name }}"
         },
         "orders": {
             "date": "Fecha",
@@ -149,8 +146,7 @@
             "none": "No ha realizado algún pedido aún.",
             "order_number": "Pedido",
             "payment_status": "Estado del pago",
-            "title": "Historial de pedidos",
-            "total": "Total"
+            "title": "Historial de pedidos"
         },
         "recover_password": {
             "cancel": "Cancelar",
@@ -369,5 +365,6 @@
         }
     },
     "tags": "Etiquetas",
+    "total": "Total",
     "view_all": "Ver todo"
 }

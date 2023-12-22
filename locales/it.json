@@ -43,9 +43,7 @@
             "title": "Carrello",
             "update": "Aggiorna il carrello"
         },
-        "label": {
-            "total": "Totale"
-        }
+        "label": {}
     },
     "collections": {
         "filters": {
@@ -140,8 +138,7 @@
             "sku": "SKU",
             "subtotal": "Subtotale",
             "tax": "Imposta",
-            "title": "Ordine {{ name }}",
-            "total": "Totale"
+            "title": "Ordine {{ name }}"
         },
         "orders": {
             "date": "Data",
@@ -149,8 +146,7 @@
             "none": "Non hai ancora effettuato ordini.",
             "order_number": "Ordine",
             "payment_status": "Stato del pagamento",
-            "title": "Storia dell'ordine",
-            "total": "Totale"
+            "title": "Storia dell'ordine"
         },
         "recover_password": {
             "cancel": "Annulla",
@@ -372,5 +368,6 @@
         }
     },
     "tags": "Tags",
+    "total": "Totale",
     "view_all": "Visualizza tutto"
 }

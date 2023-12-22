@@ -43,9 +43,7 @@
             "title": "Carrinho de compras",
             "update": "Atualizar Carrinho"
         },
-        "label": {
-            "total": "Total"
-        }
+        "label": {}
     },
     "collections": {
         "filters": {
@@ -140,8 +138,7 @@
             "sku": "Código SKU",
             "subtotal": "Subtotal",
             "tax": "Impostos",
-            "title": "Pedido {{ name }}",
-            "total": "Total"
+            "title": "Pedido {{ name }}"
         },
         "orders": {
             "date": "Data",
@@ -149,8 +146,7 @@
             "none": "Você ainda não efetuou nenhum pedido.",
             "order_number": "Pedido",
             "payment_status": "Status do pagamento",
-            "title": "Histórico de pedidos",
-            "total": "Total"
+            "title": "Histórico de pedidos"
         },
         "recover_password": {
             "cancel": "Cancelar",
@@ -358,5 +354,6 @@
         }
     },
     "tags": "Marcadores",
+    "total": "Total",
     "view_all": "Ver todo"
 }

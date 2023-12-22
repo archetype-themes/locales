@@ -43,9 +43,7 @@
             "title": "Cart",
             "update": "Update cart"
         },
-        "label": {
-            "total": "Total"
-        }
+        "label": {}
     },
     "collections": {
         "filters": {
@@ -141,8 +139,7 @@
             "sku": "SKU",
             "subtotal": "Subtotal",
             "tax": "Tax",
-            "title": "Order {{ name }}",
-            "total": "Total"
+            "title": "Order {{ name }}"
         },
         "orders": {
             "date": "Date",
@@ -150,8 +147,7 @@
             "none": "You haven't placed any orders yet.",
             "order_number": "Order",
             "payment_status": "Payment status",
-            "title": "Order History",
-            "total": "Total"
+            "title": "Order History"
         },
         "recover_password": {
             "cancel": "Cancel",
@@ -373,5 +369,6 @@
         }
     },
     "tags": "Tags",
+    "total": "Total",
     "view_all": "View all"
 }
