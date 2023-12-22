@@ -287,8 +287,7 @@
         },
         "customer": {
             "account": "Account",
-            "create_account": "Account erstellen",
-            "log_in": "Einloggen"
+            "create_account": "Account erstellen"
         },
         "footer": {
             "accepted_payments": "Wir akzeptieren",
@@ -298,6 +297,7 @@
             "social_platform": "{{ name }} auf {{ platform }}"
         }
     },
+    "log_in": "Einloggen",
     "log_out": "Ausloggen",
     "message": "Nachricht",
     "name": "Name",

@@ -286,8 +286,7 @@
         },
         "customer": {
             "account": "Conta",
-            "create_account": "Criar conta",
-            "log_in": "Iniciar sessão"
+            "create_account": "Criar conta"
         },
         "footer": {
             "accepted_payments": "Nós aceitamos",
@@ -297,6 +296,7 @@
             "social_platform": "{{ name }} na {{ platform }}"
         }
     },
+    "log_in": "Iniciar sessão",
     "log_out": "Terminar sessão",
     "message": "Mensagem",
     "name": "Nome",
