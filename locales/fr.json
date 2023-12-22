@@ -11,7 +11,6 @@
             "view_all": "Voir toutes"
         },
         "comments": {
-            "message": "Message",
             "moderated": "Veuillez noter que les commentaires doivent être approvés avant d'être affichés",
             "post": "Publier le commentaire",
             "success": "Votre commentaire a été publié avec succès!",
@@ -77,7 +76,6 @@
     },
     "contact": {
         "form": {
-            "message": "Message",
             "phone": "Téléphone",
             "post_success": "Merci de nous avoir avoir contacté. Nous vous reviendrons le plus rapidement possible.",
             "send": "Envoyer"
@@ -306,6 +304,7 @@
             "social_title": "Suivez nous"
         }
     },
+    "message": "Message",
     "name": "Nom",
     "price": "Prix",
     "products": {
@@ -348,7 +347,6 @@
             "checkbox": "Je veux envoyer ce produit comme cadeau",
             "email_label": "E‑mail du destinataire",
             "max_characters": "{{ max_chars }} caractères au maximum",
-            "message": "Message",
             "message_label": "Message (facultatif)",
             "name_label": "Nom du destinataire (facultatif)"
         }

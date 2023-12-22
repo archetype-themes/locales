@@ -11,7 +11,6 @@
             "view_all": "Alle anzeigen"
         },
         "comments": {
-            "message": "Nachricht",
             "moderated": "Bitte beachten Sie, dass Kommentare vor der Veröffentlichung freigegeben werden müssen",
             "post": "Kommentar posten",
             "success": "Ihr Kommentar wurde erfolgreich gepostet. Danke!",
@@ -76,7 +75,6 @@
     },
     "contact": {
         "form": {
-            "message": "Nachricht",
             "phone": "Telefonnummer",
             "post_success": "Danke, dass Sie uns kontaktiert haben. Wir werden uns so schnell wie möglich bei Ihnen melden.",
             "send": "Absenden"
@@ -305,6 +303,7 @@
             "social_title": "Folge uns"
         }
     },
+    "message": "Nachricht",
     "name": "Name",
     "price": "Preis",
     "products": {
@@ -347,7 +346,6 @@
             "checkbox": "Ich möchte dies als Geschenk senden",
             "email_label": "Empfänger E-Mail",
             "max_characters": "Maximal {{ max_chars }} Zeichen",
-            "message": "Nachricht",
             "message_label": "Nachricht (optional)",
             "name_label": "Name des Empfängers (optional)"
         }

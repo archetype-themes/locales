@@ -11,7 +11,6 @@
             "view_all": "Ver todo"
         },
         "comments": {
-            "message": "Mensaje",
             "moderated": "Por favor tenga en cuenta que los comentarios deben ser aprobados antes de ser publicados",
             "post": "Publicar comentario",
             "success": "¡Su comentario se ha compartido con éxito! ¡Gracias!",
@@ -77,7 +76,6 @@
     },
     "contact": {
         "form": {
-            "message": "Mensaje",
             "phone": "Número de teléfono",
             "post_success": "Gracias por contactarnos. Le responderemos lo antes posible.",
             "send": "Enviar"
@@ -306,6 +304,7 @@
             "social_title": "Síganos"
         }
     },
+    "message": "Mensaje",
     "name": "Nombre",
     "price": "Precio",
     "products": {
@@ -348,7 +347,6 @@
             "checkbox": "Quiero enviar esto como un regalo.",
             "email_label": "Correo electrónico de la persona destinataria",
             "max_characters": "{{ max_chars }} caracteres máx.",
-            "message": "Mensaje",
             "message_label": "Mensaje (opcional)",
             "name_label": "Nombre de la persona destinataria (opcional)"
         }

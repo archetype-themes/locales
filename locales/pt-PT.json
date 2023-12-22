@@ -11,7 +11,6 @@
             "view_all": "Ver todo"
         },
         "comments": {
-            "message": "Mensagem",
             "moderated": "Tenha em atenção que os comentários precisam de ser aprovados antes de serem exibidos",
             "post": "Publicar comentário",
             "success": "Seu comentário foi postado! Obrigado!",
@@ -77,7 +76,6 @@
     },
     "contact": {
         "form": {
-            "message": "Mensagem",
             "phone": "Número de Telefone",
             "post_success": "Obrigado por entrar em contacto connosco. Responder-lhe-emos logo que possível.",
             "send": "Enviar"
@@ -304,6 +302,7 @@
             "social_title": "Siga-nos"
         }
     },
+    "message": "Mensagem",
     "name": "Nome",
     "price": "Preço",
     "products": {
