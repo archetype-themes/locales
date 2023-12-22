@@ -44,7 +44,6 @@
             "update": "Update cart"
         },
         "label": {
-            "quantity": "Quantity",
             "total": "Total"
         }
     },
@@ -137,7 +136,6 @@
             "fulfillment_status": "Fulfillment status",
             "payment_status": "Payment status",
             "product": "Product",
-            "quantity": "Quantity",
             "shipping": "Shipping",
             "shipping_address": "Shipping address",
             "sku": "SKU",
@@ -329,7 +327,6 @@
             "in_stock_label": "In stock, ready to ship",
             "include_taxes": "Tax included.",
             "preorder": "Pre-order",
-            "quantity": "Quantity",
             "shipping_policy_html": "<a href='{{ link }}'>Shipping</a> calculated at checkout.",
             "sold_out": "Sold Out",
             "stock_label": {
@@ -344,6 +341,7 @@
             "will_not_ship_until": "Ready to ship {{ date }}"
         }
     },
+    "quantity": "Quantity",
     "recipient": {
         "form": {
             "checkbox": "I want to send this as a gift",

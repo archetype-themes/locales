@@ -44,7 +44,6 @@
             "update": "Aggiorna il carrello"
         },
         "label": {
-            "quantity": "Quantità",
             "total": "Totale"
         }
     },
@@ -136,7 +135,6 @@
             "fulfillment_status": "Stato di evasione",
             "payment_status": "Stato del pagamento",
             "product": "Prodotto",
-            "quantity": "Quantità",
             "shipping": "Spedizione",
             "shipping_address": "Indirizzo di spedizione",
             "sku": "SKU",
@@ -328,7 +326,6 @@
             "in_stock_label": "In magazzino, pronto per la spedizione",
             "include_taxes": "Imposte incluse.",
             "preorder": "Pre-ordine",
-            "quantity": "Quantità",
             "shipping_policy_html": "<a href='{{ link }}'>Spedizione</a> calcolata alla cassa.",
             "sold_out": "Esaurito",
             "stock_label": {
@@ -343,6 +340,7 @@
             "will_not_ship_until": "Pronto per la spedizione {{ date }}"
         }
     },
+    "quantity": "Quantità",
     "recipient": {
         "form": {
             "checkbox": "Voglio inviarlo come regalo",

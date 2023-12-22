@@ -44,7 +44,6 @@
             "update": "Atualizar Carrinho de Compras"
         },
         "label": {
-            "quantity": "Quantidade",
             "total": "Total"
         }
     },
@@ -136,7 +135,6 @@
             "fulfillment_status": "Estado de Atendimento",
             "payment_status": "Estado de Pagamento",
             "product": "Produto",
-            "quantity": "Quantidade",
             "shipping": "Envio",
             "shipping_address": "Endereço de Envio",
             "sku": "SKU",
@@ -326,7 +324,6 @@
             "in_stock_label": "Em estoque",
             "include_taxes": "Imposto incluído.",
             "preorder": "Pedido antecipado",
-            "quantity": "Quantidade",
             "shipping_policy_html": "<a href='{{ link }}'>Envio</a> calculado na finalização da compra.",
             "sold_out": "Esgotado",
             "stock_label": "{{ count }} em estoque",
@@ -338,6 +335,7 @@
             "will_not_ship_until": "Envio a partir de {{ date }}"
         }
     },
+    "quantity": "Quantidade",
     "sections": {
         "map": {
             "address_error": "Não é possível localizar o endereço",

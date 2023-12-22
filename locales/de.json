@@ -43,7 +43,6 @@
             "update": "Einkaufswagen aktualisieren"
         },
         "label": {
-            "quantity": "Menge",
             "total": "Gesamt"
         }
     },
@@ -135,7 +134,6 @@
             "fulfillment_status": "Lieferstatus",
             "payment_status": "Zahlungsstatus",
             "product": "Artikel",
-            "quantity": "Menge",
             "shipping": "Versand",
             "shipping_address": "Lieferadresse",
             "sku": "SKU",
@@ -327,7 +325,6 @@
             "in_stock_label": "Auf Lager",
             "include_taxes": "inkl. MwSt.",
             "preorder": "Vorbestellung",
-            "quantity": "Menge",
             "shipping_policy_html": "zzgl. <a href='{{ link }}'>Versandkosten</a>",
             "sold_out": "Ausverkauft",
             "stock_label": "{{ count }} auf Lager",
@@ -339,6 +336,7 @@
             "will_not_ship_until": "Wird nach dem {{ date }} versendet"
         }
     },
+    "quantity": "Menge",
     "recipient": {
         "form": {
             "checkbox": "Ich möchte dies als Geschenk senden",

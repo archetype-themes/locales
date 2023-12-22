@@ -44,7 +44,6 @@
             "update": "Actualizar carrito"
         },
         "label": {
-            "quantity": "Cantidad",
             "total": "Total"
         }
     },
@@ -136,7 +135,6 @@
             "fulfillment_status": "Estado de finalización",
             "payment_status": "Estado del pago",
             "product": "Producto",
-            "quantity": "Cantidad",
             "shipping": "Envío",
             "shipping_address": "Dirección de envío",
             "sku": "SKU",
@@ -328,7 +326,6 @@
             "in_stock_label": "En stock",
             "include_taxes": "Impuesto incluido.",
             "preorder": "Hacer un pedido",
-            "quantity": "Cantidad",
             "shipping_policy_html": "Los <a href='{{ link }}'>gastos de envío</a> se calculan en la pantalla de pagos.",
             "sold_out": "Agotado",
             "stock_label": "{{ count }} en stock",
@@ -340,6 +337,7 @@
             "will_not_ship_until": "Será enviado después {{ date }}"
         }
     },
+    "quantity": "Cantidad",
     "recipient": {
         "form": {
             "checkbox": "Quiero enviar esto como un regalo.",
