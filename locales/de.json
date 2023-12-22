@@ -2,7 +2,8 @@
     "account": "Account",
     "availability": {
         "check_other_stores": "Prüfen Sie die Verfügbarkeit von anderen Shops",
-        "pick_up_available": "Pickup verfügbar"
+        "pick_up_available": "Pickup verfügbar",
+        "pick_up_available_at_html": "Pickup verfügbar unter <strong> {{location_name}} </strong>"
     },
     "blogs": {
         "article": {
@@ -359,7 +360,6 @@
     "small": "Klein",
     "store_availability": {
         "general": {
-            "pick_up_available_at_html": "Pickup verfügbar unter <strong> {{location_name}} </strong>",
             "pick_up_currently_unavailable": "Pickup derzeit nicht verfügbar",
             "pick_up_unavailable_at_html": "Pickup derzeit nicht verfügbar unter <strong> {{location_name}} </strong>",
             "view_store_info": "Ansicht speichern Informationen"

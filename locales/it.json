@@ -2,7 +2,8 @@
     "account": "Account",
     "availability": {
         "check_other_stores": "Verifica la disponibilità in altri negozi",
-        "pick_up_available": "Ritiro disponibile"
+        "pick_up_available": "Ritiro disponibile",
+        "pick_up_available_at_html": "Ritiro disponibile a <strong>{{ location_name }}</strong>"
     },
     "blogs": {
         "article": {
@@ -363,7 +364,6 @@
     "small": "Piccola",
     "store_availability": {
         "general": {
-            "pick_up_available_at_html": "Ritiro disponibile a <strong>{{ location_name }}</strong>",
             "pick_up_currently_unavailable": "Ritiro attualmente non disponibile",
             "pick_up_unavailable_at_html": "Ritiro attualmente non disponibile presso <strong>{{ location_name }}</strong>",
             "view_store_info": "Visualizza i dettagli del negozio"

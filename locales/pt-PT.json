@@ -2,7 +2,8 @@
     "account": "Conta",
     "availability": {
         "check_other_stores": "Ver disponibilidade em outras lojas",
-        "pick_up_available": "transbordo"
+        "pick_up_available": "transbordo",
+        "pick_up_available_at_html": "Captador disponível em <strong> {{location_name}} </strong>"
     },
     "blogs": {
         "article": {
@@ -349,7 +350,6 @@
     "small": "Small",
     "store_availability": {
         "general": {
-            "pick_up_available_at_html": "Captador disponível em <strong> {{location_name}} </strong>",
             "pick_up_currently_unavailable": "Captador atualmente indisponível",
             "pick_up_unavailable_at_html": "Captador disponível atualmente em <strong> {{location_name}} </strong>",
             "view_store_info": "Exibir informações de loja"
