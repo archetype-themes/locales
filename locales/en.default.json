@@ -350,13 +350,12 @@
             "auth_error_html": "There was a problem authenticating your Google Maps account. Create and enable the <a href=\"https://developers.google.com/maps/documentation/javascript/get-api-key\">JavaScript API</a> and <a href=\"https://developers.google.com/maps/documentation/geocoding/get-api-key\">Geocoding API</a> permissions of your app.",
             "get_directions": "Get directions"
         },
-        "slideshow": {
-            "pause_slideshow": "Pause slideshow"
-        }
+        "slideshow": {}
     },
     "send": "Send",
     "show_more": "Show more",
     "slideshow": {
+        "pause": "Pause slideshow",
         "play": "Play slideshow"
     },
     "small": "Small",

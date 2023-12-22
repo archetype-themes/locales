@@ -335,13 +335,12 @@
             "auth_error_html": "Houve um problema autenticação de sua conta do Google Maps. Criar e ativar a <a href=\"https://developers.google.com/maps/documentation/javascript/get-api-key\">API JavaScript</a> e permissões de <a href=\"https://developers.google.com/maps/documentation/geocoding/get-api-key\">geocodificação da API</a> do seu aplicativo.",
             "get_directions": "Obter direções"
         },
-        "slideshow": {
-            "pause_slideshow": "slideshow pausa"
-        }
+        "slideshow": {}
     },
     "send": "Enviar",
     "show_more": "Mostre mais",
     "slideshow": {
+        "pause": "slideshow pausa",
         "play": "Reproduzir de slides"
     },
     "small": "Small",

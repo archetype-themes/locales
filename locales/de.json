@@ -345,13 +345,12 @@
             "auth_error_html": "Es gab ein Problem bei Google Maps Konto zu authentifizieren. Erstellen und die <a href=\"https://developers.google.com/maps/documentation/javascript/get-api-key\">JavaScript- API</a> und <a href=\"https://developers.google.com/maps/documentation/geocoding/get-api-key\">Geocoding API</a> -Berechtigungen der App aktivieren.",
             "get_directions": "Richtungen"
         },
-        "slideshow": {
-            "pause_slideshow": "Pause Diashow"
-        }
+        "slideshow": {}
     },
     "send": "Absenden",
     "show_more": "Zeig mehr",
     "slideshow": {
+        "pause": "Pause Diashow",
         "play": "Diashow abspielen"
     },
     "small": "Klein",

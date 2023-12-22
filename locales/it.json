@@ -349,13 +349,12 @@
             "auth_error_html": "Si è verificato un problema durante l'autenticazione del tuo account Google Maps. Crea e attiva i permessi <a href=\"https://developers.google.com/maps/documentation/javascript/get-api-key\">JavaScript API</a> e <a href=\"https://developers.google.com/maps/documentation/geocoding/get-api-key\">Geocoding API</a> della tua applicazione.",
             "get_directions": "Ottieni indicazioni"
         },
-        "slideshow": {
-            "pause_slideshow": "Metti in pausa presentazione"
-        }
+        "slideshow": {}
     },
     "send": "Invia",
     "show_more": "Mostra di più",
     "slideshow": {
+        "pause": "Metti in pausa presentazione",
         "play": "Avvia presentazione"
     },
     "small": "Piccola",
