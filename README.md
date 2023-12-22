@@ -18,7 +18,7 @@ As a bonus, the copy button can even handle translations with [interpolations](h
 
 Have some translations that are missing from the repo? Spotted a translation that could be improved? Please open a pull-request and contribute!
 
-Don't have translations for every language? No problem! Thanks to Github Actions + Microsoft Azure AI Translator, a followup pull request containing any missing translations you contribute will be automatically created.
+Don't have translations for every language? No problem! Thanks to Github Actions + Microsoft Azure AI Translator, a followup pull request containing any missing translations you contribute will be automatically created. Yes, the AI translations even respect interpolated value placeholders and HTML, leaving them unmodified!
 
 Here are a few things to keep in mind:
 
