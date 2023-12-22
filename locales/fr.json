@@ -11,7 +11,6 @@
             "view_all": "Voir toutes"
         },
         "comments": {
-            "email": "Courriel",
             "message": "Message",
             "moderated": "Veuillez noter que les commentaires doivent être approvés avant d'être affichés",
             "post": "Publier le commentaire",
@@ -78,7 +77,6 @@
     },
     "contact": {
         "form": {
-            "email": "Courriel",
             "message": "Message",
             "phone": "Téléphone",
             "post_success": "Merci de nous avoir avoir contacté. Nous vous reviendrons le plus rapidement possible.",
@@ -125,7 +123,6 @@
         },
         "login": {
             "cancel": "Retourner à la boutique",
-            "email": "Courriel",
             "forgot_password": "Mot de passe oublié?",
             "guest_continue": "Continuer",
             "guest_title": "Continuer en tant qu'invité",
@@ -163,7 +160,6 @@
         },
         "recover_password": {
             "cancel": "Annuler",
-            "email": "Courriel",
             "submit": "Soumettre",
             "subtext": "Nous vous ferons parvenir un courriel pour réinitialiser votre mot de passe.",
             "success": "Nous vous avons fait parvenir un courriel pour réinitialiser votre mot de passe.",
@@ -171,7 +167,6 @@
         },
         "register": {
             "cancel": "Retour à la boutique",
-            "email": "Courriel",
             "first_name": "Prénom",
             "last_name": "Nom",
             "password": "Mot de passe",
@@ -189,6 +184,7 @@
     "date_formats": {
         "month_day_year": "%d %B, %Y"
     },
+    "email": "Courriel",
     "general": {
         "404": {
             "subtext_html": "Cette page n'est pas disponible. <a href='{{ url }}'>Retourner au magasinage</a>",
@@ -237,7 +233,6 @@
             "login_form_submit": "Entrer",
             "password_link": "Mot de passe",
             "powered_by_shopify_html": "Cette boutique sera propulsée par {{ shopify }}",
-            "signup_form_email_label": "Courriel",
             "signup_form_success": "Nous vous ferons parvenir un courriel juste avant l'ouverture!"
         },
         "search": {
@@ -351,7 +346,6 @@
     "recipient": {
         "form": {
             "checkbox": "Je veux envoyer ce produit comme cadeau",
-            "email": "E‑mail",
             "email_label": "E‑mail du destinataire",
             "max_characters": "{{ max_chars }} caractères au maximum",
             "message": "Message",

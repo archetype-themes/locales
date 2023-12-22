@@ -11,7 +11,6 @@
             "view_all": "Visualizza tutto"
         },
         "comments": {
-            "email": "Indirizzo email",
             "message": "Messaggio",
             "moderated": "Attenzione, i commenti devono essere approvati prima di essere pubblicati",
             "post": "Pubblica commento",
@@ -78,7 +77,6 @@
     },
     "contact": {
         "form": {
-            "email": "Indirizzo email",
             "message": "Messaggio",
             "phone": "Numero di telefono",
             "post_success": "Grazie per averci contattato. Risponderemo il prima possibile.",
@@ -125,7 +123,6 @@
         },
         "login": {
             "cancel": "Torna al negozio",
-            "email": "Indirizzo email",
             "forgot_password": "Hai dimenticato la password?",
             "guest_continue": "Continua",
             "guest_title": "Continua senza registrarti",
@@ -163,7 +160,6 @@
         },
         "recover_password": {
             "cancel": "Annulla",
-            "email": "Indirizzo email",
             "submit": "Invia",
             "subtext": "Ti invieremo un'e-mail per reimpostare la tua password.",
             "success": "Ti abbiamo inviato un'email con un link per aggiornare la password.",
@@ -171,7 +167,6 @@
         },
         "register": {
             "cancel": "Torna al negozio",
-            "email": "Indirizzo email",
             "first_name": "Il tuo nome",
             "last_name": "Cognome",
             "password": "Password",
@@ -189,6 +184,7 @@
     "date_formats": {
         "month_day_year": "%b %d, %Y"
     },
+    "email": "Indirizzo email",
     "general": {
         "404": {
             "subtext_html": "<p>La pagina che stavi cercando non esiste. </p><p><a href='{{ url }}'>Continua a comprare</a></p>",
@@ -237,7 +233,6 @@
             "login_form_submit": "Accedi",
             "password_link": "Password",
             "powered_by_shopify_html": "Questo negozio sarà ospitato su {{ shopify }}",
-            "signup_form_email_label": "Indirizzo email",
             "signup_form_success": "Ti invieremo un'email quando apriremo!"
         },
         "search": {
@@ -354,7 +349,6 @@
     "recipient": {
         "form": {
             "checkbox": "Voglio inviarlo come regalo",
-            "email": "email",
             "email_label": "Email destinatario",
             "max_characters": "Massimo {{ max_chars }} caratteri",
             "message": "Messaggio",

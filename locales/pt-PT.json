@@ -11,7 +11,6 @@
             "view_all": "Ver todo"
         },
         "comments": {
-            "email": "Email",
             "message": "Mensagem",
             "moderated": "Tenha em atenção que os comentários precisam de ser aprovados antes de serem exibidos",
             "post": "Publicar comentário",
@@ -78,7 +77,6 @@
     },
     "contact": {
         "form": {
-            "email": "Email",
             "message": "Mensagem",
             "phone": "Número de Telefone",
             "post_success": "Obrigado por entrar em contacto connosco. Responder-lhe-emos logo que possível.",
@@ -125,7 +123,6 @@
         },
         "login": {
             "cancel": "Regressar à Loja",
-            "email": "Email",
             "forgot_password": "Esqueceu-se da sua senha?",
             "guest_continue": "Continuar",
             "guest_title": "Continuar como visitante",
@@ -163,7 +160,6 @@
         },
         "recover_password": {
             "cancel": "Cancelar",
-            "email": "Email",
             "submit": "Enviar",
             "subtext": "Vamos enviar-lhe um email para repor a sua senha.",
             "success": "Enviámos-lhe um email com um link para atualizar a sua senha.",
@@ -171,7 +167,6 @@
         },
         "register": {
             "cancel": "Regressar à Loja",
-            "email": "Email",
             "first_name": "Nome Próprio",
             "last_name": "Sobrenome",
             "password": "Senha",
@@ -189,6 +184,7 @@
     "date_formats": {
         "month_day_year": "%d de %B de %Y"
     },
+    "email": "Email",
     "general": {
         "404": {
             "subtext_html": "A página que solicitou não existe. Clique <a href='{{ url }}'>aqui</a> para continuar as suas compras.",
@@ -237,7 +233,6 @@
             "login_form_submit": "Entrar",
             "password_link": "Palavra-passe",
             "powered_by_shopify_html": "Esta loja será movida por {{ shopify }}",
-            "signup_form_email_label": "Email",
             "signup_form_success": "Iremos enviar-lhe um email imediatamente antes de abrirmos!"
         },
         "search": {

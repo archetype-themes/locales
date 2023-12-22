@@ -11,7 +11,6 @@
             "view_all": "Ver todo"
         },
         "comments": {
-            "email": "E-mail",
             "message": "Mensagem",
             "moderated": "Observe que os comentários precisam ser aprovados antes de serem publicados",
             "post": "Postar comentário",
@@ -78,7 +77,6 @@
     },
     "contact": {
         "form": {
-            "email": "E-mail",
             "message": "Mensagem",
             "phone": "Telefone",
             "post_success": "Obrigado por entrar em contato. Nós lhe retornaremos assim que possível.",
@@ -125,7 +123,6 @@
         },
         "login": {
             "cancel": "Retornar à loja",
-            "email": "E-mail",
             "forgot_password": "Esqueceu sua senha?",
             "guest_continue": "Prosseguir",
             "guest_title": "Prosseguir como convidado(a)",
@@ -163,7 +160,6 @@
         },
         "recover_password": {
             "cancel": "Cancelar",
-            "email": "E-mail",
             "submit": "Enviar",
             "subtext": "Enviaremos a você um e-mail para redefinir a sua senha.",
             "success": "Nós lhe enviamos um e-mail com o link para atualizar a sua senha.",
@@ -171,7 +167,6 @@
         },
         "register": {
             "cancel": "Retornar à loja",
-            "email": "E-mail",
             "first_name": "Nome",
             "last_name": "Sobrenome",
             "password": "Senha",
@@ -189,6 +184,7 @@
     "date_formats": {
         "month_day_year": "%d de %B de %Y"
     },
+    "email": "E-mail",
     "general": {
         "404": {
             "subtext_html": "A página que você solicitou não existe. Clique <a href='{{ url }}'>aqui</a> para voltar às compras.",
@@ -237,7 +233,6 @@
             "login_form_submit": "Entrar",
             "password_link": "Senha",
             "powered_by_shopify_html": "Esta loja será patrocinada por {{ shopify }}",
-            "signup_form_email_label": "E-mail",
             "signup_form_success": "Nós lhe enviaremos um e-mail logo antes de abrirmos!"
         },
         "search": {

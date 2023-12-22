@@ -11,7 +11,6 @@
             "view_all": "View all"
         },
         "comments": {
-            "email": "Email",
             "message": "Message",
             "moderated": "Please note, comments must be approved before they are published",
             "post": "Post comment",
@@ -79,7 +78,6 @@
     },
     "contact": {
         "form": {
-            "email": "Email",
             "message": "Message",
             "phone": "Phone number",
             "post_success": "Thanks for contacting us. We'll get back to you as soon as possible.",
@@ -126,7 +124,6 @@
         },
         "login": {
             "cancel": "Return to Store",
-            "email": "Email",
             "forgot_password": "Forgot password?",
             "guest_continue": "Continue",
             "guest_title": "Continue as a guest",
@@ -164,7 +161,6 @@
         },
         "recover_password": {
             "cancel": "Cancel",
-            "email": "Email",
             "submit": "Submit",
             "subtext": "We will send you an email to reset your password.",
             "success": "We've sent you an email with a link to update your password.",
@@ -172,7 +168,6 @@
         },
         "register": {
             "cancel": "Return to Store",
-            "email": "Email",
             "first_name": "First Name",
             "last_name": "Last Name",
             "password": "Password",
@@ -190,6 +185,7 @@
     "date_formats": {
         "month_day_year": "%b %d, %Y"
     },
+    "email": "Email",
     "general": {
         "404": {
             "subtext_html": "<p>The page you were looking for does not exist. </p><p><a href='{{ url }}'>Continue shopping</a></p>",
@@ -238,7 +234,6 @@
             "login_form_submit": "Enter",
             "password_link": "Password",
             "powered_by_shopify_html": "This shop will be powered by {{ shopify }}",
-            "signup_form_email_label": "Email",
             "signup_form_success": "We will send you an email when we open!"
         },
         "search": {
@@ -355,7 +350,6 @@
     "recipient": {
         "form": {
             "checkbox": "I want to send this as a gift",
-            "email": "Email",
             "email_label": "Recipient email",
             "max_characters": "{{ max_chars }} characters max",
             "message": "Message",

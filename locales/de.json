@@ -11,7 +11,6 @@
             "view_all": "Alle anzeigen"
         },
         "comments": {
-            "email": "E-Mail",
             "message": "Nachricht",
             "moderated": "Bitte beachten Sie, dass Kommentare vor der Veröffentlichung freigegeben werden müssen",
             "post": "Kommentar posten",
@@ -77,7 +76,6 @@
     },
     "contact": {
         "form": {
-            "email": "E-Mail",
             "message": "Nachricht",
             "phone": "Telefonnummer",
             "post_success": "Danke, dass Sie uns kontaktiert haben. Wir werden uns so schnell wie möglich bei Ihnen melden.",
@@ -124,7 +122,6 @@
         },
         "login": {
             "cancel": "Zurück zum Shop",
-            "email": "E-Mail",
             "forgot_password": "Haben Sie Ihr Passwort vergessen?",
             "guest_continue": "Fortsetzen",
             "guest_title": "Als Gast fortsetzen",
@@ -162,7 +159,6 @@
         },
         "recover_password": {
             "cancel": "Abbrechen",
-            "email": "E-Mail",
             "submit": "Absenden",
             "subtext": "Wir werden Ihnen eine E-Mail zum Zurücksetzen des Passworts schicken.",
             "success": "Wir haben Ihnen eine E-Mail mit einem Link zum Aktualisieren des Passworts geschickt.",
@@ -170,7 +166,6 @@
         },
         "register": {
             "cancel": "Zurück zum Shop",
-            "email": "E-Mail",
             "first_name": "Vorname",
             "last_name": "Nachname",
             "password": "Passwort",
@@ -188,6 +183,7 @@
     "date_formats": {
         "month_day_year": "%B %d, %Y"
     },
+    "email": "E-Mail",
     "general": {
         "404": {
             "subtext_html": "Die von Ihnen angeforderte Seite existiert nicht. Klicken Sie <a href='{{ url }}'>hier</a>, um den Einkauf fortzusetzen.",
@@ -236,7 +232,6 @@
             "login_form_submit": "Betreten",
             "password_link": "Passwort",
             "powered_by_shopify_html": "Dieser Shop wird mit Hilfe von {{ shopify }} betrieben werden",
-            "signup_form_email_label": "E-Mail",
             "signup_form_success": "Wir senden Ihnen eine E-Mail, kurz bevor wir eröffnen!"
         },
         "search": {
@@ -350,7 +345,6 @@
     "recipient": {
         "form": {
             "checkbox": "Ich möchte dies als Geschenk senden",
-            "email": "E-Mail",
             "email_label": "Empfänger E-Mail",
             "max_characters": "Maximal {{ max_chars }} Zeichen",
             "message": "Nachricht",
