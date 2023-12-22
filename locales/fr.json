@@ -70,8 +70,7 @@
     "contact": {
         "form": {
             "phone": "Téléphone",
-            "post_success": "Merci de nous avoir avoir contacté. Nous vous reviendrons le plus rapidement possible.",
-            "send": "Envoyer"
+            "post_success": "Merci de nous avoir avoir contacté. Nous vous reviendrons le plus rapidement possible."
         }
     },
     "customer": {
@@ -352,6 +351,7 @@
             "play_slideshow": "Lire le diaporama"
         }
     },
+    "send": "Envoyer",
     "show_more": "Afficher plus",
     "small": "Petit",
     "store_availability": {

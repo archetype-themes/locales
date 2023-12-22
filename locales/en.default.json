@@ -71,8 +71,7 @@
     "contact": {
         "form": {
             "phone": "Phone number",
-            "post_success": "Thanks for contacting us. We'll get back to you as soon as possible.",
-            "send": "Send"
+            "post_success": "Thanks for contacting us. We'll get back to you as soon as possible."
         }
     },
     "customer": {
@@ -356,6 +355,7 @@
             "play_slideshow": "Play slideshow"
         }
     },
+    "send": "Send",
     "show_more": "Show more",
     "small": "Small",
     "store_availability": {

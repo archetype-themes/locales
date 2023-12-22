@@ -70,8 +70,7 @@
     "contact": {
         "form": {
             "phone": "Número de Telefone",
-            "post_success": "Obrigado por entrar em contacto connosco. Responder-lhe-emos logo que possível.",
-            "send": "Enviar"
+            "post_success": "Obrigado por entrar em contacto connosco. Responder-lhe-emos logo que possível."
         }
     },
     "customer": {
@@ -341,6 +340,7 @@
             "play_slideshow": "Reproduzir de slides"
         }
     },
+    "send": "Enviar",
     "show_more": "Mostre mais",
     "small": "Small",
     "store_availability": {
