@@ -74,6 +74,7 @@
             "post_success": "Merci de nous avoir avoir contacté. Nous vous reviendrons le plus rapidement possible."
         }
     },
+    "create_account": "Créer un compte",
     "customer": {
         "account": {
             "details": "Détails du compte",
@@ -277,9 +278,7 @@
         "cart": {
             "title": "Panier"
         },
-        "customer": {
-            "create_account": "Créer un compte"
-        },
+        "customer": {},
         "footer": {
             "accepted_payments": "Nous acceptons",
             "chat_link": "Chat en direct",

@@ -74,6 +74,7 @@
             "post_success": "Grazie per averci contattato. Risponderemo il prima possibile."
         }
     },
+    "create_account": "Crea account",
     "customer": {
         "account": {
             "details": "Dettagli account",
@@ -277,9 +278,7 @@
         "cart": {
             "title": "Carrello"
         },
-        "customer": {
-            "create_account": "Crea account"
-        },
+        "customer": {},
         "footer": {
             "accepted_payments": "Accettiamo",
             "chat_link": "Chat dal vivo",

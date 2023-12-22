@@ -74,6 +74,7 @@
             "post_success": "Obrigado por entrar em contacto connosco. Responder-lhe-emos logo que possível."
         }
     },
+    "create_account": "Criar conta",
     "customer": {
         "account": {
             "details": "Detalhes da Conta",
@@ -275,9 +276,7 @@
         "cart": {
             "title": "Carrinho de Compras"
         },
-        "customer": {
-            "create_account": "Criar conta"
-        },
+        "customer": {},
         "footer": {
             "accepted_payments": "Nós aceitamos",
             "chat_link": "Bate-papo ao vivo",

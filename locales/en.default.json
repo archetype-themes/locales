@@ -75,6 +75,7 @@
             "post_success": "Thanks for contacting us. We'll get back to you as soon as possible."
         }
     },
+    "create_account": "Create account",
     "customer": {
         "account": {
             "details": "Account details",
@@ -278,9 +279,7 @@
         "cart": {
             "title": "Cart"
         },
-        "customer": {
-            "create_account": "Create account"
-        },
+        "customer": {},
         "footer": {
             "accepted_payments": "We accept",
             "chat_link": "Live chat",

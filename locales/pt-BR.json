@@ -74,6 +74,7 @@
             "post_success": "Obrigado por entrar em contato. Nós lhe retornaremos assim que possível."
         }
     },
+    "create_account": "Criar conta",
     "customer": {
         "account": {
             "details": "Detalhes da conta",
@@ -275,9 +276,7 @@
         "cart": {
             "title": "Carrinho"
         },
-        "customer": {
-            "create_account": "Criar conta"
-        },
+        "customer": {},
         "footer": {
             "accepted_payments": "Nós aceitamos",
             "chat_link": "Bate-papo ao vivo",
