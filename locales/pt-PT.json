@@ -61,7 +61,6 @@
             "list": "List",
             "no_matches": "Lamentamos, mas nenhum produto corresponde à sua pesquisa.",
             "see_less": "Mostre menos",
-            "see_more": "Mostre mais",
             "view_all_products_html": "Ver todos os<br>{{ count }} produtos"
         },
         "sorting": {
@@ -342,6 +341,7 @@
             "play_slideshow": "Reproduzir de slides"
         }
     },
+    "show_more": "Mostre mais",
     "small": "Small",
     "store_availability": {
         "general": {

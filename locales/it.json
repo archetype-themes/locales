@@ -61,7 +61,6 @@
             "list": "Elenco",
             "no_matches": "Siamo spiacenti, non ci sono prodotti in questa collezione.",
             "see_less": "Mostra di meno",
-            "see_more": "Mostra di più",
             "view_all_products_html": "Visualizza tutti i<br>{{ count }} prodotti"
         },
         "sorting": {
@@ -356,6 +355,7 @@
             "play_slideshow": "Avvia presentazione"
         }
     },
+    "show_more": "Mostra di più",
     "small": "Piccola",
     "store_availability": {
         "general": {
