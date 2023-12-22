@@ -291,8 +291,7 @@
         "customer": {
             "account": "Cuenta",
             "create_account": "Crear cuenta",
-            "log_in": "Ingresar",
-            "log_out": "Cerrar sesión"
+            "log_in": "Ingresar"
         },
         "footer": {
             "accepted_payments": "Aceptamos",
@@ -302,6 +301,7 @@
             "social_platform": "{{ name }} en {{ platform }}"
         }
     },
+    "log_out": "Cerrar sesión",
     "message": "Mensaje",
     "name": "Nombre",
     "price": "Precio",

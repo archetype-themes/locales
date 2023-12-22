@@ -291,8 +291,7 @@
         "customer": {
             "account": "Account",
             "create_account": "Crea account",
-            "log_in": "Accedi",
-            "log_out": "Esci"
+            "log_in": "Accedi"
         },
         "footer": {
             "accepted_payments": "Accettiamo",
@@ -302,6 +301,7 @@
             "social_platform": "{{ name }} su {{ platform }}"
         }
     },
+    "log_out": "Esci",
     "message": "Messaggio",
     "name": "Nome",
     "price": "Prezzo",
