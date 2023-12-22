@@ -237,7 +237,6 @@
             "collections": "Collections",
             "no_results_html": "Search for \"{{ terms }}\"",
             "pages": "Pages",
-            "placeholder": "Search",
             "products": "Products",
             "result_count": {
                 "one": "{{ count }} result",
@@ -245,9 +244,7 @@
             },
             "results_for_html": "Your search for \"{{ terms }}\" revealed the following:",
             "search_title": "Top searched",
-            "submit": "Search",
             "suggestions": "Suggestions",
-            "title": "Search",
             "view_more": "Show all results for \"{{ terms }}\""
         },
         "social": {
@@ -351,6 +348,7 @@
             "name_label": "Recipient name (optional)"
         }
     },
+    "search": "Search",
     "sections": {
         "map": {
             "address_error": "Error looking up that address",

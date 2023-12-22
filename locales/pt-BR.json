@@ -236,15 +236,12 @@
             "collections": "Colecções:",
             "no_results_html": "Sua busca por \"{{ terms }}\" não gerou resultados.",
             "pages": "Páginas:",
-            "placeholder": "Buscar",
             "result_count": {
                 "one": "{{ count }} resultado",
                 "other": "{{ count }} resultados"
             },
             "results_for_html": "Sua busca por \"{{ terms }}\" encontrou os itens a seguir:",
             "search_title": "Mais pesquisados",
-            "submit": "Buscar",
-            "title": "Pesquisa",
             "view_more": "Veja mais"
         },
         "social": {
@@ -336,6 +333,7 @@
         }
     },
     "quantity": "Quantidade",
+    "search": "Pesquisa",
     "sections": {
         "map": {
             "address_error": "Não é possível localizar o endereço",

@@ -235,7 +235,6 @@
             "collections": "Kollektionen",
             "no_results_html": "Suche nach \"{{ terms }}\"",
             "pages": "Seiten",
-            "placeholder": "Suchen",
             "products": "Produkte",
             "result_count": {
                 "one": "{{ count }} Ergebnis",
@@ -243,9 +242,7 @@
             },
             "results_for_html": "Ihre Suche nach \"{{ terms }}\" hat folgende Ergebnisse hervorgebracht:",
             "search_title": "Top gesucht",
-            "submit": "Suchen",
             "suggestions": "Vorschläge",
-            "title": "Suche",
             "view_more": "Alle Ergebnisse für \"{{ terms }}\" anzeigen"
         },
         "social": {
@@ -346,6 +343,7 @@
             "name_label": "Name des Empfängers (optional)"
         }
     },
+    "search": "Suche",
     "sections": {
         "map": {
             "address_error": "Kann die Adresse nicht finden",
