@@ -1,5 +1,8 @@
 {
     "account": "Conta",
+    "availability": {
+        "check_other_stores": "Ver disponibilidade em outras lojas"
+    },
     "blogs": {
         "article": {
             "back_to_blog": "Regressar a {{ title }}",
@@ -345,7 +348,6 @@
     "small": "Small",
     "store_availability": {
         "general": {
-            "check_other_stores": "Ver disponibilidade em outras lojas",
             "pick_up_available": "transbordo",
             "pick_up_available_at_html": "Captador disponível em <strong> {{location_name}} </strong>",
             "pick_up_currently_unavailable": "Captador atualmente indisponível",

@@ -1,5 +1,8 @@
 {
     "account": "Cuenta",
+    "availability": {
+        "check_other_stores": "Consulte la disponibilidad en otras tiendas"
+    },
     "blogs": {
         "article": {
             "back_to_blog": "Volver a {{ title }}",
@@ -356,7 +359,6 @@
     "small": "Small",
     "store_availability": {
         "general": {
-            "check_other_stores": "Consulte la disponibilidad en otras tiendas",
             "pick_up_available": "Recogida en la",
             "pick_up_available_at_html": "Recogida disponible en <strong> {{location_name}} </strong>",
             "pick_up_currently_unavailable": "Recogida disponible en este momento",
