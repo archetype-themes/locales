@@ -2,12 +2,13 @@
     "blogs": {
         "article": {
             "back_to_blog": "Zurück zu {{ title }}",
-            "explore_more": "Erkunde mehr",
-            "featured_product": "Vorgestelltes Produkt",
+            "explore_more": "Entdecken Sie mehr und mehr",
+            "featured_products": "Vorgestellte Produkte",
             "latest_posts": "Neueste Artikel",
             "more_from": "Mehr von",
             "popular_posts": "Populäre Artikel",
             "read_more": "Weiterlesen",
+            "something_new": "Hier ist eine neue Übersetzung!",
             "tags": "Tags",
             "view_all": "Alle anzeigen"
         },

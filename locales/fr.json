@@ -2,12 +2,13 @@
     "blogs": {
         "article": {
             "back_to_blog": "Retour à {{ title }}",
-            "explore_more": "Explore plus",
+            "explore_more": "Explorez de plus en plus",
             "featured_products": "Produits en vedette",
             "latest_posts": "Derniers articles",
             "more_from": "Plus de",
             "popular_posts": "Articles populaires",
             "read_more": "Plus",
+            "something_new": "Voici une nouvelle traduction !",
             "tags": "Tags",
             "view_all": "Voir toutes"
         },
