@@ -1,7 +1,8 @@
 {
     "account": "Account",
     "availability": {
-        "check_other_stores": "Check availability at other stores"
+        "check_other_stores": "Check availability at other stores",
+        "pick_up_available": "Pickup available"
     },
     "blogs": {
         "article": {
@@ -363,7 +364,6 @@
     "small": "Small",
     "store_availability": {
         "general": {
-            "pick_up_available": "Pickup available",
             "pick_up_available_at_html": "Pickup available at <strong>{{ location_name }}</strong>",
             "pick_up_currently_unavailable": "Pickup currently unavailable",
             "pick_up_unavailable_at_html": "Pickup currently unavailable at <strong>{{ location_name }}</strong>",
