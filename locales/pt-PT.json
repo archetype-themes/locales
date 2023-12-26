@@ -39,13 +39,7 @@
         "back_to": "Regressar à {{ collection }}",
         "no_products": "Lamentamos, mas nenhum produto corresponde à sua pesquisa."
     },
-    "collections": {
-        "filters": {},
-        "general": {
-            "items_with_count": {}
-        },
-        "sorting": {}
-    },
+    "collections": "Colecções:",
     "comments": {
         "count": {
             "plural": "{{ count }} comentários",
@@ -216,7 +210,6 @@
         "search": {
             "articles": "Artigos:",
             "cancel": "Cancelar",
-            "collections": "Colecções:",
             "no_results_html": "A sua pesquisa por \"{{ terms }}\" não produziu resultados.",
             "result_count": {
                 "one": "{{ count }} resultado",

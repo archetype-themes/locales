@@ -39,13 +39,7 @@
         "back_to": "Torna a {{ collection }}",
         "no_products": "Siamo spiacenti, non ci sono prodotti in questa collezione."
     },
-    "collections": {
-        "filters": {},
-        "general": {
-            "items_with_count": {}
-        },
-        "sorting": {}
-    },
+    "collections": "Collezioni",
     "comments": {
         "count": {
             "plural": "{{ count }} commenti",
@@ -215,7 +209,6 @@
         "search": {
             "articles": "Articoli",
             "cancel": "Annulla",
-            "collections": "Collezioni",
             "no_results_html": "Cercare \"{{ terms }}\"",
             "products": "prodotti",
             "result_count": {
