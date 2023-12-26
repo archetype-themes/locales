@@ -261,6 +261,8 @@
     },
     "increase_item_quantity": "Aumentar quantidade em uma unidade",
     "inventory": {
+        "back_in_stock_on": "Em estoque a partir de {{ date }}",
+        "backordered": "Inventory no caminho",
         "ready_to_ship_on": "Envio a partir de {{ date }}"
     },
     "latest_posts": "Artigos Mais Recentes",
@@ -332,9 +334,7 @@
             "stock_label": "{{ count }} em estoque",
             "unavailable": "Indisponível",
             "view_in_space": "Ver no seu espaço",
-            "view_in_space_label": "Ver em seu espaço, carregar item na janela de realidade aumentada",
-            "waiting_for_stock": "Inventory no caminho",
-            "will_be_in_stock_after": "Em estoque a partir de {{ date }}"
+            "view_in_space_label": "Ver em seu espaço, carregar item na janela de realidade aumentada"
         }
     },
     "quantity": "Quantidade",
