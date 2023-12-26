@@ -264,6 +264,7 @@
     "inventory": {
         "back_in_stock_on": "Di nuovo in magazzino {{ date }}",
         "backordered": "In arretrato, spedizione a breve",
+        "preorder": "Pre-ordine",
         "ready_to_ship_on": "Pronto per la spedizione {{ date }}",
         "sold_out": "Esaurito",
         "unavailable": "Non disponibile"
@@ -336,7 +337,6 @@
             "description": "Descrizione",
             "in_stock_label": "In magazzino, pronto per la spedizione",
             "include_taxes": "Imposte incluse.",
-            "preorder": "Pre-ordine",
             "shipping_policy_html": "<a href='{{ link }}'>Spedizione</a> calcolata alla cassa.",
             "stock_label": {
                 "one": "Magazzino basso, {{ count }} articolo rimasto",

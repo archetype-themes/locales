@@ -263,6 +263,7 @@
     "inventory": {
         "back_in_stock_on": "Wird nach dem {{ date }} auf Lager sein",
         "backordered": "Nachbestellt, bald verfügbar",
+        "preorder": "Vorbestellung",
         "ready_to_ship_on": "Wird nach dem {{ date }} versendet",
         "sold_out": "Ausverkauft",
         "unavailable": "Nicht verfügbar"
@@ -335,7 +336,6 @@
             "description": "Beschreibung",
             "in_stock_label": "Auf Lager",
             "include_taxes": "inkl. MwSt.",
-            "preorder": "Vorbestellung",
             "shipping_policy_html": "zzgl. <a href='{{ link }}'>Versandkosten</a>",
             "stock_label": "{{ count }} auf Lager",
             "view_in_space": "In Ihrem Bereich ansehen",
