@@ -177,6 +177,12 @@
             "submit": "Enter",
             "title": "Enter store using password"
         },
+        "recipient": {
+            "email": "Recipient email",
+            "message_optional": "Message (optional)",
+            "name_optional": "Recipient name (optional)",
+            "send_as_gift": "I want to send this as a gift"
+        },
         "signup": {
             "confirmation": "We will send you an email when we open!"
         }
@@ -293,12 +299,7 @@
             "plural": "{{ count }} products",
             "singular": "{{ count }} product"
         },
-        "recipient": {
-            "email": "Recipient email",
-            "message_optional": "Message (optional)",
-            "name_optional": "Recipient name (optional)",
-            "send_as_gift": "I want to send this as a gift"
-        }
+        "recipient": {}
     },
     "products": {
         "general": {},

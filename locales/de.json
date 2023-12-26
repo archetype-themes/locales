@@ -176,6 +176,12 @@
             "submit": "Betreten",
             "title": "Shop mit Passwort betreten:"
         },
+        "recipient": {
+            "email": "Empfänger E-Mail",
+            "message_optional": "Nachricht (optional)",
+            "name_optional": "Name des Empfängers (optional)",
+            "send_as_gift": "Ich möchte dies als Geschenk senden"
+        },
         "signup": {
             "confirmation": "Wir senden Ihnen eine E-Mail, kurz bevor wir eröffnen!"
         }
@@ -289,12 +295,7 @@
             "plural": "{{ count }} Produkte",
             "singular": "{{ count }} Produkt"
         },
-        "recipient": {
-            "email": "Empfänger E-Mail",
-            "message_optional": "Nachricht (optional)",
-            "name_optional": "Name des Empfängers (optional)",
-            "send_as_gift": "Ich möchte dies als Geschenk senden"
-        }
+        "recipient": {}
     },
     "products": {
         "general": {},

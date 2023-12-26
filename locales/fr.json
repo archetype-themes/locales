@@ -180,6 +180,12 @@
             "submit": "Entrer",
             "title": "Accéder à la boutique à l'aide d'un mot de passe:"
         },
+        "recipient": {
+            "email": "E‑mail du destinataire",
+            "message_optional": "Message (facultatif)",
+            "name_optional": "Nom du destinataire (facultatif)",
+            "send_as_gift": "Je veux envoyer ce produit comme cadeau"
+        },
         "signup": {
             "confirmation": "Nous vous ferons parvenir un courriel juste avant l'ouverture!"
         }
@@ -293,12 +299,7 @@
             "plural": "{{ count }} items",
             "singular": "{{ count }} item"
         },
-        "recipient": {
-            "email": "E‑mail du destinataire",
-            "message_optional": "Message (facultatif)",
-            "name_optional": "Nom du destinataire (facultatif)",
-            "send_as_gift": "Je veux envoyer ce produit comme cadeau"
-        }
+        "recipient": {}
     },
     "products": {
         "general": {},

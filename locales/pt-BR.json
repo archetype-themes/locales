@@ -179,6 +179,7 @@
             "submit": "Entrar",
             "title": "Entre na loja usando a senha:"
         },
+        "recipient": {},
         "signup": {
             "confirmation": "Nós lhe enviaremos um e-mail logo antes de abrirmos!"
         }

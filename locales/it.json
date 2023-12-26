@@ -177,6 +177,12 @@
             "submit": "Accedi",
             "title": "Entra nel negozio usando la password"
         },
+        "recipient": {
+            "email": "Email destinatario",
+            "message_optional": "Messaggio (facoltativo)",
+            "name_optional": "Nome destinatario (facoltativo)",
+            "send_as_gift": "Voglio inviarlo come regalo"
+        },
         "signup": {
             "confirmation": "Ti invieremo un'email quando apriremo!"
         }
@@ -293,12 +299,7 @@
             "plural": "{{ count }} prodotti",
             "singular": "{{ count }} prodotto"
         },
-        "recipient": {
-            "email": "Email destinatario",
-            "message_optional": "Messaggio (facoltativo)",
-            "name_optional": "Nome destinatario (facoltativo)",
-            "send_as_gift": "Voglio inviarlo come regalo"
-        }
+        "recipient": {}
     },
     "products": {
         "general": {},

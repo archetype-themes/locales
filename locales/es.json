@@ -180,6 +180,12 @@
             "submit": "Ingresar",
             "title": "Entrar a la tienda usando contraseña:"
         },
+        "recipient": {
+            "email": "Correo electrónico de la persona destinataria",
+            "message_optional": "Mensaje (opcional)",
+            "name_optional": "Nombre de la persona destinataria (opcional)",
+            "send_as_gift": "Quiero enviar esto como un regalo."
+        },
         "signup": {
             "confirmation": "¡Te enviaremos un correo electrónico antes de inaugurar!"
         }
@@ -293,12 +299,7 @@
             "plural": "{{ count }} artículos",
             "singular": "{{ count }} artículo"
         },
-        "recipient": {
-            "email": "Correo electrónico de la persona destinataria",
-            "message_optional": "Mensaje (opcional)",
-            "name_optional": "Nombre de la persona destinataria (opcional)",
-            "send_as_gift": "Quiero enviar esto como un regalo."
-        }
+        "recipient": {}
     },
     "products": {
         "general": {},
