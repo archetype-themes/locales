@@ -33,6 +33,7 @@
     "catalog": "Catalogo",
     "categories": "Categorie",
     "checkout": "Check-out",
+    "close": "Chiudi",
     "collection": {
         "no_products": "Siamo spiacenti, non ci sono prodotti in questa collezione."
     },
@@ -169,7 +170,6 @@
     "general": {
         "404": {},
         "accessibility": {
-            "close": "Chiudi",
             "close_modal": "Chiudi (esc)",
             "learn_more": "Impara di più",
             "skip_to_content": "Vai direttamente ai contenuti"

@@ -32,6 +32,7 @@
     "catalog": "Katalog",
     "categories": "Kategorien",
     "checkout": "Zur Kasse",
+    "close": "Schließen",
     "collection": {
         "no_products": "Es tut uns leid, aber Ihre Suche nach Produkten hat keine Treffer ergeben."
     },
@@ -168,7 +169,6 @@
     "general": {
         "404": {},
         "accessibility": {
-            "close": "Schließen",
             "close_modal": "Schließen (Esc)",
             "learn_more": "Erfahren Sie mehr",
             "skip_to_content": "Direkt zum Inhalt"

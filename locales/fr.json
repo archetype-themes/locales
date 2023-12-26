@@ -33,6 +33,7 @@
     "catalog": "Catalogue",
     "categories": "Catégories",
     "checkout": "Procéder au paiement",
+    "close": "Fermer",
     "collection": {
         "no_products": "Aucun produit ne correspond à votre recherche."
     },
@@ -172,7 +173,6 @@
     "general": {
         "404": {},
         "accessibility": {
-            "close": "Fermer",
             "close_modal": "Fermer (Esc)",
             "learn_more": "Apprendre plus",
             "skip_to_content": "Passer au contenu"
