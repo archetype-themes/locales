@@ -300,8 +300,7 @@
             "next_product": "Nächster: {{ title }}",
             "regular_price": "Normaler Preis",
             "sale_price": "Sonderpreis",
-            "save_html": "Sparen {{ saved_amount }}",
-            "size_chart": "Größentabelle"
+            "save_html": "Sparen {{ saved_amount }}"
         },
         "product": {
             "shipping_policy_html": "zzgl. <a href='{{ link }}'>Versandkosten</a>",
@@ -333,6 +332,7 @@
         "large": "groß",
         "small": "Klein"
     },
+    "size_chart": "Größentabelle",
     "skip_to_content": "Direkt zum Inhalt",
     "slideshow": {
         "pause": "Pause Diashow",

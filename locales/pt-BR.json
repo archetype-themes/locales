@@ -297,8 +297,7 @@
             "next_product": "Próximo: {{ title }}",
             "regular_price": "Preço normal",
             "sale_price": "Preço promocional",
-            "save_html": "Economize {{ saved_amount }}",
-            "size_chart": "Gráfico de tamanho"
+            "save_html": "Economize {{ saved_amount }}"
         },
         "product": {
             "shipping_policy_html": "<a href='{{ link }}'>Frete</a> calculado no checkout.",
@@ -327,6 +326,7 @@
         "large": "Large",
         "small": "Small"
     },
+    "size_chart": "Gráfico de tamanho",
     "skip_to_content": "Pular para o Conteúdo",
     "slideshow": {
         "pause": "slideshow pausa",

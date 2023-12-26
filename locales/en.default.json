@@ -304,8 +304,7 @@
             "next_product": "Next: {{ title }}",
             "regular_price": "Regular price",
             "sale_price": "Sale price",
-            "save_html": "Save {{ saved_amount }}",
-            "size_chart": "Size chart"
+            "save_html": "Save {{ saved_amount }}"
         },
         "product": {
             "shipping_policy_html": "<a href='{{ link }}'>Shipping</a> calculated at checkout.",
@@ -337,6 +336,7 @@
         "large": "Large",
         "small": "Small"
     },
+    "size_chart": "Size chart",
     "skip_to_content": "Skip to content",
     "slideshow": {
         "pause": "Pause slideshow",

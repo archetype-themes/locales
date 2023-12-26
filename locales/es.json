@@ -304,8 +304,7 @@
             "next_product": "Siguiente: {{ title }}",
             "regular_price": "Precio habitual",
             "sale_price": "Precio de oferta",
-            "save_html": "Guardar {{ saved_amount }}",
-            "size_chart": "Tabla de tallas"
+            "save_html": "Guardar {{ saved_amount }}"
         },
         "product": {
             "shipping_policy_html": "Los <a href='{{ link }}'>gastos de envío</a> se calculan en la pantalla de pagos.",
@@ -337,6 +336,7 @@
         "large": "Large",
         "small": "Small"
     },
+    "size_chart": "Tabla de tallas",
     "skip_to_content": "Ir directamente al contenido",
     "slideshow": {
         "pause": "diapositivas pausa",

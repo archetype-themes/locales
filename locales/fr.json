@@ -304,8 +304,7 @@
             "next_product": "Suivant: {{ title }}",
             "regular_price": "Prix régulier",
             "sale_price": "Prix réduit",
-            "save_html": "Épargnez {{ saved_amount }}",
-            "size_chart": "Tableau des tailles"
+            "save_html": "Épargnez {{ saved_amount }}"
         },
         "product": {
             "shipping_policy_html": "<a href='{{ link }}'>Frais d'expédition</a> calculés lors du passage à la caisse.",
@@ -337,6 +336,7 @@
         "large": "Grande",
         "small": "Petit"
     },
+    "size_chart": "Tableau des tailles",
     "skip_to_content": "Passer au contenu",
     "slideshow": {
         "pause": "Diaporama Pause",

@@ -304,8 +304,7 @@
             "next_product": "Avanti: {{ title }}",
             "regular_price": "Prezzo di listino",
             "sale_price": "Prezzo scontato",
-            "save_html": "Salva {{ saved_amount }}",
-            "size_chart": "Tabella delle dimensioni"
+            "save_html": "Salva {{ saved_amount }}"
         },
         "product": {
             "shipping_policy_html": "<a href='{{ link }}'>Spedizione</a> calcolata alla cassa.",
@@ -337,6 +336,7 @@
         "large": "Grande",
         "small": "Piccola"
     },
+    "size_chart": "Tabella delle dimensioni",
     "skip_to_content": "Vai direttamente ai contenuti",
     "slideshow": {
         "pause": "Metti in pausa presentazione",

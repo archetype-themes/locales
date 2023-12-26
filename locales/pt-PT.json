@@ -297,8 +297,7 @@
             "next_product": "Seguinte: {{ title }}",
             "regular_price": "Preço normal",
             "sale_price": "Preço de saldo",
-            "save_html": "Poupe {{ saved_amount }}",
-            "size_chart": "Gráfico de tamanho"
+            "save_html": "Poupe {{ saved_amount }}"
         },
         "product": {
             "shipping_policy_html": "<a href='{{ link }}'>Envio</a> calculado na finalização da compra.",
@@ -327,6 +326,7 @@
         "large": "Large",
         "small": "Small"
     },
+    "size_chart": "Gráfico de tamanho",
     "skip_to_content": "Pular para o Conteúdo",
     "slideshow": {
         "pause": "slideshow pausa",
