@@ -307,7 +307,6 @@
             "save_html": "Épargnez {{ saved_amount }}"
         },
         "product": {
-            "shipping_policy_html": "<a href='{{ link }}'>Frais d'expédition</a> calculés lors du passage à la caisse.",
             "stock_label": "{{ count }} en stock"
         }
     },
@@ -329,6 +328,7 @@
     "send": "Envoyer",
     "share": "Partager",
     "share_this": "Partager",
+    "shipping_policy_html": "<a href='{{ link }}'>Frais d'expédition</a> calculés lors du passage à la caisse.",
     "show_less": "Voir moins",
     "show_more": "Afficher plus",
     "site_navigation": "Navigation",

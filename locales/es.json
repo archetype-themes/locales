@@ -307,7 +307,6 @@
             "save_html": "Guardar {{ saved_amount }}"
         },
         "product": {
-            "shipping_policy_html": "Los <a href='{{ link }}'>gastos de envío</a> se calculan en la pantalla de pagos.",
             "stock_label": "{{ count }} en stock"
         }
     },
@@ -329,6 +328,7 @@
     "send": "Enviar",
     "share": "Compartir",
     "share_this": "Compartir este",
+    "shipping_policy_html": "Los <a href='{{ link }}'>gastos de envío</a> se calculan en la pantalla de pagos.",
     "show_less": "Muestra menos",
     "show_more": "Mostrar más",
     "site_navigation": "Navegación",

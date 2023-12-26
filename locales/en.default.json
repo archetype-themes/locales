@@ -307,7 +307,6 @@
             "save_html": "Save {{ saved_amount }}"
         },
         "product": {
-            "shipping_policy_html": "<a href='{{ link }}'>Shipping</a> calculated at checkout.",
             "stock_label": {}
         }
     },
@@ -329,6 +328,7 @@
     "send": "Send",
     "share": "Share",
     "share_this": "Share this",
+    "shipping_policy_html": "<a href='{{ link }}'>Shipping</a> calculated at checkout.",
     "show_less": "Show less",
     "show_more": "Show more",
     "site_navigation": "Site navigation",

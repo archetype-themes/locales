@@ -300,7 +300,6 @@
             "save_html": "Poupe {{ saved_amount }}"
         },
         "product": {
-            "shipping_policy_html": "<a href='{{ link }}'>Envio</a> calculado na finalização da compra.",
             "stock_label": "{{ count }} em estoque"
         }
     },
@@ -319,6 +318,7 @@
     "send": "Enviar",
     "share": "Partilhar",
     "share_this": "Compartilhar isso",
+    "shipping_policy_html": "<a href='{{ link }}'>Envio</a> calculado na finalização da compra.",
     "show_less": "Mostre menos",
     "show_more": "Mostre mais",
     "site_navigation": "Navegação",

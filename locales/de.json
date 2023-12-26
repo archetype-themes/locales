@@ -303,7 +303,6 @@
             "save_html": "Sparen {{ saved_amount }}"
         },
         "product": {
-            "shipping_policy_html": "zzgl. <a href='{{ link }}'>Versandkosten</a>",
             "stock_label": "{{ count }} auf Lager"
         }
     },
@@ -325,6 +324,7 @@
     "send": "Absenden",
     "share": "Teilen",
     "share_this": "Teile das",
+    "shipping_policy_html": "zzgl. <a href='{{ link }}'>Versandkosten</a>",
     "show_less": "Zeige weniger",
     "show_more": "Zeig mehr",
     "site_navigation": "Seitennavigation",
