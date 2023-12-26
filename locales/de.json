@@ -224,6 +224,7 @@
     "inventory": {
         "back_in_stock_on": "Wird nach dem {{ date }} auf Lager sein",
         "backordered": "Nachbestellt, bald verfügbar",
+        "in_stock": "Auf Lager",
         "low_stock": {},
         "preorder": "Vorbestellung",
         "ready_to_ship_on": "Wird nach dem {{ date }} versendet",
@@ -304,7 +305,6 @@
         "product": {
             "add_to_cart": "In den Einkaufswagen legen",
             "description": "Beschreibung",
-            "in_stock_label": "Auf Lager",
             "shipping_policy_html": "zzgl. <a href='{{ link }}'>Versandkosten</a>",
             "stock_label": "{{ count }} auf Lager",
             "view_in_space": "In Ihrem Bereich ansehen",

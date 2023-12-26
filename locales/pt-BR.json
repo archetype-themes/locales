@@ -226,6 +226,7 @@
     "inventory": {
         "back_in_stock_on": "Em estoque a partir de {{ date }}",
         "backordered": "Inventory no caminho",
+        "in_stock": "Em estoque",
         "low_stock": {},
         "preorder": "Pedido antecipado",
         "ready_to_ship_on": "Envio a partir de {{ date }}",
@@ -301,7 +302,6 @@
         "product": {
             "add_to_cart": "Adicionar ao carrinho",
             "description": "Descrição",
-            "in_stock_label": "Em estoque",
             "shipping_policy_html": "<a href='{{ link }}'>Frete</a> calculado no checkout.",
             "stock_label": "{{ count }} em estoque",
             "view_in_space": "Ver no seu espaço",

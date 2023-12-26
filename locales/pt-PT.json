@@ -226,6 +226,7 @@
     "inventory": {
         "back_in_stock_on": "Estará disponível após {{ date }}",
         "backordered": "Inventory no caminho",
+        "in_stock": "Em estoque",
         "low_stock": {},
         "preorder": "Pedido antecipado",
         "ready_to_ship_on": "Envio a partir de {{ date }}",
@@ -301,7 +302,6 @@
         "product": {
             "add_to_cart": "Adicionar ao Carrinho de Compras",
             "description": "Descrição",
-            "in_stock_label": "Em estoque",
             "shipping_policy_html": "<a href='{{ link }}'>Envio</a> calculado na finalização da compra.",
             "stock_label": "{{ count }} em estoque",
             "view_in_space": "Ver no seu espaço",

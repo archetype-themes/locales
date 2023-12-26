@@ -228,6 +228,7 @@
     "inventory": {
         "back_in_stock_on": "Estará disponible después {{ date }}",
         "backordered": "Pedido pendiente, envío pronto",
+        "in_stock": "En stock",
         "low_stock": {},
         "preorder": "Hacer un pedido",
         "ready_to_ship_on": "Será enviado después {{ date }}",
@@ -308,7 +309,6 @@
         "product": {
             "add_to_cart": "Agregar al carrito",
             "description": "Descripción",
-            "in_stock_label": "En stock",
             "shipping_policy_html": "Los <a href='{{ link }}'>gastos de envío</a> se calculan en la pantalla de pagos.",
             "stock_label": "{{ count }} en stock",
             "view_in_space": "Ver en tu espacio",
