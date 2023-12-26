@@ -35,8 +35,7 @@
     "collections": {
         "filters": {},
         "general": {
-            "items_with_count": {},
-            "view_all_products_html": "ver los<br>{{ count }} productos"
+            "items_with_count": {}
         },
         "sorting": {
             "title": "Ordenar"
@@ -384,5 +383,6 @@
     },
     "total": "Total",
     "view_all": "Ver todo",
+    "view_all_products_count": "ver los<br>{{ count }} productos",
     "view_store_info": "Información de la tienda"
 }
