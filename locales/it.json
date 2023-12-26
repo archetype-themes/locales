@@ -6,10 +6,11 @@
     "account": "Account",
     "activate_account": "Attiva l'account",
     "add_address": "Aggiungi indirizzo",
-    "add_to_cart": "Aggiungi al carrello",
     "add_order_note": "Aggiungi una nota all'ordine",
+    "add_to_cart": "Aggiungi al carrello",
     "address1": "Indirizzo1",
     "address2": "Indirizzo2",
+    "addresses": "Indirizzi",
     "all_products": "Tutti i prodotti",
     "articles": "Articoli",
     "availability": {
@@ -21,6 +22,7 @@
     },
     "back_to": "Torna a {{ title }}",
     "back_to_homepage": "Torna alla prima pagina",
+    "billing_address": "Indirizzo di fatturazione",
     "blogs": {
         "article": {},
         "comments": {
@@ -70,6 +72,7 @@
         "form": {},
         "thanks": "Grazie per averci contattato. Risponderemo il prima possibile."
     },
+    "continue": "Continua",
     "continue_reading": "Continua a leggere",
     "continue_shopping": "Continua lo shopping",
     "country": "Paese",
@@ -79,35 +82,22 @@
     "customer": {
         "account": {
             "details": "Dettagli account",
-            "return": "Torna all'account",
-            "title": "Il mio account"
+            "return": "Torna all'account"
         },
         "activate_account": {
             "subtext": "Crea una password per attivare il tuo account."
         },
         "addresses": {
-            "delete": "Elimina",
             "delete_confirm": "Desideri davvero eliminare questo indirizzo?",
-            "edit": "Modifica",
-            "edit_address": "Modifica indirizzo",
-            "first_name": "Nome",
-            "last_name": "Cognome",
-            "phone": "Numero di telefono",
-            "province": "Provincia",
             "set_default": "Imposta come indirizzo predefinito",
-            "title": "Indirizzi",
-            "update": "Aggiorna indirizzo",
             "zip": "Codice postale"
         },
         "login": {
             "forgot_password": "Hai dimenticato la password?",
-            "guest_continue": "Continua",
             "guest_title": "Continua senza registrarti",
-            "sign_in": "Accedi",
-            "title": "Accedi"
+            "sign_in": "Accedi"
         },
         "order": {
-            "billing_address": "Indirizzo di fatturazione",
             "cancelled_html": "Ordine cancellato il {{ date }}",
             "cancelled_reason": "Motivo: {{ reason }}",
             "date_html": "Effettuato il {{ date }}",
@@ -128,19 +118,22 @@
     "date": "Data",
     "decline_invitation": "Rifiuta invito",
     "default": "Predefinito",
+    "delete": "Elimina",
     "description": "Descrizione",
     "disabled": "Disabilitato",
     "discount": {
         "you_save": "Risparmi {{ saved_amount }}"
     },
     "discounts": "Sconti",
+    "edit": "Modifica",
+    "edit_address": "Modifica indirizzo",
     "email": "Indirizzo email",
     "enter_new_password": "Inserisci una nuova password per {{ email }}",
     "expand_submenu": "Espandi sottomenu",
     "explore_more": "Esplora di più",
     "featured_product": "Sezione \"prodotto in primo piano\"",
     "filter": "Filtra",
-    "first_name": "Il tuo nome",
+    "first_name": "Nome",
     "follow_us": "Seguici su",
     "form": {
         "max_characters": "Massimo {{ max_chars }} caratteri",
@@ -242,6 +235,7 @@
     "list": "Elenco",
     "log_in": "Accedi",
     "log_out": "Esci",
+    "login": "Accedi",
     "map": {
         "address_error": "Errore nella ricerca di questo indirizzo",
         "address_no_results": "Nessun risultato per questo indirizzo",
@@ -252,6 +246,7 @@
     "message": "Messaggio",
     "more_from": "Più da",
     "more_from_html": "Altro da {{ link }}",
+    "my_account": "Il mio account",
     "name": "Nome",
     "next": "Successivo",
     "next_product": "Avanti: {{ title }}",
@@ -262,6 +257,7 @@
     "pages": "Pagine",
     "password": "Password",
     "payment_status": "Stato del pagamento",
+    "phone": "Numero di telefono",
     "phone_number": "Numero di telefono",
     "pin_it": "Appuntalo",
     "placeholder": {
@@ -282,6 +278,7 @@
         "recipient": {}
     },
     "products": "prodotti",
+    "province": "Provincia",
     "quantity": "Quantità",
     "quick_shop": "Negozio rapido",
     "recently_viewed": "Visualizzati di recente",
@@ -350,6 +347,7 @@
         "color_swatch": "Colore",
         "size": "Dimensioni"
     },
+    "update_address": "Aggiorna indirizzo",
     "view_addresses": "Visualizza indirizzi",
     "view_all": "Visualizza tutto",
     "view_all_products_count": "Visualizza tutti i<br>{{ count }} prodotti",

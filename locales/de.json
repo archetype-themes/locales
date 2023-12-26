@@ -6,10 +6,11 @@
     "account": "Account",
     "activate_account": "Account aktivieren",
     "add_address": "Adresse hinzufügen",
-    "add_to_cart": "In den Einkaufswagen legen",
     "add_order_note": "Besondere Hinweise an den Verkäufer",
+    "add_to_cart": "In den Einkaufswagen legen",
     "address1": "Adresse1",
     "address2": "Adresse2",
+    "addresses": "Ihre Adressen",
     "all_products": "Alle Produkte",
     "articles": "Artikel",
     "availability": {
@@ -21,6 +22,7 @@
     },
     "back_to": "Zurück zu {{ title }}",
     "back_to_homepage": "Zurück zur Startseite",
+    "billing_address": "Rechnungsadresse",
     "blogs": {
         "article": {},
         "comments": {
@@ -69,6 +71,7 @@
         "form": {},
         "thanks": "Danke, dass Sie uns kontaktiert haben. Wir werden uns so schnell wie möglich bei Ihnen melden."
     },
+    "continue": "Fortsetzen",
     "continue_reading": "Weiterlesen",
     "continue_shopping": "Einkaufen Sie weiter",
     "country": "Land",
@@ -78,35 +81,22 @@
     "customer": {
         "account": {
             "details": "Account-Details",
-            "return": "Zurück zu Account-Details",
-            "title": "Mein Account"
+            "return": "Zurück zu Account-Details"
         },
         "activate_account": {
             "subtext": "Erstellen Sie ein Passwort, um Ihren Account zu aktiveren."
         },
         "addresses": {
-            "delete": "Löschen",
             "delete_confirm": "Sind Sie sicher, dass Sie diese Adresse löschen möchten?",
-            "edit": "Bearbeiten",
-            "edit_address": "Adresse bearbeiten",
-            "first_name": "Vorname",
-            "last_name": "Nachname",
-            "phone": "Telefon",
-            "province": "Bundesland",
             "set_default": "Als Standard-Adresse festlegen",
-            "title": "Ihre Adressen",
-            "update": "Adresse aktualisieren",
             "zip": "PLZ"
         },
         "login": {
             "forgot_password": "Haben Sie Ihr Passwort vergessen?",
-            "guest_continue": "Fortsetzen",
             "guest_title": "Als Gast fortsetzen",
-            "sign_in": "Anmelden",
-            "title": "Login"
+            "sign_in": "Anmelden"
         },
         "order": {
-            "billing_address": "Rechnungsadresse",
             "cancelled_html": "Bestellung storniert am {{ date }}",
             "cancelled_reason": "Grund: {{ reason }}",
             "date_html": "Aufgegeben am {{ date }}",
@@ -127,12 +117,15 @@
     "date": "Datum",
     "decline_invitation": "Einladung ablehnen",
     "default": "Standard",
+    "delete": "Löschen",
     "description": "Beschreibung",
     "disabled": "Deaktiviert",
     "discount": {
         "you_save": "Sparen {{ saved_amount }}"
     },
     "discounts": "Rabatte",
+    "edit": "Bearbeiten",
+    "edit_address": "Adresse bearbeiten",
     "email": "E-Mail",
     "enter_new_password": "Geben Sie ein neues Passwort für {{ email }} ein",
     "expand_submenu": "Menü maximieren",
@@ -238,6 +231,7 @@
     "list": "Liste",
     "log_in": "Einloggen",
     "log_out": "Ausloggen",
+    "login": "Login",
     "map": {
         "address_error": "Kann die Adresse nicht finden",
         "address_no_results": "Keine Ergebnisse für diese Adresse",
@@ -248,6 +242,7 @@
     "message": "Nachricht",
     "more_from": "Mehr von",
     "more_from_html": "Mehr von {{ link }}",
+    "my_account": "Mein Account",
     "name": "Name",
     "next": "Vorwärts",
     "next_product": "Nächster: {{ title }}",
@@ -258,6 +253,7 @@
     "pages": "Seiten",
     "password": "Passwort",
     "payment_status": "Zahlungsstatus",
+    "phone": "Telefon",
     "phone_number": "Telefonnummer",
     "pin_it": "Pinnen",
     "placeholder": {
@@ -278,6 +274,7 @@
         "recipient": {}
     },
     "products": "Produkte",
+    "province": "Bundesland",
     "quantity": "Menge",
     "quick_shop": "Schnellkauf",
     "recently_viewed": "Zuletzt Angesehen",
@@ -346,6 +343,7 @@
         "color_swatch": "Farbe",
         "size": "Größe"
     },
+    "update_address": "Adresse aktualisieren",
     "view_addresses": "Adressen ansehen",
     "view_all": "Alle anzeigen",
     "view_all_products_count": "zeige alle<br>{{ count }} Produkte an",

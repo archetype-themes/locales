@@ -6,10 +6,11 @@
     "account": "Conta",
     "activate_account": "Ativar conta",
     "add_address": "Adicionar endereço",
-    "add_to_cart": "Adicionar ao carrinho",
     "add_order_note": "Instruções especiais para o vendedor",
+    "add_to_cart": "Adicionar ao carrinho",
     "address1": "Endereço1",
     "address2": "Endereço2",
+    "addresses": "Seus endereços",
     "all_products": "Todos os produtos",
     "articles": "Artigos:",
     "availability": {
@@ -21,6 +22,7 @@
     },
     "back_to": "Voltar para {{ title }}",
     "back_to_homepage": "Voltar à página inicial",
+    "billing_address": "Endereço de cobrança",
     "blogs": {
         "article": {},
         "comments": {
@@ -70,6 +72,7 @@
         "form": {},
         "thanks": "Obrigado por entrar em contato. Nós lhe retornaremos assim que possível."
     },
+    "continue": "Prosseguir",
     "continue_reading": "Ler mais",
     "continue_shopping": "Continue comprando",
     "country": "País",
@@ -79,35 +82,22 @@
     "customer": {
         "account": {
             "details": "Detalhes da conta",
-            "return": "Retornar aos detalhes da conta",
-            "title": "Minha conta"
+            "return": "Retornar aos detalhes da conta"
         },
         "activate_account": {
             "subtext": "Crie uma senha para ativar a sua conta."
         },
         "addresses": {
-            "delete": "Excluir",
             "delete_confirm": "Deseja realmente excluir este endereço?",
-            "edit": "Editar",
-            "edit_address": "Editar endereço",
-            "first_name": "Nome",
-            "last_name": "Sobrenome",
-            "phone": "Telefone",
-            "province": "Estado",
             "set_default": "Definir como endereço padrão",
-            "title": "Seus endereços",
-            "update": "Atualizar endereço",
             "zip": "CEP"
         },
         "login": {
             "forgot_password": "Esqueceu sua senha?",
-            "guest_continue": "Prosseguir",
             "guest_title": "Prosseguir como convidado(a)",
-            "sign_in": "Entrar",
-            "title": "Entrar"
+            "sign_in": "Entrar"
         },
         "order": {
-            "billing_address": "Endereço de cobrança",
             "cancelled_html": "Pedido cancelado em {{ date }}",
             "cancelled_reason": "Motivo: {{ reason }}",
             "date_html": "Efetuado em {{ date }}",
@@ -131,12 +121,15 @@
     },
     "decline_invitation": "Recusar convite",
     "default": "Padrão",
+    "delete": "Excluir",
     "description": "Descrição",
     "disabled": "Inválido",
     "discount": {
         "you_save": "Economize {{ saved_amount }}"
     },
     "discounts": "Descontos",
+    "edit": "Editar",
+    "edit_address": "Editar endereço",
     "email": "E-mail",
     "enter_new_password": "Digite uma nova senha para {{ email }}",
     "expand_submenu": "Expandir menu",
@@ -236,6 +229,7 @@
     "list": "List",
     "log_in": "Entrar",
     "log_out": "Sair",
+    "login": "Entrar",
     "map": {
         "address_error": "Não é possível localizar o endereço",
         "address_no_results": "Nenhum resultado para este endereço",
@@ -246,6 +240,7 @@
     "message": "Mensagem",
     "more_from": "Mais de",
     "more_from_html": "Mais de {{ link }}",
+    "my_account": "Minha conta",
     "name": "Nome",
     "next": "Avançar",
     "next_product": "Próximo: {{ title }}",
@@ -256,6 +251,7 @@
     "pages": "Páginas:",
     "password": "Senha",
     "payment_status": "Status do pagamento",
+    "phone": "Telefone",
     "phone_number": "Telefone",
     "pin_it": "Pin it",
     "placeholder": {
@@ -275,6 +271,7 @@
         },
         "recipient": {}
     },
+    "province": "Estado",
     "quantity": "Quantidade",
     "quick_shop": "Compra rápida",
     "recently_viewed": "Visto recentemente",
@@ -339,6 +336,7 @@
         "color_swatch": "Cor",
         "size": "Tamanho"
     },
+    "update_address": "Atualizar endereço",
     "view_addresses": "Ver endereços",
     "view_all": "Ver todo",
     "view_all_products_count": "Ver todos os<br>{{ count }} produtos",

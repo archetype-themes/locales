@@ -6,10 +6,11 @@
     "account": "Account",
     "activate_account": "Activate account",
     "add_address": "Add address",
-    "add_to_cart": "Add to cart",
     "add_order_note": "Add order note",
+    "add_to_cart": "Add to cart",
     "address1": "Address1",
     "address2": "Address2",
+    "addresses": "Addresses",
     "all_products": "All products",
     "articles": "Articles",
     "availability": {
@@ -21,6 +22,7 @@
     },
     "back_to": "Back to {{ title }}",
     "back_to_homepage": "Back to the frontpage",
+    "billing_address": "Billing address",
     "blogs": {
         "article": {},
         "comments": {
@@ -70,6 +72,7 @@
         "form": {},
         "thanks": "Thanks for contacting us. We'll get back to you as soon as possible."
     },
+    "continue": "Continue",
     "continue_reading": "Continue reading",
     "continue_shopping": "Continue shopping",
     "country": "Country",
@@ -79,35 +82,22 @@
     "customer": {
         "account": {
             "details": "Account details",
-            "return": "Return to account",
-            "title": "My account"
+            "return": "Return to account"
         },
         "activate_account": {
             "subtext": "Create your password to activate your account."
         },
         "addresses": {
-            "delete": "Delete",
             "delete_confirm": "Are you sure you wish to delete this address?",
-            "edit": "Edit",
-            "edit_address": "Edit address",
-            "first_name": "First name",
-            "last_name": "Last name",
-            "phone": "Phone",
-            "province": "Province",
             "set_default": "Set as default address",
-            "title": "Addresses",
-            "update": "Update address",
             "zip": "Postal/Zip code"
         },
         "login": {
             "forgot_password": "Forgot password?",
-            "guest_continue": "Continue",
             "guest_title": "Continue as a guest",
-            "sign_in": "Sign In",
-            "title": "Login"
+            "sign_in": "Sign In"
         },
         "order": {
-            "billing_address": "Billing address",
             "cancelled_html": "Order cancelled on {{ date }}",
             "cancelled_reason": "Reason: {{ reason }}",
             "date_html": "Placed on {{ date }}",
@@ -128,19 +118,22 @@
     "date": "Date",
     "decline_invitation": "Decline invitation",
     "default": "Default",
+    "delete": "Delete",
     "description": "Description",
     "disabled": "Disabled",
     "discount": {
         "you_save": "You save {{ saved_amount }}"
     },
     "discounts": "Discounts",
+    "edit": "Edit",
+    "edit_address": "Edit address",
     "email": "Email",
     "enter_new_password": "Enter a new password for {{ email }}",
     "expand_submenu": "Expand submenu",
     "explore_more": "Explore more",
     "featured_product": "Featured product",
     "filter": "Filter",
-    "first_name": "First Name",
+    "first_name": "First name",
     "follow_us": "Follow us",
     "form": {
         "max_characters": "{{ max_chars }} characters max",
@@ -223,7 +216,7 @@
         "unavailable": "Unavailable"
     },
     "language": "Language",
-    "last_name": "Last Name",
+    "last_name": "Last name",
     "latest_posts": "Latest posts",
     "layout": {
         "cart": {
@@ -242,6 +235,7 @@
     "list": "List",
     "log_in": "Log in",
     "log_out": "Log out",
+    "login": "Login",
     "map": {
         "address_error": "Error looking up that address",
         "address_no_results": "No results for that address",
@@ -252,6 +246,7 @@
     "message": "Message",
     "more_from": "More from",
     "more_from_html": "More from {{ link }}",
+    "my_account": "My account",
     "name": "Name",
     "next": "Next",
     "next_product": "Next: {{ title }}",
@@ -262,6 +257,7 @@
     "pages": "Pages",
     "password": "Password",
     "payment_status": "Payment status",
+    "phone": "Phone",
     "phone_number": "Phone number",
     "pin_it": "Pin it",
     "placeholder": {
@@ -282,6 +278,7 @@
         "recipient": {}
     },
     "products": "Products",
+    "province": "Province",
     "quantity": "Quantity",
     "quick_shop": "Quick shop",
     "recently_viewed": "Recently viewed",
@@ -351,6 +348,7 @@
         "color_swatch": "Color",
         "size": "Size"
     },
+    "update_address": "Update address",
     "view_addresses": "View addresses",
     "view_all": "View all",
     "view_all_products_count": "View all<br>{{ count }} products",
