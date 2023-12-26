@@ -183,6 +183,9 @@
     },
     "email": "Email",
     "follow_us": "Follow us",
+    "form": {
+        "max_characters": "{{ max_chars }} characters max"
+    },
     "general": {
         "404": {
             "subtext_html": "<p>The page you were looking for does not exist. </p><p><a href='{{ url }}'>Continue shopping</a></p>",
@@ -354,9 +357,7 @@
     },
     "quantity": "Quantity",
     "recipient": {
-        "form": {
-            "max_characters": "{{ max_chars }} characters max"
-        }
+        "form": {}
     },
     "search": "Search",
     "sections": {

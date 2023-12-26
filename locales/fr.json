@@ -182,6 +182,9 @@
     },
     "email": "Courriel",
     "follow_us": "Suivez nous",
+    "form": {
+        "max_characters": "{{ max_chars }} caractères au maximum"
+    },
     "general": {
         "404": {
             "subtext_html": "Cette page n'est pas disponible. <a href='{{ url }}'>Retourner au magasinage</a>",
@@ -350,9 +353,7 @@
     },
     "quantity": "Quantité",
     "recipient": {
-        "form": {
-            "max_characters": "{{ max_chars }} caractères au maximum"
-        }
+        "form": {}
     },
     "search": "Rechercher",
     "sections": {

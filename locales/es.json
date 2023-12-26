@@ -182,6 +182,9 @@
     },
     "email": "Correo electrónico",
     "follow_us": "Síganos",
+    "form": {
+        "max_characters": "{{ max_chars }} caracteres máx."
+    },
     "general": {
         "404": {
             "subtext_html": "La página que ha solicitado no existe. Haga clic <a href='{{ url }}'>aquí</a> para continuar la compra.",
@@ -350,9 +353,7 @@
     },
     "quantity": "Cantidad",
     "recipient": {
-        "form": {
-            "max_characters": "{{ max_chars }} caracteres máx."
-        }
+        "form": {}
     },
     "search": "Buscar",
     "sections": {
