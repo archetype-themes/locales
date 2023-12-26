@@ -28,11 +28,13 @@
     "catalog": "Katalog",
     "categories": "Kategorien",
     "checkout": "Zur Kasse",
+    "collection": {
+        "no_products": "Es tut uns leid, aber Ihre Suche nach Produkten hat keine Treffer ergeben."
+    },
     "collections": {
         "filters": {},
         "general": {
             "items_with_count": {},
-            "no_matches": "Es tut uns leid, aber Ihre Suche nach Produkten hat keine Treffer ergeben.",
             "see_less": "Zeige weniger",
             "view_all_products_html": "zeige alle<br>{{ count }} Produkte an"
         },

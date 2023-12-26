@@ -29,11 +29,13 @@
     "catalog": "Catalog",
     "categories": "Categories",
     "checkout": "Check out",
+    "collection": {
+        "no_products": "Sorry, there are no products in this collection."
+    },
     "collections": {
         "filters": {},
         "general": {
             "items_with_count": {},
-            "no_matches": "Sorry, there are no products in this collection.",
             "see_less": "Show less",
             "view_all_products_html": "View all<br>{{ count }} products"
         },

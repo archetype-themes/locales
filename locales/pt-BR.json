@@ -29,11 +29,13 @@
     "catalog": "Catálogo",
     "categories": "Categorias",
     "checkout": "Fechar pedido",
+    "collection": {
+        "no_products": "Desculpe, mas não há produtos correspondentes à sua busca."
+    },
     "collections": {
         "filters": {},
         "general": {
             "items_with_count": {},
-            "no_matches": "Desculpe, mas não há produtos correspondentes à sua busca.",
             "see_less": "Mostre menos",
             "view_all_products_html": "Ver todos os<br>{{ count }} produtos"
         },

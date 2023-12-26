@@ -29,11 +29,13 @@
     "catalog": "Catalogue",
     "categories": "Catégories",
     "checkout": "Procéder au paiement",
+    "collection": {
+        "no_products": "Aucun produit ne correspond à votre recherche."
+    },
     "collections": {
         "filters": {},
         "general": {
             "items_with_count": {},
-            "no_matches": "Aucun produit ne correspond à votre recherche.",
             "see_less": "Voir moins",
             "view_all_products_html": "Voir tous les<br>{{ count }} produits"
         },
