@@ -164,7 +164,8 @@
     "form": {
         "max_characters": "Maximal {{ max_chars }} Zeichen",
         "newsletter": {
-            "confirmation": "Danke fürs Anmelden"
+            "confirmation": "Danke fürs Anmelden",
+            "input_placeholder": "Melden Sie sich für unsere Mailingliste an"
         }
     },
     "general": {
@@ -176,7 +177,6 @@
         "language": {},
         "meta": {},
         "newsletter_form": {
-            "newsletter_email": "Melden Sie sich für unsere Mailingliste an",
             "submit": "Abonnieren"
         },
         "pagination": {

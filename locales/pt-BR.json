@@ -167,7 +167,8 @@
     "follow_us": "Siga-nos",
     "form": {
         "newsletter": {
-            "confirmation": "Obrigado por assinar"
+            "confirmation": "Obrigado por assinar",
+            "input_placeholder": "Assine nossa newsletter"
         }
     },
     "general": {
@@ -179,7 +180,6 @@
         "language": {},
         "meta": {},
         "newsletter_form": {
-            "newsletter_email": "Assine nossa newsletter",
             "submit": "Inscrever"
         },
         "pagination": {

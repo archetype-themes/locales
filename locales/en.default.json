@@ -165,7 +165,8 @@
     "form": {
         "max_characters": "{{ max_chars }} characters max",
         "newsletter": {
-            "confirmation": "Thanks for subscribing"
+            "confirmation": "Thanks for subscribing",
+            "input_placeholder": "Enter your email"
         }
     },
     "general": {
@@ -177,7 +178,6 @@
         "language": {},
         "meta": {},
         "newsletter_form": {
-            "newsletter_email": "Enter your email",
             "submit": "Subscribe"
         },
         "pagination": {

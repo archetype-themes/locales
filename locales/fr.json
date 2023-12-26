@@ -168,7 +168,8 @@
     "form": {
         "max_characters": "{{ max_chars }} caractères au maximum",
         "newsletter": {
-            "confirmation": "Merci de vous être inscrit"
+            "confirmation": "Merci de vous être inscrit",
+            "input_placeholder": "Inscrivez-vous à notre infolettre"
         }
     },
     "general": {
@@ -180,7 +181,6 @@
         "language": {},
         "meta": {},
         "newsletter_form": {
-            "newsletter_email": "Inscrivez-vous à notre infolettre",
             "submit": "S'inscrire"
         },
         "pagination": {
