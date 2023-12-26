@@ -204,8 +204,7 @@
             "view_more": "Afficher tous les résultats pour \"{{ terms }}\""
         },
         "social": {
-            "alt_text": {},
-            "share_this": "Partager"
+            "alt_text": {}
         }
     },
     "gift_cards": {
@@ -333,6 +332,7 @@
     },
     "send": "Envoyer",
     "share": "Partager",
+    "share_this": "Partager",
     "show_less": "Voir moins",
     "show_more": "Afficher plus",
     "site_navigation": "Navigation",

@@ -200,8 +200,7 @@
             "view_more": "Alle Ergebnisse für \"{{ terms }}\" anzeigen"
         },
         "social": {
-            "alt_text": {},
-            "share_this": "Teile das"
+            "alt_text": {}
         }
     },
     "gift_cards": {
@@ -329,6 +328,7 @@
     },
     "send": "Absenden",
     "share": "Teilen",
+    "share_this": "Teile das",
     "show_less": "Zeige weniger",
     "show_more": "Zeig mehr",
     "site_navigation": "Seitennavigation",

@@ -202,8 +202,7 @@
             "view_more": "Veja mais"
         },
         "social": {
-            "alt_text": {},
-            "share_this": "Compartilhar isso"
+            "alt_text": {}
         }
     },
     "gift_cards": {
@@ -323,6 +322,7 @@
     },
     "send": "Enviar",
     "share": "Partilhar",
+    "share_this": "Compartilhar isso",
     "show_less": "Mostre menos",
     "show_more": "Mostre mais",
     "site_navigation": "Navegação",
