@@ -263,7 +263,8 @@
     "inventory": {
         "back_in_stock_on": "Estará disponível após {{ date }}",
         "backordered": "Inventory no caminho",
-        "ready_to_ship_on": "Envio a partir de {{ date }}"
+        "ready_to_ship_on": "Envio a partir de {{ date }}",
+        "unavailable": "Indisponível"
     },
     "latest_posts": "Artigos Mais Recentes",
     "layout": {
@@ -332,7 +333,6 @@
             "shipping_policy_html": "<a href='{{ link }}'>Envio</a> calculado na finalização da compra.",
             "sold_out": "Esgotado",
             "stock_label": "{{ count }} em estoque",
-            "unavailable": "Indisponível",
             "view_in_space": "Ver no seu espaço",
             "view_in_space_label": "Ver no seu espaço, carrega item na janela de realidade aumentada"
         }

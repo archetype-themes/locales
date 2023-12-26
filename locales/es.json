@@ -267,7 +267,8 @@
     "inventory": {
         "back_in_stock_on": "Estará disponible después {{ date }}",
         "backordered": "Pedido pendiente, envío pronto",
-        "ready_to_ship_on": "Será enviado después {{ date }}"
+        "ready_to_ship_on": "Será enviado después {{ date }}",
+        "unavailable": "No disponible"
     },
     "latest_posts": "Últimos artículos",
     "layout": {
@@ -341,7 +342,6 @@
             "shipping_policy_html": "Los <a href='{{ link }}'>gastos de envío</a> se calculan en la pantalla de pagos.",
             "sold_out": "Agotado",
             "stock_label": "{{ count }} en stock",
-            "unavailable": "No disponible",
             "view_in_space": "Ver en tu espacio",
             "view_in_space_label": "Ver en tu espacio, carga el artículo en la ventana de realidad aumentada"
         }

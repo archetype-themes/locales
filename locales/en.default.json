@@ -264,7 +264,8 @@
     "inventory": {
         "back_in_stock_on": "Back in stock {{ date }}",
         "backordered": "Backordered, shipping soon",
-        "ready_to_ship_on": "Ready to ship {{ date }}"
+        "ready_to_ship_on": "Ready to ship {{ date }}",
+        "unavailable": "Unavailable"
     },
     "latest_posts": "Latest posts",
     "layout": {
@@ -341,7 +342,6 @@
                 "one": "Low stock - {{ count }} item left",
                 "other": "Low stock - {{ count }} items left"
             },
-            "unavailable": "Unavailable",
             "view_in_space": "View in your space",
             "view_in_space_label": "View in your space, loads item in augmented reality window"
         }

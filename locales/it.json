@@ -264,7 +264,8 @@
     "inventory": {
         "back_in_stock_on": "Di nuovo in magazzino {{ date }}",
         "backordered": "In arretrato, spedizione a breve",
-        "ready_to_ship_on": "Pronto per la spedizione {{ date }}"
+        "ready_to_ship_on": "Pronto per la spedizione {{ date }}",
+        "unavailable": "Non disponibile"
     },
     "latest_posts": "Ultimi messaggi",
     "layout": {
@@ -341,7 +342,6 @@
                 "one": "Magazzino basso, {{ count }} articolo rimasto",
                 "other": "Magazzino basso, {{ count }} articoli rimasti"
             },
-            "unavailable": "Non disponibile",
             "view_in_space": "Visualizza nel tuo spazio",
             "view_in_space_label": "Visualizza nel tuo spazio, carica l'articolo nella finestra della realtà aumentata"
         }
