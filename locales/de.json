@@ -16,8 +16,8 @@
     },
     "cart": {
         "close": "Einkaufswagen schließen",
+        "empty": "Ihr Einkaufswagen ist im Moment leer.",
         "general": {
-            "empty": "Ihr Einkaufswagen ist im Moment leer.",
             "increase_quantity": "Artikelmenge um eins erhöhen",
             "note": "Besondere Hinweise an den Verkäufer",
             "recommended_title": "Geht mit",

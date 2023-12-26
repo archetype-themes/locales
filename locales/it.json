@@ -16,8 +16,8 @@
     },
     "cart": {
         "close": "Chiudi il carrello",
+        "empty": "Il tuo carrello è attualmente vuoto.",
         "general": {
-            "empty": "Il tuo carrello è attualmente vuoto.",
             "increase_quantity": "Aumenta la quantità di un articolo",
             "max_quantity": "Puoi solo avere {{ quantity }} di {{ title }} nel tuo carrello.",
             "note": "Aggiungi una nota all'ordine",

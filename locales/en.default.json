@@ -16,8 +16,8 @@
     },
     "cart": {
         "close": "Close cart",
+        "empty": "Your cart is currently empty.",
         "general": {
-            "empty": "Your cart is currently empty.",
             "increase_quantity": "Increase item quantity by one",
             "max_quantity": "You can only have {{ quantity }} of {{ title }} in your cart.",
             "note": "Add order note",

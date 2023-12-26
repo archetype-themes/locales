@@ -16,8 +16,8 @@
     },
     "cart": {
         "close": "Fechar Carrinho de Compras",
+        "empty": "O seu carrinho de compras está neste momento vazio.",
         "general": {
-            "empty": "O seu carrinho de compras está neste momento vazio.",
             "increase_quantity": "Aumente a quantidade do artigo em um",
             "max_quantity": "Solo puedes tener {{ quantity }} de {{ title }} en tu carrito.",
             "note": "Instruções especiais para o vendedor",
