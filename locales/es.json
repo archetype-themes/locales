@@ -303,8 +303,7 @@
             "sale": "Venta",
             "sale_price": "Precio de oferta",
             "save_html": "Guardar {{ saved_amount }}",
-            "size_chart": "Tabla de tallas",
-            "size_trigger": "Tamaño"
+            "size_chart": "Tabla de tallas"
         },
         "product": {
             "add_to_cart": "Agregar al carrito",
@@ -366,7 +365,8 @@
     "top_searched": "Más buscadas",
     "total": "Total",
     "trigger": {
-        "color_swatch": "Color"
+        "color_swatch": "Color",
+        "size": "Tamaño"
     },
     "view_addresses": "Ver direcciones",
     "view_all": "Ver todo",

@@ -299,8 +299,7 @@
             "sale": "Reduziert",
             "sale_price": "Sonderpreis",
             "save_html": "Sparen {{ saved_amount }}",
-            "size_chart": "Größentabelle",
-            "size_trigger": "Größe"
+            "size_chart": "Größentabelle"
         },
         "product": {
             "add_to_cart": "In den Einkaufswagen legen",
@@ -362,7 +361,8 @@
     "top_searched": "Top gesucht",
     "total": "Gesamt",
     "trigger": {
-        "color_swatch": "Farbe"
+        "color_swatch": "Farbe",
+        "size": "Größe"
     },
     "view_addresses": "Adressen ansehen",
     "view_all": "Alle anzeigen",

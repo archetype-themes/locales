@@ -300,8 +300,7 @@
             "sale": "In offerta",
             "sale_price": "Prezzo scontato",
             "save_html": "Salva {{ saved_amount }}",
-            "size_chart": "Tabella delle dimensioni",
-            "size_trigger": "Dimensioni"
+            "size_chart": "Tabella delle dimensioni"
         },
         "product": {
             "add_to_cart": "Aggiungi al carrello",
@@ -366,7 +365,8 @@
     "top_searched": "Più cercati",
     "total": "Totale",
     "trigger": {
-        "color_swatch": "Colore"
+        "color_swatch": "Colore",
+        "size": "Dimensioni"
     },
     "view_addresses": "Visualizza indirizzi",
     "view_all": "Visualizza tutto",

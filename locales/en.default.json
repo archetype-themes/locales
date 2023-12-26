@@ -300,8 +300,7 @@
             "sale": "Sale",
             "sale_price": "Sale price",
             "save_html": "Save {{ saved_amount }}",
-            "size_chart": "Size chart",
-            "size_trigger": "Size"
+            "size_chart": "Size chart"
         },
         "product": {
             "add_to_cart": "Add to cart",
@@ -367,7 +366,8 @@
     "top_searched": "Top searched",
     "total": "Total",
     "trigger": {
-        "color_swatch": "Color"
+        "color_swatch": "Color",
+        "size": "Size"
     },
     "view_addresses": "View addresses",
     "view_all": "View all",
