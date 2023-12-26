@@ -325,7 +325,6 @@
             "from_text_html": "<span>De</span> {{ price }}",
             "more_from_html": "Más del {{ link }}",
             "next_product": "Siguiente: {{ title }}",
-            "quick_shop": "Compra rápida",
             "recent_products": "Visto recientemente",
             "regular_price": "Precio habitual",
             "sale": "Venta",
@@ -346,6 +345,7 @@
         }
     },
     "quantity": "Cantidad",
+    "quick_shop": "Compra rápida",
     "recipient": {
         "form": {}
     },

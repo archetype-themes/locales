@@ -322,7 +322,6 @@
             "from_text_html": "<span>from</span> {{ price }}",
             "more_from_html": "More from {{ link }}",
             "next_product": "Next: {{ title }}",
-            "quick_shop": "Quick shop",
             "recent_products": "Recently viewed",
             "regular_price": "Regular price",
             "sale": "Sale",
@@ -346,6 +345,7 @@
         }
     },
     "quantity": "Quantity",
+    "quick_shop": "Quick shop",
     "recipient": {
         "form": {}
     },
