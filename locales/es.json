@@ -310,7 +310,6 @@
         "product": {
             "shipping_policy_html": "Los <a href='{{ link }}'>gastos de envío</a> se calculan en la pantalla de pagos.",
             "stock_label": "{{ count }} en stock",
-            "view_in_space": "Ver en tu espacio",
             "view_in_space_label": "Ver en tu espacio, carga el artículo en la ventana de realidad aumentada"
         }
     },
@@ -372,6 +371,7 @@
     "view_addresses": "Ver direcciones",
     "view_all": "Ver todo",
     "view_all_products_count": "ver los<br>{{ count }} productos",
+    "view_in_space": "Ver en tu espacio",
     "view_store_info": "Información de la tienda",
     "will_be_powered_by": "Esta tienda estará impulsada por {{ shopify }}"
 }

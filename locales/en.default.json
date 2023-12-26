@@ -310,7 +310,6 @@
         "product": {
             "shipping_policy_html": "<a href='{{ link }}'>Shipping</a> calculated at checkout.",
             "stock_label": {},
-            "view_in_space": "View in your space",
             "view_in_space_label": "View in your space, loads item in augmented reality window"
         }
     },
@@ -373,6 +372,7 @@
     "view_addresses": "View addresses",
     "view_all": "View all",
     "view_all_products_count": "View all<br>{{ count }} products",
+    "view_in_space": "View in your space",
     "view_store_info": "View store information",
     "will_be_powered_by": "This shop will be powered by {{ shopify }}"
 }

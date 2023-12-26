@@ -303,7 +303,6 @@
         "product": {
             "shipping_policy_html": "<a href='{{ link }}'>Frete</a> calculado no checkout.",
             "stock_label": "{{ count }} em estoque",
-            "view_in_space": "Ver no seu espaço",
             "view_in_space_label": "Ver em seu espaço, carregar item na janela de realidade aumentada"
         }
     },
@@ -361,6 +360,7 @@
     "view_addresses": "Ver endereços",
     "view_all": "Ver todo",
     "view_all_products_count": "Ver todos os<br>{{ count }} produtos",
+    "view_in_space": "Ver no seu espaço",
     "view_store_info": "Exibir informações de loja",
     "will_be_powered_by": "Esta loja será patrocinada por {{ shopify }}"
 }
