@@ -175,6 +175,7 @@
         "password": {
             "admin_link_html": "¿Eres el dueño de la tienda? <a href=\"/admin\" class=\"text-link\">Regístrate aquí</a>",
             "password_input_placeholder": "Tu contraseña",
+            "submit": "Ingresar",
             "title": "Entrar a la tienda usando contraseña:"
         }
     },
@@ -189,7 +190,6 @@
         "newsletter_form": {},
         "pagination": {},
         "password_page": {
-            "login_form_submit": "Ingresar",
             "powered_by_shopify_html": "Esta tienda estará impulsada por {{ shopify }}",
             "signup_form_success": "¡Te enviaremos un correo electrónico antes de inaugurar!"
         },

@@ -175,6 +175,7 @@
         "password": {
             "admin_link_html": "Êtes-vous le propriétaire de la boutique? <a href=\"/admin\" class=\"text-link\">Connectez-vous ici</a>.",
             "password_input_placeholder": "Votre mot de passe",
+            "submit": "Entrer",
             "title": "Accéder à la boutique à l'aide d'un mot de passe:"
         }
     },
@@ -189,7 +190,6 @@
         "newsletter_form": {},
         "pagination": {},
         "password_page": {
-            "login_form_submit": "Entrer",
             "powered_by_shopify_html": "Cette boutique sera propulsée par {{ shopify }}",
             "signup_form_success": "Nous vous ferons parvenir un courriel juste avant l'ouverture!"
         },

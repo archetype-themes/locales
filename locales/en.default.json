@@ -172,6 +172,7 @@
         "password": {
             "admin_link_html": "Store owner? <a href=\"/admin\" class=\"text-link\">Log in here</a>",
             "password_input_placeholder": "Your password",
+            "submit": "Enter",
             "title": "Enter store using password"
         }
     },
@@ -186,7 +187,6 @@
         "newsletter_form": {},
         "pagination": {},
         "password_page": {
-            "login_form_submit": "Enter",
             "powered_by_shopify_html": "This shop will be powered by {{ shopify }}",
             "signup_form_success": "We will send you an email when we open!"
         },
