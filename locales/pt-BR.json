@@ -9,12 +9,8 @@
     },
     "back_to": "Voltar para {{ title }}",
     "blogs": {
-        "article": {
-            "popular_posts": "Artigos populares",
-            "read_more": "Ler mais"
-        },
+        "article": {},
         "comments": {
-            "moderated": "Observe que os comentários precisam ser aprovados antes de serem publicados",
             "post": "Postar comentário",
             "success": "Seu comentário foi postado! Obrigado!",
             "success_moderated": "Seu comentário foi postado. Nós o publicaremos em alguns instantes, já que o nosso blog é moderado.",
@@ -71,12 +67,16 @@
             "title": "Ordenar"
         }
     },
+    "comments": {
+        "must_be_approved": "Observe que os comentários precisam ser aprovados antes de serem publicados"
+    },
     "contact": {
         "form": {
             "phone": "Telefone",
             "post_success": "Obrigado por entrar em contato. Nós lhe retornaremos assim que possível."
         }
     },
+    "continue_reading": "Ler mais",
     "create_account": "Criar conta",
     "customer": {
         "account": {
@@ -304,6 +304,7 @@
     "message": "Mensagem",
     "more_from": "Mais de",
     "name": "Nome",
+    "popular_posts": "Artigos populares",
     "price": "Preço",
     "product": {
         "recipient": {}
