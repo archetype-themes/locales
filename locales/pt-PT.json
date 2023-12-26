@@ -199,7 +199,6 @@
         },
         "customer": {},
         "footer": {
-            "chat_link": "Bate-papo ao vivo",
             "contact_title": "Entrar em contato",
             "email_link": "Envia-nos um email",
             "social_platform": "{{ name }} na {{ platform }}"
@@ -207,6 +206,7 @@
     },
     "learn_more": "Saber mais",
     "list": "List",
+    "live_chat": "Bate-papo ao vivo",
     "log_in": "Iniciar sessão",
     "log_out": "Terminar sessão",
     "login": "Login",

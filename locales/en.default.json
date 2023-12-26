@@ -205,7 +205,6 @@
         },
         "customer": {},
         "footer": {
-            "chat_link": "Live chat",
             "contact_title": "Get in touch",
             "email_link": "Email us",
             "social_platform": "{{ name }} on {{ platform }}"
@@ -213,6 +212,7 @@
     },
     "learn_more": "Learn more",
     "list": "List",
+    "live_chat": "Live chat",
     "log_in": "Log in",
     "log_out": "Log out",
     "login": "Login",

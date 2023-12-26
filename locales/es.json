@@ -205,7 +205,6 @@
         },
         "customer": {},
         "footer": {
-            "chat_link": "Chat en vivo",
             "contact_title": "Ponerse en contacto",
             "email_link": "Contacto",
             "social_platform": "{{ name }} en {{ platform }}"
@@ -213,6 +212,7 @@
     },
     "learn_more": "Aprende más",
     "list": "List",
+    "live_chat": "Chat en vivo",
     "log_in": "Ingresar",
     "log_out": "Cerrar sesión",
     "login": "Ingresar",
