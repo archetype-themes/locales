@@ -245,7 +245,6 @@
             "add_to_apple_wallet": "Add to Apple Wallet",
             "disabled": "Disabled",
             "expired": "Expired on {{ expiry }}",
-            "print": "Print",
             "redeem": "Use this code at checkout to redeem your gift card",
             "shop_link": "Start shopping",
             "subtext": "Here's your gift card!",
@@ -305,6 +304,7 @@
     },
     "popular_posts": "Popular posts",
     "price": "Price",
+    "print": "Print",
     "product": {
         "count": {
             "plural": "{{ count }} products",

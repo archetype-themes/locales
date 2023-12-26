@@ -244,7 +244,6 @@
             "add_to_apple_wallet": "Adicionar ao Apple Wallet",
             "disabled": "Inválido",
             "expired": "Expirado em {{ expiry }}",
-            "print": "Imprimir",
             "redeem": "Para resgatar o seu vale-presente, utilize este código no fechamento do pedido",
             "shop_link": "Comece a comprar",
             "subtext": "Aqui está o seu vale-presente!",
@@ -304,6 +303,7 @@
     },
     "popular_posts": "Artigos populares",
     "price": "Preço",
+    "print": "Imprimir",
     "product": {
         "count": {
             "plural": "{{ count }} produtos",

@@ -244,7 +244,6 @@
             "add_to_apple_wallet": "Hinzufügen zu Apple Wallet",
             "disabled": "Deaktiviert",
             "expired": "Abgelaufen am {{ expiry }}",
-            "print": "Drucken",
             "redeem": "Nutzen Sie an der Kasse diesen Code, um Ihre Geschenkkarte einzulösen",
             "shop_link": "Einkauf beginnen",
             "subtext": "Hier ist Ihre Geschenkkarte!",
@@ -304,6 +303,7 @@
     },
     "popular_posts": "Populäre Artikel",
     "price": "Preis",
+    "print": "Drucken",
     "product": {
         "count": {
             "plural": "{{ count }} Produkte",

@@ -248,7 +248,6 @@
             "add_to_apple_wallet": "Añadir a Apple Wallet",
             "disabled": "Inhabilitada",
             "expired": "Expiró en {{ expiry }}",
-            "print": "Imprimir",
             "redeem": "Use este código al terminar la comprar para canjear su tarjeta de regalo",
             "shop_link": "Empezar a comprar",
             "subtext": "¡Aquí está su tarjeta de regalo!",
@@ -308,6 +307,7 @@
     },
     "popular_posts": "Articulos populares",
     "price": "Precio",
+    "print": "Imprimir",
     "product": {
         "count": {
             "plural": "{{ count }} artículos",

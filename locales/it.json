@@ -245,7 +245,6 @@
             "add_to_apple_wallet": "Aggiungi a Apple Wallet",
             "disabled": "Disabilitato",
             "expired": "Scaduto il {{ expiry }}",
-            "print": "Stampa",
             "redeem": "Usa questo codice alla cassa per riscattare la tua carta regalo",
             "shop_link": "Iniziare a comprare",
             "subtext": "Ecco la tua carta regalo!",
@@ -305,6 +304,7 @@
     },
     "popular_posts": "Messaggi popolari",
     "price": "Prezzo",
+    "print": "Stampa",
     "product": {
         "count": {
             "plural": "{{ count }} prodotti",

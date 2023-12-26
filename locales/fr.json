@@ -248,7 +248,6 @@
             "add_to_apple_wallet": "Ajouter à Apple Wallet",
             "disabled": "Désactivée",
             "expired": "Expirée le {{ expiry }}",
-            "print": "Imprimer",
             "redeem": "Entrez ce code lors du paiement pour utiliser votre carte-cadeau",
             "shop_link": "Boutique",
             "subtext": "Voici votre carte-cadeau!",
@@ -308,6 +307,7 @@
     },
     "popular_posts": "Articles populaires",
     "price": "Prix",
+    "print": "Imprimer",
     "product": {
         "count": {
             "plural": "{{ count }} items",
