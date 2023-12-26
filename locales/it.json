@@ -10,7 +10,6 @@
     "back_to": "Torna a {{ title }}",
     "blogs": {
         "article": {
-            "latest_posts": "Ultimi messaggi",
             "more_from": "Più da",
             "popular_posts": "Messaggi popolari",
             "read_more": "Continua a leggere"
@@ -284,6 +283,7 @@
             "product_title": "Esempio di prodotto"
         }
     },
+    "latest_posts": "Ultimi messaggi",
     "layout": {
         "cart": {
             "title": "Carrello"

@@ -10,7 +10,6 @@
     "back_to": "Volver a {{ title }}",
     "blogs": {
         "article": {
-            "latest_posts": "Últimos artículos",
             "more_from": "Mas de",
             "popular_posts": "Articulos populares",
             "read_more": "Leer más"
@@ -284,6 +283,7 @@
             "product_title": "Ejemplo título de producto"
         }
     },
+    "latest_posts": "Últimos artículos",
     "layout": {
         "cart": {
             "title": "Carrito"
