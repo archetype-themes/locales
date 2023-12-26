@@ -1,7 +1,7 @@
 {
     "404": {
-        "page_not_found": "404 Página não encontrada",
-        "subtitle_html": "A página que você solicitou não existe. Clique <a href='{{ url }}'>aqui</a> para voltar às compras."
+        "subtitle_html": "A página que você solicitou não existe. Clique <a href='{{ url }}'>aqui</a> para voltar às compras.",
+        "title": "404 Página não encontrada"
     },
     "account": "Conta",
     "all_products": "Todos os produtos",

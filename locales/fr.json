@@ -1,7 +1,7 @@
 {
     "404": {
-        "page_not_found": "404 - Page non trouvée",
-        "subtitle_html": "Cette page n'est pas disponible. <a href='{{ url }}'>Retourner au magasinage</a>"
+        "subtitle_html": "Cette page n'est pas disponible. <a href='{{ url }}'>Retourner au magasinage</a>",
+        "title": "404 - Page non trouvée"
     },
     "account": "Compte",
     "all_products": "Tous les produits",
