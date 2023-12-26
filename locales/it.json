@@ -306,6 +306,11 @@
     "message": "Messaggio",
     "name": "Nome",
     "price": "Prezzo",
+    "product": {
+        "recipient": {
+            "send_as_gift": "Voglio inviarlo come regalo"
+        }
+    },
     "products": {
         "general": {
             "collection_return": "Torna a {{ collection }}",
@@ -346,7 +351,6 @@
     "quantity": "Quantità",
     "recipient": {
         "form": {
-            "checkbox": "Voglio inviarlo come regalo",
             "email_label": "Email destinatario",
             "max_characters": "Massimo {{ max_chars }} caratteri",
             "message_label": "Messaggio (facoltativo)",

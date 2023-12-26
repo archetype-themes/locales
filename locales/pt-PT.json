@@ -304,6 +304,9 @@
     "message": "Mensagem",
     "name": "Nome",
     "price": "Preço",
+    "product": {
+        "recipient": {}
+    },
     "products": {
         "general": {
             "collection_return": "Regressar à {{ collection }}",
