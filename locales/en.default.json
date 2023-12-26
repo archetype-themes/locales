@@ -225,6 +225,10 @@
     "inventory": {
         "back_in_stock_on": "Back in stock {{ date }}",
         "backordered": "Backordered, shipping soon",
+        "low_stock": {
+            "plural": "Low stock - {{ count }} items left",
+            "singular": "Low stock - {{ count }} item left"
+        },
         "preorder": "Pre-order",
         "ready_to_ship_on": "Ready to ship {{ date }}",
         "sold_out": "Sold Out",
@@ -308,10 +312,7 @@
             "in_stock_label": "In stock, ready to ship",
             "include_taxes": "Tax included.",
             "shipping_policy_html": "<a href='{{ link }}'>Shipping</a> calculated at checkout.",
-            "stock_label": {
-                "one": "Low stock - {{ count }} item left",
-                "other": "Low stock - {{ count }} items left"
-            },
+            "stock_label": {},
             "view_in_space": "View in your space",
             "view_in_space_label": "View in your space, loads item in augmented reality window"
         }

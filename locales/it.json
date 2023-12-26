@@ -225,6 +225,10 @@
     "inventory": {
         "back_in_stock_on": "Di nuovo in magazzino {{ date }}",
         "backordered": "In arretrato, spedizione a breve",
+        "low_stock": {
+            "plural": "Magazzino basso, {{ count }} articoli rimasti",
+            "singular": "Magazzino basso, {{ count }} articolo rimasto"
+        },
         "preorder": "Pre-ordine",
         "ready_to_ship_on": "Pronto per la spedizione {{ date }}",
         "sold_out": "Esaurito",
@@ -308,10 +312,7 @@
             "in_stock_label": "In magazzino, pronto per la spedizione",
             "include_taxes": "Imposte incluse.",
             "shipping_policy_html": "<a href='{{ link }}'>Spedizione</a> calcolata alla cassa.",
-            "stock_label": {
-                "one": "Magazzino basso, {{ count }} articolo rimasto",
-                "other": "Magazzino basso, {{ count }} articoli rimasti"
-            },
+            "stock_label": {},
             "view_in_space": "Visualizza nel tuo spazio",
             "view_in_space_label": "Visualizza nel tuo spazio, carica l'articolo nella finestra della realtà aumentata"
         }

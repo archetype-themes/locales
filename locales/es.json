@@ -228,6 +228,7 @@
     "inventory": {
         "back_in_stock_on": "Estará disponible después {{ date }}",
         "backordered": "Pedido pendiente, envío pronto",
+        "low_stock": {},
         "preorder": "Hacer un pedido",
         "ready_to_ship_on": "Será enviado después {{ date }}",
         "sold_out": "Agotado",

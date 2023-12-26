@@ -224,6 +224,7 @@
     "inventory": {
         "back_in_stock_on": "Wird nach dem {{ date }} auf Lager sein",
         "backordered": "Nachbestellt, bald verfügbar",
+        "low_stock": {},
         "preorder": "Vorbestellung",
         "ready_to_ship_on": "Wird nach dem {{ date }} versendet",
         "sold_out": "Ausverkauft",
