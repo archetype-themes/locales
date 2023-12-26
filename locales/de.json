@@ -37,6 +37,7 @@
     "checkout": "Zur Kasse",
     "close": "Schließen",
     "close_esc": "Schließen (Esc)",
+    "close_menu": "Menü schließen",
     "collection": {
         "back_to": "Zurück zur {{ collection }}",
         "no_products": "Es tut uns leid, aber Ihre Suche nach Produkten hat keine Treffer ergeben."
@@ -167,7 +168,6 @@
         "breadcrumbs": {},
         "currency": {},
         "drawers": {
-            "close_menu": "Menü schließen",
             "collapse_submenu": "Menü minimieren",
             "expand_submenu": "Menü maximieren",
             "navigation": "Seitennavigation"

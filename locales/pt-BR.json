@@ -38,6 +38,7 @@
     "checkout": "Fechar pedido",
     "close": "Fechar",
     "close_esc": "Fechar (Esc)",
+    "close_menu": "Fechar menu",
     "collection": {
         "back_to": "Voltar à {{ collection }}",
         "no_products": "Desculpe, mas não há produtos correspondentes à sua busca."
@@ -169,7 +170,6 @@
         "breadcrumbs": {},
         "currency": {},
         "drawers": {
-            "close_menu": "Fechar menu",
             "collapse_submenu": "Desfazer menu",
             "expand_submenu": "Expandir menu",
             "navigation": "Navegação"
