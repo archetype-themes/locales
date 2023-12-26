@@ -176,7 +176,6 @@
         "drawers": {},
         "language": {},
         "meta": {
-            "page": "Page {{ page }}",
             "tags": "Mots clés \"{{ tags }}\""
         },
         "newsletter_form": {
@@ -274,6 +273,7 @@
     "order": {
         "add_note": "Ajouter des instructions de commande spéciales"
     },
+    "page_title": "Page {{ page }}",
     "pages": "Pages",
     "password": "Mot de passe",
     "phone_number": "Téléphone",

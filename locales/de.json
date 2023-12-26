@@ -172,7 +172,6 @@
         "drawers": {},
         "language": {},
         "meta": {
-            "page": "Seite {{ page }}",
             "tags": "Getaggt \"{{ tags }}\""
         },
         "newsletter_form": {
@@ -270,6 +269,7 @@
     "order": {
         "add_note": "Besondere Hinweise an den Verkäufer"
     },
+    "page_title": "Seite {{ page }}",
     "pages": "Seiten",
     "password": "Passwort",
     "phone_number": "Telefonnummer",

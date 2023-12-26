@@ -173,7 +173,6 @@
         "drawers": {},
         "language": {},
         "meta": {
-            "page": "Page {{ page }}",
             "tags": "Tagged \"{{ tags }}\""
         },
         "newsletter_form": {
@@ -271,6 +270,7 @@
     "order": {
         "add_note": "Add order note"
     },
+    "page_title": "Page {{ page }}",
     "pages": "Pages",
     "password": "Password",
     "phone_number": "Phone number",
