@@ -37,9 +37,7 @@
         "general": {
             "items_with_count": {}
         },
-        "sorting": {
-            "title": "Ordenar"
-        }
+        "sorting": {}
     },
     "comments": {
         "count": {
@@ -359,6 +357,7 @@
         "play": "Reproduzir de slides"
     },
     "small": "Small",
+    "sort": "Ordenar",
     "store_availability": {
         "general": {}
     },

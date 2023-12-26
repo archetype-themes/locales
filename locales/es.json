@@ -37,9 +37,7 @@
         "general": {
             "items_with_count": {}
         },
-        "sorting": {
-            "title": "Ordenar"
-        }
+        "sorting": {}
     },
     "comments": {
         "count": {
@@ -371,6 +369,7 @@
         "play": "Juego de diapositivas"
     },
     "small": "Small",
+    "sort": "Ordenar",
     "store_availability": {
         "general": {}
     },

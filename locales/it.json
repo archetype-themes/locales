@@ -37,9 +37,7 @@
         "general": {
             "items_with_count": {}
         },
-        "sorting": {
-            "title": "Ordina"
-        }
+        "sorting": {}
     },
     "comments": {
         "count": {
@@ -374,6 +372,7 @@
         "play": "Avvia presentazione"
     },
     "small": "Piccola",
+    "sort": "Ordina",
     "store_availability": {
         "general": {}
     },

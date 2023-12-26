@@ -36,9 +36,7 @@
         "general": {
             "items_with_count": {}
         },
-        "sorting": {
-            "title": "Sortieren"
-        }
+        "sorting": {}
     },
     "comments": {
         "count": {
@@ -370,6 +368,7 @@
         "play": "Diashow abspielen"
     },
     "small": "Klein",
+    "sort": "Sortieren",
     "store_availability": {
         "general": {}
     },
