@@ -159,6 +159,7 @@
     },
     "discounts": "Réductions",
     "email": "Courriel",
+    "expand_submenu": "Ouvrir le menu",
     "explore_more": "Explore plus",
     "featured_product": "Produit en vedette",
     "filter": "Filtrer",
@@ -173,7 +174,6 @@
         "breadcrumbs": {},
         "currency": {},
         "drawers": {
-            "expand_submenu": "Ouvrir le menu",
             "navigation": "Navigation"
         },
         "language": {

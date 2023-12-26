@@ -156,6 +156,7 @@
     },
     "discounts": "Sconti",
     "email": "Indirizzo email",
+    "expand_submenu": "Espandi sottomenu",
     "explore_more": "Esplora di più",
     "featured_product": "Sezione \"prodotto in primo piano\"",
     "filter": "Filtra",
@@ -170,7 +171,6 @@
         "breadcrumbs": {},
         "currency": {},
         "drawers": {
-            "expand_submenu": "Espandi sottomenu",
             "navigation": "Navigazione del sito"
         },
         "language": {
