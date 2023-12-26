@@ -26,10 +26,10 @@
         "shipping_at_checkout": "Spedizione, tasse e codici sconto calcolati alla cassa.",
         "update": "Aggiorna il carrello"
     },
+    "categories": "Categorie",
     "checkout": "Check-out",
     "collections": {
         "filters": {
-            "categories_title": "Categorie",
             "title_tags": "Filtra"
         },
         "general": {

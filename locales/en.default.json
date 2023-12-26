@@ -26,10 +26,10 @@
         "shipping_at_checkout": "Shipping, taxes, and discount codes calculated at checkout.",
         "update": "Update cart"
     },
+    "categories": "Categories",
     "checkout": "Check out",
     "collections": {
         "filters": {
-            "categories_title": "Categories",
             "title_tags": "Filter"
         },
         "general": {

@@ -26,10 +26,10 @@
         "shipping_at_checkout": "Os códigos de desconto, o frete e os impostos são adicionados no encerramento.",
         "update": "Atualizar Carrinho"
     },
+    "categories": "Categorias",
     "checkout": "Fechar pedido",
     "collections": {
         "filters": {
-            "categories_title": "Categorias",
             "title_tags": "Filtrar"
         },
         "general": {
