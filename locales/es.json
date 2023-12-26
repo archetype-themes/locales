@@ -205,7 +205,6 @@
         },
         "social": {
             "alt_text": {},
-            "share_on_pinterest": "Hacer pin",
             "share_on_twitter": "Tuitear",
             "share_this": "Compartir este"
         }
@@ -272,6 +271,7 @@
     "pages": "Páginas",
     "password": "Contraseña",
     "phone_number": "Número de teléfono",
+    "pin_it": "Hacer pin",
     "placeholder": {
         "example_collection": "Ejemplo título de colección",
         "example_product": "Ejemplo título de producto",

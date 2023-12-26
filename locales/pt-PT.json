@@ -203,7 +203,6 @@
         },
         "social": {
             "alt_text": {},
-            "share_on_pinterest": "Pin it",
             "share_on_twitter": "Tweetar",
             "share_this": "Compartilhar isso"
         }
@@ -270,6 +269,7 @@
     "pages": "Páginas:",
     "password": "Palavra-passe",
     "phone_number": "Número de Telefone",
+    "pin_it": "Pin it",
     "placeholder": {
         "example_collection": "Título da Coleção Exemplo",
         "example_product": "Título do Produto Exemplo",
