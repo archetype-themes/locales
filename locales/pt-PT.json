@@ -172,7 +172,8 @@
             "submit": "Subscrever"
         },
         "password": {
-            "admin_link_html": "É o dono da loja? <a href=\"/admin\" class=\"text-link\">Inicie sessão aqui</a>"
+            "admin_link_html": "É o dono da loja? <a href=\"/admin\" class=\"text-link\">Inicie sessão aqui</a>",
+            "title": "Entre na loja usando a palavra-passe:"
         }
     },
     "general": {
@@ -186,7 +187,6 @@
         "newsletter_form": {},
         "pagination": {},
         "password_page": {
-            "login_form_heading": "Entre na loja usando a palavra-passe:",
             "login_form_password_placeholder": "A sua palavra-passe",
             "login_form_submit": "Entrar",
             "powered_by_shopify_html": "Esta loja será movida por {{ shopify }}",

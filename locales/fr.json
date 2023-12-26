@@ -173,7 +173,8 @@
             "submit": "S'inscrire"
         },
         "password": {
-            "admin_link_html": "Êtes-vous le propriétaire de la boutique? <a href=\"/admin\" class=\"text-link\">Connectez-vous ici</a>."
+            "admin_link_html": "Êtes-vous le propriétaire de la boutique? <a href=\"/admin\" class=\"text-link\">Connectez-vous ici</a>.",
+            "title": "Accéder à la boutique à l'aide d'un mot de passe:"
         }
     },
     "general": {
@@ -187,7 +188,6 @@
         "newsletter_form": {},
         "pagination": {},
         "password_page": {
-            "login_form_heading": "Accéder à la boutique à l'aide d'un mot de passe:",
             "login_form_password_placeholder": "Votre mot de passe",
             "login_form_submit": "Entrer",
             "powered_by_shopify_html": "Cette boutique sera propulsée par {{ shopify }}",

@@ -173,7 +173,8 @@
             "submit": "Suscribir"
         },
         "password": {
-            "admin_link_html": "¿Eres el dueño de la tienda? <a href=\"/admin\" class=\"text-link\">Regístrate aquí</a>"
+            "admin_link_html": "¿Eres el dueño de la tienda? <a href=\"/admin\" class=\"text-link\">Regístrate aquí</a>",
+            "title": "Entrar a la tienda usando contraseña:"
         }
     },
     "general": {
@@ -187,7 +188,6 @@
         "newsletter_form": {},
         "pagination": {},
         "password_page": {
-            "login_form_heading": "Entrar a la tienda usando contraseña:",
             "login_form_password_placeholder": "Tu contraseña",
             "login_form_submit": "Ingresar",
             "powered_by_shopify_html": "Esta tienda estará impulsada por {{ shopify }}",

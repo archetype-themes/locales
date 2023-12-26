@@ -170,7 +170,8 @@
             "submit": "Iscriviti"
         },
         "password": {
-            "admin_link_html": "Sei il proprietario di un negozio? <a href=\"/admin\" class=\"text-link\">Entra qui</a>"
+            "admin_link_html": "Sei il proprietario di un negozio? <a href=\"/admin\" class=\"text-link\">Entra qui</a>",
+            "title": "Entra nel negozio usando la password"
         }
     },
     "general": {
@@ -184,7 +185,6 @@
         "newsletter_form": {},
         "pagination": {},
         "password_page": {
-            "login_form_heading": "Entra nel negozio usando la password",
             "login_form_password_placeholder": "La tua password",
             "login_form_submit": "Accedi",
             "powered_by_shopify_html": "Questo negozio sarà ospitato su {{ shopify }}",

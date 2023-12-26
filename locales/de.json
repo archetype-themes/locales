@@ -169,7 +169,8 @@
             "submit": "Abonnieren"
         },
         "password": {
-            "admin_link_html": "Sind Sie der Geschäftsinhaber? <a href=\"/admin\" class=\"text-link\">Melden Sie sich hier an</a>"
+            "admin_link_html": "Sind Sie der Geschäftsinhaber? <a href=\"/admin\" class=\"text-link\">Melden Sie sich hier an</a>",
+            "title": "Shop mit Passwort betreten:"
         }
     },
     "general": {
@@ -183,7 +184,6 @@
         "newsletter_form": {},
         "pagination": {},
         "password_page": {
-            "login_form_heading": "Shop mit Passwort betreten:",
             "login_form_password_placeholder": "Ihr Passwort",
             "login_form_submit": "Betreten",
             "powered_by_shopify_html": "Dieser Shop wird mit Hilfe von {{ shopify }} betrieben werden",
