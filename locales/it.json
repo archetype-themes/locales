@@ -39,6 +39,7 @@
     "close": "Chiudi",
     "close_esc": "Chiudi (esc)",
     "close_menu": "Chiudi menu",
+    "collapse_submenu": "Comprimi il sottomenu",
     "collection": {
         "back_to": "Torna a {{ collection }}",
         "no_products": "Siamo spiacenti, non ci sono prodotti in questa collezione."
@@ -169,7 +170,6 @@
         "breadcrumbs": {},
         "currency": {},
         "drawers": {
-            "collapse_submenu": "Comprimi il sottomenu",
             "expand_submenu": "Espandi sottomenu",
             "navigation": "Navigazione del sito"
         },

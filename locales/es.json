@@ -39,6 +39,7 @@
     "close": "Cerrar",
     "close_esc": "Cerrar (esc)",
     "close_menu": "Cerrar menú",
+    "collapse_submenu": "Colapsar menú",
     "collection": {
         "back_to": "Volver a {{ collection }}",
         "no_products": "Lo sentimos, no hay productos que coincidan con su búsqueda."
@@ -172,7 +173,6 @@
         "breadcrumbs": {},
         "currency": {},
         "drawers": {
-            "collapse_submenu": "Colapsar menú",
             "expand_submenu": "Expandir menú",
             "navigation": "Navegación"
         },
