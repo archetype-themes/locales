@@ -10,7 +10,6 @@
     "back_to": "Retour à {{ title }}",
     "blogs": {
         "article": {
-            "explore_more": "Explore plus",
             "featured_product": "Produit en vedette",
             "latest_posts": "Derniers articles",
             "more_from": "Plus de",
@@ -181,6 +180,7 @@
         "month_day_year": "%d %B, %Y"
     },
     "email": "Courriel",
+    "explore_more": "Explore plus",
     "follow_us": "Suivez nous",
     "form": {
         "max_characters": "{{ max_chars }} caractères au maximum"

@@ -10,7 +10,6 @@
     "back_to": "Zurück zu {{ title }}",
     "blogs": {
         "article": {
-            "explore_more": "Erkunde mehr",
             "featured_product": "Vorgestelltes Produkt",
             "latest_posts": "Neueste Artikel",
             "more_from": "Mehr von",
@@ -180,6 +179,7 @@
         "month_day_year": "%B %d, %Y"
     },
     "email": "E-Mail",
+    "explore_more": "Erkunde mehr",
     "follow_us": "Folge uns",
     "form": {
         "max_characters": "Maximal {{ max_chars }} Zeichen"
