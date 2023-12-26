@@ -18,7 +18,6 @@
         "close": "Fermer le panier",
         "empty": "Votre panier est vide.",
         "general": {
-            "increase_quantity": "Augmenter la quantité de l'article de un",
             "recommended_title": "Bien avec",
             "reduce_quantity": "Réduire la quantité de l'article de un",
             "savings_html": "Épargnez {{ saved_amount }}",
@@ -279,6 +278,7 @@
             "product_title": "Titre du produit"
         }
     },
+    "increase_item_quantity": "Augmenter la quantité de l'article de un",
     "latest_posts": "Derniers articles",
     "layout": {
         "cart": {

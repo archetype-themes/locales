@@ -18,7 +18,6 @@
         "close": "Cerrar carrito",
         "empty": "Su carrito actualmente está vacío.",
         "general": {
-            "increase_quantity": "Aumentar uno a la cantidad de artículos",
             "recommended_title": "Va muy bien con",
             "reduce_quantity": "Quitar uno a la cantidad de artículos",
             "savings_html": "Guardar {{ saved_amount }}",
@@ -279,6 +278,7 @@
             "product_title": "Ejemplo título de producto"
         }
     },
+    "increase_item_quantity": "Aumentar uno a la cantidad de artículos",
     "latest_posts": "Últimos artículos",
     "layout": {
         "cart": {

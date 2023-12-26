@@ -18,7 +18,6 @@
         "close": "Chiudi il carrello",
         "empty": "Il tuo carrello è attualmente vuoto.",
         "general": {
-            "increase_quantity": "Aumenta la quantità di un articolo",
             "recommended_title": "Va benissimo con",
             "reduce_quantity": "Riduci la quantità dell'articolo di uno",
             "savings_html": "Risparmi {{ saved_amount }}",
@@ -279,6 +278,7 @@
             "product_title": "Esempio di prodotto"
         }
     },
+    "increase_item_quantity": "Aumenta la quantità di un articolo",
     "latest_posts": "Ultimi messaggi",
     "layout": {
         "cart": {

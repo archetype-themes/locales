@@ -18,7 +18,6 @@
         "close": "Einkaufswagen schließen",
         "empty": "Ihr Einkaufswagen ist im Moment leer.",
         "general": {
-            "increase_quantity": "Artikelmenge um eins erhöhen",
             "recommended_title": "Geht mit",
             "reduce_quantity": "Artikelmenge um eins reduzieren",
             "savings_html": "Sparen {{ saved_amount }}",
@@ -278,6 +277,7 @@
             "product_title": "Beispielhafter Produkttitel"
         }
     },
+    "increase_item_quantity": "Artikelmenge um eins erhöhen",
     "latest_posts": "Neueste Artikel",
     "layout": {
         "cart": {
