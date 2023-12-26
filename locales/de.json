@@ -223,7 +223,6 @@
             },
             "results_for_html": "Ihre Suche nach \"{{ terms }}\" hat folgende Ergebnisse hervorgebracht:",
             "search_title": "Top gesucht",
-            "suggestions": "Vorschläge",
             "view_more": "Alle Ergebnisse für \"{{ terms }}\" anzeigen"
         },
         "social": {
@@ -371,6 +370,7 @@
         "general": {}
     },
     "subtotal": "Zwischensumme",
+    "suggestions": "Vorschläge",
     "tags": "Tags",
     "terms": {
         "i_agree": "Ich stimme den Nutzungsbedingungen zu",

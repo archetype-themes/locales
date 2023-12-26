@@ -224,7 +224,6 @@
             },
             "results_for_html": "Your search for \"{{ terms }}\" revealed the following:",
             "search_title": "Top searched",
-            "suggestions": "Suggestions",
             "view_more": "Show all results for \"{{ terms }}\""
         },
         "social": {
@@ -376,6 +375,7 @@
         "general": {}
     },
     "subtotal": "Subtotal",
+    "suggestions": "Suggestions",
     "tags": "Tags",
     "terms": {
         "i_agree": "I agree with the terms and conditions",

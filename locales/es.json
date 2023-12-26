@@ -227,7 +227,6 @@
             },
             "results_for_html": "Su búsqueda de \"{{ terms }}\" muestra lo siguiente:",
             "search_title": "Más buscadas",
-            "suggestions": "Sugerencias",
             "view_more": "Mostrar todos los resultados para \"{{ terms }}\""
         },
         "social": {
@@ -375,6 +374,7 @@
         "general": {}
     },
     "subtotal": "Subtotal",
+    "suggestions": "Sugerencias",
     "tags": "Etiquetas",
     "terms": {
         "i_agree": "Acepto los términos y condiciones",
