@@ -205,7 +205,6 @@
         },
         "social": {
             "alt_text": {
-                "share_on_pinterest": "Pinear en Pinterest",
                 "share_on_twitter": "Tuitear en Twitter"
             },
             "share_on_facebook": "Compartir",
@@ -350,6 +349,7 @@
         "play": "Juego de diapositivas"
     },
     "social": {
+        "pin_on_pinterest": "Pinear en Pinterest",
         "share_on_facebook": "Compartir en Facebook"
     },
     "sort": "Ordenar",

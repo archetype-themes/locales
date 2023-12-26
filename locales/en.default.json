@@ -202,7 +202,6 @@
         },
         "social": {
             "alt_text": {
-                "share_on_pinterest": "Pin on Pinterest",
                 "share_on_twitter": "Tweet on Twitter"
             },
             "share_on_facebook": "Share",
@@ -350,6 +349,7 @@
         "play": "Play slideshow"
     },
     "social": {
+        "pin_on_pinterest": "Pin on Pinterest",
         "share_on_facebook": "Share on Facebook"
     },
     "sort": "Sort",
