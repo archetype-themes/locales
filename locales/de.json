@@ -254,7 +254,6 @@
     "goes_great_with": "Geht mit",
     "home_page": {
         "onboarding": {
-            "product_description": "Diesen Abschnitt können Sie nutzen, um die Details Ihres Produkts zu beschreiben. Erzählen Sie den Kunden, wie Ihr Produkt aussieht, sich anfühlt und designt ist. Fügen Sie Einzelheiten zu Farbe, verwendeten Materialien, Größe und Produktionsort hinzu.",
             "product_title": "Beispielhafter Produkttitel"
         }
     },
@@ -301,7 +300,8 @@
     "phone_number": "Telefonnummer",
     "placeholder": {
         "example_collection": "Beispielhafter Zusammenstellungstitel",
-        "no_content": "Dieser Bereich hat zur Zeit keinen Inhalt. Füge diesem Bereich über die Seitenleiste Inhalte hinzu."
+        "no_content": "Dieser Bereich hat zur Zeit keinen Inhalt. Füge diesem Bereich über die Seitenleiste Inhalte hinzu.",
+        "product_description": "Diesen Abschnitt können Sie nutzen, um die Details Ihres Produkts zu beschreiben. Erzählen Sie den Kunden, wie Ihr Produkt aussieht, sich anfühlt und designt ist. Fügen Sie Einzelheiten zu Farbe, verwendeten Materialien, Größe und Produktionsort hinzu."
     },
     "popular_posts": "Populäre Artikel",
     "price": "Preis",

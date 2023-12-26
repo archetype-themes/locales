@@ -255,7 +255,6 @@
     "goes_great_with": "Va benissimo con",
     "home_page": {
         "onboarding": {
-            "product_description": "Questa area è utilizzata per descrivere i dettagli del tuo prodotto. Racconta ai clienti l'aspetto, le caratteristiche e lo stile del tuo prodotto. Aggiungi dettagli sul colore, i materiali utilizzati, le dimensioni e dove è stato realizzato.",
             "product_title": "Esempio di prodotto"
         }
     },
@@ -302,7 +301,8 @@
     "phone_number": "Numero di telefono",
     "placeholder": {
         "example_collection": "Esempio di collezione",
-        "no_content": "Questa sezione non include attualmente alcun contenuto. Aggiungi contenuti a questa sezione utilizzando la barra laterale."
+        "no_content": "Questa sezione non include attualmente alcun contenuto. Aggiungi contenuti a questa sezione utilizzando la barra laterale.",
+        "product_description": "Questa area è utilizzata per descrivere i dettagli del tuo prodotto. Racconta ai clienti l'aspetto, le caratteristiche e lo stile del tuo prodotto. Aggiungi dettagli sul colore, i materiali utilizzati, le dimensioni e dove è stato realizzato."
     },
     "popular_posts": "Messaggi popolari",
     "price": "Prezzo",

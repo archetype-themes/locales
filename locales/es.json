@@ -258,7 +258,6 @@
     "goes_great_with": "Va muy bien con",
     "home_page": {
         "onboarding": {
-            "product_description": " Este campo se utiliza para describir los detalles de tu producto. Informa a los clientes acerca de la apariencia, percepción y estilo de tu producto. Incluye detalles sobre el color, los materiales utilizados, el tamaño y donde se hizo.",
             "product_title": "Ejemplo título de producto"
         }
     },
@@ -305,7 +304,8 @@
     "phone_number": "Número de teléfono",
     "placeholder": {
         "example_collection": "Ejemplo título de colección",
-        "no_content": "Esta secção não inclui de momento qualquer conteúdo. Adicione conteúdo a esta secção através da barra lateral."
+        "no_content": "Esta secção não inclui de momento qualquer conteúdo. Adicione conteúdo a esta secção através da barra lateral.",
+        "product_description": " Este campo se utiliza para describir los detalles de tu producto. Informa a los clientes acerca de la apariencia, percepción y estilo de tu producto. Incluye detalles sobre el color, los materiales utilizados, el tamaño y donde se hizo."
     },
     "popular_posts": "Articulos populares",
     "price": "Precio",

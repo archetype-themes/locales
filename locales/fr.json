@@ -258,7 +258,6 @@
     "goes_great_with": "Bien avec",
     "home_page": {
         "onboarding": {
-            "product_description": "Cette partie est utilisée pour la fiche du produit. Parlez aux clients de l'allure, du ressenti et du style de votre produit. Ajoutez des détails sur la couleur, les matériaux utilisés, le dimensionnement, et où il a été fabriqué.",
             "product_title": "Titre du produit"
         }
     },
@@ -305,7 +304,8 @@
     "phone_number": "Téléphone",
     "placeholder": {
         "example_collection": "Titre de la collection",
-        "no_content": "Cette section ne contient actuellement aucun contenu. Ajoutez-en en utilisant la barre latérale."
+        "no_content": "Cette section ne contient actuellement aucun contenu. Ajoutez-en en utilisant la barre latérale.",
+        "product_description": "Cette partie est utilisée pour la fiche du produit. Parlez aux clients de l'allure, du ressenti et du style de votre produit. Ajoutez des détails sur la couleur, les matériaux utilisés, le dimensionnement, et où il a été fabriqué."
     },
     "popular_posts": "Articles populaires",
     "price": "Prix",
