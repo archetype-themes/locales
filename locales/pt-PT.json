@@ -26,12 +26,12 @@
         "shipping_at_checkout": "Códigos de desconto, custos de envio e impostos adicionados na finalização de compra.",
         "update": "Atualizar Carrinho de Compras"
     },
+    "catalog": "Catálogo",
     "categories": "Categorias",
     "checkout": "Check-Out",
     "collections": {
         "filters": {},
         "general": {
-            "catalog_title": "Catálogo",
             "items_with_count": {
                 "one": "{{ count }} item",
                 "other": "{{ count }} itens"

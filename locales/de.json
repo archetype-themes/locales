@@ -25,12 +25,12 @@
         "shipping_at_checkout": "Rabattcodes, Versandkosten und Steuern werden bei der Bezahlung berechnet.",
         "update": "Einkaufswagen aktualisieren"
     },
+    "catalog": "Katalog",
     "categories": "Kategorien",
     "checkout": "Zur Kasse",
     "collections": {
         "filters": {},
         "general": {
-            "catalog_title": "Katalog",
             "items_with_count": {
                 "one": "{{ count }} Produkt",
                 "other": "{{ count }} Produkte"

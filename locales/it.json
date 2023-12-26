@@ -26,12 +26,12 @@
         "shipping_at_checkout": "Spedizione, tasse e codici sconto calcolati alla cassa.",
         "update": "Aggiorna il carrello"
     },
+    "catalog": "Catalogo",
     "categories": "Categorie",
     "checkout": "Check-out",
     "collections": {
         "filters": {},
         "general": {
-            "catalog_title": "Catalogo",
             "items_with_count": {
                 "one": "{{ count }} prodotto",
                 "other": "{{ count }} prodotti"

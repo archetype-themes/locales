@@ -26,12 +26,12 @@
         "shipping_at_checkout": "Los códigos de descuento, los costes de envío y los impuestos se añaden durante el pago.",
         "update": "Actualizar carrito"
     },
+    "catalog": "Catálogo",
     "categories": "Categorías",
     "checkout": "Finalizar pedido",
     "collections": {
         "filters": {},
         "general": {
-            "catalog_title": "Catálogo",
             "items_with_count": {
                 "one": "{{ count }} artículo",
                 "other": "{{ count }} artículos"

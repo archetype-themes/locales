@@ -26,12 +26,12 @@
         "shipping_at_checkout": "Les codes promo, les frais d'envoi et les taxes seront ajoutés à la caisse.",
         "update": "Mettre à jour"
     },
+    "catalog": "Catalogue",
     "categories": "Catégories",
     "checkout": "Procéder au paiement",
     "collections": {
         "filters": {},
         "general": {
-            "catalog_title": "Catalogue",
             "items_with_count": {
                 "one": "{{ count }} item",
                 "other": "{{ count }} items"
