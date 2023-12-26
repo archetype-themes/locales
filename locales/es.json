@@ -159,6 +159,7 @@
     "date_formats": {
         "month_day_year": "%d de %B, %Y"
     },
+    "disabled": "Inhabilitada",
     "discount": {
         "you_save": "Guardar {{ saved_amount }}"
     },
@@ -246,7 +247,6 @@
         "issued": {
             "active": "Expira en {{ expiry }}",
             "add_to_apple_wallet": "Añadir a Apple Wallet",
-            "disabled": "Inhabilitada",
             "expired": "Expiró en {{ expiry }}",
             "redeem": "Use este código al terminar la comprar para canjear su tarjeta de regalo",
             "shop_link": "Empezar a comprar",

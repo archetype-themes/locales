@@ -159,6 +159,7 @@
     "date_formats": {
         "month_day_year": "%d de %B de %Y"
     },
+    "disabled": "Inválido",
     "discount": {
         "you_save": "Economize {{ saved_amount }}"
     },
@@ -242,7 +243,6 @@
         "issued": {
             "active": "Expira em {{ expiry }}",
             "add_to_apple_wallet": "Adicionar ao Apple Wallet",
-            "disabled": "Inválido",
             "expired": "Expirado em {{ expiry }}",
             "redeem": "Para resgatar o seu vale-presente, utilize este código no fechamento do pedido",
             "shop_link": "Comece a comprar",

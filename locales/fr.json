@@ -159,6 +159,7 @@
     "date_formats": {
         "month_day_year": "%d %B, %Y"
     },
+    "disabled": "Désactivée",
     "discount": {
         "you_save": "Épargnez {{ saved_amount }}"
     },
@@ -246,7 +247,6 @@
         "issued": {
             "active": "Expire le {{ expiry }}",
             "add_to_apple_wallet": "Ajouter à Apple Wallet",
-            "disabled": "Désactivée",
             "expired": "Expirée le {{ expiry }}",
             "redeem": "Entrez ce code lors du paiement pour utiliser votre carte-cadeau",
             "shop_link": "Boutique",

@@ -156,6 +156,7 @@
             "title": "Reset account password"
         }
     },
+    "disabled": "Disabled",
     "discount": {
         "you_save": "You save {{ saved_amount }}"
     },
@@ -243,7 +244,6 @@
         "issued": {
             "active": "Expires on {{ expiry }}",
             "add_to_apple_wallet": "Add to Apple Wallet",
-            "disabled": "Disabled",
             "expired": "Expired on {{ expiry }}",
             "redeem": "Use this code at checkout to redeem your gift card",
             "shop_link": "Start shopping",

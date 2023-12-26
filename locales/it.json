@@ -156,6 +156,7 @@
             "title": "Reimposta la password dell'account"
         }
     },
+    "disabled": "Disabilitato",
     "discount": {
         "you_save": "Risparmi {{ saved_amount }}"
     },
@@ -243,7 +244,6 @@
         "issued": {
             "active": "Scade il {{ expiry }}}",
             "add_to_apple_wallet": "Aggiungi a Apple Wallet",
-            "disabled": "Disabilitato",
             "expired": "Scaduto il {{ expiry }}",
             "redeem": "Usa questo codice alla cassa per riscattare la tua carta regalo",
             "shop_link": "Iniziare a comprare",
