@@ -19,7 +19,6 @@
         "empty": "Your cart is currently empty.",
         "general": {
             "increase_quantity": "Increase item quantity by one",
-            "max_quantity": "You can only have {{ quantity }} of {{ title }} in your cart.",
             "note": "Add order note",
             "recommended_title": "Goes great with",
             "reduce_quantity": "Reduce item quantity by one",
@@ -32,7 +31,8 @@
             "title": "Cart",
             "update": "Update cart"
         },
-        "label": {}
+        "label": {},
+        "max_quantity": "You can only have {{ quantity }} of {{ title }} in your cart."
     },
     "checkout": "Check out",
     "collections": {

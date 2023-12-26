@@ -19,7 +19,6 @@
         "empty": "Votre panier est vide.",
         "general": {
             "increase_quantity": "Augmenter la quantité de l'article de un",
-            "max_quantity": "Vous ne pouvez avoir que {{ quantity }} de {{ title }} dans votre panier.",
             "note": "Ajouter des instructions de commande spéciales",
             "recommended_title": "Bien avec",
             "reduce_quantity": "Réduire la quantité de l'article de un",
@@ -32,7 +31,8 @@
             "title": "Panier",
             "update": "Mettre à jour"
         },
-        "label": {}
+        "label": {},
+        "max_quantity": "Vous ne pouvez avoir que {{ quantity }} de {{ title }} dans votre panier."
     },
     "checkout": "Procéder au paiement",
     "collections": {

@@ -19,7 +19,6 @@
         "empty": "Su carrito actualmente está vacío.",
         "general": {
             "increase_quantity": "Aumentar uno a la cantidad de artículos",
-            "max_quantity": "Solo puedes tener {{ quantity }} de {{ title }} en tu carrito.",
             "note": "Instrucciones especiales para el vendedor",
             "recommended_title": "Va muy bien con",
             "reduce_quantity": "Quitar uno a la cantidad de artículos",
@@ -32,7 +31,8 @@
             "title": "Carrito de compra",
             "update": "Actualizar carrito"
         },
-        "label": {}
+        "label": {},
+        "max_quantity": "Solo puedes tener {{ quantity }} de {{ title }} en tu carrito."
     },
     "checkout": "Finalizar pedido",
     "collections": {
