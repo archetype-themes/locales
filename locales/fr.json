@@ -5,6 +5,7 @@
     },
     "account": "Compte",
     "all_products": "Tous les produits",
+    "articles": "Des articles",
     "availability": {
         "check_other_stores": "Vérifier la disponibilité dans d'autres magasins",
         "pick_up_available": "Récupération disponible",
@@ -209,7 +210,6 @@
             "signup_form_success": "Nous vous ferons parvenir un courriel juste avant l'ouverture!"
         },
         "search": {
-            "articles": "Des articles",
             "cancel": "Annuler",
             "no_results_html": "Rechercher \"{{ terms }}\"",
             "products": "Produits",

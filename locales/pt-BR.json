@@ -5,6 +5,7 @@
     },
     "account": "Conta",
     "all_products": "Todos os produtos",
+    "articles": "Artigos:",
     "availability": {
         "check_other_stores": "Ver disponibilidade em outras lojas",
         "pick_up_available": "transbordo",
@@ -207,7 +208,6 @@
             "signup_form_success": "Nós lhe enviaremos um e-mail logo antes de abrirmos!"
         },
         "search": {
-            "articles": "Artigos:",
             "cancel": "Cancelar",
             "no_results_html": "Sua busca por \"{{ terms }}\" não gerou resultados.",
             "result_count": {

@@ -5,6 +5,7 @@
     },
     "account": "Account",
     "all_products": "Tutti i prodotti",
+    "articles": "Articoli",
     "availability": {
         "check_other_stores": "Verifica la disponibilità in altri negozi",
         "pick_up_available": "Ritiro disponibile",
@@ -206,7 +207,6 @@
             "signup_form_success": "Ti invieremo un'email quando apriremo!"
         },
         "search": {
-            "articles": "Articoli",
             "cancel": "Annulla",
             "no_results_html": "Cercare \"{{ terms }}\"",
             "products": "prodotti",
