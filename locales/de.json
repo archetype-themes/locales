@@ -202,9 +202,7 @@
             "title": "Einkaufswagen"
         },
         "customer": {},
-        "footer": {
-            "social_platform": "{{ name }} auf {{ platform }}"
-        }
+        "footer": {}
     },
     "learn_more": "Erfahren Sie mehr",
     "list": "Liste",
@@ -286,6 +284,7 @@
     "shipping": "Versand",
     "shipping_address": "Lieferadresse",
     "shipping_policy_html": "zzgl. <a href='{{ link }}'>Versandkosten</a>",
+    "shop_on_social": "{{ name }} auf {{ platform }}",
     "show_less": "Zeige weniger",
     "show_more": "Zeig mehr",
     "sign_in": "Anmelden",

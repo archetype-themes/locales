@@ -206,9 +206,7 @@
             "title": "Cart"
         },
         "customer": {},
-        "footer": {
-            "social_platform": "{{ name }} on {{ platform }}"
-        }
+        "footer": {}
     },
     "learn_more": "Learn more",
     "list": "List",
@@ -290,6 +288,7 @@
     "shipping": "Shipping",
     "shipping_address": "Shipping address",
     "shipping_policy_html": "<a href='{{ link }}'>Shipping</a> calculated at checkout.",
+    "shop_on_social": "{{ name }} on {{ platform }}",
     "show_less": "Show less",
     "show_more": "Show more",
     "sign_in": "Sign In",

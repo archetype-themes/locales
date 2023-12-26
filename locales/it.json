@@ -206,9 +206,7 @@
             "title": "Carrello"
         },
         "customer": {},
-        "footer": {
-            "social_platform": "{{ name }} su {{ platform }}"
-        }
+        "footer": {}
     },
     "learn_more": "Impara di più",
     "list": "Elenco",
@@ -290,6 +288,7 @@
     "shipping": "Spedizione",
     "shipping_address": "Indirizzo di spedizione",
     "shipping_policy_html": "<a href='{{ link }}'>Spedizione</a> calcolata alla cassa.",
+    "shop_on_social": "{{ name }} su {{ platform }}",
     "show_less": "Mostra di meno",
     "show_more": "Mostra di più",
     "sign_in": "Accedi",

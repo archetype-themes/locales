@@ -200,9 +200,7 @@
             "title": "Carrinho"
         },
         "customer": {},
-        "footer": {
-            "social_platform": "{{ name }} em {{ platform }}"
-        }
+        "footer": {}
     },
     "learn_more": "Saber mais",
     "list": "List",
@@ -280,6 +278,7 @@
     "shipping": "Frete",
     "shipping_address": "Endereço de entrega",
     "shipping_policy_html": "<a href='{{ link }}'>Frete</a> calculado no checkout.",
+    "shop_on_social": "{{ name }} em {{ platform }}",
     "show_less": "Mostre menos",
     "show_more": "Mostre mais",
     "sign_in": "Entrar",

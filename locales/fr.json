@@ -206,9 +206,7 @@
             "title": "Panier"
         },
         "customer": {},
-        "footer": {
-            "social_platform": "{{ name }} sur {{ platform }}"
-        }
+        "footer": {}
     },
     "learn_more": "Apprendre plus",
     "list": "Lister",
@@ -290,6 +288,7 @@
     "shipping": "Livraison",
     "shipping_address": "Adresse de livraison",
     "shipping_policy_html": "<a href='{{ link }}'>Frais d'expédition</a> calculés lors du passage à la caisse.",
+    "shop_on_social": "{{ name }} sur {{ platform }}",
     "show_less": "Voir moins",
     "show_more": "Afficher plus",
     "sign_in": "Se connecter",

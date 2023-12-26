@@ -206,9 +206,7 @@
             "title": "Carrito"
         },
         "customer": {},
-        "footer": {
-            "social_platform": "{{ name }} en {{ platform }}"
-        }
+        "footer": {}
     },
     "learn_more": "Aprende más",
     "list": "List",
@@ -290,6 +288,7 @@
     "shipping": "Envío",
     "shipping_address": "Dirección de envío",
     "shipping_policy_html": "Los <a href='{{ link }}'>gastos de envío</a> se calculan en la pantalla de pagos.",
+    "shop_on_social": "{{ name }} en {{ platform }}",
     "show_less": "Muestra menos",
     "show_more": "Mostrar más",
     "sign_in": "Registrarse",
