@@ -18,7 +18,6 @@
         "close": "Chiudi il carrello",
         "empty": "Il tuo carrello è attualmente vuoto.",
         "general": {
-            "terms": "Sono d'accordo con i termini e le condizioni",
             "terms_confirm": "Devi accettare i termini e le condizioni di vendita per procedere al pagamento",
             "terms_html": "Sono d'accordo con i <a href='{{ url }}' target='_blank'>termini e condizioni</a>",
             "title": "Carrello"
@@ -379,6 +378,9 @@
     },
     "subtotal": "Subtotale",
     "tags": "Tags",
+    "terms": {
+        "i_agree": "Sono d'accordo con i termini e le condizioni"
+    },
     "total": "Totale",
     "view_all": "Visualizza tutto",
     "view_store_info": "Visualizza i dettagli del negozio"

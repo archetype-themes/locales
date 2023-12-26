@@ -18,7 +18,6 @@
         "close": "Einkaufswagen schließen",
         "empty": "Ihr Einkaufswagen ist im Moment leer.",
         "general": {
-            "terms": "Ich stimme den Nutzungsbedingungen zu",
             "terms_confirm": "Sie müssen den Verkaufsbedingungen zustimmen, um auszuchecken",
             "terms_html": "Ich stimme den <a href='{{ url }}' target='_blank'>Nutzungsbedingungen</a> zu",
             "title": "Einkaufswagen"
@@ -375,6 +374,9 @@
     },
     "subtotal": "Zwischensumme",
     "tags": "Tags",
+    "terms": {
+        "i_agree": "Ich stimme den Nutzungsbedingungen zu"
+    },
     "total": "Gesamt",
     "view_all": "Alle anzeigen",
     "view_store_info": "Ansicht speichern Informationen"

@@ -18,7 +18,6 @@
         "close": "Fermer le panier",
         "empty": "Votre panier est vide.",
         "general": {
-            "terms": "Je suis d'accord avec les termes et conditions",
             "terms_confirm": "Vous devez accepter les termes et conditions de vente pour vérifier",
             "terms_html": "Je suis d'accord avec les <a href='{{ url }}' target='_blank'>termes et conditions</a>",
             "title": "Panier"
@@ -376,6 +375,9 @@
     },
     "subtotal": "Sous-total",
     "tags": "Tags",
+    "terms": {
+        "i_agree": "Je suis d'accord avec les termes et conditions"
+    },
     "total": "Total",
     "view_all": "Voir toutes",
     "view_store_info": "Afficher les informations de magasin"

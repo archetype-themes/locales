@@ -18,7 +18,6 @@
         "close": "Cerrar carrito",
         "empty": "Su carrito actualmente está vacío.",
         "general": {
-            "terms": "Acepto los términos y condiciones",
             "terms_confirm": "Debe aceptar los términos y condiciones de venta para pagar",
             "terms_html": "Acepto los <a href='{{ url }}' target='_blank'>términos y condiciones</a>",
             "title": "Carrito de compra"
@@ -376,6 +375,9 @@
     },
     "subtotal": "Subtotal",
     "tags": "Etiquetas",
+    "terms": {
+        "i_agree": "Acepto los términos y condiciones"
+    },
     "total": "Total",
     "view_all": "Ver todo",
     "view_store_info": "Información de la tienda"

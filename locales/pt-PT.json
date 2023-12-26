@@ -18,7 +18,6 @@
         "close": "Fechar Carrinho de Compras",
         "empty": "O seu carrinho de compras está neste momento vazio.",
         "general": {
-            "terms": "Eu concordo com os termos e condições",
             "terms_confirm": "Você deve concordar com os termos e condições de vendas para verificar",
             "terms_html": "Eu concordo com os <a href='{{ url }}' target='_blank'>termos e condições</a>",
             "title": "Carrinho de Compras"
@@ -364,6 +363,9 @@
     },
     "subtotal": "Subtotal",
     "tags": "Etiquetas",
+    "terms": {
+        "i_agree": "Eu concordo com os termos e condições"
+    },
     "total": "Total",
     "view_all": "Ver todo",
     "view_store_info": "Exibir informações de loja"
