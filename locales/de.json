@@ -308,6 +308,7 @@
     "product": {
         "recipient": {
             "email": "Empfänger E-Mail",
+            "name_optional": "Name des Empfängers (optional)",
             "send_as_gift": "Ich möchte dies als Geschenk senden"
         }
     },
@@ -349,8 +350,7 @@
     "recipient": {
         "form": {
             "max_characters": "Maximal {{ max_chars }} Zeichen",
-            "message_label": "Nachricht (optional)",
-            "name_label": "Name des Empfängers (optional)"
+            "message_label": "Nachricht (optional)"
         }
     },
     "search": "Suche",
