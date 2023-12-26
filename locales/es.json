@@ -300,7 +300,8 @@
         "address_error": "No se puede encontrar esa dirección",
         "address_no_results": "No results for that address",
         "address_query_limit_html": "Se ha excedido el límite de uso de la API de Google . Considere la posibilidad de actualizar a un <a href=\"https://developers.google.com/maps/premium/usage-limits\">Plan Premium</a>.",
-        "auth_error_html": "Hubo un problema de autenticación con su cuenta de Google Maps. Crear y habilitar la <a href=\"https://developers.google.com/maps/documentation/javascript/get-api-key\">API de JavaScript</a> y <a href=\"https://developers.google.com/maps/documentation/geocoding/get-api-key\">API de geocodificación</a> permiso para su aplicación."
+        "auth_error_html": "Hubo un problema de autenticación con su cuenta de Google Maps. Crear y habilitar la <a href=\"https://developers.google.com/maps/documentation/javascript/get-api-key\">API de JavaScript</a> y <a href=\"https://developers.google.com/maps/documentation/geocoding/get-api-key\">API de geocodificación</a> permiso para su aplicación.",
+        "get_directions": "Obtener las direcciones"
     },
     "message": "Mensaje",
     "name": "Nombre",
@@ -351,9 +352,7 @@
     },
     "search": "Buscar",
     "sections": {
-        "map": {
-            "get_directions": "Obtener las direcciones"
-        },
+        "map": {},
         "slideshow": {}
     },
     "send": "Enviar",
