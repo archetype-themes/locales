@@ -16,7 +16,6 @@
     },
     "cart": {
         "general": {
-            "checkout": "Zur Kasse",
             "close_cart": "Einkaufswagen schließen",
             "continue_shopping": "Einkaufen Sie weiter",
             "discounts": "Rabatte",
@@ -37,6 +36,7 @@
         },
         "label": {}
     },
+    "checkout": "Zur Kasse",
     "collections": {
         "filters": {
             "all_tags": "Alle Produkte",
