@@ -165,7 +165,11 @@
     "filter": "Filtrar",
     "first_name": "Nome Próprio",
     "follow_us": "Siga-nos",
-    "form": {},
+    "form": {
+        "newsletter": {
+            "confirmation": "Obrigado pela sua subscrição"
+        }
+    },
     "general": {
         "404": {},
         "accessibility": {},
@@ -175,7 +179,6 @@
         "language": {},
         "meta": {},
         "newsletter_form": {
-            "newsletter_confirmation": "Obrigado pela sua subscrição",
             "newsletter_email": "Subscreva a nossa lista de emails",
             "submit": "Subscrever"
         },

@@ -163,7 +163,10 @@
     "first_name": "Il tuo nome",
     "follow_us": "Seguici su",
     "form": {
-        "max_characters": "Massimo {{ max_chars }} caratteri"
+        "max_characters": "Massimo {{ max_chars }} caratteri",
+        "newsletter": {
+            "confirmation": "Grazie per l'iscrizione"
+        }
     },
     "general": {
         "404": {},
@@ -174,7 +177,6 @@
         "language": {},
         "meta": {},
         "newsletter_form": {
-            "newsletter_confirmation": "Grazie per l'iscrizione",
             "newsletter_email": "Inserisci la tua email",
             "submit": "Iscriviti"
         },

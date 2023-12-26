@@ -166,7 +166,10 @@
     "first_name": "Prénom",
     "follow_us": "Suivez nous",
     "form": {
-        "max_characters": "{{ max_chars }} caractères au maximum"
+        "max_characters": "{{ max_chars }} caractères au maximum",
+        "newsletter": {
+            "confirmation": "Merci de vous être inscrit"
+        }
     },
     "general": {
         "404": {},
@@ -177,7 +180,6 @@
         "language": {},
         "meta": {},
         "newsletter_form": {
-            "newsletter_confirmation": "Merci de vous être inscrit",
             "newsletter_email": "Inscrivez-vous à notre infolettre",
             "submit": "S'inscrire"
         },

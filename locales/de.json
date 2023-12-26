@@ -162,7 +162,10 @@
     "first_name": "Vorname",
     "follow_us": "Folge uns",
     "form": {
-        "max_characters": "Maximal {{ max_chars }} Zeichen"
+        "max_characters": "Maximal {{ max_chars }} Zeichen",
+        "newsletter": {
+            "confirmation": "Danke fürs Anmelden"
+        }
     },
     "general": {
         "404": {},
@@ -173,7 +176,6 @@
         "language": {},
         "meta": {},
         "newsletter_form": {
-            "newsletter_confirmation": "Danke fürs Anmelden",
             "newsletter_email": "Melden Sie sich für unsere Mailingliste an",
             "submit": "Abonnieren"
         },
