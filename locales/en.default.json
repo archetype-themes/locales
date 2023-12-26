@@ -204,16 +204,17 @@
             "alt_text": {}
         }
     },
+    "gift_card": {
+        "add_to_apple_wallet": "Add to Apple Wallet",
+        "cta": "Start shopping",
+        "expired_on": "Expired on {{ expiry }}",
+        "expires_on_date": "Expires on {{ expiry }}",
+        "redeem": "Use this code at checkout to redeem your gift card",
+        "subtitle": "Here's your gift card!",
+        "title": "Here's your {{ value }} gift card for {{ shop }}!"
+    },
     "gift_cards": {
-        "issued": {
-            "active": "Expires on {{ expiry }}",
-            "add_to_apple_wallet": "Add to Apple Wallet",
-            "expired": "Expired on {{ expiry }}",
-            "redeem": "Use this code at checkout to redeem your gift card",
-            "shop_link": "Start shopping",
-            "subtext": "Here's your gift card!",
-            "title_html": "Here's your {{ value }} gift card for {{ shop }}!"
-        }
+        "issued": {}
     },
     "goes_great_with": "Goes great with",
     "home": "Home",
@@ -291,7 +292,6 @@
     },
     "products": {
         "general": {
-            "color_swatch_trigger": "Color",
             "from_text_html": "<span>from</span> {{ price }}",
             "more_from_html": "More from {{ link }}",
             "next_product": "Next: {{ title }}",
@@ -366,6 +366,9 @@
     },
     "top_searched": "Top searched",
     "total": "Total",
+    "trigger": {
+        "color_swatch": "Color"
+    },
     "view_addresses": "View addresses",
     "view_all": "View all",
     "view_all_products_count": "View all<br>{{ count }} products",

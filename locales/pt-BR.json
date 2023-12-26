@@ -205,16 +205,17 @@
             "alt_text": {}
         }
     },
+    "gift_card": {
+        "add_to_apple_wallet": "Adicionar ao Apple Wallet",
+        "cta": "Comece a comprar",
+        "expired_on": "Expirado em {{ expiry }}",
+        "expires_on_date": "Expira em {{ expiry }}",
+        "redeem": "Para resgatar o seu vale-presente, utilize este código no fechamento do pedido",
+        "subtitle": "Aqui está o seu vale-presente!",
+        "title": "Aqui está o seu vale-presente de {{ value }} na {{ shop }}!"
+    },
     "gift_cards": {
-        "issued": {
-            "active": "Expira em {{ expiry }}",
-            "add_to_apple_wallet": "Adicionar ao Apple Wallet",
-            "expired": "Expirado em {{ expiry }}",
-            "redeem": "Para resgatar o seu vale-presente, utilize este código no fechamento do pedido",
-            "shop_link": "Comece a comprar",
-            "subtext": "Aqui está o seu vale-presente!",
-            "title_html": "Aqui está o seu vale-presente de {{ value }} na {{ shop }}!"
-        }
+        "issued": {}
     },
     "goes_great_with": "Vai grande com",
     "home": "Início",
@@ -287,7 +288,6 @@
     },
     "products": {
         "general": {
-            "color_swatch_trigger": "Cor",
             "from_text_html": "<span>A partir de</span> {{ price }}",
             "more_from_html": "Mais de {{ link }}",
             "next_product": "Próximo: {{ title }}",
@@ -354,6 +354,9 @@
     },
     "top_searched": "Mais pesquisados",
     "total": "Total",
+    "trigger": {
+        "color_swatch": "Cor"
+    },
     "view_addresses": "Ver endereços",
     "view_all": "Ver todo",
     "view_all_products_count": "Ver todos os<br>{{ count }} produtos",

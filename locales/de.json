@@ -203,16 +203,17 @@
             "alt_text": {}
         }
     },
+    "gift_card": {
+        "add_to_apple_wallet": "Hinzufügen zu Apple Wallet",
+        "cta": "Einkauf beginnen",
+        "expired_on": "Abgelaufen am {{ expiry }}",
+        "expires_on_date": "Läuft ab am {{ expiry }}",
+        "redeem": "Nutzen Sie an der Kasse diesen Code, um Ihre Geschenkkarte einzulösen",
+        "subtitle": "Hier ist Ihre Geschenkkarte!",
+        "title": "Hier ist Ihre {{ value }} Geschenkkarte für {{ shop }}!"
+    },
     "gift_cards": {
-        "issued": {
-            "active": "Läuft ab am {{ expiry }}",
-            "add_to_apple_wallet": "Hinzufügen zu Apple Wallet",
-            "expired": "Abgelaufen am {{ expiry }}",
-            "redeem": "Nutzen Sie an der Kasse diesen Code, um Ihre Geschenkkarte einzulösen",
-            "shop_link": "Einkauf beginnen",
-            "subtext": "Hier ist Ihre Geschenkkarte!",
-            "title_html": "Hier ist Ihre {{ value }} Geschenkkarte für {{ shop }}!"
-        }
+        "issued": {}
     },
     "goes_great_with": "Geht mit",
     "home": "Startseite",
@@ -290,7 +291,6 @@
     },
     "products": {
         "general": {
-            "color_swatch_trigger": "Farbe",
             "from_text_html": "<span>Von</span> {{ price }}",
             "more_from_html": "Mehr von {{ link }}",
             "next_product": "Nächster: {{ title }}",
@@ -361,6 +361,9 @@
     },
     "top_searched": "Top gesucht",
     "total": "Gesamt",
+    "trigger": {
+        "color_swatch": "Farbe"
+    },
     "view_addresses": "Adressen ansehen",
     "view_all": "Alle anzeigen",
     "view_all_products_count": "zeige alle<br>{{ count }} Produkte an",

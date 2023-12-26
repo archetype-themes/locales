@@ -205,16 +205,17 @@
             "alt_text": {}
         }
     },
+    "gift_card": {
+        "add_to_apple_wallet": "Adicionar ao Apple Wallet",
+        "cta": "Começar a fazer compras",
+        "expired_on": "Expirou em {{ expiry }}",
+        "expires_on_date": "Expira em {{ expiry }}",
+        "redeem": "Use este código ao fazer o check-out para redimir o seu cartão-presente",
+        "subtitle": "Aqui está o seu cartão-presente!",
+        "title": "Aqui está o seu cartão-presente de {{ value }} para {{ shop }}!"
+    },
     "gift_cards": {
-        "issued": {
-            "active": "Expira em {{ expiry }}",
-            "add_to_apple_wallet": "Adicionar ao Apple Wallet",
-            "expired": "Expirou em {{ expiry }}",
-            "redeem": "Use este código ao fazer o check-out para redimir o seu cartão-presente",
-            "shop_link": "Começar a fazer compras",
-            "subtext": "Aqui está o seu cartão-presente!",
-            "title_html": "Aqui está o seu cartão-presente de {{ value }} para {{ shop }}!"
-        }
+        "issued": {}
     },
     "goes_great_with": "Vai grande com",
     "home": "Início",
@@ -287,7 +288,6 @@
     },
     "products": {
         "general": {
-            "color_swatch_trigger": "Cor",
             "from_text_html": "<span>Desde</span> {{ price }}",
             "more_from_html": "Mais de {{ link }}",
             "next_product": "Seguinte: {{ title }}",
@@ -354,6 +354,9 @@
     },
     "top_searched": "Mais pesquisados",
     "total": "Total",
+    "trigger": {
+        "color_swatch": "Cor"
+    },
     "view_addresses": "Ver Endereços",
     "view_all": "Ver todo",
     "view_all_products_count": "Ver todos os<br>{{ count }} produtos",
