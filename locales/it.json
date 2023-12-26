@@ -29,9 +29,7 @@
     "categories": "Categorie",
     "checkout": "Check-out",
     "collections": {
-        "filters": {
-            "title_tags": "Filtra"
-        },
+        "filters": {},
         "general": {
             "catalog_title": "Catalogo",
             "items_with_count": {
@@ -172,6 +170,7 @@
     "email": "Indirizzo email",
     "explore_more": "Esplora di più",
     "featured_product": "Sezione \"prodotto in primo piano\"",
+    "filter": "Filtra",
     "follow_us": "Seguici su",
     "form": {
         "max_characters": "Massimo {{ max_chars }} caratteri"

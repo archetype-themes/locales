@@ -29,9 +29,7 @@
     "categories": "Categorias",
     "checkout": "Fechar pedido",
     "collections": {
-        "filters": {
-            "title_tags": "Filtrar"
-        },
+        "filters": {},
         "general": {
             "catalog_title": "Catálogo",
             "items_with_count": {
@@ -172,6 +170,7 @@
     "email": "E-mail",
     "explore_more": "Explore mais",
     "featured_product": "Produto em destaque",
+    "filter": "Filtrar",
     "follow_us": "Siga-nos",
     "form": {},
     "general": {
