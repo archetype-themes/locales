@@ -204,7 +204,6 @@
         "password_page": {},
         "search": {
             "no_results_html": "Rechercher \"{{ terms }}\"",
-            "products": "Produits",
             "result_count": {
                 "one": "{{ count }} résultat",
                 "other": "{{ count }} résultats"
@@ -301,12 +300,7 @@
         },
         "recipient": {}
     },
-    "products": {
-        "general": {},
-        "product": {
-            "stock_label": "{{ count }} en stock"
-        }
-    },
+    "products": "Produits",
     "quantity": "Quantité",
     "quick_shop": "Boutique rapide",
     "recently_viewed": "Vu récemment",

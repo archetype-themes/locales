@@ -294,12 +294,6 @@
         },
         "recipient": {}
     },
-    "products": {
-        "general": {},
-        "product": {
-            "stock_label": "{{ count }} em estoque"
-        }
-    },
     "quantity": "Quantidade",
     "quick_shop": "Compra rápida",
     "recently_viewed": "Visto recentemente",
