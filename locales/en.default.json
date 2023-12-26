@@ -187,7 +187,6 @@
         "newsletter_form": {},
         "pagination": {},
         "password_page": {
-            "powered_by_shopify_html": "This shop will be powered by {{ shopify }}",
             "signup_form_success": "We will send you an email when we open!"
         },
         "search": {
@@ -369,5 +368,6 @@
     "view_addresses": "View addresses",
     "view_all": "View all",
     "view_all_products_count": "View all<br>{{ count }} products",
-    "view_store_info": "View store information"
+    "view_store_info": "View store information",
+    "will_be_powered_by": "This shop will be powered by {{ shopify }}"
 }

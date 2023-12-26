@@ -189,7 +189,6 @@
         "newsletter_form": {},
         "pagination": {},
         "password_page": {
-            "powered_by_shopify_html": "Esta loja será patrocinada por {{ shopify }}",
             "signup_form_success": "Nós lhe enviaremos um e-mail logo antes de abrirmos!"
         },
         "search": {
@@ -357,5 +356,6 @@
     "view_addresses": "Ver endereços",
     "view_all": "Ver todo",
     "view_all_products_count": "Ver todos os<br>{{ count }} produtos",
-    "view_store_info": "Exibir informações de loja"
+    "view_store_info": "Exibir informações de loja",
+    "will_be_powered_by": "Esta loja será patrocinada por {{ shopify }}"
 }
