@@ -32,7 +32,6 @@
         "filters": {},
         "general": {
             "items_with_count": {},
-            "large": "groß",
             "list": "Liste",
             "no_matches": "Es tut uns leid, aber Ihre Suche nach Produkten hat keine Treffer ergeben.",
             "see_less": "Zeige weniger",
@@ -362,6 +361,9 @@
     },
     "send": "Absenden",
     "show_more": "Zeig mehr",
+    "size": {
+        "large": "groß"
+    },
     "slideshow": {
         "pause": "Pause Diashow",
         "play": "Diashow abspielen"

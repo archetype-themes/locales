@@ -33,7 +33,6 @@
         "filters": {},
         "general": {
             "items_with_count": {},
-            "large": "Large",
             "list": "List",
             "no_matches": "Sorry, there are no products in this collection.",
             "see_less": "Show less",
@@ -367,6 +366,9 @@
     },
     "send": "Send",
     "show_more": "Show more",
+    "size": {
+        "large": "Large"
+    },
     "slideshow": {
         "pause": "Pause slideshow",
         "play": "Play slideshow"
