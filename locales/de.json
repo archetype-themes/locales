@@ -361,11 +361,10 @@
     },
     "small": "Klein",
     "store_availability": {
-        "general": {
-            "view_store_info": "Ansicht speichern Informationen"
-        }
+        "general": {}
     },
     "tags": "Tags",
     "total": "Gesamt",
-    "view_all": "Alle anzeigen"
+    "view_all": "Alle anzeigen",
+    "view_store_info": "Ansicht speichern Informationen"
 }

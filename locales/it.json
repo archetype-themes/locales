@@ -365,11 +365,10 @@
     },
     "small": "Piccola",
     "store_availability": {
-        "general": {
-            "view_store_info": "Visualizza i dettagli del negozio"
-        }
+        "general": {}
     },
     "tags": "Tags",
     "total": "Totale",
-    "view_all": "Visualizza tutto"
+    "view_all": "Visualizza tutto",
+    "view_store_info": "Visualizza i dettagli del negozio"
 }

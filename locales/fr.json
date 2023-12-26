@@ -362,11 +362,10 @@
     },
     "small": "Petit",
     "store_availability": {
-        "general": {
-            "view_store_info": "Afficher les informations de magasin"
-        }
+        "general": {}
     },
     "tags": "Tags",
     "total": "Total",
-    "view_all": "Voir toutes"
+    "view_all": "Voir toutes",
+    "view_store_info": "Afficher les informations de magasin"
 }
