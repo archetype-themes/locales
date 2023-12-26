@@ -294,6 +294,9 @@
     },
     "log_in": "Iniciar sessão",
     "log_out": "Terminar sessão",
+    "map": {
+        "address_error": "Não é possível localizar o endereço"
+    },
     "message": "Mensagem",
     "name": "Nome",
     "price": "Preço",
@@ -335,7 +338,6 @@
     "search": "Pesquisar",
     "sections": {
         "map": {
-            "address_error": "Não é possível localizar o endereço",
             "address_no_results": "Nenhum resultado para este endereço",
             "address_query_limit_html": "Você excedeu a cota de uso da API do Google. Considere a atualização para um <a href=\"https://developers.google.com/maps/premium/usage-limits\">Plano Premium</a>.",
             "auth_error_html": "Houve um problema autenticação de sua conta do Google Maps. Criar e ativar a <a href=\"https://developers.google.com/maps/documentation/javascript/get-api-key\">API JavaScript</a> e permissões de <a href=\"https://developers.google.com/maps/documentation/geocoding/get-api-key\">geocodificação da API</a> do seu aplicativo.",

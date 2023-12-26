@@ -295,6 +295,9 @@
     },
     "log_in": "Einloggen",
     "log_out": "Ausloggen",
+    "map": {
+        "address_error": "Kann die Adresse nicht finden"
+    },
     "message": "Nachricht",
     "name": "Name",
     "price": "Preis",
@@ -345,7 +348,6 @@
     "search": "Suche",
     "sections": {
         "map": {
-            "address_error": "Kann die Adresse nicht finden",
             "address_no_results": "Keine Ergebnisse für diese Adresse",
             "address_query_limit_html": "Sie haben die Google- API-Nutzungsgrenze überschritten. Betrachten wir zu einem <a href=\"https://developers.google.com/maps/premium/usage-limits\">Premium-Paket</a> zu aktualisieren.",
             "auth_error_html": "Es gab ein Problem bei Google Maps Konto zu authentifizieren. Erstellen und die <a href=\"https://developers.google.com/maps/documentation/javascript/get-api-key\">JavaScript- API</a> und <a href=\"https://developers.google.com/maps/documentation/geocoding/get-api-key\">Geocoding API</a> -Berechtigungen der App aktivieren.",
