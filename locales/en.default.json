@@ -193,8 +193,7 @@
             "submit": "Subscribe"
         },
         "pagination": {
-            "next": "Next",
-            "previous": "Previous"
+            "next": "Next"
         },
         "password_page": {
             "admin_link_html": "Store owner? <a href=\"/admin\" class=\"text-link\">Log in here</a>",
@@ -295,6 +294,7 @@
         "product_description": "This area is used to describe your product’s details. Tell customers about the look, feel, and style of your product. Add details on color,  materials used, sizing, and where it was made."
     },
     "popular_posts": "Popular posts",
+    "previous": "Previous",
     "price": "Price",
     "print": "Print",
     "product": {

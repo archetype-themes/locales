@@ -196,8 +196,7 @@
             "submit": "Suscribir"
         },
         "pagination": {
-            "next": "Siguiente",
-            "previous": "Anterior"
+            "next": "Siguiente"
         },
         "password_page": {
             "admin_link_html": "¿Eres el dueño de la tienda? <a href=\"/admin\" class=\"text-link\">Regístrate aquí</a>",
@@ -298,6 +297,7 @@
         "product_description": " Este campo se utiliza para describir los detalles de tu producto. Informa a los clientes acerca de la apariencia, percepción y estilo de tu producto. Incluye detalles sobre el color, los materiales utilizados, el tamaño y donde se hizo."
     },
     "popular_posts": "Articulos populares",
+    "previous": "Anterior",
     "price": "Precio",
     "print": "Imprimir",
     "product": {

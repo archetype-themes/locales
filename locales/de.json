@@ -192,8 +192,7 @@
             "submit": "Abonnieren"
         },
         "pagination": {
-            "next": "Vorwärts",
-            "previous": "Zurück"
+            "next": "Vorwärts"
         },
         "password_page": {
             "admin_link_html": "Sind Sie der Geschäftsinhaber? <a href=\"/admin\" class=\"text-link\">Melden Sie sich hier an</a>",
@@ -294,6 +293,7 @@
         "product_description": "Diesen Abschnitt können Sie nutzen, um die Details Ihres Produkts zu beschreiben. Erzählen Sie den Kunden, wie Ihr Produkt aussieht, sich anfühlt und designt ist. Fügen Sie Einzelheiten zu Farbe, verwendeten Materialien, Größe und Produktionsort hinzu."
     },
     "popular_posts": "Populäre Artikel",
+    "previous": "Zurück",
     "price": "Preis",
     "print": "Drucken",
     "product": {

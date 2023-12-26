@@ -196,8 +196,7 @@
             "submit": "S'inscrire"
         },
         "pagination": {
-            "next": "Suivant",
-            "previous": "Précédent"
+            "next": "Suivant"
         },
         "password_page": {
             "admin_link_html": "Êtes-vous le propriétaire de la boutique? <a href=\"/admin\" class=\"text-link\">Connectez-vous ici</a>.",
@@ -298,6 +297,7 @@
         "product_description": "Cette partie est utilisée pour la fiche du produit. Parlez aux clients de l'allure, du ressenti et du style de votre produit. Ajoutez des détails sur la couleur, les matériaux utilisés, le dimensionnement, et où il a été fabriqué."
     },
     "popular_posts": "Articles populaires",
+    "previous": "Précédent",
     "price": "Prix",
     "print": "Imprimer",
     "product": {

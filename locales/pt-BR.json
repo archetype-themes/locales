@@ -194,8 +194,7 @@
             "submit": "Inscrever"
         },
         "pagination": {
-            "next": "Avançar",
-            "previous": "Voltar"
+            "next": "Avançar"
         },
         "password_page": {
             "admin_link_html": "Você é o dono da loja? <a href=\"/admin\" class=\"text-link\">Faça login aqui</a>",
@@ -295,6 +294,7 @@
         "product_description": "Essa área é usada para descrever os detalhes do seu produto. Diga aos clientes sobre a aparência, toque e estilo de seu produto. Adicione detalhes como cor, materiais usados, tamanho e onde foi fabricado."
     },
     "popular_posts": "Artigos populares",
+    "previous": "Voltar",
     "price": "Preço",
     "print": "Imprimir",
     "product": {
