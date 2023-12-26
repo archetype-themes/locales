@@ -309,8 +309,7 @@
         },
         "product": {
             "shipping_policy_html": "<a href='{{ link }}'>Spedizione</a> calcolata alla cassa.",
-            "stock_label": {},
-            "view_in_space_label": "Visualizza nel tuo spazio, carica l'articolo nella finestra della realtà aumentata"
+            "stock_label": {}
         }
     },
     "quantity": "Quantità",
@@ -372,6 +371,7 @@
     "view_all": "Visualizza tutto",
     "view_all_products_count": "Visualizza tutti i<br>{{ count }} prodotti",
     "view_in_space": "Visualizza nel tuo spazio",
+    "view_in_space_explanation": "Visualizza nel tuo spazio, carica l'articolo nella finestra della realtà aumentata",
     "view_store_info": "Visualizza i dettagli del negozio",
     "will_be_powered_by": "Questo negozio sarà ospitato su {{ shopify }}"
 }

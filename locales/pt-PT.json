@@ -302,8 +302,7 @@
         },
         "product": {
             "shipping_policy_html": "<a href='{{ link }}'>Envio</a> calculado na finalização da compra.",
-            "stock_label": "{{ count }} em estoque",
-            "view_in_space_label": "Ver no seu espaço, carrega item na janela de realidade aumentada"
+            "stock_label": "{{ count }} em estoque"
         }
     },
     "quantity": "Quantidade",
@@ -361,6 +360,7 @@
     "view_all": "Ver todo",
     "view_all_products_count": "Ver todos os<br>{{ count }} produtos",
     "view_in_space": "Ver no seu espaço",
+    "view_in_space_explanation": "Ver no seu espaço, carrega item na janela de realidade aumentada",
     "view_store_info": "Exibir informações de loja",
     "will_be_powered_by": "Esta loja será movida por {{ shopify }}"
 }

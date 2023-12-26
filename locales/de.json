@@ -305,8 +305,7 @@
         },
         "product": {
             "shipping_policy_html": "zzgl. <a href='{{ link }}'>Versandkosten</a>",
-            "stock_label": "{{ count }} auf Lager",
-            "view_in_space_label": "„Ansicht in Ihrem Raum“ lädt den Artikel im Augmented-Reality-Fenster"
+            "stock_label": "{{ count }} auf Lager"
         }
     },
     "quantity": "Menge",
@@ -368,6 +367,7 @@
     "view_all": "Alle anzeigen",
     "view_all_products_count": "zeige alle<br>{{ count }} Produkte an",
     "view_in_space": "In Ihrem Bereich ansehen",
+    "view_in_space_explanation": "„Ansicht in Ihrem Raum“ lädt den Artikel im Augmented-Reality-Fenster",
     "view_store_info": "Ansicht speichern Informationen",
     "will_be_powered_by": "Dieser Shop wird mit Hilfe von {{ shopify }} betrieben werden"
 }
