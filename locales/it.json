@@ -151,6 +151,7 @@
             "title": "Reimposta la password dell'account"
         }
     },
+    "description": "Descrizione",
     "disabled": "Disabilitato",
     "discount": {
         "you_save": "Risparmi {{ saved_amount }}"
@@ -308,7 +309,6 @@
             "size_chart": "Tabella delle dimensioni"
         },
         "product": {
-            "description": "Descrizione",
             "shipping_policy_html": "<a href='{{ link }}'>Spedizione</a> calcolata alla cassa.",
             "stock_label": {},
             "view_in_space": "Visualizza nel tuo spazio",

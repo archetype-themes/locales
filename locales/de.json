@@ -150,6 +150,7 @@
             "title": "Account-Passwort zurücksetzen"
         }
     },
+    "description": "Beschreibung",
     "disabled": "Deaktiviert",
     "discount": {
         "you_save": "Sparen {{ saved_amount }}"
@@ -304,7 +305,6 @@
             "size_chart": "Größentabelle"
         },
         "product": {
-            "description": "Beschreibung",
             "shipping_policy_html": "zzgl. <a href='{{ link }}'>Versandkosten</a>",
             "stock_label": "{{ count }} auf Lager",
             "view_in_space": "In Ihrem Bereich ansehen",

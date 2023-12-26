@@ -154,6 +154,7 @@
     "date_formats": {
         "month_day_year": "%d de %B de %Y"
     },
+    "description": "Descrição",
     "disabled": "Inválido",
     "discount": {
         "you_save": "Poupe {{ saved_amount }}"
@@ -301,7 +302,6 @@
             "size_chart": "Gráfico de tamanho"
         },
         "product": {
-            "description": "Descrição",
             "shipping_policy_html": "<a href='{{ link }}'>Envio</a> calculado na finalização da compra.",
             "stock_label": "{{ count }} em estoque",
             "view_in_space": "Ver no seu espaço",

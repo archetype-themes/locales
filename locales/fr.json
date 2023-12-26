@@ -154,6 +154,7 @@
     "date_formats": {
         "month_day_year": "%d %B, %Y"
     },
+    "description": "Description",
     "disabled": "Désactivée",
     "discount": {
         "you_save": "Épargnez {{ saved_amount }}"
@@ -308,7 +309,6 @@
             "size_chart": "Tableau des tailles"
         },
         "product": {
-            "description": "Description",
             "shipping_policy_html": "<a href='{{ link }}'>Frais d'expédition</a> calculés lors du passage à la caisse.",
             "stock_label": "{{ count }} en stock",
             "view_in_space": "Afficher dans votre espace",
