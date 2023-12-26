@@ -302,8 +302,7 @@
     "products": {
         "general": {
             "next_product": "Next: {{ title }}",
-            "regular_price": "Regular price",
-            "sale_price": "Sale price"
+            "regular_price": "Regular price"
         },
         "product": {
             "stock_label": {}
@@ -319,6 +318,7 @@
     "remove": "Remove",
     "reviews": "Reviews",
     "sale": "Sale",
+    "sale_price": "Sale price",
     "save_amount": "Save {{ saved_amount }}",
     "search": "Search",
     "sections": {

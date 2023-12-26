@@ -302,8 +302,7 @@
     "products": {
         "general": {
             "next_product": "Avanti: {{ title }}",
-            "regular_price": "Prezzo di listino",
-            "sale_price": "Prezzo scontato"
+            "regular_price": "Prezzo di listino"
         },
         "product": {
             "stock_label": {}
@@ -319,6 +318,7 @@
     "remove": "Rimuovi",
     "reviews": "Recensioni",
     "sale": "In offerta",
+    "sale_price": "Prezzo scontato",
     "save_amount": "Salva {{ saved_amount }}",
     "search": "Cerca",
     "sections": {
