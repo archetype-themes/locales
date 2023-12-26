@@ -163,7 +163,6 @@
         "404": {},
         "accessibility": {},
         "breadcrumbs": {
-            "home": "Startseite",
             "home_link_title": "Zurück zur Startseite"
         },
         "currency": {
@@ -232,6 +231,7 @@
         }
     },
     "goes_great_with": "Geht mit",
+    "home": "Startseite",
     "home_page": {
         "onboarding": {}
     },

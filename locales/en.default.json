@@ -164,7 +164,6 @@
         "404": {},
         "accessibility": {},
         "breadcrumbs": {
-            "home": "Home",
             "home_link_title": "Back to the frontpage"
         },
         "currency": {
@@ -233,6 +232,7 @@
         }
     },
     "goes_great_with": "Goes great with",
+    "home": "Home",
     "home_page": {
         "onboarding": {}
     },

@@ -167,7 +167,6 @@
         "404": {},
         "accessibility": {},
         "breadcrumbs": {
-            "home": "Inicio",
             "home_link_title": "Volver a la portada"
         },
         "currency": {
@@ -236,6 +235,7 @@
         }
     },
     "goes_great_with": "Va muy bien con",
+    "home": "Inicio",
     "home_page": {
         "onboarding": {}
     },
