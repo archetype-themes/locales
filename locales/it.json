@@ -325,7 +325,6 @@
             "quick_shop": "Negozio rapido",
             "recent_products": "Visualizzati di recente",
             "regular_price": "Prezzo di listino",
-            "reviews": "Recensioni",
             "sale": "In offerta",
             "sale_price": "Prezzo scontato",
             "save_html": "Salva {{ saved_amount }}",
@@ -352,6 +351,7 @@
     },
     "reduce_item_quantity": "Riduci la quantità dell'articolo di uno",
     "remove": "Rimuovi",
+    "reviews": "Recensioni",
     "search": "Cerca",
     "sections": {
         "map": {},

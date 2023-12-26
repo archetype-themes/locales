@@ -319,7 +319,6 @@
             "quick_shop": "Compra rápida",
             "recent_products": "Visto recentemente",
             "regular_price": "Preço normal",
-            "reviews": "Avaliações",
             "sale": "Venda",
             "sale_price": "Preço promocional",
             "save_html": "Economize {{ saved_amount }}",
@@ -340,6 +339,7 @@
     "quantity": "Quantidade",
     "reduce_item_quantity": "Reduzir quantidade em uma unidade",
     "remove": "Remover",
+    "reviews": "Avaliações",
     "search": "Pesquisa",
     "sections": {
         "map": {},
