@@ -38,7 +38,6 @@
             "items_with_count": {}
         },
         "sorting": {
-            "sorting_by": "Sorting by",
             "title": "Sort"
         }
     },
@@ -375,6 +374,7 @@
         "play": "Play slideshow"
     },
     "small": "Small",
+    "sorting_by": "Sorting by",
     "store_availability": {
         "general": {}
     },
