@@ -11,7 +11,6 @@
     "blogs": {
         "article": {},
         "comments": {
-            "success_moderated": "Su comentario se ha compartido con éxito. Lo publicaremos en un momento, en tanto nuestro blog sea moderado.",
             "title": "Dejar un comentario",
             "with_count": {
                 "one": "{{ count }} comentario",
@@ -68,7 +67,8 @@
     "comments": {
         "must_be_approved": "Por favor tenga en cuenta que los comentarios deben ser aprobados antes de ser publicados",
         "post": "Publicar comentario",
-        "posted_successfully": "¡Su comentario se ha compartido con éxito! ¡Gracias!"
+        "posted_successfully": "¡Su comentario se ha compartido con éxito! ¡Gracias!",
+        "posted_successfully_moderated": "Su comentario se ha compartido con éxito. Lo publicaremos en un momento, en tanto nuestro blog sea moderado."
     },
     "contact": {
         "form": {
