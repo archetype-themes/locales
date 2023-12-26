@@ -36,7 +36,6 @@
         "filters": {},
         "general": {
             "items_with_count": {},
-            "see_less": "Mostre menos",
             "view_all_products_html": "Ver todos os<br>{{ count }} produtos"
         },
         "sorting": {
@@ -351,6 +350,7 @@
         "slideshow": {}
     },
     "send": "Enviar",
+    "show_less": "Mostre menos",
     "show_more": "Mostre mais",
     "size": {
         "large": "Large"
