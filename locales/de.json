@@ -170,7 +170,6 @@
     "general": {
         "404": {},
         "accessibility": {
-            "learn_more": "Erfahren Sie mehr",
             "skip_to_content": "Direkt zum Inhalt"
         },
         "breadcrumbs": {
@@ -277,6 +276,7 @@
             "social_platform": "{{ name }} auf {{ platform }}"
         }
     },
+    "learn_more": "Erfahren Sie mehr",
     "list": "Liste",
     "log_in": "Einloggen",
     "log_out": "Ausloggen",
