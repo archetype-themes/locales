@@ -34,6 +34,7 @@
     "categories": "Categorías",
     "checkout": "Finalizar pedido",
     "close": "Cerrar",
+    "close_esc": "Cerrar (esc)",
     "collection": {
         "no_products": "Lo sentimos, no hay productos que coincidan con su búsqueda."
     },
@@ -173,7 +174,6 @@
     "general": {
         "404": {},
         "accessibility": {
-            "close_modal": "Cerrar (esc)",
             "learn_more": "Aprende más",
             "skip_to_content": "Ir directamente al contenido"
         },

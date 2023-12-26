@@ -34,6 +34,7 @@
     "categories": "Categorie",
     "checkout": "Check-out",
     "close": "Chiudi",
+    "close_esc": "Chiudi (esc)",
     "collection": {
         "no_products": "Siamo spiacenti, non ci sono prodotti in questa collezione."
     },
@@ -170,7 +171,6 @@
     "general": {
         "404": {},
         "accessibility": {
-            "close_modal": "Chiudi (esc)",
             "learn_more": "Impara di più",
             "skip_to_content": "Vai direttamente ai contenuti"
         },
