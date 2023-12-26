@@ -218,7 +218,6 @@
             "cancel": "Cancelar",
             "collections": "Colecções:",
             "no_results_html": "Sua busca por \"{{ terms }}\" não gerou resultados.",
-            "pages": "Páginas:",
             "result_count": {
                 "one": "{{ count }} resultado",
                 "other": "{{ count }} resultados"
@@ -294,6 +293,7 @@
     "order": {
         "add_note": "Instruções especiais para o vendedor"
     },
+    "pages": "Páginas:",
     "phone_number": "Telefone",
     "placeholder": {
         "example_collection": "Exemplo de título de coleção",

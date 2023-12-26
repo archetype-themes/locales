@@ -216,7 +216,6 @@
             "cancel": "Abbrechen",
             "collections": "Kollektionen",
             "no_results_html": "Suche nach \"{{ terms }}\"",
-            "pages": "Seiten",
             "products": "Produkte",
             "result_count": {
                 "one": "{{ count }} Ergebnis",
@@ -294,6 +293,7 @@
     "order": {
         "add_note": "Besondere Hinweise an den Verkäufer"
     },
+    "pages": "Seiten",
     "phone_number": "Telefonnummer",
     "placeholder": {
         "example_collection": "Beispielhafter Zusammenstellungstitel",

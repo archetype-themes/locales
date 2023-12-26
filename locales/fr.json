@@ -220,7 +220,6 @@
             "cancel": "Annuler",
             "collections": "Collections",
             "no_results_html": "Rechercher \"{{ terms }}\"",
-            "pages": "Pages",
             "products": "Produits",
             "result_count": {
                 "one": "{{ count }} résultat",
@@ -298,6 +297,7 @@
     "order": {
         "add_note": "Ajouter des instructions de commande spéciales"
     },
+    "pages": "Pages",
     "phone_number": "Téléphone",
     "placeholder": {
         "example_collection": "Titre de la collection",
