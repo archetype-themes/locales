@@ -176,6 +176,9 @@
             "password_input_placeholder": "A sua palavra-passe",
             "submit": "Entrar",
             "title": "Entre na loja usando a palavra-passe:"
+        },
+        "signup": {
+            "confirmation": "Iremos enviar-lhe um email imediatamente antes de abrirmos!"
         }
     },
     "general": {
@@ -188,9 +191,7 @@
         "meta": {},
         "newsletter_form": {},
         "pagination": {},
-        "password_page": {
-            "signup_form_success": "Iremos enviar-lhe um email imediatamente antes de abrirmos!"
-        },
+        "password_page": {},
         "search": {
             "no_results_html": "A sua pesquisa por \"{{ terms }}\" não produziu resultados.",
             "result_count": {

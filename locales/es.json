@@ -177,6 +177,9 @@
             "password_input_placeholder": "Tu contraseña",
             "submit": "Ingresar",
             "title": "Entrar a la tienda usando contraseña:"
+        },
+        "signup": {
+            "confirmation": "¡Te enviaremos un correo electrónico antes de inaugurar!"
         }
     },
     "general": {
@@ -189,9 +192,7 @@
         "meta": {},
         "newsletter_form": {},
         "pagination": {},
-        "password_page": {
-            "signup_form_success": "¡Te enviaremos un correo electrónico antes de inaugurar!"
-        },
+        "password_page": {},
         "search": {
             "no_results_html": "Búsqueda de \"{{ terms }}\"",
             "products": "Productos",

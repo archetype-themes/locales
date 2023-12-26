@@ -173,6 +173,9 @@
             "password_input_placeholder": "Ihr Passwort",
             "submit": "Betreten",
             "title": "Shop mit Passwort betreten:"
+        },
+        "signup": {
+            "confirmation": "Wir senden Ihnen eine E-Mail, kurz bevor wir eröffnen!"
         }
     },
     "general": {
@@ -185,9 +188,7 @@
         "meta": {},
         "newsletter_form": {},
         "pagination": {},
-        "password_page": {
-            "signup_form_success": "Wir senden Ihnen eine E-Mail, kurz bevor wir eröffnen!"
-        },
+        "password_page": {},
         "search": {
             "no_results_html": "Suche nach \"{{ terms }}\"",
             "products": "Produkte",
