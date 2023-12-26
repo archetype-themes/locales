@@ -51,9 +51,8 @@
         "posted_successfully_moderated": "Il tuo commento è stato pubblicato. Lo pubblicheremo fra poco, il nostro blog è soggetto a moderazione."
     },
     "contact": {
-        "form": {
-            "post_success": "Grazie per averci contattato. Risponderemo il prima possibile."
-        }
+        "form": {},
+        "thanks": "Grazie per averci contattato. Risponderemo il prima possibile."
     },
     "continue_reading": "Continua a leggere",
     "continue_shopping": "Continua lo shopping",

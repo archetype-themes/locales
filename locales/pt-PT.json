@@ -51,9 +51,8 @@
         "posted_successfully_moderated": "O seu comentário foi publicado com sucesso! Obrigado!"
     },
     "contact": {
-        "form": {
-            "post_success": "Obrigado por entrar em contacto connosco. Responder-lhe-emos logo que possível."
-        }
+        "form": {},
+        "thanks": "Obrigado por entrar em contacto connosco. Responder-lhe-emos logo que possível."
     },
     "continue_reading": "Ler mais",
     "continue_shopping": "Continue comprando",

@@ -51,9 +51,8 @@
         "posted_successfully_moderated": "Votre commentaire a été soumis avec succès. Nous le publierons sous peu, suite à notre processus de modération."
     },
     "contact": {
-        "form": {
-            "post_success": "Merci de nous avoir avoir contacté. Nous vous reviendrons le plus rapidement possible."
-        }
+        "form": {},
+        "thanks": "Merci de nous avoir avoir contacté. Nous vous reviendrons le plus rapidement possible."
     },
     "continue_reading": "Plus",
     "continue_shopping": "Continuer vos achats",
