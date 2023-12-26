@@ -1,5 +1,6 @@
 {
     "account": "Account",
+    "all_products": "All products",
     "availability": {
         "check_other_stores": "Check availability at other stores",
         "pick_up_available": "Pickup available",
@@ -28,7 +29,6 @@
     "checkout": "Check out",
     "collections": {
         "filters": {
-            "all_tags": "All products",
             "categories_title": "Categories",
             "title_tags": "Filter"
         },

@@ -1,5 +1,6 @@
 {
     "account": "Conta",
+    "all_products": "Todos os produtos",
     "availability": {
         "check_other_stores": "Ver disponibilidade em outras lojas",
         "pick_up_available": "transbordo",
@@ -28,7 +29,6 @@
     "checkout": "Fechar pedido",
     "collections": {
         "filters": {
-            "all_tags": "Todos os produtos",
             "categories_title": "Categorias",
             "title_tags": "Filtrar"
         },
