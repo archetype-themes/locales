@@ -18,7 +18,6 @@
         "close": "Close cart",
         "empty": "Your cart is currently empty.",
         "general": {
-            "recommended_title": "Goes great with",
             "savings_html": "You save {{ saved_amount }}",
             "shipping_at_checkout": "Shipping, taxes, and discount codes calculated at checkout.",
             "terms": "I agree with the terms and conditions",
@@ -270,6 +269,7 @@
             "title_html": "Here's your {{ value }} gift card for {{ shop }}!"
         }
     },
+    "goes_great_with": "Goes great with",
     "home_page": {
         "onboarding": {
             "collection_title": "Example collection",

@@ -18,7 +18,6 @@
         "close": "Chiudi il carrello",
         "empty": "Il tuo carrello è attualmente vuoto.",
         "general": {
-            "recommended_title": "Va benissimo con",
             "savings_html": "Risparmi {{ saved_amount }}",
             "shipping_at_checkout": "Spedizione, tasse e codici sconto calcolati alla cassa.",
             "terms": "Sono d'accordo con i termini e le condizioni",
@@ -269,6 +268,7 @@
             "title_html": "Ecco il tuo buono regalo dal valore di {{ value }} per {{ shop }}!"
         }
     },
+    "goes_great_with": "Va benissimo con",
     "home_page": {
         "onboarding": {
             "collection_title": "Esempio di collezione",
