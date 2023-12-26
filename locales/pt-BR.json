@@ -173,6 +173,7 @@
         },
         "password": {
             "admin_link_html": "Você é o dono da loja? <a href=\"/admin\" class=\"text-link\">Faça login aqui</a>",
+            "password_input_placeholder": "Sua senha",
             "title": "Entre na loja usando a senha:"
         }
     },
@@ -187,7 +188,6 @@
         "newsletter_form": {},
         "pagination": {},
         "password_page": {
-            "login_form_password_placeholder": "Sua senha",
             "login_form_submit": "Entrar",
             "powered_by_shopify_html": "Esta loja será patrocinada por {{ shopify }}",
             "signup_form_success": "Nós lhe enviaremos um e-mail logo antes de abrirmos!"

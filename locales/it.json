@@ -171,6 +171,7 @@
         },
         "password": {
             "admin_link_html": "Sei il proprietario di un negozio? <a href=\"/admin\" class=\"text-link\">Entra qui</a>",
+            "password_input_placeholder": "La tua password",
             "title": "Entra nel negozio usando la password"
         }
     },
@@ -185,7 +186,6 @@
         "newsletter_form": {},
         "pagination": {},
         "password_page": {
-            "login_form_password_placeholder": "La tua password",
             "login_form_submit": "Accedi",
             "powered_by_shopify_html": "Questo negozio sarà ospitato su {{ shopify }}",
             "signup_form_success": "Ti invieremo un'email quando apriremo!"
