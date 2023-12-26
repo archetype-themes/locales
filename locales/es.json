@@ -301,8 +301,7 @@
     },
     "products": {
         "general": {
-            "next_product": "Siguiente: {{ title }}",
-            "regular_price": "Precio habitual"
+            "next_product": "Siguiente: {{ title }}"
         },
         "product": {
             "stock_label": "{{ count }} en stock"
@@ -315,6 +314,7 @@
         "form": {}
     },
     "reduce_item_quantity": "Quitar uno a la cantidad de artículos",
+    "regular_price": "Precio habitual",
     "remove": "Quitar",
     "reviews": "Comentarios",
     "sale": "Venta",

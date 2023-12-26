@@ -294,8 +294,7 @@
     },
     "products": {
         "general": {
-            "next_product": "Seguinte: {{ title }}",
-            "regular_price": "Preço normal"
+            "next_product": "Seguinte: {{ title }}"
         },
         "product": {
             "stock_label": "{{ count }} em estoque"
@@ -305,6 +304,7 @@
     "quick_shop": "Compra rápida",
     "recently_viewed": "Visto recentemente",
     "reduce_item_quantity": "Reduza a quantidade do artigo em um",
+    "regular_price": "Preço normal",
     "remove": "Eliminar",
     "reviews": "Avaliações",
     "sale": "Venda",

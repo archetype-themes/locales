@@ -301,8 +301,7 @@
     },
     "products": {
         "general": {
-            "next_product": "Next: {{ title }}",
-            "regular_price": "Regular price"
+            "next_product": "Next: {{ title }}"
         },
         "product": {
             "stock_label": {}
@@ -315,6 +314,7 @@
         "form": {}
     },
     "reduce_item_quantity": "Reduce item quantity by one",
+    "regular_price": "Regular price",
     "remove": "Remove",
     "reviews": "Reviews",
     "sale": "Sale",

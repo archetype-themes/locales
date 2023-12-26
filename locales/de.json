@@ -297,8 +297,7 @@
     },
     "products": {
         "general": {
-            "next_product": "Nächster: {{ title }}",
-            "regular_price": "Normaler Preis"
+            "next_product": "Nächster: {{ title }}"
         },
         "product": {
             "stock_label": "{{ count }} auf Lager"
@@ -311,6 +310,7 @@
         "form": {}
     },
     "reduce_item_quantity": "Artikelmenge um eins reduzieren",
+    "regular_price": "Normaler Preis",
     "remove": "Entfernen",
     "reviews": "Rezensionen",
     "sale": "Reduziert",
