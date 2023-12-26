@@ -11,7 +11,6 @@
     "blogs": {
         "article": {},
         "comments": {
-            "post": "Publier le commentaire",
             "success": "Votre commentaire a été publié avec succès!",
             "success_moderated": "Votre commentaire a été soumis avec succès. Nous le publierons sous peu, suite à notre processus de modération.",
             "title": "Laissez un commentaire",
@@ -68,7 +67,8 @@
         }
     },
     "comments": {
-        "must_be_approved": "Veuillez noter que les commentaires doivent être approvés avant d'être affichés"
+        "must_be_approved": "Veuillez noter que les commentaires doivent être approvés avant d'être affichés",
+        "post": "Publier le commentaire"
     },
     "contact": {
         "form": {
