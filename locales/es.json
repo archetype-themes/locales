@@ -182,9 +182,7 @@
         "language": {},
         "meta": {},
         "newsletter_form": {},
-        "pagination": {
-            "next": "Siguiente"
-        },
+        "pagination": {},
         "password_page": {
             "admin_link_html": "¿Eres el dueño de la tienda? <a href=\"/admin\" class=\"text-link\">Regístrate aquí</a>",
             "login_form_heading": "Entrar a la tienda usando contraseña:",
@@ -269,6 +267,7 @@
     "message": "Mensaje",
     "more_from": "Mas de",
     "name": "Nombre",
+    "next": "Siguiente",
     "order": {
         "add_note": "Instrucciones especiales para el vendedor"
     },

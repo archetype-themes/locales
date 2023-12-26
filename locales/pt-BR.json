@@ -181,9 +181,7 @@
         "language": {},
         "meta": {},
         "newsletter_form": {},
-        "pagination": {
-            "next": "Avançar"
-        },
+        "pagination": {},
         "password_page": {
             "admin_link_html": "Você é o dono da loja? <a href=\"/admin\" class=\"text-link\">Faça login aqui</a>",
             "login_form_heading": "Entre na loja usando a senha:",
@@ -267,6 +265,7 @@
     "message": "Mensagem",
     "more_from": "Mais de",
     "name": "Nome",
+    "next": "Avançar",
     "order": {
         "add_note": "Instruções especiais para o vendedor"
     },

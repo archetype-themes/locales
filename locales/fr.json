@@ -182,9 +182,7 @@
         "language": {},
         "meta": {},
         "newsletter_form": {},
-        "pagination": {
-            "next": "Suivant"
-        },
+        "pagination": {},
         "password_page": {
             "admin_link_html": "Êtes-vous le propriétaire de la boutique? <a href=\"/admin\" class=\"text-link\">Connectez-vous ici</a>.",
             "login_form_heading": "Accéder à la boutique à l'aide d'un mot de passe:",
@@ -269,6 +267,7 @@
     "message": "Message",
     "more_from": "Plus de",
     "name": "Nom",
+    "next": "Suivant",
     "order": {
         "add_note": "Ajouter des instructions de commande spéciales"
     },

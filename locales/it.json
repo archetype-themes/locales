@@ -179,9 +179,7 @@
         "language": {},
         "meta": {},
         "newsletter_form": {},
-        "pagination": {
-            "next": "Successivo"
-        },
+        "pagination": {},
         "password_page": {
             "admin_link_html": "Sei il proprietario di un negozio? <a href=\"/admin\" class=\"text-link\">Entra qui</a>",
             "login_form_heading": "Entra nel negozio usando la password",
@@ -266,6 +264,7 @@
     "message": "Messaggio",
     "more_from": "Più da",
     "name": "Nome",
+    "next": "Successivo",
     "order": {
         "add_note": "Aggiungi una nota all'ordine"
     },

@@ -179,9 +179,7 @@
         "language": {},
         "meta": {},
         "newsletter_form": {},
-        "pagination": {
-            "next": "Next"
-        },
+        "pagination": {},
         "password_page": {
             "admin_link_html": "Store owner? <a href=\"/admin\" class=\"text-link\">Log in here</a>",
             "login_form_heading": "Enter store using password",
@@ -266,6 +264,7 @@
     "message": "Message",
     "more_from": "More from",
     "name": "Name",
+    "next": "Next",
     "order": {
         "add_note": "Add order note"
     },
