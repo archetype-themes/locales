@@ -172,9 +172,7 @@
         "breadcrumbs": {},
         "currency": {},
         "drawers": {},
-        "language": {
-            "dropdown_label": "Idioma"
-        },
+        "language": {},
         "meta": {
             "page": "Página {{ page }}",
             "tags": "Marcado \"{{ tags }}\""
@@ -241,6 +239,7 @@
         "sold_out": "Esgotado",
         "unavailable": "Indisponível"
     },
+    "language": "Idioma",
     "latest_posts": "Artigos Mais Recentes",
     "layout": {
         "cart": {

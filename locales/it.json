@@ -171,9 +171,7 @@
         "breadcrumbs": {},
         "currency": {},
         "drawers": {},
-        "language": {
-            "dropdown_label": "Lingua"
-        },
+        "language": {},
         "meta": {
             "page": "Pagina {{ page }}",
             "tags": "Contrassegnato da tag \"{{ tag }}\""
@@ -241,6 +239,7 @@
         "sold_out": "Esaurito",
         "unavailable": "Non disponibile"
     },
+    "language": "Lingua",
     "latest_posts": "Ultimi messaggi",
     "layout": {
         "cart": {
