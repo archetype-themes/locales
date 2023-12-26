@@ -254,7 +254,6 @@
     "goes_great_with": "Vai grande com",
     "home_page": {
         "onboarding": {
-            "no_content": "Esta sección actualmente no incluye ningún contenido. Añade un contenido a esta sección utilizando la barra lateral.",
             "product_description": "Esta área é usada para descrever o seu produto detalhadamente. Informe o cliente do aspeto, toque e estilo do seu produto. Adicione detalhes sobre a cor, materiais usados, tamanhos e onde foi fabricado.",
             "product_title": "Título do Produto Exemplo"
         }
@@ -301,7 +300,8 @@
     },
     "phone_number": "Número de Telefone",
     "placeholder": {
-        "example_collection": "Título da Coleção Exemplo"
+        "example_collection": "Título da Coleção Exemplo",
+        "no_content": "Esta sección actualmente no incluye ningún contenido. Añade un contenido a esta sección utilizando la barra lateral."
     },
     "popular_posts": "Artigos populares",
     "price": "Preço",
