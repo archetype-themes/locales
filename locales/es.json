@@ -7,9 +7,9 @@
         "pick_up_currently_unavailable": "Recogida disponible en este momento",
         "pick_up_unavailable_at_html": "Recogida está disponible en <strong> {{location_name}} </strong>"
     },
+    "back_to": "Volver a {{ title }}",
     "blogs": {
         "article": {
-            "back_to_blog": "Volver a {{ title }}",
             "explore_more": "Explora más",
             "featured_product": "Producto destacado",
             "latest_posts": "Últimos artículos",

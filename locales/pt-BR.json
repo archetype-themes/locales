@@ -7,9 +7,9 @@
         "pick_up_currently_unavailable": "Captador atualmente indisponível",
         "pick_up_unavailable_at_html": "Captador disponível atualmente em <strong> {{location_name}} </strong>"
     },
+    "back_to": "Voltar para {{ title }}",
     "blogs": {
         "article": {
-            "back_to_blog": "Voltar para {{ title }}",
             "explore_more": "Explore mais",
             "featured_product": "Produto em destaque",
             "latest_posts": "Artigos Mais Recentes",
