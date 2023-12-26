@@ -168,7 +168,8 @@
     "form": {
         "newsletter": {
             "confirmation": "Obrigado por assinar",
-            "input_placeholder": "Assine nossa newsletter"
+            "input_placeholder": "Assine nossa newsletter",
+            "submit": "Inscrever"
         }
     },
     "general": {
@@ -179,9 +180,7 @@
         "drawers": {},
         "language": {},
         "meta": {},
-        "newsletter_form": {
-            "submit": "Inscrever"
-        },
+        "newsletter_form": {},
         "pagination": {
             "next": "Avançar"
         },

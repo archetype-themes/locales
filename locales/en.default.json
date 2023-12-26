@@ -166,7 +166,8 @@
         "max_characters": "{{ max_chars }} characters max",
         "newsletter": {
             "confirmation": "Thanks for subscribing",
-            "input_placeholder": "Enter your email"
+            "input_placeholder": "Enter your email",
+            "submit": "Subscribe"
         }
     },
     "general": {
@@ -177,9 +178,7 @@
         "drawers": {},
         "language": {},
         "meta": {},
-        "newsletter_form": {
-            "submit": "Subscribe"
-        },
+        "newsletter_form": {},
         "pagination": {
             "next": "Next"
         },
