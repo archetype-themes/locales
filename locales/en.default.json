@@ -255,7 +255,6 @@
     "goes_great_with": "Goes great with",
     "home_page": {
         "onboarding": {
-            "collection_title": "Example collection",
             "no_content": "This section doesn’t currently include any content. Add content to this section using the sidebar.",
             "product_description": "This area is used to describe your product’s details. Tell customers about the look, feel, and style of your product. Add details on color,  materials used, sizing, and where it was made.",
             "product_title": "Example product"
@@ -302,6 +301,9 @@
         "add_note": "Add order note"
     },
     "phone_number": "Phone number",
+    "placeholder": {
+        "example_collection": "Example collection"
+    },
     "popular_posts": "Popular posts",
     "price": "Price",
     "product": {

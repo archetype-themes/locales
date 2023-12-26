@@ -254,7 +254,6 @@
     "goes_great_with": "Vai grande com",
     "home_page": {
         "onboarding": {
-            "collection_title": "Exemplo de título de coleção",
             "no_content": "Atualmente, esta seção não inclui nenhum conteúdo. Adicione conteúdo nesta seção usando a barra lateral.",
             "product_description": "Essa área é usada para descrever os detalhes do seu produto. Diga aos clientes sobre a aparência, toque e estilo de seu produto. Adicione detalhes como cor, materiais usados, tamanho e onde foi fabricado.",
             "product_title": "Exemplo de título de produto"
@@ -301,6 +300,9 @@
         "add_note": "Instruções especiais para o vendedor"
     },
     "phone_number": "Telefone",
+    "placeholder": {
+        "example_collection": "Exemplo de título de coleção"
+    },
     "popular_posts": "Artigos populares",
     "price": "Preço",
     "product": {
