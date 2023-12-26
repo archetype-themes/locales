@@ -10,7 +10,6 @@
     "back_to": "Zurück zu {{ title }}",
     "blogs": {
         "article": {
-            "more_from": "Mehr von",
             "popular_posts": "Populäre Artikel",
             "read_more": "Weiterlesen"
         },
@@ -306,6 +305,7 @@
         "get_directions": "Richtungen"
     },
     "message": "Nachricht",
+    "more_from": "Mehr von",
     "name": "Name",
     "price": "Preis",
     "product": {
