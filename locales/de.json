@@ -11,7 +11,6 @@
     "blogs": {
         "article": {},
         "comments": {
-            "success": "Ihr Kommentar wurde erfolgreich gepostet. Danke!",
             "success_moderated": "Ihr Kommentar wurde erfolgreich gepostet. Da unser Blog moderiert wird, werden wir ihn erst kurze Zeit später veröffentlichen.",
             "title": "Hinterlassen Sie einen Kommentar",
             "with_count": {
@@ -67,7 +66,8 @@
     },
     "comments": {
         "must_be_approved": "Bitte beachten Sie, dass Kommentare vor der Veröffentlichung freigegeben werden müssen",
-        "post": "Kommentar posten"
+        "post": "Kommentar posten",
+        "posted_successfully": "Ihr Kommentar wurde erfolgreich gepostet. Danke!"
     },
     "contact": {
         "form": {
