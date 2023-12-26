@@ -19,7 +19,6 @@
         "empty": "Your cart is currently empty.",
         "general": {
             "recommended_title": "Goes great with",
-            "reduce_quantity": "Reduce item quantity by one",
             "savings_html": "You save {{ saved_amount }}",
             "shipping_at_checkout": "Shipping, taxes, and discount codes calculated at checkout.",
             "terms": "I agree with the terms and conditions",
@@ -360,6 +359,7 @@
     "recipient": {
         "form": {}
     },
+    "reduce_item_quantity": "Reduce item quantity by one",
     "remove": "Remove",
     "search": "Search",
     "sections": {

@@ -19,7 +19,6 @@
         "empty": "Votre panier est vide.",
         "general": {
             "recommended_title": "Bien avec",
-            "reduce_quantity": "Réduire la quantité de l'article de un",
             "savings_html": "Épargnez {{ saved_amount }}",
             "shipping_at_checkout": "Les codes promo, les frais d'envoi et les taxes seront ajoutés à la caisse.",
             "terms": "Je suis d'accord avec les termes et conditions",
@@ -356,6 +355,7 @@
     "recipient": {
         "form": {}
     },
+    "reduce_item_quantity": "Réduire la quantité de l'article de un",
     "remove": "Retirer",
     "search": "Rechercher",
     "sections": {

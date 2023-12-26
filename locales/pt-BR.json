@@ -19,7 +19,6 @@
         "empty": "Seu carrinho está vazio no momento.",
         "general": {
             "recommended_title": "Vai grande com",
-            "reduce_quantity": "Reduzir quantidade em uma unidade",
             "savings_html": "Economize {{ saved_amount }}",
             "shipping_at_checkout": "Os códigos de desconto, o frete e os impostos são adicionados no encerramento.",
             "terms": "Eu concordo com os termos e condições",
@@ -344,6 +343,7 @@
         }
     },
     "quantity": "Quantidade",
+    "reduce_item_quantity": "Reduzir quantidade em uma unidade",
     "remove": "Remover",
     "search": "Pesquisa",
     "sections": {

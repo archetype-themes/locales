@@ -19,7 +19,6 @@
         "empty": "Ihr Einkaufswagen ist im Moment leer.",
         "general": {
             "recommended_title": "Geht mit",
-            "reduce_quantity": "Artikelmenge um eins reduzieren",
             "savings_html": "Sparen {{ saved_amount }}",
             "shipping_at_checkout": "Rabattcodes, Versandkosten und Steuern werden bei der Bezahlung berechnet.",
             "terms": "Ich stimme den Nutzungsbedingungen zu",
@@ -355,6 +354,7 @@
     "recipient": {
         "form": {}
     },
+    "reduce_item_quantity": "Artikelmenge um eins reduzieren",
     "remove": "Entfernen",
     "search": "Suche",
     "sections": {

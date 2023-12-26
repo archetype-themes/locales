@@ -19,7 +19,6 @@
         "empty": "Il tuo carrello è attualmente vuoto.",
         "general": {
             "recommended_title": "Va benissimo con",
-            "reduce_quantity": "Riduci la quantità dell'articolo di uno",
             "savings_html": "Risparmi {{ saved_amount }}",
             "shipping_at_checkout": "Spedizione, tasse e codici sconto calcolati alla cassa.",
             "terms": "Sono d'accordo con i termini e le condizioni",
@@ -359,6 +358,7 @@
     "recipient": {
         "form": {}
     },
+    "reduce_item_quantity": "Riduci la quantità dell'articolo di uno",
     "remove": "Rimuovi",
     "search": "Cerca",
     "sections": {

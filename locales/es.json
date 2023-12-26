@@ -19,7 +19,6 @@
         "empty": "Su carrito actualmente está vacío.",
         "general": {
             "recommended_title": "Va muy bien con",
-            "reduce_quantity": "Quitar uno a la cantidad de artículos",
             "savings_html": "Guardar {{ saved_amount }}",
             "shipping_at_checkout": "Los códigos de descuento, los costes de envío y los impuestos se añaden durante el pago.",
             "terms": "Acepto los términos y condiciones",
@@ -356,6 +355,7 @@
     "recipient": {
         "form": {}
     },
+    "reduce_item_quantity": "Quitar uno a la cantidad de artículos",
     "remove": "Quitar",
     "search": "Buscar",
     "sections": {
