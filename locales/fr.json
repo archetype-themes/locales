@@ -4,6 +4,7 @@
         "title": "404 - Page non trouvée"
     },
     "account": "Compte",
+    "add_to_cart": "Ajouter au panier",
     "all_products": "Tous les produits",
     "articles": "Des articles",
     "availability": {
@@ -307,7 +308,6 @@
             "size_chart": "Tableau des tailles"
         },
         "product": {
-            "add_to_cart": "Ajouter au panier",
             "description": "Description",
             "shipping_policy_html": "<a href='{{ link }}'>Frais d'expédition</a> calculés lors du passage à la caisse.",
             "stock_label": "{{ count }} en stock",

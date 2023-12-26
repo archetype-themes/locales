@@ -4,6 +4,7 @@
         "title": "404 Página não encontrada"
     },
     "account": "Conta",
+    "add_to_cart": "Adicionar ao carrinho",
     "all_products": "Todos os produtos",
     "articles": "Artigos:",
     "availability": {
@@ -300,7 +301,6 @@
             "size_chart": "Gráfico de tamanho"
         },
         "product": {
-            "add_to_cart": "Adicionar ao carrinho",
             "description": "Descrição",
             "shipping_policy_html": "<a href='{{ link }}'>Frete</a> calculado no checkout.",
             "stock_label": "{{ count }} em estoque",

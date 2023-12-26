@@ -4,6 +4,7 @@
         "title": "404 Seite nicht gefunden"
     },
     "account": "Account",
+    "add_to_cart": "In den Einkaufswagen legen",
     "all_products": "Alle Produkte",
     "articles": "Artikel",
     "availability": {
@@ -303,7 +304,6 @@
             "size_chart": "Größentabelle"
         },
         "product": {
-            "add_to_cart": "In den Einkaufswagen legen",
             "description": "Beschreibung",
             "shipping_policy_html": "zzgl. <a href='{{ link }}'>Versandkosten</a>",
             "stock_label": "{{ count }} auf Lager",

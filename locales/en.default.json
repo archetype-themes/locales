@@ -4,6 +4,7 @@
         "title": "404 Page Not Found"
     },
     "account": "Account",
+    "add_to_cart": "Add to cart",
     "all_products": "All products",
     "articles": "Articles",
     "availability": {
@@ -307,7 +308,6 @@
             "size_chart": "Size chart"
         },
         "product": {
-            "add_to_cart": "Add to cart",
             "description": "Description",
             "shipping_policy_html": "<a href='{{ link }}'>Shipping</a> calculated at checkout.",
             "stock_label": {},
