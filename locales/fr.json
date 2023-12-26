@@ -110,6 +110,7 @@
     "edit_address": "Éditer l'adresse",
     "email": "Courriel",
     "email_to_reset_password": "Nous vous ferons parvenir un courriel pour réinitialiser votre mot de passe.",
+    "email_us": "Envoyez-nous un email",
     "enter_new_password": "Entrez un nouveau mot de passe pour {{ email }}",
     "expand_submenu": "Ouvrir le menu",
     "explore_more": "Explore plus",
@@ -206,7 +207,6 @@
         },
         "customer": {},
         "footer": {
-            "email_link": "Envoyez-nous un email",
             "social_platform": "{{ name }} sur {{ platform }}"
         }
     },

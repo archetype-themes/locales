@@ -110,6 +110,7 @@
     "edit_address": "Editar dirección",
     "email": "Correo electrónico",
     "email_to_reset_password": "Le enviaremos un correo electrónico para restablecer su contraseña.",
+    "email_us": "Contacto",
     "enter_new_password": "Ingrese una nueva contraseña para {{ email }}",
     "expand_submenu": "Expandir menú",
     "explore_more": "Explora más",
@@ -206,7 +207,6 @@
         },
         "customer": {},
         "footer": {
-            "email_link": "Contacto",
             "social_platform": "{{ name }} en {{ platform }}"
         }
     },

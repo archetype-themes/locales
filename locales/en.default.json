@@ -107,6 +107,7 @@
     "edit_address": "Edit address",
     "email": "Email",
     "email_to_reset_password": "We will send you an email to reset your password.",
+    "email_us": "Email us",
     "enter_new_password": "Enter a new password for {{ email }}",
     "expand_submenu": "Expand submenu",
     "explore_more": "Explore more",
@@ -206,7 +207,6 @@
         },
         "customer": {},
         "footer": {
-            "email_link": "Email us",
             "social_platform": "{{ name }} on {{ platform }}"
         }
     },

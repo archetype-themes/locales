@@ -110,6 +110,7 @@
     "edit_address": "Editar Endereço",
     "email": "Email",
     "email_to_reset_password": "Vamos enviar-lhe um email para repor a sua senha.",
+    "email_us": "Envia-nos um email",
     "enter_new_password": "Insira uma nova senha para {{ email }}",
     "expand_submenu": "Expandir menu",
     "explore_more": "Explore mais",
@@ -200,7 +201,6 @@
         },
         "customer": {},
         "footer": {
-            "email_link": "Envia-nos um email",
             "social_platform": "{{ name }} na {{ platform }}"
         }
     },

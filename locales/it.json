@@ -107,6 +107,7 @@
     "edit_address": "Modifica indirizzo",
     "email": "Indirizzo email",
     "email_to_reset_password": "Ti invieremo un'e-mail per reimpostare la tua password.",
+    "email_us": "Inviaci un'e-mail",
     "enter_new_password": "Inserisci una nuova password per {{ email }}",
     "expand_submenu": "Espandi sottomenu",
     "explore_more": "Esplora di più",
@@ -206,7 +207,6 @@
         },
         "customer": {},
         "footer": {
-            "email_link": "Inviaci un'e-mail",
             "social_platform": "{{ name }} su {{ platform }}"
         }
     },
