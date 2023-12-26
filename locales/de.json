@@ -206,7 +206,6 @@
                 "other": "{{ count }} Ergebnisse"
             },
             "results_for_html": "Ihre Suche nach \"{{ terms }}\" hat folgende Ergebnisse hervorgebracht:",
-            "search_title": "Top gesucht",
             "view_more": "Alle Ergebnisse für \"{{ terms }}\" anzeigen"
         },
         "social": {
@@ -363,6 +362,7 @@
         "i_agree_html": "Ich stimme den <a href='{{ url }}' target='_blank'>Nutzungsbedingungen</a> zu",
         "you_must_agree": "Sie müssen den Verkaufsbedingungen zustimmen, um auszuchecken"
     },
+    "top_searched": "Top gesucht",
     "total": "Gesamt",
     "view_addresses": "Adressen ansehen",
     "view_all": "Alle anzeigen",

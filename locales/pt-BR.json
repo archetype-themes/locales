@@ -207,7 +207,6 @@
                 "other": "{{ count }} resultados"
             },
             "results_for_html": "Sua busca por \"{{ terms }}\" encontrou os itens a seguir:",
-            "search_title": "Mais pesquisados",
             "view_more": "Veja mais"
         },
         "social": {
@@ -355,6 +354,7 @@
         "i_agree_html": "Eu concordo com os <a href='{{ url }}' target='_blank'>termos e condições</a>",
         "you_must_agree": "Você deve concordar com os termos e condições de vendas para verificar"
     },
+    "top_searched": "Mais pesquisados",
     "total": "Total",
     "view_addresses": "Ver endereços",
     "view_all": "Ver todo",
