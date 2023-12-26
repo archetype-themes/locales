@@ -1,4 +1,7 @@
 {
+    "404": {
+        "page_not_found": "404 Página Não Encontrada"
+    },
     "account": "Conta",
     "all_products": "Todos os Produtos",
     "availability": {
@@ -165,8 +168,7 @@
     "form": {},
     "general": {
         "404": {
-            "subtext_html": "A página que solicitou não existe. Clique <a href='{{ url }}'>aqui</a> para continuar as suas compras.",
-            "title": "404 Página Não Encontrada"
+            "subtext_html": "A página que solicitou não existe. Clique <a href='{{ url }}'>aqui</a> para continuar as suas compras."
         },
         "accessibility": {
             "close": "Encerrar",
