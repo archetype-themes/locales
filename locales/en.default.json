@@ -265,6 +265,7 @@
         "back_in_stock_on": "Back in stock {{ date }}",
         "backordered": "Backordered, shipping soon",
         "ready_to_ship_on": "Ready to ship {{ date }}",
+        "sold_out": "Sold Out",
         "unavailable": "Unavailable"
     },
     "latest_posts": "Latest posts",
@@ -337,7 +338,6 @@
             "include_taxes": "Tax included.",
             "preorder": "Pre-order",
             "shipping_policy_html": "<a href='{{ link }}'>Shipping</a> calculated at checkout.",
-            "sold_out": "Sold Out",
             "stock_label": {
                 "one": "Low stock - {{ count }} item left",
                 "other": "Low stock - {{ count }} items left"

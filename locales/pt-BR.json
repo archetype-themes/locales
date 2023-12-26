@@ -264,6 +264,7 @@
         "back_in_stock_on": "Em estoque a partir de {{ date }}",
         "backordered": "Inventory no caminho",
         "ready_to_ship_on": "Envio a partir de {{ date }}",
+        "sold_out": "Esgotado",
         "unavailable": "Indisponível"
     },
     "latest_posts": "Artigos Mais Recentes",
@@ -331,7 +332,6 @@
             "include_taxes": "Taxas incluídas.",
             "preorder": "Pedido antecipado",
             "shipping_policy_html": "<a href='{{ link }}'>Frete</a> calculado no checkout.",
-            "sold_out": "Esgotado",
             "stock_label": "{{ count }} em estoque",
             "view_in_space": "Ver no seu espaço",
             "view_in_space_label": "Ver em seu espaço, carregar item na janela de realidade aumentada"

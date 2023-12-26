@@ -264,6 +264,7 @@
         "back_in_stock_on": "Wird nach dem {{ date }} auf Lager sein",
         "backordered": "Nachbestellt, bald verfügbar",
         "ready_to_ship_on": "Wird nach dem {{ date }} versendet",
+        "sold_out": "Ausverkauft",
         "unavailable": "Nicht verfügbar"
     },
     "latest_posts": "Neueste Artikel",
@@ -336,7 +337,6 @@
             "include_taxes": "inkl. MwSt.",
             "preorder": "Vorbestellung",
             "shipping_policy_html": "zzgl. <a href='{{ link }}'>Versandkosten</a>",
-            "sold_out": "Ausverkauft",
             "stock_label": "{{ count }} auf Lager",
             "view_in_space": "In Ihrem Bereich ansehen",
             "view_in_space_label": "„Ansicht in Ihrem Raum“ lädt den Artikel im Augmented-Reality-Fenster"
