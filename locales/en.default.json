@@ -24,7 +24,6 @@
             "reduce_quantity": "Reduce item quantity by one",
             "savings_html": "You save {{ saved_amount }}",
             "shipping_at_checkout": "Shipping, taxes, and discount codes calculated at checkout.",
-            "subtotal": "Subtotal",
             "terms": "I agree with the terms and conditions",
             "terms_confirm": "You must agree with the terms and conditions of sales to check out",
             "terms_html": "I agree with the <a href='{{ url }}' target='_blank'>terms and conditions</a>",
@@ -138,7 +137,6 @@
             "shipping": "Shipping",
             "shipping_address": "Shipping address",
             "sku": "SKU",
-            "subtotal": "Subtotal",
             "tax": "Tax",
             "title": "Order {{ name }}"
         },
@@ -376,6 +374,7 @@
     "store_availability": {
         "general": {}
     },
+    "subtotal": "Subtotal",
     "tags": "Tags",
     "total": "Total",
     "view_all": "View all",

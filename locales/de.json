@@ -24,7 +24,6 @@
             "reduce_quantity": "Artikelmenge um eins reduzieren",
             "savings_html": "Sparen {{ saved_amount }}",
             "shipping_at_checkout": "Rabattcodes, Versandkosten und Steuern werden bei der Bezahlung berechnet.",
-            "subtotal": "Zwischensumme",
             "terms": "Ich stimme den Nutzungsbedingungen zu",
             "terms_confirm": "Sie müssen den Verkaufsbedingungen zustimmen, um auszuchecken",
             "terms_html": "Ich stimme den <a href='{{ url }}' target='_blank'>Nutzungsbedingungen</a> zu",
@@ -136,7 +135,6 @@
             "shipping": "Versand",
             "shipping_address": "Lieferadresse",
             "sku": "SKU",
-            "subtotal": "Zwischensumme",
             "tax": "Steuern",
             "title": "Bestellung {{ name }}"
         },
@@ -371,6 +369,7 @@
     "store_availability": {
         "general": {}
     },
+    "subtotal": "Zwischensumme",
     "tags": "Tags",
     "total": "Gesamt",
     "view_all": "Alle anzeigen",

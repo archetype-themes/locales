@@ -24,7 +24,6 @@
             "reduce_quantity": "Reduzir quantidade em uma unidade",
             "savings_html": "Economize {{ saved_amount }}",
             "shipping_at_checkout": "Os códigos de desconto, o frete e os impostos são adicionados no encerramento.",
-            "subtotal": "Subtotal",
             "terms": "Eu concordo com os termos e condições",
             "terms_confirm": "Você deve concordar com os termos e condições de vendas para verificar",
             "terms_html": "Eu concordo com os <a href='{{ url }}' target='_blank'>termos e condições</a>",
@@ -137,7 +136,6 @@
             "shipping": "Frete",
             "shipping_address": "Endereço de entrega",
             "sku": "Código SKU",
-            "subtotal": "Subtotal",
             "tax": "Impostos",
             "title": "Pedido {{ name }}"
         },
@@ -360,6 +358,7 @@
     "store_availability": {
         "general": {}
     },
+    "subtotal": "Subtotal",
     "tags": "Marcadores",
     "total": "Total",
     "view_all": "Ver todo",

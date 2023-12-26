@@ -24,7 +24,6 @@
             "reduce_quantity": "Riduci la quantità dell'articolo di uno",
             "savings_html": "Risparmi {{ saved_amount }}",
             "shipping_at_checkout": "Spedizione, tasse e codici sconto calcolati alla cassa.",
-            "subtotal": "Subtotale",
             "terms": "Sono d'accordo con i termini e le condizioni",
             "terms_confirm": "Devi accettare i termini e le condizioni di vendita per procedere al pagamento",
             "terms_html": "Sono d'accordo con i <a href='{{ url }}' target='_blank'>termini e condizioni</a>",
@@ -137,7 +136,6 @@
             "shipping": "Spedizione",
             "shipping_address": "Indirizzo di spedizione",
             "sku": "SKU",
-            "subtotal": "Subtotale",
             "tax": "Imposta",
             "title": "Ordine {{ name }}"
         },
@@ -375,6 +373,7 @@
     "store_availability": {
         "general": {}
     },
+    "subtotal": "Subtotale",
     "tags": "Tags",
     "total": "Totale",
     "view_all": "Visualizza tutto",
