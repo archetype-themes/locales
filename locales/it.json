@@ -23,7 +23,6 @@
             "note": "Aggiungi una nota all'ordine",
             "recommended_title": "Va benissimo con",
             "reduce_quantity": "Riduci la quantità dell'articolo di uno",
-            "remove": "Rimuovi",
             "savings_html": "Risparmi {{ saved_amount }}",
             "shipping_at_checkout": "Spedizione, tasse e codici sconto calcolati alla cassa.",
             "subtotal": "Subtotale",
@@ -360,6 +359,7 @@
     "recipient": {
         "form": {}
     },
+    "remove": "Rimuovi",
     "search": "Cerca",
     "sections": {
         "map": {},

@@ -23,7 +23,6 @@
             "note": "Instruções especiais para o vendedor",
             "recommended_title": "Vai grande com",
             "reduce_quantity": "Reduza a quantidade do artigo em um",
-            "remove": "Eliminar",
             "savings_html": "Poupe {{ saved_amount }}",
             "shipping_at_checkout": "Códigos de desconto, custos de envio e impostos adicionados na finalização de compra.",
             "subtotal": "Subtotal",
@@ -345,6 +344,7 @@
         }
     },
     "quantity": "Quantidade",
+    "remove": "Eliminar",
     "search": "Pesquisar",
     "sections": {
         "map": {},

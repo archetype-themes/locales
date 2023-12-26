@@ -23,7 +23,6 @@
             "note": "Instrucciones especiales para el vendedor",
             "recommended_title": "Va muy bien con",
             "reduce_quantity": "Quitar uno a la cantidad de artículos",
-            "remove": "Quitar",
             "savings_html": "Guardar {{ saved_amount }}",
             "shipping_at_checkout": "Los códigos de descuento, los costes de envío y los impuestos se añaden durante el pago.",
             "subtotal": "Subtotal",
@@ -357,6 +356,7 @@
     "recipient": {
         "form": {}
     },
+    "remove": "Quitar",
     "search": "Buscar",
     "sections": {
         "map": {},

@@ -23,7 +23,6 @@
             "note": "Add order note",
             "recommended_title": "Goes great with",
             "reduce_quantity": "Reduce item quantity by one",
-            "remove": "Remove",
             "savings_html": "You save {{ saved_amount }}",
             "shipping_at_checkout": "Shipping, taxes, and discount codes calculated at checkout.",
             "subtotal": "Subtotal",
@@ -361,6 +360,7 @@
     "recipient": {
         "form": {}
     },
+    "remove": "Remove",
     "search": "Search",
     "sections": {
         "map": {},

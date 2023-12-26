@@ -23,7 +23,6 @@
             "note": "Ajouter des instructions de commande spéciales",
             "recommended_title": "Bien avec",
             "reduce_quantity": "Réduire la quantité de l'article de un",
-            "remove": "Retirer",
             "savings_html": "Épargnez {{ saved_amount }}",
             "shipping_at_checkout": "Les codes promo, les frais d'envoi et les taxes seront ajoutés à la caisse.",
             "subtotal": "Sous-total",
@@ -357,6 +356,7 @@
     "recipient": {
         "form": {}
     },
+    "remove": "Retirer",
     "search": "Rechercher",
     "sections": {
         "map": {},

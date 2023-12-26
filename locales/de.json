@@ -22,7 +22,6 @@
             "note": "Besondere Hinweise an den Verkäufer",
             "recommended_title": "Geht mit",
             "reduce_quantity": "Artikelmenge um eins reduzieren",
-            "remove": "Entfernen",
             "savings_html": "Sparen {{ saved_amount }}",
             "shipping_at_checkout": "Rabattcodes, Versandkosten und Steuern werden bei der Bezahlung berechnet.",
             "subtotal": "Zwischensumme",
@@ -356,6 +355,7 @@
     "recipient": {
         "form": {}
     },
+    "remove": "Entfernen",
     "search": "Suche",
     "sections": {
         "map": {},
