@@ -136,7 +136,6 @@
         },
         "register": {
             "cancel": "Torna al negozio",
-            "first_name": "Il tuo nome",
             "last_name": "Cognome",
             "password": "Password",
             "submit": "Crea",
@@ -158,6 +157,7 @@
     "explore_more": "Esplora di più",
     "featured_product": "Sezione \"prodotto in primo piano\"",
     "filter": "Filtra",
+    "first_name": "Il tuo nome",
     "follow_us": "Seguici su",
     "form": {
         "max_characters": "Massimo {{ max_chars }} caratteri"

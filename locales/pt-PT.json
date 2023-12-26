@@ -136,7 +136,6 @@
         },
         "register": {
             "cancel": "Regressar à Loja",
-            "first_name": "Nome Próprio",
             "last_name": "Sobrenome",
             "password": "Senha",
             "submit": "Criar",
@@ -161,6 +160,7 @@
     "explore_more": "Explore mais",
     "featured_product": "Produto em destaque",
     "filter": "Filtrar",
+    "first_name": "Nome Próprio",
     "follow_us": "Siga-nos",
     "form": {},
     "general": {

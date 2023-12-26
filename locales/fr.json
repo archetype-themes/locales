@@ -136,7 +136,6 @@
         },
         "register": {
             "cancel": "Retour à la boutique",
-            "first_name": "Prénom",
             "last_name": "Nom",
             "password": "Mot de passe",
             "submit": "Créer",
@@ -161,6 +160,7 @@
     "explore_more": "Explore plus",
     "featured_product": "Produit en vedette",
     "filter": "Filtrer",
+    "first_name": "Prénom",
     "follow_us": "Suivez nous",
     "form": {
         "max_characters": "{{ max_chars }} caractères au maximum"

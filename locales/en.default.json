@@ -136,7 +136,6 @@
         },
         "register": {
             "cancel": "Return to Store",
-            "first_name": "First Name",
             "last_name": "Last Name",
             "password": "Password",
             "submit": "Create",
@@ -158,6 +157,7 @@
     "explore_more": "Explore more",
     "featured_product": "Featured product",
     "filter": "Filter",
+    "first_name": "First Name",
     "follow_us": "Follow us",
     "form": {
         "max_characters": "{{ max_chars }} characters max"

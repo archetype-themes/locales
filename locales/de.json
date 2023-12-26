@@ -135,7 +135,6 @@
         },
         "register": {
             "cancel": "Zurück zum Shop",
-            "first_name": "Vorname",
             "last_name": "Nachname",
             "password": "Passwort",
             "submit": "Erstellen",
@@ -157,6 +156,7 @@
     "explore_more": "Erkunde mehr",
     "featured_product": "Vorgestelltes Produkt",
     "filter": "Filtern",
+    "first_name": "Vorname",
     "follow_us": "Folge uns",
     "form": {
         "max_characters": "Maximal {{ max_chars }} Zeichen"
