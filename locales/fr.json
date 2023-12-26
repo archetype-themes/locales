@@ -3,7 +3,8 @@
     "availability": {
         "check_other_stores": "Vérifier la disponibilité dans d'autres magasins",
         "pick_up_available": "Récupération disponible",
-        "pick_up_available_at_html": "Récupération disponible à <strong> {{location_name}} </strong>"
+        "pick_up_available_at_html": "Récupération disponible à <strong> {{location_name}} </strong>",
+        "pick_up_currently_unavailable": "Récupération actuellement indisponible"
     },
     "blogs": {
         "article": {
@@ -361,7 +362,6 @@
     "small": "Petit",
     "store_availability": {
         "general": {
-            "pick_up_currently_unavailable": "Récupération actuellement indisponible",
             "pick_up_unavailable_at_html": "Récupération actuellement indisponible à <strong> {{location_name}} </strong>",
             "view_store_info": "Afficher les informations de magasin"
         }
