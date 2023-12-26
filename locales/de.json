@@ -60,8 +60,7 @@
         "account": {
             "details": "Account-Details",
             "return": "Zurück zu Account-Details",
-            "title": "Mein Account",
-            "view_addresses": "Adressen ansehen"
+            "title": "Mein Account"
         },
         "activate_account": {
             "cancel": "Einladung ablehnen",
@@ -379,6 +378,7 @@
         "you_must_agree": "Sie müssen den Verkaufsbedingungen zustimmen, um auszuchecken"
     },
     "total": "Gesamt",
+    "view_addresses": "Adressen ansehen",
     "view_all": "Alle anzeigen",
     "view_all_products_count": "zeige alle<br>{{ count }} Produkte an",
     "view_store_info": "Ansicht speichern Informationen"

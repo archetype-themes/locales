@@ -61,8 +61,7 @@
         "account": {
             "details": "Account details",
             "return": "Return to account",
-            "title": "My account",
-            "view_addresses": "View addresses"
+            "title": "My account"
         },
         "activate_account": {
             "cancel": "Decline invitation",
@@ -384,6 +383,7 @@
         "you_must_agree": "You must agree with the terms and conditions of sales to check out"
     },
     "total": "Total",
+    "view_addresses": "View addresses",
     "view_all": "View all",
     "view_all_products_count": "View all<br>{{ count }} products",
     "view_store_info": "View store information"

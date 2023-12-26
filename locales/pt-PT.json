@@ -61,8 +61,7 @@
         "account": {
             "details": "Detalhes da Conta",
             "return": "Regressar aos Detalhes da Conta",
-            "title": "A Minha Conta",
-            "view_addresses": "Ver Endereços"
+            "title": "A Minha Conta"
         },
         "activate_account": {
             "cancel": "Recusar Convite",
@@ -368,6 +367,7 @@
         "you_must_agree": "Você deve concordar com os termos e condições de vendas para verificar"
     },
     "total": "Total",
+    "view_addresses": "Ver Endereços",
     "view_all": "Ver todo",
     "view_all_products_count": "Ver todos os<br>{{ count }} produtos",
     "view_store_info": "Exibir informações de loja"
