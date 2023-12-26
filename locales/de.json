@@ -180,6 +180,7 @@
             "confirmation": "Wir senden Ihnen eine E-Mail, kurz bevor wir eröffnen!"
         }
     },
+    "from_text_html": "<span>Von</span> {{ price }}",
     "general": {
         "404": {},
         "accessibility": {},
@@ -295,10 +296,8 @@
     },
     "products": {
         "general": {
-            "from_text_html": "<span>Von</span> {{ price }}",
             "more_from_html": "Mehr von {{ link }}",
             "next_product": "Nächster: {{ title }}",
-            "recent_products": "Zuletzt Angesehen",
             "regular_price": "Normaler Preis",
             "sale_price": "Sonderpreis",
             "save_html": "Sparen {{ saved_amount }}",
@@ -313,6 +312,7 @@
     },
     "quantity": "Menge",
     "quick_shop": "Schnellkauf",
+    "recently_viewed": "Zuletzt Angesehen",
     "recipient": {
         "form": {}
     },

@@ -181,6 +181,7 @@
             "confirmation": "Ti invieremo un'email quando apriremo!"
         }
     },
+    "from_text_html": "<span>da</span> {{ price }}",
     "general": {
         "404": {},
         "accessibility": {},
@@ -299,10 +300,8 @@
     },
     "products": {
         "general": {
-            "from_text_html": "<span>da</span> {{ price }}",
             "more_from_html": "Altro da {{ link }}",
             "next_product": "Avanti: {{ title }}",
-            "recent_products": "Visualizzati di recente",
             "regular_price": "Prezzo di listino",
             "sale_price": "Prezzo scontato",
             "save_html": "Salva {{ saved_amount }}",
@@ -317,6 +316,7 @@
     },
     "quantity": "Quantità",
     "quick_shop": "Negozio rapido",
+    "recently_viewed": "Visualizzati di recente",
     "recipient": {
         "form": {}
     },

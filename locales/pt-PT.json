@@ -183,6 +183,7 @@
             "confirmation": "Iremos enviar-lhe um email imediatamente antes de abrirmos!"
         }
     },
+    "from_text_html": "<span>Desde</span> {{ price }}",
     "general": {
         "404": {},
         "accessibility": {},
@@ -292,10 +293,8 @@
     },
     "products": {
         "general": {
-            "from_text_html": "<span>Desde</span> {{ price }}",
             "more_from_html": "Mais de {{ link }}",
             "next_product": "Seguinte: {{ title }}",
-            "recent_products": "Visto recentemente",
             "regular_price": "Preço normal",
             "sale_price": "Preço de saldo",
             "save_html": "Poupe {{ saved_amount }}",
@@ -310,6 +309,7 @@
     },
     "quantity": "Quantidade",
     "quick_shop": "Compra rápida",
+    "recently_viewed": "Visto recentemente",
     "reduce_item_quantity": "Reduza a quantidade do artigo em um",
     "remove": "Eliminar",
     "reviews": "Avaliações",

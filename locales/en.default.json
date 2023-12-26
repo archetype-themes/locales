@@ -181,6 +181,7 @@
             "confirmation": "We will send you an email when we open!"
         }
     },
+    "from_text_html": "<span>from</span> {{ price }}",
     "general": {
         "404": {},
         "accessibility": {},
@@ -299,10 +300,8 @@
     },
     "products": {
         "general": {
-            "from_text_html": "<span>from</span> {{ price }}",
             "more_from_html": "More from {{ link }}",
             "next_product": "Next: {{ title }}",
-            "recent_products": "Recently viewed",
             "regular_price": "Regular price",
             "sale_price": "Sale price",
             "save_html": "Save {{ saved_amount }}",
@@ -317,6 +316,7 @@
     },
     "quantity": "Quantity",
     "quick_shop": "Quick shop",
+    "recently_viewed": "Recently viewed",
     "recipient": {
         "form": {}
     },
