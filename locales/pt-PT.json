@@ -11,10 +11,7 @@
     "blogs": {
         "article": {},
         "comments": {
-            "with_count": {
-                "one": "{{ count }} comentário",
-                "other": "{{ count }} comentários"
-            }
+            "with_count": {}
         }
     },
     "cart": {
@@ -64,6 +61,10 @@
         }
     },
     "comments": {
+        "count": {
+            "plural": "{{ count }} comentários",
+            "singular": "{{ count }} comentário"
+        },
         "leave_a_comment": "Deixe um comentário",
         "must_be_approved": "Tenha em atenção que os comentários precisam de ser aprovados antes de serem exibidos",
         "post": "Publicar comentário",
