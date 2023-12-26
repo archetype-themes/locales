@@ -253,9 +253,7 @@
     },
     "goes_great_with": "Geht mit",
     "home_page": {
-        "onboarding": {
-            "product_title": "Beispielhafter Produkttitel"
-        }
+        "onboarding": {}
     },
     "increase_item_quantity": "Artikelmenge um eins erhöhen",
     "inventory": {
@@ -300,6 +298,7 @@
     "phone_number": "Telefonnummer",
     "placeholder": {
         "example_collection": "Beispielhafter Zusammenstellungstitel",
+        "example_product": "Beispielhafter Produkttitel",
         "no_content": "Dieser Bereich hat zur Zeit keinen Inhalt. Füge diesem Bereich über die Seitenleiste Inhalte hinzu.",
         "product_description": "Diesen Abschnitt können Sie nutzen, um die Details Ihres Produkts zu beschreiben. Erzählen Sie den Kunden, wie Ihr Produkt aussieht, sich anfühlt und designt ist. Fügen Sie Einzelheiten zu Farbe, verwendeten Materialien, Größe und Produktionsort hinzu."
     },
