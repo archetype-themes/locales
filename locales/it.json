@@ -20,6 +20,7 @@
             "with_count": {}
         }
     },
+    "cancel": "Annulla",
     "cart": {
         "close": "Chiudi il carrello",
         "empty": "Il tuo carrello è attualmente vuoto.",
@@ -78,7 +79,6 @@
             "add_new": "Aggiungi indirizzo",
             "address1": "Indirizzo1",
             "address2": "Indirizzo2",
-            "cancel": "Annulla",
             "city": "Città",
             "company": "Azienda",
             "country": "Paese",
@@ -130,7 +130,6 @@
             "title": "Storia dell'ordine"
         },
         "recover_password": {
-            "cancel": "Annulla",
             "submit": "Invia",
             "subtext": "Ti invieremo un'e-mail per reimpostare la tua password.",
             "success": "Ti abbiamo inviato un'email con un link per aggiornare la password.",
@@ -207,7 +206,6 @@
             "signup_form_success": "Ti invieremo un'email quando apriremo!"
         },
         "search": {
-            "cancel": "Annulla",
             "no_results_html": "Cercare \"{{ terms }}\"",
             "products": "prodotti",
             "result_count": {

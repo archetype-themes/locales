@@ -20,6 +20,7 @@
             "with_count": {}
         }
     },
+    "cancel": "Cancelar",
     "cart": {
         "close": "Fechar Carrinho de Compras",
         "empty": "O seu carrinho de compras está neste momento vazio.",
@@ -78,7 +79,6 @@
             "add_new": "Adicionar um Novo Endereço",
             "address1": "Endereço1",
             "address2": "Endereço2",
-            "cancel": "Cancelar",
             "city": "Localidade",
             "company": "Empresa",
             "country": "País",
@@ -130,7 +130,6 @@
             "title": "Histórico de Pedidos"
         },
         "recover_password": {
-            "cancel": "Cancelar",
             "submit": "Enviar",
             "subtext": "Vamos enviar-lhe um email para repor a sua senha.",
             "success": "Enviámos-lhe um email com um link para atualizar a sua senha.",
@@ -208,7 +207,6 @@
             "signup_form_success": "Iremos enviar-lhe um email imediatamente antes de abrirmos!"
         },
         "search": {
-            "cancel": "Cancelar",
             "no_results_html": "A sua pesquisa por \"{{ terms }}\" não produziu resultados.",
             "result_count": {
                 "one": "{{ count }} resultado",

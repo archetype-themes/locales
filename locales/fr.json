@@ -20,6 +20,7 @@
             "with_count": {}
         }
     },
+    "cancel": "Annuler",
     "cart": {
         "close": "Fermer le panier",
         "empty": "Votre panier est vide.",
@@ -78,7 +79,6 @@
             "add_new": "Ajouter une nouvelle adresse",
             "address1": "Adresse 1",
             "address2": "Adresse 2",
-            "cancel": "Annuler",
             "city": "Ville",
             "company": "Compagnie",
             "country": "Pays",
@@ -130,7 +130,6 @@
             "title": "Historique des commandes"
         },
         "recover_password": {
-            "cancel": "Annuler",
             "submit": "Soumettre",
             "subtext": "Nous vous ferons parvenir un courriel pour réinitialiser votre mot de passe.",
             "success": "Nous vous avons fait parvenir un courriel pour réinitialiser votre mot de passe.",
@@ -210,7 +209,6 @@
             "signup_form_success": "Nous vous ferons parvenir un courriel juste avant l'ouverture!"
         },
         "search": {
-            "cancel": "Annuler",
             "no_results_html": "Rechercher \"{{ terms }}\"",
             "products": "Produits",
             "result_count": {

@@ -20,6 +20,7 @@
             "with_count": {}
         }
     },
+    "cancel": "Cancel",
     "cart": {
         "close": "Close cart",
         "empty": "Your cart is currently empty.",
@@ -78,7 +79,6 @@
             "add_new": "Add address",
             "address1": "Address1",
             "address2": "Address2",
-            "cancel": "Cancel",
             "city": "City",
             "company": "Company",
             "country": "Country",
@@ -130,7 +130,6 @@
             "title": "Order History"
         },
         "recover_password": {
-            "cancel": "Cancel",
             "submit": "Submit",
             "subtext": "We will send you an email to reset your password.",
             "success": "We've sent you an email with a link to update your password.",
@@ -207,7 +206,6 @@
             "signup_form_success": "We will send you an email when we open!"
         },
         "search": {
-            "cancel": "Cancel",
             "no_results_html": "Search for \"{{ terms }}\"",
             "products": "Products",
             "result_count": {

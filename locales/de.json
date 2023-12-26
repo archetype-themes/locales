@@ -20,6 +20,7 @@
             "with_count": {}
         }
     },
+    "cancel": "Abbrechen",
     "cart": {
         "close": "Einkaufswagen schließen",
         "empty": "Ihr Einkaufswagen ist im Moment leer.",
@@ -77,7 +78,6 @@
             "add_new": "Neue Adresse hinzufügen",
             "address1": "Adresse1",
             "address2": "Adresse2",
-            "cancel": "Abbrechen",
             "city": "Stadt",
             "company": "Firma",
             "country": "Land",
@@ -129,7 +129,6 @@
             "title": "Bestellungen"
         },
         "recover_password": {
-            "cancel": "Abbrechen",
             "submit": "Absenden",
             "subtext": "Wir werden Ihnen eine E-Mail zum Zurücksetzen des Passworts schicken.",
             "success": "Wir haben Ihnen eine E-Mail mit einem Link zum Aktualisieren des Passworts geschickt.",
@@ -206,7 +205,6 @@
             "signup_form_success": "Wir senden Ihnen eine E-Mail, kurz bevor wir eröffnen!"
         },
         "search": {
-            "cancel": "Abbrechen",
             "no_results_html": "Suche nach \"{{ terms }}\"",
             "products": "Produkte",
             "result_count": {
