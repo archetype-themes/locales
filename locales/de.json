@@ -299,8 +299,7 @@
         "general": {
             "next_product": "Nächster: {{ title }}",
             "regular_price": "Normaler Preis",
-            "sale_price": "Sonderpreis",
-            "save_html": "Sparen {{ saved_amount }}"
+            "sale_price": "Sonderpreis"
         },
         "product": {
             "stock_label": "{{ count }} auf Lager"
@@ -316,6 +315,7 @@
     "remove": "Entfernen",
     "reviews": "Rezensionen",
     "sale": "Reduziert",
+    "save_amount": "Sparen {{ saved_amount }}",
     "search": "Suche",
     "sections": {
         "map": {},

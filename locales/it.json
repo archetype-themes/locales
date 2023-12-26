@@ -303,8 +303,7 @@
         "general": {
             "next_product": "Avanti: {{ title }}",
             "regular_price": "Prezzo di listino",
-            "sale_price": "Prezzo scontato",
-            "save_html": "Salva {{ saved_amount }}"
+            "sale_price": "Prezzo scontato"
         },
         "product": {
             "stock_label": {}
@@ -320,6 +319,7 @@
     "remove": "Rimuovi",
     "reviews": "Recensioni",
     "sale": "In offerta",
+    "save_amount": "Salva {{ saved_amount }}",
     "search": "Cerca",
     "sections": {
         "map": {},

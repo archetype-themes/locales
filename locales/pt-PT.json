@@ -296,8 +296,7 @@
         "general": {
             "next_product": "Seguinte: {{ title }}",
             "regular_price": "Preço normal",
-            "sale_price": "Preço de saldo",
-            "save_html": "Poupe {{ saved_amount }}"
+            "sale_price": "Preço de saldo"
         },
         "product": {
             "stock_label": "{{ count }} em estoque"
@@ -310,6 +309,7 @@
     "remove": "Eliminar",
     "reviews": "Avaliações",
     "sale": "Venda",
+    "save_amount": "Poupe {{ saved_amount }}",
     "search": "Pesquisar",
     "sections": {
         "map": {},

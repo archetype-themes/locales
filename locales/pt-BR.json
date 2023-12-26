@@ -296,8 +296,7 @@
         "general": {
             "next_product": "Próximo: {{ title }}",
             "regular_price": "Preço normal",
-            "sale_price": "Preço promocional",
-            "save_html": "Economize {{ saved_amount }}"
+            "sale_price": "Preço promocional"
         },
         "product": {
             "stock_label": "{{ count }} em estoque"
@@ -310,6 +309,7 @@
     "remove": "Remover",
     "reviews": "Avaliações",
     "sale": "Venda",
+    "save_amount": "Economize {{ saved_amount }}",
     "search": "Pesquisa",
     "sections": {
         "map": {},
