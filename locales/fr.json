@@ -1,6 +1,7 @@
 {
     "404": {
-        "page_not_found": "404 - Page non trouvée"
+        "page_not_found": "404 - Page non trouvée",
+        "subtitle_html": "Cette page n'est pas disponible. <a href='{{ url }}'>Retourner au magasinage</a>"
     },
     "account": "Compte",
     "all_products": "Tous les produits",
@@ -169,9 +170,7 @@
         "max_characters": "{{ max_chars }} caractères au maximum"
     },
     "general": {
-        "404": {
-            "subtext_html": "Cette page n'est pas disponible. <a href='{{ url }}'>Retourner au magasinage</a>"
-        },
+        "404": {},
         "accessibility": {
             "close": "Fermer",
             "close_modal": "Fermer (Esc)",

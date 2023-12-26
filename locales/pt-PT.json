@@ -1,6 +1,7 @@
 {
     "404": {
-        "page_not_found": "404 Página Não Encontrada"
+        "page_not_found": "404 Página Não Encontrada",
+        "subtitle_html": "A página que solicitou não existe. Clique <a href='{{ url }}'>aqui</a> para continuar as suas compras."
     },
     "account": "Conta",
     "all_products": "Todos os Produtos",
@@ -167,9 +168,7 @@
     "follow_us": "Siga-nos",
     "form": {},
     "general": {
-        "404": {
-            "subtext_html": "A página que solicitou não existe. Clique <a href='{{ url }}'>aqui</a> para continuar as suas compras."
-        },
+        "404": {},
         "accessibility": {
             "close": "Encerrar",
             "close_modal": "Encerrar (Esc)",

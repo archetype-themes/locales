@@ -1,6 +1,7 @@
 {
     "404": {
-        "page_not_found": "404 Page Not Found"
+        "page_not_found": "404 Page Not Found",
+        "subtitle_html": "<p>The page you were looking for does not exist. </p><p><a href='{{ url }}'>Continue shopping</a></p>"
     },
     "account": "Account",
     "all_products": "All products",
@@ -166,9 +167,7 @@
         "max_characters": "{{ max_chars }} characters max"
     },
     "general": {
-        "404": {
-            "subtext_html": "<p>The page you were looking for does not exist. </p><p><a href='{{ url }}'>Continue shopping</a></p>"
-        },
+        "404": {},
         "accessibility": {
             "close": "Close",
             "close_modal": "Close (esc)",
