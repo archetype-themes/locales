@@ -170,9 +170,7 @@
         "accessibility": {},
         "breadcrumbs": {},
         "currency": {},
-        "drawers": {
-            "navigation": "Site navigation"
-        },
+        "drawers": {},
         "language": {
             "dropdown_label": "Language"
         },
@@ -343,6 +341,7 @@
     "send": "Send",
     "show_less": "Show less",
     "show_more": "Show more",
+    "site_navigation": "Site navigation",
     "size": {
         "large": "Large",
         "small": "Small"
