@@ -33,7 +33,6 @@
         "filters": {},
         "general": {
             "items_with_count": {
-                "one": "{{ count }} product",
                 "other": "{{ count }} products"
             },
             "large": "Large",
@@ -309,6 +308,9 @@
     "popular_posts": "Popular posts",
     "price": "Price",
     "product": {
+        "count": {
+            "singular": "{{ count }} product"
+        },
         "recipient": {
             "email": "Recipient email",
             "message_optional": "Message (optional)",

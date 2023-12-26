@@ -33,7 +33,6 @@
         "filters": {},
         "general": {
             "items_with_count": {
-                "one": "{{ count }} item",
                 "other": "{{ count }} itens"
             },
             "large": "Large",
@@ -304,6 +303,9 @@
     "popular_posts": "Artigos populares",
     "price": "Preço",
     "product": {
+        "count": {
+            "singular": "{{ count }} item"
+        },
         "recipient": {}
     },
     "products": {

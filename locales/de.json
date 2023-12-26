@@ -32,7 +32,6 @@
         "filters": {},
         "general": {
             "items_with_count": {
-                "one": "{{ count }} Produkt",
                 "other": "{{ count }} Produkte"
             },
             "large": "groß",
@@ -307,6 +306,9 @@
     "popular_posts": "Populäre Artikel",
     "price": "Preis",
     "product": {
+        "count": {
+            "singular": "{{ count }} Produkt"
+        },
         "recipient": {
             "email": "Empfänger E-Mail",
             "message_optional": "Nachricht (optional)",
