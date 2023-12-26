@@ -11,7 +11,6 @@
     "blogs": {
         "article": {},
         "comments": {
-            "title": "Hinterlassen Sie einen Kommentar",
             "with_count": {
                 "one": "{{ count }} Kommentar",
                 "other": "{{ count }} Kommentare"
@@ -64,6 +63,7 @@
         }
     },
     "comments": {
+        "leave_a_comment": "Hinterlassen Sie einen Kommentar",
         "must_be_approved": "Bitte beachten Sie, dass Kommentare vor der Veröffentlichung freigegeben werden müssen",
         "post": "Kommentar posten",
         "posted_successfully": "Ihr Kommentar wurde erfolgreich gepostet. Danke!",
