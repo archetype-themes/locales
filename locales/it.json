@@ -150,9 +150,6 @@
             "title": "Reimposta la password dell'account"
         }
     },
-    "date_formats": {
-        "month_day_year": "%b %d, %Y"
-    },
     "discount": {
         "you_save": "Risparmi {{ saved_amount }}"
     },

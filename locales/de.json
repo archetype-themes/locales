@@ -149,9 +149,6 @@
             "title": "Account-Passwort zurücksetzen"
         }
     },
-    "date_formats": {
-        "month_day_year": "%B %d, %Y"
-    },
     "discount": {
         "you_save": "Sparen {{ saved_amount }}"
     },
