@@ -10,7 +10,6 @@
     "back_to": "Torna a {{ title }}",
     "blogs": {
         "article": {
-            "featured_product": "Sezione \"prodotto in primo piano\"",
             "latest_posts": "Ultimi messaggi",
             "more_from": "Più da",
             "popular_posts": "Messaggi popolari",
@@ -181,6 +180,7 @@
     },
     "email": "Indirizzo email",
     "explore_more": "Esplora di più",
+    "featured_product": "Sezione \"prodotto in primo piano\"",
     "follow_us": "Seguici su",
     "form": {
         "max_characters": "Massimo {{ max_chars }} caratteri"

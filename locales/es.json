@@ -10,7 +10,6 @@
     "back_to": "Volver a {{ title }}",
     "blogs": {
         "article": {
-            "featured_product": "Producto destacado",
             "latest_posts": "Últimos artículos",
             "more_from": "Mas de",
             "popular_posts": "Articulos populares",
@@ -181,6 +180,7 @@
     },
     "email": "Correo electrónico",
     "explore_more": "Explora más",
+    "featured_product": "Producto destacado",
     "follow_us": "Síganos",
     "form": {
         "max_characters": "{{ max_chars }} caracteres máx."

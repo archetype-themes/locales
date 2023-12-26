@@ -10,7 +10,6 @@
     "back_to": "Back to {{ title }}",
     "blogs": {
         "article": {
-            "featured_product": "Featured product",
             "latest_posts": "Latest posts",
             "more_from": "More from",
             "popular_posts": "Popular posts",
@@ -182,6 +181,7 @@
     },
     "email": "Email",
     "explore_more": "Explore more",
+    "featured_product": "Featured product",
     "follow_us": "Follow us",
     "form": {
         "max_characters": "{{ max_chars }} characters max"

@@ -10,7 +10,6 @@
     "back_to": "Retour à {{ title }}",
     "blogs": {
         "article": {
-            "featured_product": "Produit en vedette",
             "latest_posts": "Derniers articles",
             "more_from": "Plus de",
             "popular_posts": "Articles populaires",
@@ -181,6 +180,7 @@
     },
     "email": "Courriel",
     "explore_more": "Explore plus",
+    "featured_product": "Produit en vedette",
     "follow_us": "Suivez nous",
     "form": {
         "max_characters": "{{ max_chars }} caractères au maximum"
