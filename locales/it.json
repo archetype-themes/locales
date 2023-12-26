@@ -168,6 +168,9 @@
             "confirmation": "Grazie per l'iscrizione",
             "input_placeholder": "Inserisci la tua email",
             "submit": "Iscriviti"
+        },
+        "password": {
+            "admin_link_html": "Sei il proprietario di un negozio? <a href=\"/admin\" class=\"text-link\">Entra qui</a>"
         }
     },
     "general": {
@@ -181,7 +184,6 @@
         "newsletter_form": {},
         "pagination": {},
         "password_page": {
-            "admin_link_html": "Sei il proprietario di un negozio? <a href=\"/admin\" class=\"text-link\">Entra qui</a>",
             "login_form_heading": "Entra nel negozio usando la password",
             "login_form_password_placeholder": "La tua password",
             "login_form_submit": "Accedi",

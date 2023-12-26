@@ -168,6 +168,9 @@
             "confirmation": "Thanks for subscribing",
             "input_placeholder": "Enter your email",
             "submit": "Subscribe"
+        },
+        "password": {
+            "admin_link_html": "Store owner? <a href=\"/admin\" class=\"text-link\">Log in here</a>"
         }
     },
     "general": {
@@ -181,7 +184,6 @@
         "newsletter_form": {},
         "pagination": {},
         "password_page": {
-            "admin_link_html": "Store owner? <a href=\"/admin\" class=\"text-link\">Log in here</a>",
             "login_form_heading": "Enter store using password",
             "login_form_password_placeholder": "Your password",
             "login_form_submit": "Enter",

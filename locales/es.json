@@ -171,6 +171,9 @@
             "confirmation": "Gracias por suscribirse",
             "input_placeholder": "Suscríbete a nuestra lista de correo",
             "submit": "Suscribir"
+        },
+        "password": {
+            "admin_link_html": "¿Eres el dueño de la tienda? <a href=\"/admin\" class=\"text-link\">Regístrate aquí</a>"
         }
     },
     "general": {
@@ -184,7 +187,6 @@
         "newsletter_form": {},
         "pagination": {},
         "password_page": {
-            "admin_link_html": "¿Eres el dueño de la tienda? <a href=\"/admin\" class=\"text-link\">Regístrate aquí</a>",
             "login_form_heading": "Entrar a la tienda usando contraseña:",
             "login_form_password_placeholder": "Tu contraseña",
             "login_form_submit": "Ingresar",

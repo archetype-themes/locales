@@ -167,6 +167,9 @@
             "confirmation": "Danke fürs Anmelden",
             "input_placeholder": "Melden Sie sich für unsere Mailingliste an",
             "submit": "Abonnieren"
+        },
+        "password": {
+            "admin_link_html": "Sind Sie der Geschäftsinhaber? <a href=\"/admin\" class=\"text-link\">Melden Sie sich hier an</a>"
         }
     },
     "general": {
@@ -180,7 +183,6 @@
         "newsletter_form": {},
         "pagination": {},
         "password_page": {
-            "admin_link_html": "Sind Sie der Geschäftsinhaber? <a href=\"/admin\" class=\"text-link\">Melden Sie sich hier an</a>",
             "login_form_heading": "Shop mit Passwort betreten:",
             "login_form_password_placeholder": "Ihr Passwort",
             "login_form_submit": "Betreten",

@@ -170,6 +170,9 @@
             "confirmation": "Obrigado por assinar",
             "input_placeholder": "Assine nossa newsletter",
             "submit": "Inscrever"
+        },
+        "password": {
+            "admin_link_html": "Você é o dono da loja? <a href=\"/admin\" class=\"text-link\">Faça login aqui</a>"
         }
     },
     "general": {
@@ -183,7 +186,6 @@
         "newsletter_form": {},
         "pagination": {},
         "password_page": {
-            "admin_link_html": "Você é o dono da loja? <a href=\"/admin\" class=\"text-link\">Faça login aqui</a>",
             "login_form_heading": "Entre na loja usando a senha:",
             "login_form_password_placeholder": "Sua senha",
             "login_form_submit": "Entrar",
