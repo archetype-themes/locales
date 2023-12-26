@@ -164,6 +164,7 @@
             "alt_text": {}
         }
     },
+    "get_in_touch": "In Kontakt kommen",
     "gift_card": {
         "add_to_apple_wallet": "Hinzufügen zu Apple Wallet",
         "cta": "Einkauf beginnen",
@@ -201,7 +202,6 @@
         },
         "customer": {},
         "footer": {
-            "contact_title": "In Kontakt kommen",
             "email_link": "Kontakt",
             "social_platform": "{{ name }} auf {{ platform }}"
         }

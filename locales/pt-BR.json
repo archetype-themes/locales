@@ -162,6 +162,7 @@
             "alt_text": {}
         }
     },
+    "get_in_touch": "Entrar em contato",
     "gift_card": {
         "add_to_apple_wallet": "Adicionar ao Apple Wallet",
         "cta": "Comece a comprar",
@@ -199,7 +200,6 @@
         },
         "customer": {},
         "footer": {
-            "contact_title": "Entrar em contato",
             "email_link": "Envia-nos um email",
             "social_platform": "{{ name }} em {{ platform }}"
         }

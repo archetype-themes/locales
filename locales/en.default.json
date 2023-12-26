@@ -165,6 +165,7 @@
             "alt_text": {}
         }
     },
+    "get_in_touch": "Get in touch",
     "gift_card": {
         "add_to_apple_wallet": "Add to Apple Wallet",
         "cta": "Start shopping",
@@ -205,7 +206,6 @@
         },
         "customer": {},
         "footer": {
-            "contact_title": "Get in touch",
             "email_link": "Email us",
             "social_platform": "{{ name }} on {{ platform }}"
         }

@@ -168,6 +168,7 @@
             "alt_text": {}
         }
     },
+    "get_in_touch": "Ponerse en contacto",
     "gift_card": {
         "add_to_apple_wallet": "Añadir a Apple Wallet",
         "cta": "Empezar a comprar",
@@ -205,7 +206,6 @@
         },
         "customer": {},
         "footer": {
-            "contact_title": "Ponerse en contacto",
             "email_link": "Contacto",
             "social_platform": "{{ name }} en {{ platform }}"
         }
