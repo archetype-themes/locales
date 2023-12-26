@@ -266,6 +266,7 @@
     },
     "message": "Message",
     "more_from": "Plus de",
+    "more_from_html": "Plus de {{ link }}",
     "name": "Nom",
     "next": "Suivant",
     "order": {
@@ -300,7 +301,6 @@
     },
     "products": {
         "general": {
-            "more_from_html": "Plus de {{ link }}",
             "next_product": "Suivant: {{ title }}",
             "regular_price": "Prix régulier",
             "sale_price": "Prix réduit",
