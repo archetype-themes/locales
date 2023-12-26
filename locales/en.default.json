@@ -18,7 +18,6 @@
         "close": "Close cart",
         "empty": "Your cart is currently empty.",
         "general": {
-            "terms_confirm": "You must agree with the terms and conditions of sales to check out",
             "terms_html": "I agree with the <a href='{{ url }}' target='_blank'>terms and conditions</a>",
             "title": "Cart"
         },
@@ -380,7 +379,8 @@
     "subtotal": "Subtotal",
     "tags": "Tags",
     "terms": {
-        "i_agree": "I agree with the terms and conditions"
+        "i_agree": "I agree with the terms and conditions",
+        "you_must_agree": "You must agree with the terms and conditions of sales to check out"
     },
     "total": "Total",
     "view_all": "View all",
