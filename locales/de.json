@@ -18,13 +18,13 @@
         "close": "Einkaufswagen schließen",
         "empty": "Ihr Einkaufswagen ist im Moment leer.",
         "general": {
-            "shipping_at_checkout": "Rabattcodes, Versandkosten und Steuern werden bei der Bezahlung berechnet.",
             "terms": "Ich stimme den Nutzungsbedingungen zu",
             "terms_confirm": "Sie müssen den Verkaufsbedingungen zustimmen, um auszuchecken",
             "terms_html": "Ich stimme den <a href='{{ url }}' target='_blank'>Nutzungsbedingungen</a> zu",
             "title": "Einkaufswagen"
         },
         "label": {},
+        "shipping_at_checkout": "Rabattcodes, Versandkosten und Steuern werden bei der Bezahlung berechnet.",
         "update": "Einkaufswagen aktualisieren"
     },
     "checkout": "Zur Kasse",

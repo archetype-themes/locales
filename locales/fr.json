@@ -18,7 +18,6 @@
         "close": "Fermer le panier",
         "empty": "Votre panier est vide.",
         "general": {
-            "shipping_at_checkout": "Les codes promo, les frais d'envoi et les taxes seront ajoutés à la caisse.",
             "terms": "Je suis d'accord avec les termes et conditions",
             "terms_confirm": "Vous devez accepter les termes et conditions de vente pour vérifier",
             "terms_html": "Je suis d'accord avec les <a href='{{ url }}' target='_blank'>termes et conditions</a>",
@@ -26,6 +25,7 @@
         },
         "label": {},
         "max_quantity": "Vous ne pouvez avoir que {{ quantity }} de {{ title }} dans votre panier.",
+        "shipping_at_checkout": "Les codes promo, les frais d'envoi et les taxes seront ajoutés à la caisse.",
         "update": "Mettre à jour"
     },
     "checkout": "Procéder au paiement",

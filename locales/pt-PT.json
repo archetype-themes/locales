@@ -18,7 +18,6 @@
         "close": "Fechar Carrinho de Compras",
         "empty": "O seu carrinho de compras está neste momento vazio.",
         "general": {
-            "shipping_at_checkout": "Códigos de desconto, custos de envio e impostos adicionados na finalização de compra.",
             "terms": "Eu concordo com os termos e condições",
             "terms_confirm": "Você deve concordar com os termos e condições de vendas para verificar",
             "terms_html": "Eu concordo com os <a href='{{ url }}' target='_blank'>termos e condições</a>",
@@ -26,6 +25,7 @@
         },
         "label": {},
         "max_quantity": "Solo puedes tener {{ quantity }} de {{ title }} en tu carrito.",
+        "shipping_at_checkout": "Códigos de desconto, custos de envio e impostos adicionados na finalização de compra.",
         "update": "Atualizar Carrinho de Compras"
     },
     "checkout": "Check-Out",

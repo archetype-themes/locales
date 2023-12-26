@@ -18,7 +18,6 @@
         "close": "Close cart",
         "empty": "Your cart is currently empty.",
         "general": {
-            "shipping_at_checkout": "Shipping, taxes, and discount codes calculated at checkout.",
             "terms": "I agree with the terms and conditions",
             "terms_confirm": "You must agree with the terms and conditions of sales to check out",
             "terms_html": "I agree with the <a href='{{ url }}' target='_blank'>terms and conditions</a>",
@@ -26,6 +25,7 @@
         },
         "label": {},
         "max_quantity": "You can only have {{ quantity }} of {{ title }} in your cart.",
+        "shipping_at_checkout": "Shipping, taxes, and discount codes calculated at checkout.",
         "update": "Update cart"
     },
     "checkout": "Check out",

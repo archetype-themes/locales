@@ -18,7 +18,6 @@
         "close": "Cerrar carrito",
         "empty": "Su carrito actualmente está vacío.",
         "general": {
-            "shipping_at_checkout": "Los códigos de descuento, los costes de envío y los impuestos se añaden durante el pago.",
             "terms": "Acepto los términos y condiciones",
             "terms_confirm": "Debe aceptar los términos y condiciones de venta para pagar",
             "terms_html": "Acepto los <a href='{{ url }}' target='_blank'>términos y condiciones</a>",
@@ -26,6 +25,7 @@
         },
         "label": {},
         "max_quantity": "Solo puedes tener {{ quantity }} de {{ title }} en tu carrito.",
+        "shipping_at_checkout": "Los códigos de descuento, los costes de envío y los impuestos se añaden durante el pago.",
         "update": "Actualizar carrito"
     },
     "checkout": "Finalizar pedido",
