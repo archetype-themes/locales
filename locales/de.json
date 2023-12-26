@@ -201,7 +201,6 @@
         },
         "social": {
             "alt_text": {
-                "share_on_facebook": "Auf Facebook teilen",
                 "share_on_pinterest": "Auf Pinterest pinnen",
                 "share_on_twitter": "Auf Twitter twittern"
             },
@@ -345,6 +344,9 @@
     "slideshow": {
         "pause": "Pause Diashow",
         "play": "Diashow abspielen"
+    },
+    "social": {
+        "share_on_facebook": "Auf Facebook teilen"
     },
     "sort": "Sortieren",
     "store_availability": {
