@@ -173,9 +173,7 @@
         "currency": {},
         "drawers": {},
         "language": {},
-        "meta": {
-            "tags": "Marcado \"{{ tags }}\""
-        },
+        "meta": {},
         "newsletter_form": {
             "newsletter_confirmation": "Obrigado por assinar",
             "newsletter_email": "Assine nossa newsletter",
@@ -344,6 +342,7 @@
         "general": {}
     },
     "subtotal": "Subtotal",
+    "tagged_with": "Marcado \"{{ tags }}\"",
     "tags": "Marcadores",
     "terms": {
         "i_agree": "Eu concordo com os termos e condições",

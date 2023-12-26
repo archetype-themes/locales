@@ -172,9 +172,7 @@
         "currency": {},
         "drawers": {},
         "language": {},
-        "meta": {
-            "tags": "Tagged \"{{ tags }}\""
-        },
+        "meta": {},
         "newsletter_form": {
             "newsletter_confirmation": "Thanks for subscribing",
             "newsletter_email": "Enter your email",
@@ -357,6 +355,7 @@
     },
     "subtotal": "Subtotal",
     "suggestions": "Suggestions",
+    "tagged_with": "Tagged \"{{ tags }}\"",
     "tags": "Tags",
     "terms": {
         "i_agree": "I agree with the terms and conditions",

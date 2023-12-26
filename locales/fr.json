@@ -175,9 +175,7 @@
         "currency": {},
         "drawers": {},
         "language": {},
-        "meta": {
-            "tags": "Mots clés \"{{ tags }}\""
-        },
+        "meta": {},
         "newsletter_form": {
             "newsletter_confirmation": "Merci de vous être inscrit",
             "newsletter_email": "Inscrivez-vous à notre infolettre",
@@ -356,6 +354,7 @@
     },
     "subtotal": "Sous-total",
     "suggestions": "Suggestions",
+    "tagged_with": "Mots clés \"{{ tags }}\"",
     "tags": "Tags",
     "terms": {
         "i_agree": "Je suis d'accord avec les termes et conditions",

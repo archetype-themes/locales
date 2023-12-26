@@ -175,9 +175,7 @@
         "currency": {},
         "drawers": {},
         "language": {},
-        "meta": {
-            "tags": "Etiquetado \"{{ tags }}\""
-        },
+        "meta": {},
         "newsletter_form": {
             "newsletter_confirmation": "Gracias por suscribirse",
             "newsletter_email": "Suscríbete a nuestra lista de correo",
@@ -356,6 +354,7 @@
     },
     "subtotal": "Subtotal",
     "suggestions": "Sugerencias",
+    "tagged_with": "Etiquetado \"{{ tags }}\"",
     "tags": "Etiquetas",
     "terms": {
         "i_agree": "Acepto los términos y condiciones",

@@ -172,9 +172,7 @@
         "currency": {},
         "drawers": {},
         "language": {},
-        "meta": {
-            "tags": "Contrassegnato da tag \"{{ tag }}\""
-        },
+        "meta": {},
         "newsletter_form": {
             "newsletter_confirmation": "Grazie per l'iscrizione",
             "newsletter_email": "Inserisci la tua email",
@@ -356,6 +354,7 @@
     },
     "subtotal": "Subtotale",
     "suggestions": "suggerimenti",
+    "tagged_with": "Contrassegnato da tag \"{{ tag }}\"",
     "tags": "Tags",
     "terms": {
         "i_agree": "Sono d'accordo con i termini e le condizioni",
