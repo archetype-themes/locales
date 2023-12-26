@@ -4,7 +4,12 @@
         "title": "404 Página Não Encontrada"
     },
     "account": "Conta",
+    "activate_account": "Ativar Conta",
+    "add_address": "Adicionar Endereço",
     "add_to_cart": "Adicionar ao Carrinho de Compras",
+    "add_order_note": "Instruções especiais para o vendedor",
+    "address1": "Endereço1",
+    "address2": "Endereço2",
     "all_products": "Todos os Produtos",
     "articles": "Artigos:",
     "availability": {
@@ -37,6 +42,7 @@
     "catalog": "Catálogo",
     "categories": "Categorias",
     "checkout": "Check-Out",
+    "city": "Localidade",
     "close": "Encerrar",
     "close_esc": "Encerrar (Esc)",
     "close_menu": "Fechar menu",
@@ -57,13 +63,18 @@
         "posted_successfully": "Seu comentário foi postado! Obrigado!",
         "posted_successfully_moderated": "O seu comentário foi publicado com sucesso! Obrigado!"
     },
+    "company": "Empresa",
+    "confirm_password": "Confirmar Senha",
+    "confrim_password": "Confirmar Senha",
     "contact": {
         "form": {},
         "thanks": "Obrigado por entrar em contacto connosco. Responder-lhe-emos logo que possível."
     },
     "continue_reading": "Ler mais",
     "continue_shopping": "Continue comprando",
-    "create_account": "Criar conta",
+    "country": "País",
+    "create": "Criar",
+    "create_account": "Criar Conta",
     "currency": "Moeda",
     "customer": {
         "account": {
@@ -72,21 +83,9 @@
             "title": "A Minha Conta"
         },
         "activate_account": {
-            "cancel": "Recusar Convite",
-            "password_confirm": "Confirmar Senha",
-            "submit": "Ativar Conta",
-            "subtext": "Crie a sua senha para ativar a sua conta.",
-            "title": "Ativar Conta"
+            "subtext": "Crie a sua senha para ativar a sua conta."
         },
         "addresses": {
-            "add": "Adicionar Endereço",
-            "add_new": "Adicionar um Novo Endereço",
-            "address1": "Endereço1",
-            "address2": "Endereço2",
-            "city": "Localidade",
-            "company": "Empresa",
-            "country": "País",
-            "default": "Predefinição",
             "delete": "Eliminar",
             "delete_confirm": "Tem a certeza de que quer eliminar este endereço?",
             "edit": "Editar",
@@ -101,7 +100,6 @@
             "zip": "Código Postal"
         },
         "login": {
-            "cancel": "Regressar à Loja",
             "forgot_password": "Esqueceu-se da sua senha?",
             "guest_continue": "Continuar",
             "guest_title": "Continuar como visitante",
@@ -115,45 +113,24 @@
             "date_html": "Efetuado em {{ date }}",
             "discount": "Desconto",
             "fulfilled_at_html": "Concluído em {{ date }}",
-            "fulfillment_status": "Estado de Atendimento",
-            "payment_status": "Estado de Pagamento",
-            "product": "Produto",
-            "shipping": "Envio",
-            "shipping_address": "Endereço de Envio",
-            "sku": "SKU",
-            "tax": "Taxa",
-            "title": "Pedido {{ name }}"
+            "product": "Produto"
         },
         "orders": {
-            "date": "Data",
-            "fulfillment_status": "Estado de Atendimento",
-            "none": "Ainda não efetuou nenhum pedido.",
-            "order_number": "Pedido",
-            "payment_status": "Estado de Pagamento",
-            "title": "Histórico de Pedidos"
+            "none": "Ainda não efetuou nenhum pedido."
         },
         "recover_password": {
-            "submit": "Enviar",
             "subtext": "Vamos enviar-lhe um email para repor a sua senha.",
-            "success": "Enviámos-lhe um email com um link para atualizar a sua senha.",
-            "title": "Repor a sua senha"
+            "success": "Enviámos-lhe um email com um link para atualizar a sua senha."
         },
-        "register": {
-            "cancel": "Regressar à Loja",
-            "last_name": "Sobrenome",
-            "submit": "Criar",
-            "title": "Criar Conta"
-        },
-        "reset_password": {
-            "password_confirm": "Confirmar Senha",
-            "submit": "Repor Senha",
-            "subtext": "Insira uma nova senha para {{ email }}",
-            "title": "Repor senha de conta"
-        }
+        "register": {},
+        "reset_password": {}
     },
+    "date": "Data",
     "date_formats": {
         "month_day_year": "%d de %B de %Y"
     },
+    "decline_invitation": "Recusar Convite",
+    "default": "Predefinição",
     "description": "Descrição",
     "disabled": "Inválido",
     "discount": {
@@ -161,6 +138,7 @@
     },
     "discounts": "Descontos",
     "email": "Email",
+    "enter_new_password": "Insira uma nova senha para {{ email }}",
     "expand_submenu": "Expandir menu",
     "explore_more": "Explore mais",
     "featured_product": "Produto em destaque",
@@ -185,6 +163,7 @@
         }
     },
     "from_text_html": "<span>Desde</span> {{ price }}",
+    "fulfillment_status": "Estado de Atendimento",
     "general": {
         "404": {},
         "accessibility": {},
@@ -238,6 +217,7 @@
         "unavailable": "Indisponível"
     },
     "language": "Idioma",
+    "last_name": "Sobrenome",
     "latest_posts": "Artigos Mais Recentes",
     "layout": {
         "cart": {
@@ -269,12 +249,13 @@
     "name": "Nome",
     "next": "Seguinte",
     "next_product": "Seguinte: {{ title }}",
-    "order": {
-        "add_note": "Instruções especiais para o vendedor"
-    },
+    "order": "Pedido",
+    "order_history": "Histórico de Pedidos",
+    "order_name": "Pedido {{ name }}",
     "page_title": "Página {{ page }}",
     "pages": "Páginas:",
     "password": "Palavra-passe",
+    "payment_status": "Estado de Pagamento",
     "phone_number": "Número de Telefone",
     "pin_it": "Pin it",
     "placeholder": {
@@ -300,6 +281,9 @@
     "reduce_item_quantity": "Reduza a quantidade do artigo em um",
     "regular_price": "Preço normal",
     "remove": "Eliminar",
+    "reset_password": "Repor Senha",
+    "reset_your_password": "Repor a sua senha",
+    "return_to_store": "Regressar à Loja",
     "reviews": "Avaliações",
     "sale": "Venda",
     "sale_price": "Preço de saldo",
@@ -312,6 +296,8 @@
     "send": "Enviar",
     "share": "Partilhar",
     "share_this": "Compartilhar isso",
+    "shipping": "Envio",
+    "shipping_address": "Endereço de Envio",
     "shipping_policy_html": "<a href='{{ link }}'>Envio</a> calculado na finalização da compra.",
     "show_less": "Mostre menos",
     "show_more": "Mostre mais",
@@ -322,6 +308,7 @@
     },
     "size_chart": "Gráfico de tamanho",
     "skip_to_content": "Pular para o Conteúdo",
+    "sku": "SKU",
     "slideshow": {
         "pause": "slideshow pausa",
         "play": "Reproduzir de slides"
@@ -335,9 +322,11 @@
     "store_availability": {
         "general": {}
     },
+    "submit": "Enviar",
     "subtotal": "Subtotal",
     "tagged_with": "Etiquetado como \"{{ tags }}\"",
     "tags": "Etiquetas",
+    "tax": "Taxa",
     "tax_included": "Imposto incluído.",
     "terms": {
         "i_agree": "Eu concordo com os termos e condições",

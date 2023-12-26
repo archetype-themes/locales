@@ -4,7 +4,12 @@
         "title": "404 Page Not Found"
     },
     "account": "Account",
+    "activate_account": "Activate account",
+    "add_address": "Add address",
     "add_to_cart": "Add to cart",
+    "add_order_note": "Add order note",
+    "address1": "Address1",
+    "address2": "Address2",
     "all_products": "All products",
     "articles": "Articles",
     "availability": {
@@ -37,6 +42,7 @@
     "catalog": "Catalog",
     "categories": "Categories",
     "checkout": "Check out",
+    "city": "City",
     "close": "Close",
     "close_esc": "Close (esc)",
     "close_menu": "Close menu",
@@ -57,13 +63,18 @@
         "posted_successfully": "Your comment was posted successfully! Thank you!",
         "posted_successfully_moderated": "Your comment was posted successfully. We will publish it in a little while, as our blog is moderated."
     },
+    "company": "Company",
+    "confirm_password": "Confirm Password",
+    "confrim_password": "Confirm password",
     "contact": {
         "form": {},
         "thanks": "Thanks for contacting us. We'll get back to you as soon as possible."
     },
     "continue_reading": "Continue reading",
     "continue_shopping": "Continue shopping",
-    "create_account": "Create account",
+    "country": "Country",
+    "create": "Create",
+    "create_account": "Create Account",
     "currency": "Currency",
     "customer": {
         "account": {
@@ -72,21 +83,9 @@
             "title": "My account"
         },
         "activate_account": {
-            "cancel": "Decline invitation",
-            "password_confirm": "Confirm password",
-            "submit": "Activate account",
-            "subtext": "Create your password to activate your account.",
-            "title": "Activate account"
+            "subtext": "Create your password to activate your account."
         },
         "addresses": {
-            "add": "Add address",
-            "add_new": "Add address",
-            "address1": "Address1",
-            "address2": "Address2",
-            "city": "City",
-            "company": "Company",
-            "country": "Country",
-            "default": "Default",
             "delete": "Delete",
             "delete_confirm": "Are you sure you wish to delete this address?",
             "edit": "Edit",
@@ -101,7 +100,6 @@
             "zip": "Postal/Zip code"
         },
         "login": {
-            "cancel": "Return to Store",
             "forgot_password": "Forgot password?",
             "guest_continue": "Continue",
             "guest_title": "Continue as a guest",
@@ -115,42 +113,21 @@
             "date_html": "Placed on {{ date }}",
             "discount": "Discount",
             "fulfilled_at_html": "Fulfilled {{ date }}",
-            "fulfillment_status": "Fulfillment status",
-            "payment_status": "Payment status",
-            "product": "Product",
-            "shipping": "Shipping",
-            "shipping_address": "Shipping address",
-            "sku": "SKU",
-            "tax": "Tax",
-            "title": "Order {{ name }}"
+            "product": "Product"
         },
         "orders": {
-            "date": "Date",
-            "fulfillment_status": "Fulfillment status",
-            "none": "You haven't placed any orders yet.",
-            "order_number": "Order",
-            "payment_status": "Payment status",
-            "title": "Order History"
+            "none": "You haven't placed any orders yet."
         },
         "recover_password": {
-            "submit": "Submit",
             "subtext": "We will send you an email to reset your password.",
-            "success": "We've sent you an email with a link to update your password.",
-            "title": "Reset your password"
+            "success": "We've sent you an email with a link to update your password."
         },
-        "register": {
-            "cancel": "Return to Store",
-            "last_name": "Last Name",
-            "submit": "Create",
-            "title": "Create Account"
-        },
-        "reset_password": {
-            "password_confirm": "Confirm Password",
-            "submit": "Reset Password",
-            "subtext": "Enter a new password for {{ email }}",
-            "title": "Reset account password"
-        }
+        "register": {},
+        "reset_password": {}
     },
+    "date": "Date",
+    "decline_invitation": "Decline invitation",
+    "default": "Default",
     "description": "Description",
     "disabled": "Disabled",
     "discount": {
@@ -158,6 +135,7 @@
     },
     "discounts": "Discounts",
     "email": "Email",
+    "enter_new_password": "Enter a new password for {{ email }}",
     "expand_submenu": "Expand submenu",
     "explore_more": "Explore more",
     "featured_product": "Featured product",
@@ -188,6 +166,7 @@
         }
     },
     "from_text_html": "<span>from</span> {{ price }}",
+    "fulfillment_status": "Fulfillment status",
     "general": {
         "404": {},
         "accessibility": {},
@@ -244,6 +223,7 @@
         "unavailable": "Unavailable"
     },
     "language": "Language",
+    "last_name": "Last Name",
     "latest_posts": "Latest posts",
     "layout": {
         "cart": {
@@ -275,12 +255,13 @@
     "name": "Name",
     "next": "Next",
     "next_product": "Next: {{ title }}",
-    "order": {
-        "add_note": "Add order note"
-    },
+    "order": "Order",
+    "order_history": "Order History",
+    "order_name": "Order {{ name }}",
     "page_title": "Page {{ page }}",
     "pages": "Pages",
     "password": "Password",
+    "payment_status": "Payment status",
     "phone_number": "Phone number",
     "pin_it": "Pin it",
     "placeholder": {
@@ -310,6 +291,9 @@
     "reduce_item_quantity": "Reduce item quantity by one",
     "regular_price": "Regular price",
     "remove": "Remove",
+    "reset_password": "Reset Password",
+    "reset_your_password": "Reset your password",
+    "return_to_store": "Return to Store",
     "reviews": "Reviews",
     "sale": "Sale",
     "sale_price": "Sale price",
@@ -322,6 +306,8 @@
     "send": "Send",
     "share": "Share",
     "share_this": "Share this",
+    "shipping": "Shipping",
+    "shipping_address": "Shipping address",
     "shipping_policy_html": "<a href='{{ link }}'>Shipping</a> calculated at checkout.",
     "show_less": "Show less",
     "show_more": "Show more",
@@ -332,6 +318,7 @@
     },
     "size_chart": "Size chart",
     "skip_to_content": "Skip to content",
+    "sku": "SKU",
     "slideshow": {
         "pause": "Pause slideshow",
         "play": "Play slideshow"
@@ -346,10 +333,12 @@
     "store_availability": {
         "general": {}
     },
+    "submit": "Submit",
     "subtotal": "Subtotal",
     "suggestions": "Suggestions",
     "tagged_with": "Tagged \"{{ tags }}\"",
     "tags": "Tags",
+    "tax": "Tax",
     "tax_included": "Tax included.",
     "terms": {
         "i_agree": "I agree with the terms and conditions",

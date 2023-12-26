@@ -4,7 +4,12 @@
         "title": "404 Página não encontrada"
     },
     "account": "Conta",
+    "activate_account": "Ativar conta",
+    "add_address": "Adicionar endereço",
     "add_to_cart": "Adicionar ao carrinho",
+    "add_order_note": "Instruções especiais para o vendedor",
+    "address1": "Endereço1",
+    "address2": "Endereço2",
     "all_products": "Todos os produtos",
     "articles": "Artigos:",
     "availability": {
@@ -37,6 +42,7 @@
     "catalog": "Catálogo",
     "categories": "Categorias",
     "checkout": "Fechar pedido",
+    "city": "Cidade",
     "close": "Fechar",
     "close_esc": "Fechar (Esc)",
     "close_menu": "Fechar menu",
@@ -57,12 +63,17 @@
         "posted_successfully": "Seu comentário foi postado! Obrigado!",
         "posted_successfully_moderated": "Seu comentário foi postado. Nós o publicaremos em alguns instantes, já que o nosso blog é moderado."
     },
+    "company": "Empresa",
+    "confirm_password": "Confirmar senha",
+    "confrim_password": "Confirmar senha",
     "contact": {
         "form": {},
         "thanks": "Obrigado por entrar em contato. Nós lhe retornaremos assim que possível."
     },
     "continue_reading": "Ler mais",
     "continue_shopping": "Continue comprando",
+    "country": "País",
+    "create": "Criar",
     "create_account": "Criar conta",
     "currency": "Moeda",
     "customer": {
@@ -72,21 +83,9 @@
             "title": "Minha conta"
         },
         "activate_account": {
-            "cancel": "Recusar convite",
-            "password_confirm": "Confirmar senha",
-            "submit": "Ativar conta",
-            "subtext": "Crie uma senha para ativar a sua conta.",
-            "title": "Ativar conta"
+            "subtext": "Crie uma senha para ativar a sua conta."
         },
         "addresses": {
-            "add": "Adicionar endereço",
-            "add_new": "Adicionar um novo endereço",
-            "address1": "Endereço1",
-            "address2": "Endereço2",
-            "city": "Cidade",
-            "company": "Empresa",
-            "country": "País",
-            "default": "Padrão",
             "delete": "Excluir",
             "delete_confirm": "Deseja realmente excluir este endereço?",
             "edit": "Editar",
@@ -101,7 +100,6 @@
             "zip": "CEP"
         },
         "login": {
-            "cancel": "Retornar à loja",
             "forgot_password": "Esqueceu sua senha?",
             "guest_continue": "Prosseguir",
             "guest_title": "Prosseguir como convidado(a)",
@@ -115,45 +113,24 @@
             "date_html": "Efetuado em {{ date }}",
             "discount": "Desconto",
             "fulfilled_at_html": "Processado em {{ date }}",
-            "fulfillment_status": "Status do processamento",
-            "payment_status": "Status do pagamento",
-            "product": "Produto",
-            "shipping": "Frete",
-            "shipping_address": "Endereço de entrega",
-            "sku": "Código SKU",
-            "tax": "Impostos",
-            "title": "Pedido {{ name }}"
+            "product": "Produto"
         },
         "orders": {
-            "date": "Data",
-            "fulfillment_status": "Status do processamento",
-            "none": "Você ainda não efetuou nenhum pedido.",
-            "order_number": "Pedido",
-            "payment_status": "Status do pagamento",
-            "title": "Histórico de pedidos"
+            "none": "Você ainda não efetuou nenhum pedido."
         },
         "recover_password": {
-            "submit": "Enviar",
             "subtext": "Enviaremos a você um e-mail para redefinir a sua senha.",
-            "success": "Nós lhe enviamos um e-mail com o link para atualizar a sua senha.",
-            "title": "Redefinir sua senha"
+            "success": "Nós lhe enviamos um e-mail com o link para atualizar a sua senha."
         },
-        "register": {
-            "cancel": "Retornar à loja",
-            "last_name": "Sobrenome",
-            "submit": "Criar",
-            "title": "Criar conta"
-        },
-        "reset_password": {
-            "password_confirm": "Confirmar senha",
-            "submit": "Redefinir senha",
-            "subtext": "Digite uma nova senha para {{ email }}",
-            "title": "Redefinir sua senha"
-        }
+        "register": {},
+        "reset_password": {}
     },
+    "date": "Data",
     "date_formats": {
         "month_day_year": "%d de %B de %Y"
     },
+    "decline_invitation": "Recusar convite",
+    "default": "Padrão",
     "description": "Descrição",
     "disabled": "Inválido",
     "discount": {
@@ -161,6 +138,7 @@
     },
     "discounts": "Descontos",
     "email": "E-mail",
+    "enter_new_password": "Digite uma nova senha para {{ email }}",
     "expand_submenu": "Expandir menu",
     "explore_more": "Explore mais",
     "featured_product": "Produto em destaque",
@@ -185,6 +163,7 @@
         }
     },
     "from_text_html": "<span>A partir de</span> {{ price }}",
+    "fulfillment_status": "Status do processamento",
     "general": {
         "404": {},
         "accessibility": {},
@@ -238,6 +217,7 @@
         "unavailable": "Indisponível"
     },
     "language": "Idioma",
+    "last_name": "Sobrenome",
     "latest_posts": "Artigos Mais Recentes",
     "layout": {
         "cart": {
@@ -269,12 +249,13 @@
     "name": "Nome",
     "next": "Avançar",
     "next_product": "Próximo: {{ title }}",
-    "order": {
-        "add_note": "Instruções especiais para o vendedor"
-    },
+    "order": "Pedido",
+    "order_history": "Histórico de pedidos",
+    "order_name": "Pedido {{ name }}",
     "page_title": "Página {{ page }}",
     "pages": "Páginas:",
     "password": "Senha",
+    "payment_status": "Status do pagamento",
     "phone_number": "Telefone",
     "pin_it": "Pin it",
     "placeholder": {
@@ -300,6 +281,9 @@
     "reduce_item_quantity": "Reduzir quantidade em uma unidade",
     "regular_price": "Preço normal",
     "remove": "Remover",
+    "reset_password": "Redefinir senha",
+    "reset_your_password": "Redefinir sua senha",
+    "return_to_store": "Retornar à loja",
     "reviews": "Avaliações",
     "sale": "Venda",
     "sale_price": "Preço promocional",
@@ -312,6 +296,8 @@
     "send": "Enviar",
     "share": "Compartilhar",
     "share_this": "Compartilhar isso",
+    "shipping": "Frete",
+    "shipping_address": "Endereço de entrega",
     "shipping_policy_html": "<a href='{{ link }}'>Frete</a> calculado no checkout.",
     "show_less": "Mostre menos",
     "show_more": "Mostre mais",
@@ -322,6 +308,7 @@
     },
     "size_chart": "Gráfico de tamanho",
     "skip_to_content": "Pular para o Conteúdo",
+    "sku": "Código SKU",
     "slideshow": {
         "pause": "slideshow pausa",
         "play": "Reproduzir de slides"
@@ -335,9 +322,11 @@
     "store_availability": {
         "general": {}
     },
+    "submit": "Enviar",
     "subtotal": "Subtotal",
     "tagged_with": "Marcado \"{{ tags }}\"",
     "tags": "Marcadores",
+    "tax": "Impostos",
     "tax_included": "Taxas incluídas.",
     "terms": {
         "i_agree": "Eu concordo com os termos e condições",

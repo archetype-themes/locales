@@ -4,7 +4,12 @@
         "title": "404 - Page non trouvée"
     },
     "account": "Compte",
+    "activate_account": "Activer le compte",
+    "add_address": "Ajouter l'adresse",
     "add_to_cart": "Ajouter au panier",
+    "add_order_note": "Ajouter des instructions de commande spéciales",
+    "address1": "Adresse 1",
+    "address2": "Adresse 2",
     "all_products": "Tous les produits",
     "articles": "Des articles",
     "availability": {
@@ -37,6 +42,7 @@
     "catalog": "Catalogue",
     "categories": "Catégories",
     "checkout": "Procéder au paiement",
+    "city": "Ville",
     "close": "Fermer",
     "close_esc": "Fermer (Esc)",
     "close_menu": "Fermer le menu",
@@ -57,12 +63,17 @@
         "posted_successfully": "Votre commentaire a été publié avec succès!",
         "posted_successfully_moderated": "Votre commentaire a été soumis avec succès. Nous le publierons sous peu, suite à notre processus de modération."
     },
+    "company": "Compagnie",
+    "confirm_password": "Confirmer le mot de passe",
+    "confrim_password": "Confirmer le mot de passe",
     "contact": {
         "form": {},
         "thanks": "Merci de nous avoir avoir contacté. Nous vous reviendrons le plus rapidement possible."
     },
     "continue_reading": "Plus",
     "continue_shopping": "Continuer vos achats",
+    "country": "Pays",
+    "create": "Créer",
     "create_account": "Créer un compte",
     "currency": "Devise",
     "customer": {
@@ -72,21 +83,9 @@
             "title": "Mon compte"
         },
         "activate_account": {
-            "cancel": "Refuser l'invitation",
-            "password_confirm": "Confirmer le mot de passe",
-            "submit": "Activer le compte",
-            "subtext": "Créez votre mot de passe pour activer le compte.",
-            "title": "Activer le compte"
+            "subtext": "Créez votre mot de passe pour activer le compte."
         },
         "addresses": {
-            "add": "Ajouter l'adresse",
-            "add_new": "Ajouter une nouvelle adresse",
-            "address1": "Adresse 1",
-            "address2": "Adresse 2",
-            "city": "Ville",
-            "company": "Compagnie",
-            "country": "Pays",
-            "default": "Par défaut",
             "delete": "Supprimer",
             "delete_confirm": "Êtes-vous certain(e) de vouloir supprimer cette adresse?",
             "edit": "Éditer",
@@ -101,7 +100,6 @@
             "zip": "Code postal"
         },
         "login": {
-            "cancel": "Retourner à la boutique",
             "forgot_password": "Mot de passe oublié?",
             "guest_continue": "Continuer",
             "guest_title": "Continuer en tant qu'invité",
@@ -115,45 +113,24 @@
             "date_html": "Placée le {{ date }}",
             "discount": "Rabais appliqué",
             "fulfilled_at_html": "Traitée le {{ date }}",
-            "fulfillment_status": "Statut du traitement de la commande",
-            "payment_status": "Statut du paiement",
-            "product": "Produit",
-            "shipping": "Livraison",
-            "shipping_address": "Adresse de livraison",
-            "sku": "SKU",
-            "tax": "Taxes",
-            "title": "Commande {{ name }}"
+            "product": "Produit"
         },
         "orders": {
-            "date": "Date",
-            "fulfillment_status": "Statut du traitement de la commande",
-            "none": "Vous n'avez pas placé de commande à ce jour.",
-            "order_number": "Commande",
-            "payment_status": "Statut du paiement",
-            "title": "Historique des commandes"
+            "none": "Vous n'avez pas placé de commande à ce jour."
         },
         "recover_password": {
-            "submit": "Soumettre",
             "subtext": "Nous vous ferons parvenir un courriel pour réinitialiser votre mot de passe.",
-            "success": "Nous vous avons fait parvenir un courriel pour réinitialiser votre mot de passe.",
-            "title": "Réinitialiser votre mot de passe"
+            "success": "Nous vous avons fait parvenir un courriel pour réinitialiser votre mot de passe."
         },
-        "register": {
-            "cancel": "Retour à la boutique",
-            "last_name": "Nom",
-            "submit": "Créer",
-            "title": "Créer un compte"
-        },
-        "reset_password": {
-            "password_confirm": "Confirmer le mot de passe",
-            "submit": "Réinitialiser le mot de passe",
-            "subtext": "Entrez un nouveau mot de passe pour {{ email }}",
-            "title": "Réinitialiser le mot de passe du compte"
-        }
+        "register": {},
+        "reset_password": {}
     },
+    "date": "Date",
     "date_formats": {
         "month_day_year": "%d %B, %Y"
     },
+    "decline_invitation": "Refuser l'invitation",
+    "default": "Par défaut",
     "description": "Description",
     "disabled": "Désactivée",
     "discount": {
@@ -161,6 +138,7 @@
     },
     "discounts": "Réductions",
     "email": "Courriel",
+    "enter_new_password": "Entrez un nouveau mot de passe pour {{ email }}",
     "expand_submenu": "Ouvrir le menu",
     "explore_more": "Explore plus",
     "featured_product": "Produit en vedette",
@@ -191,6 +169,7 @@
         }
     },
     "from_text_html": "<span>À partir de</span> {{ price }}",
+    "fulfillment_status": "Statut du traitement de la commande",
     "general": {
         "404": {},
         "accessibility": {},
@@ -244,6 +223,7 @@
         "unavailable": "Non disponible"
     },
     "language": "Langue",
+    "last_name": "Nom",
     "latest_posts": "Derniers articles",
     "layout": {
         "cart": {
@@ -275,12 +255,13 @@
     "name": "Nom",
     "next": "Suivant",
     "next_product": "Suivant: {{ title }}",
-    "order": {
-        "add_note": "Ajouter des instructions de commande spéciales"
-    },
+    "order": "Commande",
+    "order_history": "Historique des commandes",
+    "order_name": "Commande {{ name }}",
     "page_title": "Page {{ page }}",
     "pages": "Pages",
     "password": "Mot de passe",
+    "payment_status": "Statut du paiement",
     "phone_number": "Téléphone",
     "pin_it": "Épingler",
     "placeholder": {
@@ -310,6 +291,9 @@
     "reduce_item_quantity": "Réduire la quantité de l'article de un",
     "regular_price": "Prix régulier",
     "remove": "Retirer",
+    "reset_password": "Réinitialiser le mot de passe",
+    "reset_your_password": "Réinitialiser votre mot de passe",
+    "return_to_store": "Retour à la boutique",
     "reviews": "Commentaires",
     "sale": "Réduit",
     "sale_price": "Prix réduit",
@@ -322,6 +306,8 @@
     "send": "Envoyer",
     "share": "Partager",
     "share_this": "Partager",
+    "shipping": "Livraison",
+    "shipping_address": "Adresse de livraison",
     "shipping_policy_html": "<a href='{{ link }}'>Frais d'expédition</a> calculés lors du passage à la caisse.",
     "show_less": "Voir moins",
     "show_more": "Afficher plus",
@@ -332,6 +318,7 @@
     },
     "size_chart": "Tableau des tailles",
     "skip_to_content": "Passer au contenu",
+    "sku": "SKU",
     "slideshow": {
         "pause": "Diaporama Pause",
         "play": "Lire le diaporama"
@@ -345,10 +332,12 @@
     "store_availability": {
         "general": {}
     },
+    "submit": "Soumettre",
     "subtotal": "Sous-total",
     "suggestions": "Suggestions",
     "tagged_with": "Mots clés \"{{ tags }}\"",
     "tags": "Tags",
+    "tax": "Taxes",
     "tax_included": "Taxes incluses.",
     "terms": {
         "i_agree": "Je suis d'accord avec les termes et conditions",

@@ -4,7 +4,12 @@
         "title": "404 Página no encontrada"
     },
     "account": "Cuenta",
+    "activate_account": "Activar cuenta",
+    "add_address": "Agregar dirección",
     "add_to_cart": "Agregar al carrito",
+    "add_order_note": "Instrucciones especiales para el vendedor",
+    "address1": "Dirección1",
+    "address2": "Dirección2",
     "all_products": "Todos los productos",
     "articles": "Artículos",
     "availability": {
@@ -37,6 +42,7 @@
     "catalog": "Catálogo",
     "categories": "Categorías",
     "checkout": "Finalizar pedido",
+    "city": "Ciudad",
     "close": "Cerrar",
     "close_esc": "Cerrar (esc)",
     "close_menu": "Cerrar menú",
@@ -57,12 +63,17 @@
         "posted_successfully": "¡Su comentario se ha compartido con éxito! ¡Gracias!",
         "posted_successfully_moderated": "Su comentario se ha compartido con éxito. Lo publicaremos en un momento, en tanto nuestro blog sea moderado."
     },
+    "company": "Compañía",
+    "confirm_password": "Confirmar contraseña",
+    "confrim_password": "Confirmar contraseña",
     "contact": {
         "form": {},
         "thanks": "Gracias por contactarnos. Le responderemos lo antes posible."
     },
     "continue_reading": "Leer más",
     "continue_shopping": "Seguir comprando",
+    "country": "País",
+    "create": "Crear",
     "create_account": "Crear cuenta",
     "currency": "Moneda",
     "customer": {
@@ -72,21 +83,9 @@
             "title": "Mi cuenta"
         },
         "activate_account": {
-            "cancel": "Rechazar invitación",
-            "password_confirm": "Confirmar contraseña",
-            "submit": "Activar cuenta",
-            "subtext": "Cree su contraseña para activar su cuenta.",
-            "title": "Activar cuenta"
+            "subtext": "Cree su contraseña para activar su cuenta."
         },
         "addresses": {
-            "add": "Agregar dirección",
-            "add_new": "Agregar una nueva dirección",
-            "address1": "Dirección1",
-            "address2": "Dirección2",
-            "city": "Ciudad",
-            "company": "Compañía",
-            "country": "País",
-            "default": "Por defecto",
             "delete": "Eliminar",
             "delete_confirm": "¿Está seguro de que desea eliminar esta dirección?",
             "edit": "Editar",
@@ -101,7 +100,6 @@
             "zip": "Código postal"
         },
         "login": {
-            "cancel": "Volver a la tienda",
             "forgot_password": "¿Olvidó su contraseña?",
             "guest_continue": "Continuar",
             "guest_title": "Continuar como invitado",
@@ -115,45 +113,24 @@
             "date_html": "Realizado en {{ date }}",
             "discount": "Descuento",
             "fulfilled_at_html": "Finalizado {{ date }}",
-            "fulfillment_status": "Estado de finalización",
-            "payment_status": "Estado del pago",
-            "product": "Producto",
-            "shipping": "Envío",
-            "shipping_address": "Dirección de envío",
-            "sku": "SKU",
-            "tax": "Impuesto",
-            "title": "Pedido {{ name }}"
+            "product": "Producto"
         },
         "orders": {
-            "date": "Fecha",
-            "fulfillment_status": "Estado de finalización",
-            "none": "No ha realizado algún pedido aún.",
-            "order_number": "Pedido",
-            "payment_status": "Estado del pago",
-            "title": "Historial de pedidos"
+            "none": "No ha realizado algún pedido aún."
         },
         "recover_password": {
-            "submit": "Enviar",
             "subtext": "Le enviaremos un correo electrónico para restablecer su contraseña.",
-            "success": "Hemos enviado un correo electrónico con un enlace para actualizar su contraseña.",
-            "title": "Restablecer su contraseña"
+            "success": "Hemos enviado un correo electrónico con un enlace para actualizar su contraseña."
         },
-        "register": {
-            "cancel": "Volver a la tienda",
-            "last_name": "Apellido",
-            "submit": "Crear",
-            "title": "Crear cuenta"
-        },
-        "reset_password": {
-            "password_confirm": "Confirmar contraseña",
-            "submit": "Restablecer contraseña",
-            "subtext": "Ingrese una nueva contraseña para {{ email }}",
-            "title": "Restablecer contraseña de cuenta"
-        }
+        "register": {},
+        "reset_password": {}
     },
+    "date": "Fecha",
     "date_formats": {
         "month_day_year": "%d de %B, %Y"
     },
+    "decline_invitation": "Rechazar invitación",
+    "default": "Por defecto",
     "description": "Descripción",
     "disabled": "Inhabilitada",
     "discount": {
@@ -161,6 +138,7 @@
     },
     "discounts": "Descuentos",
     "email": "Correo electrónico",
+    "enter_new_password": "Ingrese una nueva contraseña para {{ email }}",
     "expand_submenu": "Expandir menú",
     "explore_more": "Explora más",
     "featured_product": "Producto destacado",
@@ -191,6 +169,7 @@
         }
     },
     "from_text_html": "<span>De</span> {{ price }}",
+    "fulfillment_status": "Estado de finalización",
     "general": {
         "404": {},
         "accessibility": {},
@@ -244,6 +223,7 @@
         "unavailable": "No disponible"
     },
     "language": "Idioma",
+    "last_name": "Apellido",
     "latest_posts": "Últimos artículos",
     "layout": {
         "cart": {
@@ -275,12 +255,13 @@
     "name": "Nombre",
     "next": "Siguiente",
     "next_product": "Siguiente: {{ title }}",
-    "order": {
-        "add_note": "Instrucciones especiales para el vendedor"
-    },
+    "order": "Pedido",
+    "order_history": "Historial de pedidos",
+    "order_name": "Pedido {{ name }}",
     "page_title": "Página {{ page }}",
     "pages": "Páginas",
     "password": "Contraseña",
+    "payment_status": "Estado del pago",
     "phone_number": "Número de teléfono",
     "pin_it": "Hacer pin",
     "placeholder": {
@@ -310,6 +291,9 @@
     "reduce_item_quantity": "Quitar uno a la cantidad de artículos",
     "regular_price": "Precio habitual",
     "remove": "Quitar",
+    "reset_password": "Restablecer contraseña",
+    "reset_your_password": "Restablecer su contraseña",
+    "return_to_store": "Volver a la tienda",
     "reviews": "Comentarios",
     "sale": "Venta",
     "sale_price": "Precio de oferta",
@@ -322,6 +306,8 @@
     "send": "Enviar",
     "share": "Compartir",
     "share_this": "Compartir este",
+    "shipping": "Envío",
+    "shipping_address": "Dirección de envío",
     "shipping_policy_html": "Los <a href='{{ link }}'>gastos de envío</a> se calculan en la pantalla de pagos.",
     "show_less": "Muestra menos",
     "show_more": "Mostrar más",
@@ -332,6 +318,7 @@
     },
     "size_chart": "Tabla de tallas",
     "skip_to_content": "Ir directamente al contenido",
+    "sku": "SKU",
     "slideshow": {
         "pause": "diapositivas pausa",
         "play": "Juego de diapositivas"
@@ -345,10 +332,12 @@
     "store_availability": {
         "general": {}
     },
+    "submit": "Enviar",
     "subtotal": "Subtotal",
     "suggestions": "Sugerencias",
     "tagged_with": "Etiquetado \"{{ tags }}\"",
     "tags": "Etiquetas",
+    "tax": "Impuesto",
     "tax_included": "Impuesto incluido.",
     "terms": {
         "i_agree": "Acepto los términos y condiciones",

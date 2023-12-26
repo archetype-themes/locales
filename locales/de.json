@@ -4,7 +4,12 @@
         "title": "404 Seite nicht gefunden"
     },
     "account": "Account",
+    "activate_account": "Account aktivieren",
+    "add_address": "Adresse hinzufügen",
     "add_to_cart": "In den Einkaufswagen legen",
+    "add_order_note": "Besondere Hinweise an den Verkäufer",
+    "address1": "Adresse1",
+    "address2": "Adresse2",
     "all_products": "Alle Produkte",
     "articles": "Artikel",
     "availability": {
@@ -36,6 +41,7 @@
     "catalog": "Katalog",
     "categories": "Kategorien",
     "checkout": "Zur Kasse",
+    "city": "Stadt",
     "close": "Schließen",
     "close_esc": "Schließen (Esc)",
     "close_menu": "Menü schließen",
@@ -56,12 +62,17 @@
         "posted_successfully": "Ihr Kommentar wurde erfolgreich gepostet. Danke!",
         "posted_successfully_moderated": "Ihr Kommentar wurde erfolgreich gepostet. Da unser Blog moderiert wird, werden wir ihn erst kurze Zeit später veröffentlichen."
     },
+    "company": "Firma",
+    "confirm_password": "Passwort bestätigen",
+    "confrim_password": "Passwort bestätigen",
     "contact": {
         "form": {},
         "thanks": "Danke, dass Sie uns kontaktiert haben. Wir werden uns so schnell wie möglich bei Ihnen melden."
     },
     "continue_reading": "Weiterlesen",
     "continue_shopping": "Einkaufen Sie weiter",
+    "country": "Land",
+    "create": "Erstellen",
     "create_account": "Account erstellen",
     "currency": "Währung",
     "customer": {
@@ -71,21 +82,9 @@
             "title": "Mein Account"
         },
         "activate_account": {
-            "cancel": "Einladung ablehnen",
-            "password_confirm": "Passwort bestätigen",
-            "submit": "Account aktivieren",
-            "subtext": "Erstellen Sie ein Passwort, um Ihren Account zu aktiveren.",
-            "title": "Account aktivieren"
+            "subtext": "Erstellen Sie ein Passwort, um Ihren Account zu aktiveren."
         },
         "addresses": {
-            "add": "Adresse hinzufügen",
-            "add_new": "Neue Adresse hinzufügen",
-            "address1": "Adresse1",
-            "address2": "Adresse2",
-            "city": "Stadt",
-            "company": "Firma",
-            "country": "Land",
-            "default": "Standard",
             "delete": "Löschen",
             "delete_confirm": "Sind Sie sicher, dass Sie diese Adresse löschen möchten?",
             "edit": "Bearbeiten",
@@ -100,7 +99,6 @@
             "zip": "PLZ"
         },
         "login": {
-            "cancel": "Zurück zum Shop",
             "forgot_password": "Haben Sie Ihr Passwort vergessen?",
             "guest_continue": "Fortsetzen",
             "guest_title": "Als Gast fortsetzen",
@@ -114,42 +112,21 @@
             "date_html": "Aufgegeben am {{ date }}",
             "discount": "Rabatt",
             "fulfilled_at_html": "Geliefert am {{ date }}",
-            "fulfillment_status": "Lieferstatus",
-            "payment_status": "Zahlungsstatus",
-            "product": "Artikel",
-            "shipping": "Versand",
-            "shipping_address": "Lieferadresse",
-            "sku": "SKU",
-            "tax": "Steuern",
-            "title": "Bestellung {{ name }}"
+            "product": "Artikel"
         },
         "orders": {
-            "date": "Datum",
-            "fulfillment_status": "Lieferstatus",
-            "none": "Sie haben noch keine Bestellungen aufgegeben.",
-            "order_number": "Bestellung",
-            "payment_status": "Zahlungsstatus",
-            "title": "Bestellungen"
+            "none": "Sie haben noch keine Bestellungen aufgegeben."
         },
         "recover_password": {
-            "submit": "Absenden",
             "subtext": "Wir werden Ihnen eine E-Mail zum Zurücksetzen des Passworts schicken.",
-            "success": "Wir haben Ihnen eine E-Mail mit einem Link zum Aktualisieren des Passworts geschickt.",
-            "title": "Passwort zurücksetzen"
+            "success": "Wir haben Ihnen eine E-Mail mit einem Link zum Aktualisieren des Passworts geschickt."
         },
-        "register": {
-            "cancel": "Zurück zum Shop",
-            "last_name": "Nachname",
-            "submit": "Erstellen",
-            "title": "Account erstellen"
-        },
-        "reset_password": {
-            "password_confirm": "Passwort bestätigen",
-            "submit": "Passwort zurücksetzen",
-            "subtext": "Geben Sie ein neues Passwort für {{ email }} ein",
-            "title": "Account-Passwort zurücksetzen"
-        }
+        "register": {},
+        "reset_password": {}
     },
+    "date": "Datum",
+    "decline_invitation": "Einladung ablehnen",
+    "default": "Standard",
     "description": "Beschreibung",
     "disabled": "Deaktiviert",
     "discount": {
@@ -157,6 +134,7 @@
     },
     "discounts": "Rabatte",
     "email": "E-Mail",
+    "enter_new_password": "Geben Sie ein neues Passwort für {{ email }} ein",
     "expand_submenu": "Menü maximieren",
     "explore_more": "Erkunde mehr",
     "featured_product": "Vorgestelltes Produkt",
@@ -187,6 +165,7 @@
         }
     },
     "from_text_html": "<span>Von</span> {{ price }}",
+    "fulfillment_status": "Lieferstatus",
     "general": {
         "404": {},
         "accessibility": {},
@@ -240,6 +219,7 @@
         "unavailable": "Nicht verfügbar"
     },
     "language": "Sprache",
+    "last_name": "Nachname",
     "latest_posts": "Neueste Artikel",
     "layout": {
         "cart": {
@@ -271,12 +251,13 @@
     "name": "Name",
     "next": "Vorwärts",
     "next_product": "Nächster: {{ title }}",
-    "order": {
-        "add_note": "Besondere Hinweise an den Verkäufer"
-    },
+    "order": "Bestellung",
+    "order_history": "Bestellungen",
+    "order_name": "Bestellung {{ name }}",
     "page_title": "Seite {{ page }}",
     "pages": "Seiten",
     "password": "Passwort",
+    "payment_status": "Zahlungsstatus",
     "phone_number": "Telefonnummer",
     "pin_it": "Pinnen",
     "placeholder": {
@@ -306,6 +287,9 @@
     "reduce_item_quantity": "Artikelmenge um eins reduzieren",
     "regular_price": "Normaler Preis",
     "remove": "Entfernen",
+    "reset_password": "Passwort zurücksetzen",
+    "reset_your_password": "Passwort zurücksetzen",
+    "return_to_store": "Zurück zum Shop",
     "reviews": "Rezensionen",
     "sale": "Reduziert",
     "sale_price": "Sonderpreis",
@@ -318,6 +302,8 @@
     "send": "Absenden",
     "share": "Teilen",
     "share_this": "Teile das",
+    "shipping": "Versand",
+    "shipping_address": "Lieferadresse",
     "shipping_policy_html": "zzgl. <a href='{{ link }}'>Versandkosten</a>",
     "show_less": "Zeige weniger",
     "show_more": "Zeig mehr",
@@ -328,6 +314,7 @@
     },
     "size_chart": "Größentabelle",
     "skip_to_content": "Direkt zum Inhalt",
+    "sku": "SKU",
     "slideshow": {
         "pause": "Pause Diashow",
         "play": "Diashow abspielen"
@@ -341,10 +328,12 @@
     "store_availability": {
         "general": {}
     },
+    "submit": "Absenden",
     "subtotal": "Zwischensumme",
     "suggestions": "Vorschläge",
     "tagged_with": "Getaggt \"{{ tags }}\"",
     "tags": "Tags",
+    "tax": "Steuern",
     "tax_included": "inkl. MwSt.",
     "terms": {
         "i_agree": "Ich stimme den Nutzungsbedingungen zu",
