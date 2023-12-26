@@ -33,7 +33,6 @@
         "filters": {},
         "general": {
             "items_with_count": {},
-            "list": "List",
             "no_matches": "Sorry, there are no products in this collection.",
             "see_less": "Show less",
             "view_all_products_html": "View all<br>{{ count }} products"
@@ -287,6 +286,7 @@
             "social_platform": "{{ name }} on {{ platform }}"
         }
     },
+    "list": "List",
     "log_in": "Log in",
     "log_out": "Log out",
     "map": {

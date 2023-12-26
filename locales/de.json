@@ -32,7 +32,6 @@
         "filters": {},
         "general": {
             "items_with_count": {},
-            "list": "Liste",
             "no_matches": "Es tut uns leid, aber Ihre Suche nach Produkten hat keine Treffer ergeben.",
             "see_less": "Zeige weniger",
             "view_all_products_html": "zeige alle<br>{{ count }} Produkte an"
@@ -285,6 +284,7 @@
             "social_platform": "{{ name }} auf {{ platform }}"
         }
     },
+    "list": "Liste",
     "log_in": "Einloggen",
     "log_out": "Ausloggen",
     "map": {
