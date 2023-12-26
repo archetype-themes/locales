@@ -204,9 +204,7 @@
             "view_more": "Mostrar todos los resultados para \"{{ terms }}\""
         },
         "social": {
-            "alt_text": {
-                "share_on_twitter": "Tuitear en Twitter"
-            },
+            "alt_text": {},
             "share_on_facebook": "Compartir",
             "share_on_pinterest": "Hacer pin",
             "share_on_twitter": "Tuitear",
@@ -350,7 +348,8 @@
     },
     "social": {
         "pin_on_pinterest": "Pinear en Pinterest",
-        "share_on_facebook": "Compartir en Facebook"
+        "share_on_facebook": "Compartir en Facebook",
+        "share_on_x": "Tuitear en Twitter"
     },
     "sort": "Ordenar",
     "store_availability": {

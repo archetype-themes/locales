@@ -202,9 +202,7 @@
             "view_more": "Veja mais"
         },
         "social": {
-            "alt_text": {
-                "share_on_twitter": "Tuite no Twitter"
-            },
+            "alt_text": {},
             "share_on_facebook": "Compartilhar",
             "share_on_pinterest": "Pin it",
             "share_on_twitter": "Tweetar",
@@ -340,7 +338,8 @@
     },
     "social": {
         "pin_on_pinterest": "Adicione no Pinterest",
-        "share_on_facebook": "Compartilhe no Facebook"
+        "share_on_facebook": "Compartilhe no Facebook",
+        "share_on_x": "Tuite no Twitter"
     },
     "sort": "Ordenar",
     "store_availability": {

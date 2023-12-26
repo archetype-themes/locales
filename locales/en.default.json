@@ -201,9 +201,7 @@
             "view_more": "Show all results for \"{{ terms }}\""
         },
         "social": {
-            "alt_text": {
-                "share_on_twitter": "Tweet on Twitter"
-            },
+            "alt_text": {},
             "share_on_facebook": "Share",
             "share_on_pinterest": "Pin it",
             "share_on_twitter": "Tweet",
@@ -350,7 +348,8 @@
     },
     "social": {
         "pin_on_pinterest": "Pin on Pinterest",
-        "share_on_facebook": "Share on Facebook"
+        "share_on_facebook": "Share on Facebook",
+        "share_on_x": "Tweet on Twitter"
     },
     "sort": "Sort",
     "sorting_by": "Sorting by",
