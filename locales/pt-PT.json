@@ -15,8 +15,8 @@
         }
     },
     "cart": {
+        "close": "Fechar Carrinho de Compras",
         "general": {
-            "close_cart": "Fechar Carrinho de Compras",
             "continue_shopping": "Continue comprando",
             "discounts": "Descontos",
             "empty": "O seu carrinho de compras está neste momento vazio.",

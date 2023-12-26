@@ -15,8 +15,8 @@
         }
     },
     "cart": {
+        "close": "Cerrar carrito",
         "general": {
-            "close_cart": "Cerrar carrito",
             "continue_shopping": "Seguir comprando",
             "discounts": "Descuentos",
             "empty": "Su carrito actualmente está vacío.",

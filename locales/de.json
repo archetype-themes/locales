@@ -15,8 +15,8 @@
         }
     },
     "cart": {
+        "close": "Einkaufswagen schließen",
         "general": {
-            "close_cart": "Einkaufswagen schließen",
             "continue_shopping": "Einkaufen Sie weiter",
             "discounts": "Rabatte",
             "empty": "Ihr Einkaufswagen ist im Moment leer.",

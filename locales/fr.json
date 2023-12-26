@@ -15,8 +15,8 @@
         }
     },
     "cart": {
+        "close": "Fermer le panier",
         "general": {
-            "close_cart": "Fermer le panier",
             "continue_shopping": "Continuer vos achats",
             "discounts": "Réductions",
             "empty": "Votre panier est vide.",
