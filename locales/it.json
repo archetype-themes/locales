@@ -14,6 +14,7 @@
         "pick_up_unavailable_at_html": "Ritiro attualmente non disponibile presso <strong>{{ location_name }}</strong>"
     },
     "back_to": "Torna a {{ title }}",
+    "back_to_homepage": "Torna alla prima pagina",
     "blogs": {
         "article": {},
         "comments": {
@@ -163,9 +164,7 @@
     "general": {
         "404": {},
         "accessibility": {},
-        "breadcrumbs": {
-            "home_link_title": "Torna alla prima pagina"
-        },
+        "breadcrumbs": {},
         "currency": {
             "dropdown_label": "Valuta"
         },

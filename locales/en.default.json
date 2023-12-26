@@ -14,6 +14,7 @@
         "pick_up_unavailable_at_html": "Pickup currently unavailable at <strong>{{ location_name }}</strong>"
     },
     "back_to": "Back to {{ title }}",
+    "back_to_homepage": "Back to the frontpage",
     "blogs": {
         "article": {},
         "comments": {
@@ -163,9 +164,7 @@
     "general": {
         "404": {},
         "accessibility": {},
-        "breadcrumbs": {
-            "home_link_title": "Back to the frontpage"
-        },
+        "breadcrumbs": {},
         "currency": {
             "dropdown_label": "Currency"
         },

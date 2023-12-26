@@ -14,6 +14,7 @@
         "pick_up_unavailable_at_html": "Captador disponível atualmente em <strong> {{location_name}} </strong>"
     },
     "back_to": "Voltar para {{ title }}",
+    "back_to_homepage": "Voltar à página inicial",
     "blogs": {
         "article": {},
         "comments": {
@@ -164,9 +165,7 @@
     "general": {
         "404": {},
         "accessibility": {},
-        "breadcrumbs": {
-            "home_link_title": "Voltar à página inicial"
-        },
+        "breadcrumbs": {},
         "currency": {
             "dropdown_label": "Moeda"
         },

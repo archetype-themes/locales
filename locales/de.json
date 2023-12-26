@@ -14,6 +14,7 @@
         "pick_up_unavailable_at_html": "Pickup derzeit nicht verfügbar unter <strong> {{location_name}} </strong>"
     },
     "back_to": "Zurück zu {{ title }}",
+    "back_to_homepage": "Zurück zur Startseite",
     "blogs": {
         "article": {},
         "comments": {
@@ -162,9 +163,7 @@
     "general": {
         "404": {},
         "accessibility": {},
-        "breadcrumbs": {
-            "home_link_title": "Zurück zur Startseite"
-        },
+        "breadcrumbs": {},
         "currency": {
             "dropdown_label": "Währung"
         },
