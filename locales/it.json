@@ -261,6 +261,9 @@
         }
     },
     "increase_item_quantity": "Aumenta la quantità di un articolo",
+    "inventory": {
+        "ready_to_ship_on": "Pronto per la spedizione {{ date }}"
+    },
     "latest_posts": "Ultimi messaggi",
     "layout": {
         "cart": {
@@ -340,8 +343,7 @@
             "view_in_space": "Visualizza nel tuo spazio",
             "view_in_space_label": "Visualizza nel tuo spazio, carica l'articolo nella finestra della realtà aumentata",
             "waiting_for_stock": "In arretrato, spedizione a breve",
-            "will_be_in_stock_after": "Di nuovo in magazzino {{ date }}",
-            "will_not_ship_until": "Pronto per la spedizione {{ date }}"
+            "will_be_in_stock_after": "Di nuovo in magazzino {{ date }}"
         }
     },
     "quantity": "Quantità",

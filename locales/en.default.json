@@ -261,6 +261,9 @@
         }
     },
     "increase_item_quantity": "Increase item quantity by one",
+    "inventory": {
+        "ready_to_ship_on": "Ready to ship {{ date }}"
+    },
     "latest_posts": "Latest posts",
     "layout": {
         "cart": {
@@ -340,8 +343,7 @@
             "view_in_space": "View in your space",
             "view_in_space_label": "View in your space, loads item in augmented reality window",
             "waiting_for_stock": "Backordered, shipping soon",
-            "will_be_in_stock_after": "Back in stock {{ date }}",
-            "will_not_ship_until": "Ready to ship {{ date }}"
+            "will_be_in_stock_after": "Back in stock {{ date }}"
         }
     },
     "quantity": "Quantity",
