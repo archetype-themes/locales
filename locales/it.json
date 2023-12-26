@@ -18,7 +18,6 @@
         "close": "Chiudi il carrello",
         "empty": "Il tuo carrello è attualmente vuoto.",
         "general": {
-            "savings_html": "Risparmi {{ saved_amount }}",
             "shipping_at_checkout": "Spedizione, tasse e codici sconto calcolati alla cassa.",
             "terms": "Sono d'accordo con i termini e le condizioni",
             "terms_confirm": "Devi accettare i termini e le condizioni di vendita per procedere al pagamento",
@@ -168,6 +167,9 @@
     },
     "date_formats": {
         "month_day_year": "%b %d, %Y"
+    },
+    "discount": {
+        "you_save": "Risparmi {{ saved_amount }}"
     },
     "discounts": "Sconti",
     "email": "Indirizzo email",

@@ -18,7 +18,6 @@
         "close": "Fechar carrinho",
         "empty": "Seu carrinho está vazio no momento.",
         "general": {
-            "savings_html": "Economize {{ saved_amount }}",
             "shipping_at_checkout": "Os códigos de desconto, o frete e os impostos são adicionados no encerramento.",
             "terms": "Eu concordo com os termos e condições",
             "terms_confirm": "Você deve concordar com os termos e condições de vendas para verificar",
@@ -168,6 +167,9 @@
     },
     "date_formats": {
         "month_day_year": "%d de %B de %Y"
+    },
+    "discount": {
+        "you_save": "Economize {{ saved_amount }}"
     },
     "discounts": "Descontos",
     "email": "E-mail",

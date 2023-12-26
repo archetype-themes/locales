@@ -18,7 +18,6 @@
         "close": "Einkaufswagen schließen",
         "empty": "Ihr Einkaufswagen ist im Moment leer.",
         "general": {
-            "savings_html": "Sparen {{ saved_amount }}",
             "shipping_at_checkout": "Rabattcodes, Versandkosten und Steuern werden bei der Bezahlung berechnet.",
             "terms": "Ich stimme den Nutzungsbedingungen zu",
             "terms_confirm": "Sie müssen den Verkaufsbedingungen zustimmen, um auszuchecken",
@@ -167,6 +166,9 @@
     },
     "date_formats": {
         "month_day_year": "%B %d, %Y"
+    },
+    "discount": {
+        "you_save": "Sparen {{ saved_amount }}"
     },
     "discounts": "Rabatte",
     "email": "E-Mail",
