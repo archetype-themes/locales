@@ -265,6 +265,7 @@
     "more_from_html": "Mehr von {{ link }}",
     "name": "Name",
     "next": "Vorwärts",
+    "next_product": "Nächster: {{ title }}",
     "order": {
         "add_note": "Besondere Hinweise an den Verkäufer"
     },
@@ -296,9 +297,7 @@
         }
     },
     "products": {
-        "general": {
-            "next_product": "Nächster: {{ title }}"
-        },
+        "general": {},
         "product": {
             "stock_label": "{{ count }} auf Lager"
         }

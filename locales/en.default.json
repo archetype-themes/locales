@@ -269,6 +269,7 @@
     "more_from_html": "More from {{ link }}",
     "name": "Name",
     "next": "Next",
+    "next_product": "Next: {{ title }}",
     "order": {
         "add_note": "Add order note"
     },
@@ -300,9 +301,7 @@
         }
     },
     "products": {
-        "general": {
-            "next_product": "Next: {{ title }}"
-        },
+        "general": {},
         "product": {
             "stock_label": {}
         }

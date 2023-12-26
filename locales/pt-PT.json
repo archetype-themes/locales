@@ -267,6 +267,7 @@
     "more_from_html": "Mais de {{ link }}",
     "name": "Nome",
     "next": "Seguinte",
+    "next_product": "Seguinte: {{ title }}",
     "order": {
         "add_note": "Instruções especiais para o vendedor"
     },
@@ -293,9 +294,7 @@
         "recipient": {}
     },
     "products": {
-        "general": {
-            "next_product": "Seguinte: {{ title }}"
-        },
+        "general": {},
         "product": {
             "stock_label": "{{ count }} em estoque"
         }
