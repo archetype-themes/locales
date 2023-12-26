@@ -309,6 +309,7 @@
     "price": "Price",
     "product": {
         "recipient": {
+            "email": "Recipient email",
             "send_as_gift": "I want to send this as a gift"
         }
     },
@@ -352,7 +353,6 @@
     "quantity": "Quantity",
     "recipient": {
         "form": {
-            "email_label": "Recipient email",
             "max_characters": "{{ max_chars }} characters max",
             "message_label": "Message (optional)",
             "name_label": "Recipient name (optional)"

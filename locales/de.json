@@ -307,6 +307,7 @@
     "price": "Preis",
     "product": {
         "recipient": {
+            "email": "Empfänger E-Mail",
             "send_as_gift": "Ich möchte dies als Geschenk senden"
         }
     },
@@ -347,7 +348,6 @@
     "quantity": "Menge",
     "recipient": {
         "form": {
-            "email_label": "Empfänger E-Mail",
             "max_characters": "Maximal {{ max_chars }} Zeichen",
             "message_label": "Nachricht (optional)",
             "name_label": "Name des Empfängers (optional)"
