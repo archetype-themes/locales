@@ -32,9 +32,7 @@
     "collections": {
         "filters": {},
         "general": {
-            "items_with_count": {
-                "other": "{{ count }} artículos"
-            },
+            "items_with_count": {},
             "large": "Large",
             "list": "List",
             "no_matches": "Lo sentimos, no hay productos que coincidan con su búsqueda.",
@@ -308,6 +306,7 @@
     "price": "Precio",
     "product": {
         "count": {
+            "plural": "{{ count }} artículos",
             "singular": "{{ count }} artículo"
         },
         "recipient": {
