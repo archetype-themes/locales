@@ -301,7 +301,6 @@
             "next_product": "Suivant: {{ title }}",
             "recent_products": "Vu récemment",
             "regular_price": "Prix régulier",
-            "sale": "Réduit",
             "sale_price": "Prix réduit",
             "save_html": "Épargnez {{ saved_amount }}",
             "size_chart": "Tableau des tailles"
@@ -325,6 +324,7 @@
     "reduce_item_quantity": "Réduire la quantité de l'article de un",
     "remove": "Retirer",
     "reviews": "Commentaires",
+    "sale": "Réduit",
     "search": "Rechercher",
     "sections": {
         "map": {},

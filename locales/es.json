@@ -301,7 +301,6 @@
             "next_product": "Siguiente: {{ title }}",
             "recent_products": "Visto recientemente",
             "regular_price": "Precio habitual",
-            "sale": "Venta",
             "sale_price": "Precio de oferta",
             "save_html": "Guardar {{ saved_amount }}",
             "size_chart": "Tabla de tallas"
@@ -325,6 +324,7 @@
     "reduce_item_quantity": "Quitar uno a la cantidad de artículos",
     "remove": "Quitar",
     "reviews": "Comentarios",
+    "sale": "Venta",
     "search": "Buscar",
     "sections": {
         "map": {},

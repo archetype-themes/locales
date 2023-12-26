@@ -294,7 +294,6 @@
             "next_product": "Próximo: {{ title }}",
             "recent_products": "Visto recentemente",
             "regular_price": "Preço normal",
-            "sale": "Venda",
             "sale_price": "Preço promocional",
             "save_html": "Economize {{ saved_amount }}",
             "size_chart": "Gráfico de tamanho"
@@ -315,6 +314,7 @@
     "reduce_item_quantity": "Reduzir quantidade em uma unidade",
     "remove": "Remover",
     "reviews": "Avaliações",
+    "sale": "Venda",
     "search": "Pesquisa",
     "sections": {
         "map": {},
