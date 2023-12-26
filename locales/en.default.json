@@ -359,14 +359,14 @@
     "show_less": "Show less",
     "show_more": "Show more",
     "size": {
-        "large": "Large"
+        "large": "Large",
+        "small": "Small"
     },
     "skip_to_content": "Skip to content",
     "slideshow": {
         "pause": "Pause slideshow",
         "play": "Play slideshow"
     },
-    "small": "Small",
     "sort": "Sort",
     "sorting_by": "Sorting by",
     "store_availability": {

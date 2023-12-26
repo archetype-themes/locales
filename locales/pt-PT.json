@@ -347,14 +347,14 @@
     "show_less": "Mostre menos",
     "show_more": "Mostre mais",
     "size": {
-        "large": "Large"
+        "large": "Large",
+        "small": "Small"
     },
     "skip_to_content": "Pular para o Conteúdo",
     "slideshow": {
         "pause": "slideshow pausa",
         "play": "Reproduzir de slides"
     },
-    "small": "Small",
     "sort": "Ordenar",
     "store_availability": {
         "general": {}

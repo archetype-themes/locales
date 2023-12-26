@@ -359,14 +359,14 @@
     "show_less": "Voir moins",
     "show_more": "Afficher plus",
     "size": {
-        "large": "Grande"
+        "large": "Grande",
+        "small": "Petit"
     },
     "skip_to_content": "Passer au contenu",
     "slideshow": {
         "pause": "Diaporama Pause",
         "play": "Lire le diaporama"
     },
-    "small": "Petit",
     "sort": "Appliquer",
     "store_availability": {
         "general": {}
