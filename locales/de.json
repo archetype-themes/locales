@@ -201,7 +201,6 @@
         },
         "social": {
             "alt_text": {},
-            "share_on_facebook": "Teilen",
             "share_on_pinterest": "Pinnen",
             "share_on_twitter": "Twittern",
             "share_this": "Teile das"
@@ -330,6 +329,7 @@
         "slideshow": {}
     },
     "send": "Absenden",
+    "share": "Teilen",
     "show_less": "Zeige weniger",
     "show_more": "Zeig mehr",
     "site_navigation": "Seitennavigation",

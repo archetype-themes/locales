@@ -205,7 +205,6 @@
         },
         "social": {
             "alt_text": {},
-            "share_on_facebook": "Compartir",
             "share_on_pinterest": "Hacer pin",
             "share_on_twitter": "Tuitear",
             "share_this": "Compartir este"
@@ -334,6 +333,7 @@
         "slideshow": {}
     },
     "send": "Enviar",
+    "share": "Compartir",
     "show_less": "Muestra menos",
     "show_more": "Mostrar más",
     "site_navigation": "Navegación",

@@ -202,7 +202,6 @@
         },
         "social": {
             "alt_text": {},
-            "share_on_facebook": "Share",
             "share_on_pinterest": "Pin it",
             "share_on_twitter": "Tweet",
             "share_this": "Share this"
@@ -334,6 +333,7 @@
         "slideshow": {}
     },
     "send": "Send",
+    "share": "Share",
     "show_less": "Show less",
     "show_more": "Show more",
     "site_navigation": "Site navigation",
