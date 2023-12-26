@@ -305,7 +305,6 @@
             "add_to_cart": "In den Einkaufswagen legen",
             "description": "Beschreibung",
             "in_stock_label": "Auf Lager",
-            "include_taxes": "inkl. MwSt.",
             "shipping_policy_html": "zzgl. <a href='{{ link }}'>Versandkosten</a>",
             "stock_label": "{{ count }} auf Lager",
             "view_in_space": "In Ihrem Bereich ansehen",
@@ -354,6 +353,7 @@
     "suggestions": "Vorschläge",
     "tagged_with": "Getaggt \"{{ tags }}\"",
     "tags": "Tags",
+    "tax_included": "inkl. MwSt.",
     "terms": {
         "i_agree": "Ich stimme den Nutzungsbedingungen zu",
         "i_agree_html": "Ich stimme den <a href='{{ url }}' target='_blank'>Nutzungsbedingungen</a> zu",

@@ -309,7 +309,6 @@
             "add_to_cart": "Ajouter au panier",
             "description": "Description",
             "in_stock_label": "En stock",
-            "include_taxes": "Taxes incluses.",
             "shipping_policy_html": "<a href='{{ link }}'>Frais d'expédition</a> calculés lors du passage à la caisse.",
             "stock_label": "{{ count }} en stock",
             "view_in_space": "Afficher dans votre espace",
@@ -358,6 +357,7 @@
     "suggestions": "Suggestions",
     "tagged_with": "Mots clés \"{{ tags }}\"",
     "tags": "Tags",
+    "tax_included": "Taxes incluses.",
     "terms": {
         "i_agree": "Je suis d'accord avec les termes et conditions",
         "i_agree_html": "Je suis d'accord avec les <a href='{{ url }}' target='_blank'>termes et conditions</a>",

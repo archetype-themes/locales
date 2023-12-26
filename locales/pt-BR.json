@@ -302,7 +302,6 @@
             "add_to_cart": "Adicionar ao carrinho",
             "description": "Descrição",
             "in_stock_label": "Em estoque",
-            "include_taxes": "Taxas incluídas.",
             "shipping_policy_html": "<a href='{{ link }}'>Frete</a> calculado no checkout.",
             "stock_label": "{{ count }} em estoque",
             "view_in_space": "Ver no seu espaço",
@@ -347,6 +346,7 @@
     "subtotal": "Subtotal",
     "tagged_with": "Marcado \"{{ tags }}\"",
     "tags": "Marcadores",
+    "tax_included": "Taxas incluídas.",
     "terms": {
         "i_agree": "Eu concordo com os termos e condições",
         "i_agree_html": "Eu concordo com os <a href='{{ url }}' target='_blank'>termos e condições</a>",
