@@ -19,7 +19,6 @@
         "empty": "Il tuo carrello è attualmente vuoto.",
         "general": {
             "increase_quantity": "Aumenta la quantità di un articolo",
-            "note": "Aggiungi una nota all'ordine",
             "recommended_title": "Va benissimo con",
             "reduce_quantity": "Riduci la quantità dell'articolo di uno",
             "savings_html": "Risparmi {{ saved_amount }}",
@@ -306,6 +305,9 @@
     "message": "Messaggio",
     "more_from": "Più da",
     "name": "Nome",
+    "order": {
+        "add_note": "Aggiungi una nota all'ordine"
+    },
     "popular_posts": "Messaggi popolari",
     "price": "Prezzo",
     "product": {

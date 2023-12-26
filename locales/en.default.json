@@ -19,7 +19,6 @@
         "empty": "Your cart is currently empty.",
         "general": {
             "increase_quantity": "Increase item quantity by one",
-            "note": "Add order note",
             "recommended_title": "Goes great with",
             "reduce_quantity": "Reduce item quantity by one",
             "savings_html": "You save {{ saved_amount }}",
@@ -307,6 +306,9 @@
     "message": "Message",
     "more_from": "More from",
     "name": "Name",
+    "order": {
+        "add_note": "Add order note"
+    },
     "popular_posts": "Popular posts",
     "price": "Price",
     "product": {

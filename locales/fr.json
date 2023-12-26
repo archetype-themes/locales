@@ -19,7 +19,6 @@
         "empty": "Votre panier est vide.",
         "general": {
             "increase_quantity": "Augmenter la quantité de l'article de un",
-            "note": "Ajouter des instructions de commande spéciales",
             "recommended_title": "Bien avec",
             "reduce_quantity": "Réduire la quantité de l'article de un",
             "savings_html": "Épargnez {{ saved_amount }}",
@@ -306,6 +305,9 @@
     "message": "Message",
     "more_from": "Plus de",
     "name": "Nom",
+    "order": {
+        "add_note": "Ajouter des instructions de commande spéciales"
+    },
     "popular_posts": "Articles populaires",
     "price": "Prix",
     "product": {

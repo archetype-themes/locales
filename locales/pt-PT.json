@@ -19,7 +19,6 @@
         "empty": "O seu carrinho de compras está neste momento vazio.",
         "general": {
             "increase_quantity": "Aumente a quantidade do artigo em um",
-            "note": "Instruções especiais para o vendedor",
             "recommended_title": "Vai grande com",
             "reduce_quantity": "Reduza a quantidade do artigo em um",
             "savings_html": "Poupe {{ saved_amount }}",
@@ -302,6 +301,9 @@
     "message": "Mensagem",
     "more_from": "Mais de",
     "name": "Nome",
+    "order": {
+        "add_note": "Instruções especiais para o vendedor"
+    },
     "popular_posts": "Artigos populares",
     "price": "Preço",
     "product": {

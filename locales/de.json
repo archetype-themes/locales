@@ -19,7 +19,6 @@
         "empty": "Ihr Einkaufswagen ist im Moment leer.",
         "general": {
             "increase_quantity": "Artikelmenge um eins erhöhen",
-            "note": "Besondere Hinweise an den Verkäufer",
             "recommended_title": "Geht mit",
             "reduce_quantity": "Artikelmenge um eins reduzieren",
             "savings_html": "Sparen {{ saved_amount }}",
@@ -305,6 +304,9 @@
     "message": "Nachricht",
     "more_from": "Mehr von",
     "name": "Name",
+    "order": {
+        "add_note": "Besondere Hinweise an den Verkäufer"
+    },
     "popular_posts": "Populäre Artikel",
     "price": "Preis",
     "product": {
