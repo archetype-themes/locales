@@ -67,7 +67,6 @@
         },
         "activate_account": {
             "cancel": "Einladung ablehnen",
-            "password": "Passwort",
             "password_confirm": "Passwort bestätigen",
             "submit": "Account aktivieren",
             "subtext": "Erstellen Sie ein Passwort, um Ihren Account zu aktiveren.",
@@ -100,7 +99,6 @@
             "forgot_password": "Haben Sie Ihr Passwort vergessen?",
             "guest_continue": "Fortsetzen",
             "guest_title": "Als Gast fortsetzen",
-            "password": "Passwort",
             "sign_in": "Anmelden",
             "title": "Login"
         },
@@ -137,12 +135,10 @@
         "register": {
             "cancel": "Zurück zum Shop",
             "last_name": "Nachname",
-            "password": "Passwort",
             "submit": "Erstellen",
             "title": "Account erstellen"
         },
         "reset_password": {
-            "password": "Passwort",
             "password_confirm": "Passwort bestätigen",
             "submit": "Passwort zurücksetzen",
             "subtext": "Geben Sie ein neues Passwort für {{ email }} ein",
@@ -197,10 +193,8 @@
         "password_page": {
             "admin_link_html": "Sind Sie der Geschäftsinhaber? <a href=\"/admin\" class=\"text-link\">Melden Sie sich hier an</a>",
             "login_form_heading": "Shop mit Passwort betreten:",
-            "login_form_password_label": "Passwort",
             "login_form_password_placeholder": "Ihr Passwort",
             "login_form_submit": "Betreten",
-            "password_link": "Passwort",
             "powered_by_shopify_html": "Dieser Shop wird mit Hilfe von {{ shopify }} betrieben werden",
             "signup_form_success": "Wir senden Ihnen eine E-Mail, kurz bevor wir eröffnen!"
         },
@@ -283,6 +277,7 @@
         "add_note": "Besondere Hinweise an den Verkäufer"
     },
     "pages": "Seiten",
+    "password": "Passwort",
     "phone_number": "Telefonnummer",
     "placeholder": {
         "example_collection": "Beispielhafter Zusammenstellungstitel",

@@ -68,7 +68,6 @@
         },
         "activate_account": {
             "cancel": "Rechazar invitación",
-            "password": "Contraseña",
             "password_confirm": "Confirmar contraseña",
             "submit": "Activar cuenta",
             "subtext": "Cree su contraseña para activar su cuenta.",
@@ -101,7 +100,6 @@
             "forgot_password": "¿Olvidó su contraseña?",
             "guest_continue": "Continuar",
             "guest_title": "Continuar como invitado",
-            "password": "Contraseña",
             "sign_in": "Registrarse",
             "title": "Ingresar"
         },
@@ -138,12 +136,10 @@
         "register": {
             "cancel": "Volver a la tienda",
             "last_name": "Apellido",
-            "password": "Contraseña",
             "submit": "Crear",
             "title": "Crear cuenta"
         },
         "reset_password": {
-            "password": "Contraseña",
             "password_confirm": "Confirmar contraseña",
             "submit": "Restablecer contraseña",
             "subtext": "Ingrese una nueva contraseña para {{ email }}",
@@ -201,10 +197,8 @@
         "password_page": {
             "admin_link_html": "¿Eres el dueño de la tienda? <a href=\"/admin\" class=\"text-link\">Regístrate aquí</a>",
             "login_form_heading": "Entrar a la tienda usando contraseña:",
-            "login_form_password_label": "Contraseña",
             "login_form_password_placeholder": "Tu contraseña",
             "login_form_submit": "Ingresar",
-            "password_link": "Contraseña",
             "powered_by_shopify_html": "Esta tienda estará impulsada por {{ shopify }}",
             "signup_form_success": "¡Te enviaremos un correo electrónico antes de inaugurar!"
         },
@@ -287,6 +281,7 @@
         "add_note": "Instrucciones especiales para el vendedor"
     },
     "pages": "Páginas",
+    "password": "Contraseña",
     "phone_number": "Número de teléfono",
     "placeholder": {
         "example_collection": "Ejemplo título de colección",

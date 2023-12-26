@@ -68,7 +68,6 @@
         },
         "activate_account": {
             "cancel": "Refuser l'invitation",
-            "password": "Mot de passe",
             "password_confirm": "Confirmer le mot de passe",
             "submit": "Activer le compte",
             "subtext": "Créez votre mot de passe pour activer le compte.",
@@ -101,7 +100,6 @@
             "forgot_password": "Mot de passe oublié?",
             "guest_continue": "Continuer",
             "guest_title": "Continuer en tant qu'invité",
-            "password": "Mot de passe",
             "sign_in": "Se connecter",
             "title": "Connexion"
         },
@@ -138,12 +136,10 @@
         "register": {
             "cancel": "Retour à la boutique",
             "last_name": "Nom",
-            "password": "Mot de passe",
             "submit": "Créer",
             "title": "Créer un compte"
         },
         "reset_password": {
-            "password": "Mot de passe",
             "password_confirm": "Confirmer le mot de passe",
             "submit": "Réinitialiser le mot de passe",
             "subtext": "Entrez un nouveau mot de passe pour {{ email }}",
@@ -201,10 +197,8 @@
         "password_page": {
             "admin_link_html": "Êtes-vous le propriétaire de la boutique? <a href=\"/admin\" class=\"text-link\">Connectez-vous ici</a>.",
             "login_form_heading": "Accéder à la boutique à l'aide d'un mot de passe:",
-            "login_form_password_label": "Mot de passe",
             "login_form_password_placeholder": "Votre mot de passe",
             "login_form_submit": "Entrer",
-            "password_link": "Mot de passe",
             "powered_by_shopify_html": "Cette boutique sera propulsée par {{ shopify }}",
             "signup_form_success": "Nous vous ferons parvenir un courriel juste avant l'ouverture!"
         },
@@ -287,6 +281,7 @@
         "add_note": "Ajouter des instructions de commande spéciales"
     },
     "pages": "Pages",
+    "password": "Mot de passe",
     "phone_number": "Téléphone",
     "placeholder": {
         "example_collection": "Titre de la collection",

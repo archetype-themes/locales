@@ -68,7 +68,6 @@
         },
         "activate_account": {
             "cancel": "Rifiuta invito",
-            "password": "Password",
             "password_confirm": "Conferma password",
             "submit": "Attiva l'account",
             "subtext": "Crea una password per attivare il tuo account.",
@@ -101,7 +100,6 @@
             "forgot_password": "Hai dimenticato la password?",
             "guest_continue": "Continua",
             "guest_title": "Continua senza registrarti",
-            "password": "Password",
             "sign_in": "Accedi",
             "title": "Accedi"
         },
@@ -138,12 +136,10 @@
         "register": {
             "cancel": "Torna al negozio",
             "last_name": "Cognome",
-            "password": "Password",
             "submit": "Crea",
             "title": "Crea un account"
         },
         "reset_password": {
-            "password": "Password",
             "password_confirm": "Conferma la password",
             "submit": "Reimposta la password",
             "subtext": "Inserisci una nuova password per {{ email }}",
@@ -198,10 +194,8 @@
         "password_page": {
             "admin_link_html": "Sei il proprietario di un negozio? <a href=\"/admin\" class=\"text-link\">Entra qui</a>",
             "login_form_heading": "Entra nel negozio usando la password",
-            "login_form_password_label": "Password",
             "login_form_password_placeholder": "La tua password",
             "login_form_submit": "Accedi",
-            "password_link": "Password",
             "powered_by_shopify_html": "Questo negozio sarà ospitato su {{ shopify }}",
             "signup_form_success": "Ti invieremo un'email quando apriremo!"
         },
@@ -284,6 +278,7 @@
         "add_note": "Aggiungi una nota all'ordine"
     },
     "pages": "Pagine",
+    "password": "Password",
     "phone_number": "Numero di telefono",
     "placeholder": {
         "example_collection": "Esempio di collezione",

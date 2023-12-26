@@ -68,7 +68,6 @@
         },
         "activate_account": {
             "cancel": "Decline invitation",
-            "password": "Password",
             "password_confirm": "Confirm password",
             "submit": "Activate account",
             "subtext": "Create your password to activate your account.",
@@ -101,7 +100,6 @@
             "forgot_password": "Forgot password?",
             "guest_continue": "Continue",
             "guest_title": "Continue as a guest",
-            "password": "Password",
             "sign_in": "Sign In",
             "title": "Login"
         },
@@ -138,12 +136,10 @@
         "register": {
             "cancel": "Return to Store",
             "last_name": "Last Name",
-            "password": "Password",
             "submit": "Create",
             "title": "Create Account"
         },
         "reset_password": {
-            "password": "Password",
             "password_confirm": "Confirm Password",
             "submit": "Reset Password",
             "subtext": "Enter a new password for {{ email }}",
@@ -198,10 +194,8 @@
         "password_page": {
             "admin_link_html": "Store owner? <a href=\"/admin\" class=\"text-link\">Log in here</a>",
             "login_form_heading": "Enter store using password",
-            "login_form_password_label": "Password",
             "login_form_password_placeholder": "Your password",
             "login_form_submit": "Enter",
-            "password_link": "Password",
             "powered_by_shopify_html": "This shop will be powered by {{ shopify }}",
             "signup_form_success": "We will send you an email when we open!"
         },
@@ -284,6 +278,7 @@
         "add_note": "Add order note"
     },
     "pages": "Pages",
+    "password": "Password",
     "phone_number": "Phone number",
     "placeholder": {
         "example_collection": "Example collection",
