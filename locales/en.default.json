@@ -52,7 +52,6 @@
     },
     "contact": {
         "form": {
-            "phone": "Phone number",
             "post_success": "Thanks for contacting us. We'll get back to you as soon as possible."
         }
     },
@@ -299,6 +298,7 @@
     "order": {
         "add_note": "Add order note"
     },
+    "phone_number": "Phone number",
     "popular_posts": "Popular posts",
     "price": "Price",
     "product": {

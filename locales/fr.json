@@ -52,7 +52,6 @@
     },
     "contact": {
         "form": {
-            "phone": "Téléphone",
             "post_success": "Merci de nous avoir avoir contacté. Nous vous reviendrons le plus rapidement possible."
         }
     },
@@ -299,6 +298,7 @@
     "order": {
         "add_note": "Ajouter des instructions de commande spéciales"
     },
+    "phone_number": "Téléphone",
     "popular_posts": "Articles populaires",
     "price": "Prix",
     "product": {
