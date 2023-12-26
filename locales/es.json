@@ -28,11 +28,11 @@
             "terms": "Acepto los términos y condiciones",
             "terms_confirm": "Debe aceptar los términos y condiciones de venta para pagar",
             "terms_html": "Acepto los <a href='{{ url }}' target='_blank'>términos y condiciones</a>",
-            "title": "Carrito de compra",
-            "update": "Actualizar carrito"
+            "title": "Carrito de compra"
         },
         "label": {},
-        "max_quantity": "Solo puedes tener {{ quantity }} de {{ title }} en tu carrito."
+        "max_quantity": "Solo puedes tener {{ quantity }} de {{ title }} en tu carrito.",
+        "update": "Actualizar carrito"
     },
     "checkout": "Finalizar pedido",
     "collections": {

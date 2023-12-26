@@ -28,10 +28,10 @@
             "terms": "Ich stimme den Nutzungsbedingungen zu",
             "terms_confirm": "Sie müssen den Verkaufsbedingungen zustimmen, um auszuchecken",
             "terms_html": "Ich stimme den <a href='{{ url }}' target='_blank'>Nutzungsbedingungen</a> zu",
-            "title": "Einkaufswagen",
-            "update": "Einkaufswagen aktualisieren"
+            "title": "Einkaufswagen"
         },
-        "label": {}
+        "label": {},
+        "update": "Einkaufswagen aktualisieren"
     },
     "checkout": "Zur Kasse",
     "collections": {

@@ -28,11 +28,11 @@
             "terms": "Sono d'accordo con i termini e le condizioni",
             "terms_confirm": "Devi accettare i termini e le condizioni di vendita per procedere al pagamento",
             "terms_html": "Sono d'accordo con i <a href='{{ url }}' target='_blank'>termini e condizioni</a>",
-            "title": "Carrello",
-            "update": "Aggiorna il carrello"
+            "title": "Carrello"
         },
         "label": {},
-        "max_quantity": "Puoi solo avere {{ quantity }} di {{ title }} nel tuo carrello."
+        "max_quantity": "Puoi solo avere {{ quantity }} di {{ title }} nel tuo carrello.",
+        "update": "Aggiorna il carrello"
     },
     "checkout": "Check-out",
     "collections": {
