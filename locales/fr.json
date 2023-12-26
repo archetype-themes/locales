@@ -173,9 +173,7 @@
     },
     "general": {
         "404": {},
-        "accessibility": {
-            "skip_to_content": "Passer au contenu"
-        },
+        "accessibility": {},
         "breadcrumbs": {
             "home": "Accueil",
             "home_link_title": "Retour à la page d'accueil"
@@ -363,6 +361,7 @@
     "size": {
         "large": "Grande"
     },
+    "skip_to_content": "Passer au contenu",
     "slideshow": {
         "pause": "Diaporama Pause",
         "play": "Lire le diaporama"

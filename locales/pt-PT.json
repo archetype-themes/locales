@@ -171,9 +171,7 @@
     "form": {},
     "general": {
         "404": {},
-        "accessibility": {
-            "skip_to_content": "Pular para o Conteúdo"
-        },
+        "accessibility": {},
         "breadcrumbs": {
             "home": "Início",
             "home_link_title": "Regressar à Frontpage"
@@ -351,6 +349,7 @@
     "size": {
         "large": "Large"
     },
+    "skip_to_content": "Pular para o Conteúdo",
     "slideshow": {
         "pause": "slideshow pausa",
         "play": "Reproduzir de slides"
