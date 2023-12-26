@@ -18,7 +18,6 @@
         "close": "Fechar carrinho",
         "empty": "Seu carrinho está vazio no momento.",
         "general": {
-            "terms_html": "Eu concordo com os <a href='{{ url }}' target='_blank'>termos e condições</a>",
             "title": "Carrinho de compras"
         },
         "label": {},
@@ -364,6 +363,7 @@
     "tags": "Marcadores",
     "terms": {
         "i_agree": "Eu concordo com os termos e condições",
+        "i_agree_html": "Eu concordo com os <a href='{{ url }}' target='_blank'>termos e condições</a>",
         "you_must_agree": "Você deve concordar com os termos e condições de vendas para verificar"
     },
     "total": "Total",

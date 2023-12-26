@@ -18,7 +18,6 @@
         "close": "Fermer le panier",
         "empty": "Votre panier est vide.",
         "general": {
-            "terms_html": "Je suis d'accord avec les <a href='{{ url }}' target='_blank'>termes et conditions</a>",
             "title": "Panier"
         },
         "label": {},
@@ -376,6 +375,7 @@
     "tags": "Tags",
     "terms": {
         "i_agree": "Je suis d'accord avec les termes et conditions",
+        "i_agree_html": "Je suis d'accord avec les <a href='{{ url }}' target='_blank'>termes et conditions</a>",
         "you_must_agree": "Vous devez accepter les termes et conditions de vente pour vérifier"
     },
     "total": "Total",

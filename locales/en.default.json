@@ -18,7 +18,6 @@
         "close": "Close cart",
         "empty": "Your cart is currently empty.",
         "general": {
-            "terms_html": "I agree with the <a href='{{ url }}' target='_blank'>terms and conditions</a>",
             "title": "Cart"
         },
         "label": {},
@@ -380,6 +379,7 @@
     "tags": "Tags",
     "terms": {
         "i_agree": "I agree with the terms and conditions",
+        "i_agree_html": "I agree with the <a href='{{ url }}' target='_blank'>terms and conditions</a>",
         "you_must_agree": "You must agree with the terms and conditions of sales to check out"
     },
     "total": "Total",

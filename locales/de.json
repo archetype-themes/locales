@@ -18,7 +18,6 @@
         "close": "Einkaufswagen schließen",
         "empty": "Ihr Einkaufswagen ist im Moment leer.",
         "general": {
-            "terms_html": "Ich stimme den <a href='{{ url }}' target='_blank'>Nutzungsbedingungen</a> zu",
             "title": "Einkaufswagen"
         },
         "label": {},
@@ -375,6 +374,7 @@
     "tags": "Tags",
     "terms": {
         "i_agree": "Ich stimme den Nutzungsbedingungen zu",
+        "i_agree_html": "Ich stimme den <a href='{{ url }}' target='_blank'>Nutzungsbedingungen</a> zu",
         "you_must_agree": "Sie müssen den Verkaufsbedingungen zustimmen, um auszuchecken"
     },
     "total": "Gesamt",

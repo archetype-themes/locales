@@ -18,7 +18,6 @@
         "close": "Cerrar carrito",
         "empty": "Su carrito actualmente está vacío.",
         "general": {
-            "terms_html": "Acepto los <a href='{{ url }}' target='_blank'>términos y condiciones</a>",
             "title": "Carrito de compra"
         },
         "label": {},
@@ -376,6 +375,7 @@
     "tags": "Etiquetas",
     "terms": {
         "i_agree": "Acepto los términos y condiciones",
+        "i_agree_html": "Acepto los <a href='{{ url }}' target='_blank'>términos y condiciones</a>",
         "you_must_agree": "Debe aceptar los términos y condiciones de venta para pagar"
     },
     "total": "Total",
