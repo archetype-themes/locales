@@ -17,8 +17,6 @@
     "cart": {
         "close": "Einkaufswagen schließen",
         "general": {
-            "continue_shopping": "Einkaufen Sie weiter",
-            "discounts": "Rabatte",
             "empty": "Ihr Einkaufswagen ist im Moment leer.",
             "increase_quantity": "Artikelmenge um eins erhöhen",
             "note": "Besondere Hinweise an den Verkäufer",
@@ -77,6 +75,7 @@
         }
     },
     "continue_reading": "Weiterlesen",
+    "continue_shopping": "Einkaufen Sie weiter",
     "create_account": "Account erstellen",
     "customer": {
         "account": {
@@ -176,6 +175,7 @@
     "date_formats": {
         "month_day_year": "%B %d, %Y"
     },
+    "discounts": "Rabatte",
     "email": "E-Mail",
     "explore_more": "Erkunde mehr",
     "featured_product": "Vorgestelltes Produkt",

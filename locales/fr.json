@@ -17,8 +17,6 @@
     "cart": {
         "close": "Fermer le panier",
         "general": {
-            "continue_shopping": "Continuer vos achats",
-            "discounts": "Réductions",
             "empty": "Votre panier est vide.",
             "increase_quantity": "Augmenter la quantité de l'article de un",
             "max_quantity": "Vous ne pouvez avoir que {{ quantity }} de {{ title }} dans votre panier.",
@@ -78,6 +76,7 @@
         }
     },
     "continue_reading": "Plus",
+    "continue_shopping": "Continuer vos achats",
     "create_account": "Créer un compte",
     "customer": {
         "account": {
@@ -177,6 +176,7 @@
     "date_formats": {
         "month_day_year": "%d %B, %Y"
     },
+    "discounts": "Réductions",
     "email": "Courriel",
     "explore_more": "Explore plus",
     "featured_product": "Produit en vedette",

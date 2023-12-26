@@ -17,8 +17,6 @@
     "cart": {
         "close": "Close cart",
         "general": {
-            "continue_shopping": "Continue shopping",
-            "discounts": "Discounts",
             "empty": "Your cart is currently empty.",
             "increase_quantity": "Increase item quantity by one",
             "max_quantity": "You can only have {{ quantity }} of {{ title }} in your cart.",
@@ -79,6 +77,7 @@
         }
     },
     "continue_reading": "Continue reading",
+    "continue_shopping": "Continue shopping",
     "create_account": "Create account",
     "customer": {
         "account": {
@@ -178,6 +177,7 @@
     "date_formats": {
         "month_day_year": "%b %d, %Y"
     },
+    "discounts": "Discounts",
     "email": "Email",
     "explore_more": "Explore more",
     "featured_product": "Featured product",

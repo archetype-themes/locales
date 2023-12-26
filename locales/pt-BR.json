@@ -17,8 +17,6 @@
     "cart": {
         "close": "Fechar carrinho",
         "general": {
-            "continue_shopping": "Continue comprando",
-            "discounts": "Descontos",
             "empty": "Seu carrinho está vazio no momento.",
             "increase_quantity": "Aumentar quantidade em uma unidade",
             "max_quantity": "Solo puedes tener {{ quantity }} de {{ title }} en tu carrito.",
@@ -78,6 +76,7 @@
         }
     },
     "continue_reading": "Ler mais",
+    "continue_shopping": "Continue comprando",
     "create_account": "Criar conta",
     "customer": {
         "account": {
@@ -177,6 +176,7 @@
     "date_formats": {
         "month_day_year": "%d de %B de %Y"
     },
+    "discounts": "Descontos",
     "email": "E-mail",
     "explore_more": "Explore mais",
     "featured_product": "Produto em destaque",
