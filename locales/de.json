@@ -4,6 +4,7 @@
         "title": "404 Seite nicht gefunden"
     },
     "account": "Account",
+    "account_details": "Account-Details",
     "activate_account": "Account aktivieren",
     "add_address": "Adresse hinzufügen",
     "add_order_note": "Besondere Hinweise an den Verkäufer",
@@ -30,6 +31,7 @@
         }
     },
     "cancel": "Abbrechen",
+    "cancelled_reason": "Grund: {{ reason }}",
     "cart": {
         "close": "Einkaufswagen schließen",
         "empty": "Ihr Einkaufswagen ist im Moment leer.",
@@ -65,6 +67,7 @@
         "posted_successfully_moderated": "Ihr Kommentar wurde erfolgreich gepostet. Da unser Blog moderiert wird, werden wir ihn erst kurze Zeit später veröffentlichen."
     },
     "company": "Firma",
+    "confirm_delete_address": "Sind Sie sicher, dass Sie diese Adresse löschen möchten?",
     "confirm_password": "Passwort bestätigen",
     "confrim_password": "Passwort bestätigen",
     "contact": {
@@ -72,45 +75,22 @@
         "thanks": "Danke, dass Sie uns kontaktiert haben. Wir werden uns so schnell wie möglich bei Ihnen melden."
     },
     "continue": "Fortsetzen",
+    "continue_as_guest": "Als Gast fortsetzen",
     "continue_reading": "Weiterlesen",
     "continue_shopping": "Einkaufen Sie weiter",
     "country": "Land",
     "create": "Erstellen",
     "create_account": "Account erstellen",
+    "create_your_password_to_activate": "Erstellen Sie ein Passwort, um Ihren Account zu aktiveren.",
     "currency": "Währung",
     "customer": {
-        "account": {
-            "details": "Account-Details",
-            "return": "Zurück zu Account-Details"
-        },
-        "activate_account": {
-            "subtext": "Erstellen Sie ein Passwort, um Ihren Account zu aktiveren."
-        },
-        "addresses": {
-            "delete_confirm": "Sind Sie sicher, dass Sie diese Adresse löschen möchten?",
-            "set_default": "Als Standard-Adresse festlegen",
-            "zip": "PLZ"
-        },
-        "login": {
-            "forgot_password": "Haben Sie Ihr Passwort vergessen?",
-            "guest_title": "Als Gast fortsetzen",
-            "sign_in": "Anmelden"
-        },
-        "order": {
-            "cancelled_html": "Bestellung storniert am {{ date }}",
-            "cancelled_reason": "Grund: {{ reason }}",
-            "date_html": "Aufgegeben am {{ date }}",
-            "discount": "Rabatt",
-            "fulfilled_at_html": "Geliefert am {{ date }}",
-            "product": "Artikel"
-        },
-        "orders": {
-            "none": "Sie haben noch keine Bestellungen aufgegeben."
-        },
-        "recover_password": {
-            "subtext": "Wir werden Ihnen eine E-Mail zum Zurücksetzen des Passworts schicken.",
-            "success": "Wir haben Ihnen eine E-Mail mit einem Link zum Aktualisieren des Passworts geschickt."
-        },
+        "account": {},
+        "activate_account": {},
+        "addresses": {},
+        "login": {},
+        "order": {},
+        "orders": {},
+        "recover_password": {},
         "register": {},
         "reset_password": {}
     },
@@ -120,13 +100,12 @@
     "delete": "Löschen",
     "description": "Beschreibung",
     "disabled": "Deaktiviert",
-    "discount": {
-        "you_save": "Sparen {{ saved_amount }}"
-    },
+    "discount": "Rabatt",
     "discounts": "Rabatte",
     "edit": "Bearbeiten",
     "edit_address": "Adresse bearbeiten",
     "email": "E-Mail",
+    "email_to_reset_password": "Wir werden Ihnen eine E-Mail zum Zurücksetzen des Passworts schicken.",
     "enter_new_password": "Geben Sie ein neues Passwort für {{ email }} ein",
     "expand_submenu": "Menü maximieren",
     "explore_more": "Erkunde mehr",
@@ -134,6 +113,7 @@
     "filter": "Filtern",
     "first_name": "Vorname",
     "follow_us": "Folge uns",
+    "forgot_password": "Haben Sie Ihr Passwort vergessen?",
     "form": {
         "max_characters": "Maximal {{ max_chars }} Zeichen",
         "newsletter": {
@@ -158,6 +138,7 @@
         }
     },
     "from_text_html": "<span>Von</span> {{ price }}",
+    "fulfilled_date": "Geliefert am {{ date }}",
     "fulfillment_status": "Lieferstatus",
     "general": {
         "404": {},
@@ -220,7 +201,6 @@
         },
         "customer": {},
         "footer": {
-            "accepted_payments": "Wir akzeptieren",
             "chat_link": "Plaudern",
             "contact_title": "In Kontakt kommen",
             "email_link": "Kontakt",
@@ -247,8 +227,11 @@
     "next": "Vorwärts",
     "next_product": "Nächster: {{ title }}",
     "order": "Bestellung",
+    "order_cancelled_on": "Bestellung storniert am {{ date }}",
     "order_history": "Bestellungen",
     "order_name": "Bestellung {{ name }}",
+    "order_place_on": "Aufgegeben am {{ date }}",
+    "orders_none": "Sie haben noch keine Bestellungen aufgegeben.",
     "page_title": "Seite {{ page }}",
     "pages": "Seiten",
     "password": "Passwort",
@@ -266,12 +249,10 @@
     "previous": "Zurück",
     "price": "Preis",
     "print": "Drucken",
-    "product": {
-        "count": {
-            "plural": "{{ count }} Produkte",
-            "singular": "{{ count }} Produkt"
-        },
-        "recipient": {}
+    "product": "Artikel",
+    "product_count": {
+        "plural": "{{ count }} Produkte",
+        "singular": "{{ count }} Produkt"
     },
     "products": "Produkte",
     "province": "Bundesland",
@@ -281,11 +262,13 @@
     "recipient": {
         "form": {}
     },
+    "recovery_email_sent": "Wir haben Ihnen eine E-Mail mit einem Link zum Aktualisieren des Passworts geschickt.",
     "reduce_item_quantity": "Artikelmenge um eins reduzieren",
     "regular_price": "Normaler Preis",
     "remove": "Entfernen",
     "reset_password": "Passwort zurücksetzen",
     "reset_your_password": "Passwort zurücksetzen",
+    "return_to_account": "Zurück zu Account-Details",
     "return_to_store": "Zurück zum Shop",
     "reviews": "Rezensionen",
     "sale": "Reduziert",
@@ -297,6 +280,7 @@
         "slideshow": {}
     },
     "send": "Absenden",
+    "set_default_address": "Als Standard-Adresse festlegen",
     "share": "Teilen",
     "share_this": "Teile das",
     "shipping": "Versand",
@@ -304,6 +288,7 @@
     "shipping_policy_html": "zzgl. <a href='{{ link }}'>Versandkosten</a>",
     "show_less": "Zeige weniger",
     "show_more": "Zeig mehr",
+    "sign_in": "Anmelden",
     "site_navigation": "Seitennavigation",
     "size": {
         "large": "groß",
@@ -350,5 +335,8 @@
     "view_in_space": "In Ihrem Bereich ansehen",
     "view_in_space_explanation": "„Ansicht in Ihrem Raum“ lädt den Artikel im Augmented-Reality-Fenster",
     "view_store_info": "Ansicht speichern Informationen",
-    "will_be_powered_by": "Dieser Shop wird mit Hilfe von {{ shopify }} betrieben werden"
+    "we_accept": "Wir akzeptieren",
+    "will_be_powered_by": "Dieser Shop wird mit Hilfe von {{ shopify }} betrieben werden",
+    "you_save_amount": "Sparen {{ saved_amount }}",
+    "zip": "PLZ"
 }

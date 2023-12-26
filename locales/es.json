@@ -4,6 +4,7 @@
         "title": "404 Página no encontrada"
     },
     "account": "Cuenta",
+    "account_details": "Detalles de la cuenta",
     "activate_account": "Activar cuenta",
     "add_address": "Agregar dirección",
     "add_order_note": "Instrucciones especiales para el vendedor",
@@ -30,6 +31,7 @@
         }
     },
     "cancel": "Cancelar",
+    "cancelled_reason": "Motivo: {{ reason }}",
     "cart": {
         "close": "Cerrar carrito",
         "empty": "Su carrito actualmente está vacío.",
@@ -66,6 +68,7 @@
         "posted_successfully_moderated": "Su comentario se ha compartido con éxito. Lo publicaremos en un momento, en tanto nuestro blog sea moderado."
     },
     "company": "Compañía",
+    "confirm_delete_address": "¿Está seguro de que desea eliminar esta dirección?",
     "confirm_password": "Confirmar contraseña",
     "confrim_password": "Confirmar contraseña",
     "contact": {
@@ -73,45 +76,22 @@
         "thanks": "Gracias por contactarnos. Le responderemos lo antes posible."
     },
     "continue": "Continuar",
+    "continue_as_guest": "Continuar como invitado",
     "continue_reading": "Leer más",
     "continue_shopping": "Seguir comprando",
     "country": "País",
     "create": "Crear",
     "create_account": "Crear cuenta",
+    "create_your_password_to_activate": "Cree su contraseña para activar su cuenta.",
     "currency": "Moneda",
     "customer": {
-        "account": {
-            "details": "Detalles de la cuenta",
-            "return": "Volver a detalles de la cuenta"
-        },
-        "activate_account": {
-            "subtext": "Cree su contraseña para activar su cuenta."
-        },
-        "addresses": {
-            "delete_confirm": "¿Está seguro de que desea eliminar esta dirección?",
-            "set_default": "Fijar como dirección por defecto",
-            "zip": "Código postal"
-        },
-        "login": {
-            "forgot_password": "¿Olvidó su contraseña?",
-            "guest_title": "Continuar como invitado",
-            "sign_in": "Registrarse"
-        },
-        "order": {
-            "cancelled_html": "Pedido cancelado en {{ date }}",
-            "cancelled_reason": "Motivo: {{ reason }}",
-            "date_html": "Realizado en {{ date }}",
-            "discount": "Descuento",
-            "fulfilled_at_html": "Finalizado {{ date }}",
-            "product": "Producto"
-        },
-        "orders": {
-            "none": "No ha realizado algún pedido aún."
-        },
-        "recover_password": {
-            "subtext": "Le enviaremos un correo electrónico para restablecer su contraseña.",
-            "success": "Hemos enviado un correo electrónico con un enlace para actualizar su contraseña."
-        },
+        "account": {},
+        "activate_account": {},
+        "addresses": {},
+        "login": {},
+        "order": {},
+        "orders": {},
+        "recover_password": {},
         "register": {},
         "reset_password": {}
     },
@@ -124,13 +104,12 @@
     "delete": "Eliminar",
     "description": "Descripción",
     "disabled": "Inhabilitada",
-    "discount": {
-        "you_save": "Guardar {{ saved_amount }}"
-    },
+    "discount": "Descuento",
     "discounts": "Descuentos",
     "edit": "Editar",
     "edit_address": "Editar dirección",
     "email": "Correo electrónico",
+    "email_to_reset_password": "Le enviaremos un correo electrónico para restablecer su contraseña.",
     "enter_new_password": "Ingrese una nueva contraseña para {{ email }}",
     "expand_submenu": "Expandir menú",
     "explore_more": "Explora más",
@@ -138,6 +117,7 @@
     "filter": "Filtrar",
     "first_name": "Nombre",
     "follow_us": "Síganos",
+    "forgot_password": "¿Olvidó su contraseña?",
     "form": {
         "max_characters": "{{ max_chars }} caracteres máx.",
         "newsletter": {
@@ -162,6 +142,7 @@
         }
     },
     "from_text_html": "<span>De</span> {{ price }}",
+    "fulfilled_date": "Finalizado {{ date }}",
     "fulfillment_status": "Estado de finalización",
     "general": {
         "404": {},
@@ -224,7 +205,6 @@
         },
         "customer": {},
         "footer": {
-            "accepted_payments": "Aceptamos",
             "chat_link": "Chat en vivo",
             "contact_title": "Ponerse en contacto",
             "email_link": "Contacto",
@@ -251,8 +231,11 @@
     "next": "Siguiente",
     "next_product": "Siguiente: {{ title }}",
     "order": "Pedido",
+    "order_cancelled_on": "Pedido cancelado en {{ date }}",
     "order_history": "Historial de pedidos",
     "order_name": "Pedido {{ name }}",
+    "order_place_on": "Realizado en {{ date }}",
+    "orders_none": "No ha realizado algún pedido aún.",
     "page_title": "Página {{ page }}",
     "pages": "Páginas",
     "password": "Contraseña",
@@ -270,12 +253,10 @@
     "previous": "Anterior",
     "price": "Precio",
     "print": "Imprimir",
-    "product": {
-        "count": {
-            "plural": "{{ count }} artículos",
-            "singular": "{{ count }} artículo"
-        },
-        "recipient": {}
+    "product": "Producto",
+    "product_count": {
+        "plural": "{{ count }} artículos",
+        "singular": "{{ count }} artículo"
     },
     "products": "Productos",
     "province": "Provincia",
@@ -285,11 +266,13 @@
     "recipient": {
         "form": {}
     },
+    "recovery_email_sent": "Hemos enviado un correo electrónico con un enlace para actualizar su contraseña.",
     "reduce_item_quantity": "Quitar uno a la cantidad de artículos",
     "regular_price": "Precio habitual",
     "remove": "Quitar",
     "reset_password": "Restablecer contraseña",
     "reset_your_password": "Restablecer su contraseña",
+    "return_to_account": "Volver a detalles de la cuenta",
     "return_to_store": "Volver a la tienda",
     "reviews": "Comentarios",
     "sale": "Venta",
@@ -301,6 +284,7 @@
         "slideshow": {}
     },
     "send": "Enviar",
+    "set_default_address": "Fijar como dirección por defecto",
     "share": "Compartir",
     "share_this": "Compartir este",
     "shipping": "Envío",
@@ -308,6 +292,7 @@
     "shipping_policy_html": "Los <a href='{{ link }}'>gastos de envío</a> se calculan en la pantalla de pagos.",
     "show_less": "Muestra menos",
     "show_more": "Mostrar más",
+    "sign_in": "Registrarse",
     "site_navigation": "Navegación",
     "size": {
         "large": "Large",
@@ -354,5 +339,8 @@
     "view_in_space": "Ver en tu espacio",
     "view_in_space_explanation": "Ver en tu espacio, carga el artículo en la ventana de realidad aumentada",
     "view_store_info": "Información de la tienda",
-    "will_be_powered_by": "Esta tienda estará impulsada por {{ shopify }}"
+    "we_accept": "Aceptamos",
+    "will_be_powered_by": "Esta tienda estará impulsada por {{ shopify }}",
+    "you_save_amount": "Guardar {{ saved_amount }}",
+    "zip": "Código postal"
 }

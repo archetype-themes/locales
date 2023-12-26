@@ -4,6 +4,7 @@
         "title": "404 Página não encontrada"
     },
     "account": "Conta",
+    "account_details": "Detalhes da conta",
     "activate_account": "Ativar conta",
     "add_address": "Adicionar endereço",
     "add_order_note": "Instruções especiais para o vendedor",
@@ -30,6 +31,7 @@
         }
     },
     "cancel": "Cancelar",
+    "cancelled_reason": "Motivo: {{ reason }}",
     "cart": {
         "close": "Fechar carrinho",
         "empty": "Seu carrinho está vazio no momento.",
@@ -66,6 +68,7 @@
         "posted_successfully_moderated": "Seu comentário foi postado. Nós o publicaremos em alguns instantes, já que o nosso blog é moderado."
     },
     "company": "Empresa",
+    "confirm_delete_address": "Deseja realmente excluir este endereço?",
     "confirm_password": "Confirmar senha",
     "confrim_password": "Confirmar senha",
     "contact": {
@@ -73,45 +76,22 @@
         "thanks": "Obrigado por entrar em contato. Nós lhe retornaremos assim que possível."
     },
     "continue": "Prosseguir",
+    "continue_as_guest": "Prosseguir como convidado(a)",
     "continue_reading": "Ler mais",
     "continue_shopping": "Continue comprando",
     "country": "País",
     "create": "Criar",
     "create_account": "Criar conta",
+    "create_your_password_to_activate": "Crie uma senha para ativar a sua conta.",
     "currency": "Moeda",
     "customer": {
-        "account": {
-            "details": "Detalhes da conta",
-            "return": "Retornar aos detalhes da conta"
-        },
-        "activate_account": {
-            "subtext": "Crie uma senha para ativar a sua conta."
-        },
-        "addresses": {
-            "delete_confirm": "Deseja realmente excluir este endereço?",
-            "set_default": "Definir como endereço padrão",
-            "zip": "CEP"
-        },
-        "login": {
-            "forgot_password": "Esqueceu sua senha?",
-            "guest_title": "Prosseguir como convidado(a)",
-            "sign_in": "Entrar"
-        },
-        "order": {
-            "cancelled_html": "Pedido cancelado em {{ date }}",
-            "cancelled_reason": "Motivo: {{ reason }}",
-            "date_html": "Efetuado em {{ date }}",
-            "discount": "Desconto",
-            "fulfilled_at_html": "Processado em {{ date }}",
-            "product": "Produto"
-        },
-        "orders": {
-            "none": "Você ainda não efetuou nenhum pedido."
-        },
-        "recover_password": {
-            "subtext": "Enviaremos a você um e-mail para redefinir a sua senha.",
-            "success": "Nós lhe enviamos um e-mail com o link para atualizar a sua senha."
-        },
+        "account": {},
+        "activate_account": {},
+        "addresses": {},
+        "login": {},
+        "order": {},
+        "orders": {},
+        "recover_password": {},
         "register": {},
         "reset_password": {}
     },
@@ -124,13 +104,12 @@
     "delete": "Excluir",
     "description": "Descrição",
     "disabled": "Inválido",
-    "discount": {
-        "you_save": "Economize {{ saved_amount }}"
-    },
+    "discount": "Desconto",
     "discounts": "Descontos",
     "edit": "Editar",
     "edit_address": "Editar endereço",
     "email": "E-mail",
+    "email_to_reset_password": "Enviaremos a você um e-mail para redefinir a sua senha.",
     "enter_new_password": "Digite uma nova senha para {{ email }}",
     "expand_submenu": "Expandir menu",
     "explore_more": "Explore mais",
@@ -138,6 +117,7 @@
     "filter": "Filtrar",
     "first_name": "Nome",
     "follow_us": "Siga-nos",
+    "forgot_password": "Esqueceu sua senha?",
     "form": {
         "newsletter": {
             "confirmation": "Obrigado por assinar",
@@ -156,6 +136,7 @@
         }
     },
     "from_text_html": "<span>A partir de</span> {{ price }}",
+    "fulfilled_date": "Processado em {{ date }}",
     "fulfillment_status": "Status do processamento",
     "general": {
         "404": {},
@@ -218,7 +199,6 @@
         },
         "customer": {},
         "footer": {
-            "accepted_payments": "Nós aceitamos",
             "chat_link": "Bate-papo ao vivo",
             "contact_title": "Entrar em contato",
             "email_link": "Envia-nos um email",
@@ -245,8 +225,11 @@
     "next": "Avançar",
     "next_product": "Próximo: {{ title }}",
     "order": "Pedido",
+    "order_cancelled_on": "Pedido cancelado em {{ date }}",
     "order_history": "Histórico de pedidos",
     "order_name": "Pedido {{ name }}",
+    "order_place_on": "Efetuado em {{ date }}",
+    "orders_none": "Você ainda não efetuou nenhum pedido.",
     "page_title": "Página {{ page }}",
     "pages": "Páginas:",
     "password": "Senha",
@@ -264,22 +247,22 @@
     "previous": "Voltar",
     "price": "Preço",
     "print": "Imprimir",
-    "product": {
-        "count": {
-            "plural": "{{ count }} produtos",
-            "singular": "{{ count }} produto"
-        },
-        "recipient": {}
+    "product": "Produto",
+    "product_count": {
+        "plural": "{{ count }} produtos",
+        "singular": "{{ count }} produto"
     },
     "province": "Estado",
     "quantity": "Quantidade",
     "quick_shop": "Compra rápida",
     "recently_viewed": "Visto recentemente",
+    "recovery_email_sent": "Nós lhe enviamos um e-mail com o link para atualizar a sua senha.",
     "reduce_item_quantity": "Reduzir quantidade em uma unidade",
     "regular_price": "Preço normal",
     "remove": "Remover",
     "reset_password": "Redefinir senha",
     "reset_your_password": "Redefinir sua senha",
+    "return_to_account": "Retornar aos detalhes da conta",
     "return_to_store": "Retornar à loja",
     "reviews": "Avaliações",
     "sale": "Venda",
@@ -291,6 +274,7 @@
         "slideshow": {}
     },
     "send": "Enviar",
+    "set_default_address": "Definir como endereço padrão",
     "share": "Compartilhar",
     "share_this": "Compartilhar isso",
     "shipping": "Frete",
@@ -298,6 +282,7 @@
     "shipping_policy_html": "<a href='{{ link }}'>Frete</a> calculado no checkout.",
     "show_less": "Mostre menos",
     "show_more": "Mostre mais",
+    "sign_in": "Entrar",
     "site_navigation": "Navegação",
     "size": {
         "large": "Large",
@@ -343,5 +328,8 @@
     "view_in_space": "Ver no seu espaço",
     "view_in_space_explanation": "Ver em seu espaço, carregar item na janela de realidade aumentada",
     "view_store_info": "Exibir informações de loja",
-    "will_be_powered_by": "Esta loja será patrocinada por {{ shopify }}"
+    "we_accept": "Nós aceitamos",
+    "will_be_powered_by": "Esta loja será patrocinada por {{ shopify }}",
+    "you_save_amount": "Economize {{ saved_amount }}",
+    "zip": "CEP"
 }

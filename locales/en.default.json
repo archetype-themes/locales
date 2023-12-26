@@ -4,6 +4,7 @@
         "title": "404 Page Not Found"
     },
     "account": "Account",
+    "account_details": "Account details",
     "activate_account": "Activate account",
     "add_address": "Add address",
     "add_order_note": "Add order note",
@@ -30,6 +31,7 @@
         }
     },
     "cancel": "Cancel",
+    "cancelled_reason": "Reason: {{ reason }}",
     "cart": {
         "close": "Close cart",
         "empty": "Your cart is currently empty.",
@@ -66,6 +68,7 @@
         "posted_successfully_moderated": "Your comment was posted successfully. We will publish it in a little while, as our blog is moderated."
     },
     "company": "Company",
+    "confirm_delete_address": "Are you sure you wish to delete this address?",
     "confirm_password": "Confirm Password",
     "confrim_password": "Confirm password",
     "contact": {
@@ -73,45 +76,22 @@
         "thanks": "Thanks for contacting us. We'll get back to you as soon as possible."
     },
     "continue": "Continue",
+    "continue_as_guest": "Continue as a guest",
     "continue_reading": "Continue reading",
     "continue_shopping": "Continue shopping",
     "country": "Country",
     "create": "Create",
     "create_account": "Create Account",
+    "create_your_password_to_activate": "Create your password to activate your account.",
     "currency": "Currency",
     "customer": {
-        "account": {
-            "details": "Account details",
-            "return": "Return to account"
-        },
-        "activate_account": {
-            "subtext": "Create your password to activate your account."
-        },
-        "addresses": {
-            "delete_confirm": "Are you sure you wish to delete this address?",
-            "set_default": "Set as default address",
-            "zip": "Postal/Zip code"
-        },
-        "login": {
-            "forgot_password": "Forgot password?",
-            "guest_title": "Continue as a guest",
-            "sign_in": "Sign In"
-        },
-        "order": {
-            "cancelled_html": "Order cancelled on {{ date }}",
-            "cancelled_reason": "Reason: {{ reason }}",
-            "date_html": "Placed on {{ date }}",
-            "discount": "Discount",
-            "fulfilled_at_html": "Fulfilled {{ date }}",
-            "product": "Product"
-        },
-        "orders": {
-            "none": "You haven't placed any orders yet."
-        },
-        "recover_password": {
-            "subtext": "We will send you an email to reset your password.",
-            "success": "We've sent you an email with a link to update your password."
-        },
+        "account": {},
+        "activate_account": {},
+        "addresses": {},
+        "login": {},
+        "order": {},
+        "orders": {},
+        "recover_password": {},
         "register": {},
         "reset_password": {}
     },
@@ -121,13 +101,12 @@
     "delete": "Delete",
     "description": "Description",
     "disabled": "Disabled",
-    "discount": {
-        "you_save": "You save {{ saved_amount }}"
-    },
+    "discount": "Discount",
     "discounts": "Discounts",
     "edit": "Edit",
     "edit_address": "Edit address",
     "email": "Email",
+    "email_to_reset_password": "We will send you an email to reset your password.",
     "enter_new_password": "Enter a new password for {{ email }}",
     "expand_submenu": "Expand submenu",
     "explore_more": "Explore more",
@@ -135,6 +114,7 @@
     "filter": "Filter",
     "first_name": "First name",
     "follow_us": "Follow us",
+    "forgot_password": "Forgot password?",
     "form": {
         "max_characters": "{{ max_chars }} characters max",
         "newsletter": {
@@ -159,6 +139,7 @@
         }
     },
     "from_text_html": "<span>from</span> {{ price }}",
+    "fulfilled_date": "Fulfilled {{ date }}",
     "fulfillment_status": "Fulfillment status",
     "general": {
         "404": {},
@@ -224,7 +205,6 @@
         },
         "customer": {},
         "footer": {
-            "accepted_payments": "We accept",
             "chat_link": "Live chat",
             "contact_title": "Get in touch",
             "email_link": "Email us",
@@ -251,8 +231,11 @@
     "next": "Next",
     "next_product": "Next: {{ title }}",
     "order": "Order",
+    "order_cancelled_on": "Order cancelled on {{ date }}",
     "order_history": "Order History",
     "order_name": "Order {{ name }}",
+    "order_place_on": "Placed on {{ date }}",
+    "orders_none": "You haven't placed any orders yet.",
     "page_title": "Page {{ page }}",
     "pages": "Pages",
     "password": "Password",
@@ -270,12 +253,10 @@
     "previous": "Previous",
     "price": "Price",
     "print": "Print",
-    "product": {
-        "count": {
-            "plural": "{{ count }} products",
-            "singular": "{{ count }} product"
-        },
-        "recipient": {}
+    "product": "Product",
+    "product_count": {
+        "plural": "{{ count }} products",
+        "singular": "{{ count }} product"
     },
     "products": "Products",
     "province": "Province",
@@ -285,11 +266,13 @@
     "recipient": {
         "form": {}
     },
+    "recovery_email_sent": "We've sent you an email with a link to update your password.",
     "reduce_item_quantity": "Reduce item quantity by one",
     "regular_price": "Regular price",
     "remove": "Remove",
     "reset_password": "Reset Password",
     "reset_your_password": "Reset your password",
+    "return_to_account": "Return to account",
     "return_to_store": "Return to Store",
     "reviews": "Reviews",
     "sale": "Sale",
@@ -301,6 +284,7 @@
         "slideshow": {}
     },
     "send": "Send",
+    "set_default_address": "Set as default address",
     "share": "Share",
     "share_this": "Share this",
     "shipping": "Shipping",
@@ -308,6 +292,7 @@
     "shipping_policy_html": "<a href='{{ link }}'>Shipping</a> calculated at checkout.",
     "show_less": "Show less",
     "show_more": "Show more",
+    "sign_in": "Sign In",
     "site_navigation": "Site navigation",
     "size": {
         "large": "Large",
@@ -355,5 +340,8 @@
     "view_in_space": "View in your space",
     "view_in_space_explanation": "View in your space, loads item in augmented reality window",
     "view_store_info": "View store information",
-    "will_be_powered_by": "This shop will be powered by {{ shopify }}"
+    "we_accept": "We accept",
+    "will_be_powered_by": "This shop will be powered by {{ shopify }}",
+    "you_save_amount": "You save {{ saved_amount }}",
+    "zip": "Postal/Zip code"
 }

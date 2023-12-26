@@ -4,6 +4,7 @@
         "title": "404 Pagina non trovata"
     },
     "account": "Account",
+    "account_details": "Dettagli account",
     "activate_account": "Attiva l'account",
     "add_address": "Aggiungi indirizzo",
     "add_order_note": "Aggiungi una nota all'ordine",
@@ -30,6 +31,7 @@
         }
     },
     "cancel": "Annulla",
+    "cancelled_reason": "Motivo: {{ reason }}",
     "cart": {
         "close": "Chiudi il carrello",
         "empty": "Il tuo carrello è attualmente vuoto.",
@@ -66,6 +68,7 @@
         "posted_successfully_moderated": "Il tuo commento è stato pubblicato. Lo pubblicheremo fra poco, il nostro blog è soggetto a moderazione."
     },
     "company": "Azienda",
+    "confirm_delete_address": "Desideri davvero eliminare questo indirizzo?",
     "confirm_password": "Conferma la password",
     "confrim_password": "Conferma password",
     "contact": {
@@ -73,45 +76,22 @@
         "thanks": "Grazie per averci contattato. Risponderemo il prima possibile."
     },
     "continue": "Continua",
+    "continue_as_guest": "Continua senza registrarti",
     "continue_reading": "Continua a leggere",
     "continue_shopping": "Continua lo shopping",
     "country": "Paese",
     "create": "Crea",
     "create_account": "Crea un account",
+    "create_your_password_to_activate": "Crea una password per attivare il tuo account.",
     "currency": "Valuta",
     "customer": {
-        "account": {
-            "details": "Dettagli account",
-            "return": "Torna all'account"
-        },
-        "activate_account": {
-            "subtext": "Crea una password per attivare il tuo account."
-        },
-        "addresses": {
-            "delete_confirm": "Desideri davvero eliminare questo indirizzo?",
-            "set_default": "Imposta come indirizzo predefinito",
-            "zip": "Codice postale"
-        },
-        "login": {
-            "forgot_password": "Hai dimenticato la password?",
-            "guest_title": "Continua senza registrarti",
-            "sign_in": "Accedi"
-        },
-        "order": {
-            "cancelled_html": "Ordine cancellato il {{ date }}",
-            "cancelled_reason": "Motivo: {{ reason }}",
-            "date_html": "Effettuato il {{ date }}",
-            "discount": "Sconto",
-            "fulfilled_at_html": "Evaso il {{ date }}",
-            "product": "Prodotto"
-        },
-        "orders": {
-            "none": "Non hai ancora effettuato ordini."
-        },
-        "recover_password": {
-            "subtext": "Ti invieremo un'e-mail per reimpostare la tua password.",
-            "success": "Ti abbiamo inviato un'email con un link per aggiornare la password."
-        },
+        "account": {},
+        "activate_account": {},
+        "addresses": {},
+        "login": {},
+        "order": {},
+        "orders": {},
+        "recover_password": {},
         "register": {},
         "reset_password": {}
     },
@@ -121,13 +101,12 @@
     "delete": "Elimina",
     "description": "Descrizione",
     "disabled": "Disabilitato",
-    "discount": {
-        "you_save": "Risparmi {{ saved_amount }}"
-    },
+    "discount": "Sconto",
     "discounts": "Sconti",
     "edit": "Modifica",
     "edit_address": "Modifica indirizzo",
     "email": "Indirizzo email",
+    "email_to_reset_password": "Ti invieremo un'e-mail per reimpostare la tua password.",
     "enter_new_password": "Inserisci una nuova password per {{ email }}",
     "expand_submenu": "Espandi sottomenu",
     "explore_more": "Esplora di più",
@@ -135,6 +114,7 @@
     "filter": "Filtra",
     "first_name": "Nome",
     "follow_us": "Seguici su",
+    "forgot_password": "Hai dimenticato la password?",
     "form": {
         "max_characters": "Massimo {{ max_chars }} caratteri",
         "newsletter": {
@@ -159,6 +139,7 @@
         }
     },
     "from_text_html": "<span>da</span> {{ price }}",
+    "fulfilled_date": "Evaso il {{ date }}",
     "fulfillment_status": "Stato di evasione",
     "general": {
         "404": {},
@@ -224,7 +205,6 @@
         },
         "customer": {},
         "footer": {
-            "accepted_payments": "Accettiamo",
             "chat_link": "Chat dal vivo",
             "contact_title": "Mettiti in contatto",
             "email_link": "Inviaci un'e-mail",
@@ -251,8 +231,11 @@
     "next": "Successivo",
     "next_product": "Avanti: {{ title }}",
     "order": "Ordine",
+    "order_cancelled_on": "Ordine cancellato il {{ date }}",
     "order_history": "Storia dell'ordine",
     "order_name": "Ordine {{ name }}",
+    "order_place_on": "Effettuato il {{ date }}",
+    "orders_none": "Non hai ancora effettuato ordini.",
     "page_title": "Pagina {{ page }}",
     "pages": "Pagine",
     "password": "Password",
@@ -270,12 +253,10 @@
     "previous": "Precedente",
     "price": "Prezzo",
     "print": "Stampa",
-    "product": {
-        "count": {
-            "plural": "{{ count }} prodotti",
-            "singular": "{{ count }} prodotto"
-        },
-        "recipient": {}
+    "product": "Prodotto",
+    "product_count": {
+        "plural": "{{ count }} prodotti",
+        "singular": "{{ count }} prodotto"
     },
     "products": "prodotti",
     "province": "Provincia",
@@ -285,11 +266,13 @@
     "recipient": {
         "form": {}
     },
+    "recovery_email_sent": "Ti abbiamo inviato un'email con un link per aggiornare la password.",
     "reduce_item_quantity": "Riduci la quantità dell'articolo di uno",
     "regular_price": "Prezzo di listino",
     "remove": "Rimuovi",
     "reset_password": "Reimposta la password",
     "reset_your_password": "Reimposta la password",
+    "return_to_account": "Torna all'account",
     "return_to_store": "Torna al negozio",
     "reviews": "Recensioni",
     "sale": "In offerta",
@@ -301,6 +284,7 @@
         "slideshow": {}
     },
     "send": "Invia",
+    "set_default_address": "Imposta come indirizzo predefinito",
     "share": "Condividi",
     "share_this": "Condividi questo",
     "shipping": "Spedizione",
@@ -308,6 +292,7 @@
     "shipping_policy_html": "<a href='{{ link }}'>Spedizione</a> calcolata alla cassa.",
     "show_less": "Mostra di meno",
     "show_more": "Mostra di più",
+    "sign_in": "Accedi",
     "site_navigation": "Navigazione del sito",
     "size": {
         "large": "Grande",
@@ -354,5 +339,8 @@
     "view_in_space": "Visualizza nel tuo spazio",
     "view_in_space_explanation": "Visualizza nel tuo spazio, carica l'articolo nella finestra della realtà aumentata",
     "view_store_info": "Visualizza i dettagli del negozio",
-    "will_be_powered_by": "Questo negozio sarà ospitato su {{ shopify }}"
+    "we_accept": "Accettiamo",
+    "will_be_powered_by": "Questo negozio sarà ospitato su {{ shopify }}",
+    "you_save_amount": "Risparmi {{ saved_amount }}",
+    "zip": "Codice postale"
 }
