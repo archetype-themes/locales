@@ -36,6 +36,7 @@
     "close": "Fechar",
     "close_esc": "Fechar (Esc)",
     "collection": {
+        "back_to": "Voltar à {{ collection }}",
         "no_products": "Desculpe, mas não há produtos correspondentes à sua busca."
     },
     "collections": {
@@ -311,7 +312,6 @@
     },
     "products": {
         "general": {
-            "collection_return": "Voltar à {{ collection }}",
             "color_swatch_trigger": "Cor",
             "from_text_html": "<span>A partir de</span> {{ price }}",
             "more_from_html": "Mais de {{ link }}",

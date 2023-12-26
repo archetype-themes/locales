@@ -36,6 +36,7 @@
     "close": "Chiudi",
     "close_esc": "Chiudi (esc)",
     "collection": {
+        "back_to": "Torna a {{ collection }}",
         "no_products": "Siamo spiacenti, non ci sono prodotti in questa collezione."
     },
     "collections": {
@@ -317,7 +318,6 @@
     },
     "products": {
         "general": {
-            "collection_return": "Torna a {{ collection }}",
             "color_swatch_trigger": "Colore",
             "from_text_html": "<span>da</span> {{ price }}",
             "more_from_html": "Altro da {{ link }}",

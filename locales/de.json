@@ -35,6 +35,7 @@
     "close": "Schließen",
     "close_esc": "Schließen (Esc)",
     "collection": {
+        "back_to": "Zurück zur {{ collection }}",
         "no_products": "Es tut uns leid, aber Ihre Suche nach Produkten hat keine Treffer ergeben."
     },
     "collections": {
@@ -316,7 +317,6 @@
     },
     "products": {
         "general": {
-            "collection_return": "Zurück zur {{ collection }}",
             "color_swatch_trigger": "Farbe",
             "from_text_html": "<span>Von</span> {{ price }}",
             "more_from_html": "Mehr von {{ link }}",
