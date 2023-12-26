@@ -61,6 +61,7 @@
     "continue_reading": "Continue reading",
     "continue_shopping": "Continue shopping",
     "create_account": "Create account",
+    "currency": "Currency",
     "customer": {
         "account": {
             "details": "Account details",
@@ -165,9 +166,7 @@
         "404": {},
         "accessibility": {},
         "breadcrumbs": {},
-        "currency": {
-            "dropdown_label": "Currency"
-        },
+        "currency": {},
         "drawers": {
             "close_menu": "Close menu",
             "collapse_submenu": "Collapse submenu",

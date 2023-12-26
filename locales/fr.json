@@ -61,6 +61,7 @@
     "continue_reading": "Plus",
     "continue_shopping": "Continuer vos achats",
     "create_account": "Créer un compte",
+    "currency": "Devise",
     "customer": {
         "account": {
             "details": "Détails du compte",
@@ -168,9 +169,7 @@
         "404": {},
         "accessibility": {},
         "breadcrumbs": {},
-        "currency": {
-            "dropdown_label": "Devise"
-        },
+        "currency": {},
         "drawers": {
             "close_menu": "Fermer le menu",
             "collapse_submenu": "Replier le menu",
