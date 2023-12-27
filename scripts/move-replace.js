@@ -1,12 +1,31 @@
 // Utility script used to update a locale key from an old path to a new path across all files
 // and then update any matching liquid files with that new path
 //
-// node ./scripts/move-replace.js ../components/components/**/*.liquid some.old.path some.new.path
+// node ./scripts/move-replace.js '../components/components/**/*.liquid' some.old.path some.new.path
 //
 
 const fs = require('fs');
 const path = require('path');
 const glob = require('glob');
+
+function sortObjectKeys(obj) {
+    // Create a new object with sorted keys
+    const sortedObject = {};
+  
+    // Sort the keys of the current object
+    Object.keys(obj).sort().forEach(key => {
+        // Check if the value is an object and not an array
+        if (typeof obj[key] === 'object' && !Array.isArray(obj[key])) {
+            // Recursively sort the keys of the nested object
+            sortedObject[key] = sortObjectKeys(obj[key]);
+        } else {
+            // Directly assign the value if it's not an object
+            sortedObject[key] = obj[key];
+        }
+    });
+  
+    return sortedObject;
+  }
 
 // Function to update JSON files
 function updateJsonFiles(directoryPattern, oldPath, newPath) {
