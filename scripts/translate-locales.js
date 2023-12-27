@@ -111,9 +111,48 @@ async function updateAllLocaleFiles() {
   const changes = compareNestedObjects(previousFileContent, currentFileContent);
 
   for (const localePath of otherLocalePaths) {
-      const language = localePath.split('/').pop().split('.')[0]
-      await updateLocaleFile(localePath, changes, language, currentFileContent)
+      const language = localePath.split('/').pop().split('.')[0];
+      let localeData = JSON.parse(fs.readFileSync(localePath, 'utf8'));
+
+      await getMissingTranslations(localeData, currentFileContent, language);
+      await updateLocaleFile(localePath, changes, language, currentFileContent);
+
+      fs.writeFileSync(localePath, JSON.stringify(sortObjectKeys(localeData), null, 4));
   }
+}
+
+// Function to get missing translations
+async function getMissingTranslations(localeData, referenceData, targetLanguage) {
+  const missingTranslations = {};
+
+  function findMissingKeys(obj, refObj, currentPath = '') {
+      for (let key in refObj) {
+          const newPath = currentPath ? `${currentPath}.${key}` : key;
+          if (typeof refObj[key] === 'object' && refObj[key] !== null) {
+              if (typeof obj[key] !== 'object') obj[key] = {};
+              findMissingKeys(obj[key], refObj[key], newPath);
+          } else if (typeof obj[key] === 'undefined') {
+              missingTranslations[newPath] = refObj[key];
+          }
+      }
+  }
+
+  findMissingKeys(localeData, referenceData);
+  for (const keyPath in missingTranslations) {
+      const translatedText = await translateText(missingTranslations[keyPath], targetLanguage, keyPath);
+      setKeyPathValue(localeData, keyPath, translatedText);
+  }
+}
+
+// Set value at a specific key path in an object
+function setKeyPathValue(obj, keyPath, value) {
+  const keys = keyPath.split('.');
+  let current = obj;
+  for (let i = 0; i < keys.length - 1; i++) {
+      current[keys[i]] = current[keys[i]] || {};
+      current = current[keys[i]];
+  }
+  current[keys[keys.length - 1]] = value;
 }
 
 // Function to update a locale file

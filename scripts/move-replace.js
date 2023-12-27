@@ -1,3 +1,9 @@
+// Utility script used to update a locale key from an old path to a new path across all files
+// and then update any matching liquid files with that new path
+//
+// node ./scripts/move-replace.js '../components/components/**/*.liquid' some.old.path some.new.path
+//
+
 const fs = require('fs');
 const path = require('path');
 const glob = require('glob');
@@ -68,8 +74,8 @@ function onlyUnique(value, index, array) {
   return array.indexOf(value) === index;
 }
 
-function updateLiquidFiles(similarKeys, newPath) {
-  const files = glob.sync('../components/components/**/*.liquid');
+function updateLiquidFiles(liquidFilesPattern, similarKeys, newPath) {
+  const files = glob.sync(liquidFilesPattern);
   console.log(`Found ${files.length} .liquid files to process.`);
 
   files.forEach(file => {
@@ -96,7 +102,7 @@ function updateLiquidFiles(similarKeys, newPath) {
   });
 }
 
-const [oldPath, newPath] = process.argv.slice(2);
+const [liquidFilesPattern, oldPath, newPath] = process.argv.slice(2);
 
 const enDefaultData = JSON.parse(fs.readFileSync('./locales/en.default.json', 'utf8'));
 const valueToMatch = getKeyPathValue(enDefaultData, oldPath);
@@ -106,4 +112,4 @@ console.log(similarKeys)
 
 similarKeys.push(oldPath); // Include the original oldPath in similarKeys for replacement
 modifyJsonFiles(oldPath, newPath, similarKeys);
-updateLiquidFiles(similarKeys, newPath); 
+updateLiquidFiles(liquidFilesPattern, similarKeys, newPath); 
