@@ -49,8 +49,8 @@
     "collections": "Collezioni",
     "comments": {
         "count": {
-            "other": "{{ count }} commenti",
-            "one": "{{ count }} commento"
+            "one": "{{ count }} commento",
+            "other": "{{ count }} commenti"
         },
         "leave_a_comment": "Lascia un commento",
         "must_be_approved": "Attenzione, i commenti devono essere approvati prima di essere pubblicati",
@@ -142,8 +142,8 @@
         "backordered": "In arretrato, spedizione a breve",
         "in_stock": "In magazzino, pronto per la spedizione",
         "low_stock": {
-            "other": "Magazzino basso, {{ count }} articoli rimasti",
-            "one": "Magazzino basso, {{ count }} articolo rimasto"
+            "one": "Magazzino basso, {{ count }} articolo rimasto",
+            "other": "Magazzino basso, {{ count }} articoli rimasti"
         },
         "preorder": "Pre-ordine",
         "ready_to_ship_on": "Pronto per la spedizione {{ date }}",
@@ -198,8 +198,8 @@
     "print": "Stampa",
     "product": "Prodotto",
     "product_count": {
-        "other": "{{ count }} prodotti",
-        "one": "{{ count }} prodotto"
+        "one": "{{ count }} prodotto",
+        "other": "{{ count }} prodotti"
     },
     "products": "prodotti",
     "province": "Provincia",

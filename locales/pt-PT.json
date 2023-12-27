@@ -49,8 +49,8 @@
     "collections": "Colecções:",
     "comments": {
         "count": {
-            "other": "{{ count }} comentários",
-            "one": "{{ count }} comentário"
+            "one": "{{ count }} comentário",
+            "other": "{{ count }} comentários"
         },
         "leave_a_comment": "Deixe um comentário",
         "must_be_approved": "Tenha em atenção que os comentários precisam de ser aprovados antes de serem exibidos",
@@ -99,6 +99,7 @@
     "follow_us": "Siga-nos",
     "forgot_password": "Esqueceu-se da sua senha?",
     "form": {
+        "max_characters": "{{ max_chars }} máximo de caracteres",
         "newsletter": {
             "confirmation": "Obrigado pela sua subscrição",
             "input_placeholder": "Subscreva a nossa lista de emails",
@@ -109,6 +110,12 @@
             "password_input_placeholder": "A sua palavra-passe",
             "submit": "Entrar",
             "title": "Entre na loja usando a palavra-passe:"
+        },
+        "recipient": {
+            "email": "E-mail do destinatário",
+            "message_optional": "Mensagem (opcional)",
+            "name_optional": "Nome do destinatário (opcional)",
+            "send_as_gift": "Eu quero enviar isso como um presente"
         },
         "signup": {
             "confirmation": "Iremos enviar-lhe um email imediatamente antes de abrirmos!"
@@ -191,9 +198,10 @@
     "print": "Imprimir",
     "product": "Produto",
     "product_count": {
-        "other": "{{ count }} itens",
-        "one": "{{ count }} item"
+        "one": "{{ count }} item",
+        "other": "{{ count }} itens"
     },
+    "products": "Produtos",
     "province": "Província",
     "quantity": "Quantidade",
     "quick_shop": "Compra rápida",
@@ -252,6 +260,7 @@
     "sort": "Ordenar",
     "submit": "Enviar",
     "subtotal": "Subtotal",
+    "suggestions": "Sugestões",
     "tagged_with": "Etiquetado como \"{{ tags }}\"",
     "tags": "Etiquetas",
     "tax": "Taxa",
