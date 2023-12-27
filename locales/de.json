@@ -61,6 +61,7 @@
     "create_your_password_to_activate": "Erstellen Sie ein Passwort, um Ihren Account zu aktiveren.",
     "currency": "Währung",
     "date": "Datum",
+    "date_formats.month_day_year": "%b %d, %Y",
     "decline_invitation": "Einladung ablehnen",
     "default": "Standard",
     "delete": "Löschen",

@@ -62,6 +62,7 @@
     "create_your_password_to_activate": "Crea una password per attivare il tuo account.",
     "currency": "Valuta",
     "date": "Data",
+    "date_formats.month_day_year": "%b %d, %Y",
     "decline_invitation": "Rifiuta invito",
     "default": "Predefinito",
     "delete": "Elimina",

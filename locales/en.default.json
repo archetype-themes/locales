@@ -62,6 +62,7 @@
     "create_your_password_to_activate": "Create your password to activate your account.",
     "currency": "Currency",
     "date": "Date",
+    "date_formats.month_day_year": "%b %d, %Y",
     "decline_invitation": "Decline invitation",
     "default": "Default",
     "delete": "Delete",
