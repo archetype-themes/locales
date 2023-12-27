@@ -1,6 +1,8 @@
 {
-    "404.subtitle_html": "Die von Ihnen angeforderte Seite existiert nicht. Klicken Sie <a href='{{ url }}'>hier</a>, um den Einkauf fortzusetzen.",
-    "404.title": "404 Seite nicht gefunden",
+    "404": {
+        "subtitle_html": "Die von Ihnen angeforderte Seite existiert nicht. Klicken Sie <a href='{{ url }}'>hier</a>, um den Einkauf fortzusetzen.",
+        "title": "404 Seite nicht gefunden"
+    },
     "account": "Account",
     "account_details": "Account-Details",
     "activate_account": "Account aktivieren",
@@ -12,22 +14,28 @@
     "addresses": "Ihre Adressen",
     "all_products": "Alle Produkte",
     "articles": "Artikel",
-    "availability.check_other_stores": "Prüfen Sie die Verfügbarkeit von anderen Shops",
-    "availability.pick_up_available": "Pickup verfügbar",
-    "availability.pick_up_available_at_html": "Pickup verfügbar unter <strong> {{location_name}} </strong>",
-    "availability.pick_up_currently_unavailable": "Pickup derzeit nicht verfügbar",
-    "availability.pick_up_unavailable_at_html": "Pickup derzeit nicht verfügbar unter <strong> {{location_name}} </strong>",
+    "availability": {
+        "check_other_stores": "Prüfen Sie die Verfügbarkeit von anderen Shops",
+        "pick_up_available": "Pickup verfügbar",
+        "pick_up_available_at_html": "Pickup verfügbar unter <strong> {{location_name}} </strong>",
+        "pick_up_currently_unavailable": "Pickup derzeit nicht verfügbar",
+        "pick_up_unavailable_at_html": "Pickup derzeit nicht verfügbar unter <strong> {{location_name}} </strong>"
+    },
     "back_to": "Zurück zu {{ title }}",
     "back_to_homepage": "Zurück zur Startseite",
     "billing_address": "Rechnungsadresse",
     "cancel": "Abbrechen",
     "cancelled_reason": "Grund: {{ reason }}",
-    "cart.close": "Einkaufswagen schließen",
-    "cart.empty": "Ihr Einkaufswagen ist im Moment leer.",
-    "cart.general.title": "Einkaufswagen",
-    "cart.shipping_at_checkout": "Rabattcodes, Versandkosten und Steuern werden bei der Bezahlung berechnet.",
-    "cart.title": "Einkaufswagen",
-    "cart.update": "Einkaufswagen aktualisieren",
+    "cart": {
+        "close": "Einkaufswagen schließen",
+        "empty": "Ihr Einkaufswagen ist im Moment leer.",
+        "general": {
+            "title": "Einkaufswagen"
+        },
+        "shipping_at_checkout": "Rabattcodes, Versandkosten und Steuern werden bei der Bezahlung berechnet.",
+        "title": "Einkaufswagen",
+        "update": "Einkaufswagen aktualisieren"
+    },
     "catalog": "Katalog",
     "categories": "Kategorien",
     "checkout": "Zur Kasse",
@@ -36,21 +44,29 @@
     "close_esc": "Schließen (Esc)",
     "close_menu": "Menü schließen",
     "collapse_submenu": "Menü minimieren",
-    "collection.back_to": "Zurück zur {{ collection }}",
-    "collection.no_products": "Es tut uns leid, aber Ihre Suche nach Produkten hat keine Treffer ergeben.",
+    "collection": {
+        "back_to": "Zurück zur {{ collection }}",
+        "no_products": "Es tut uns leid, aber Ihre Suche nach Produkten hat keine Treffer ergeben."
+    },
     "collections": "Kollektionen",
-    "comments.count.plural": "{{ count }} Kommentare",
-    "comments.count.singular": "{{ count }} Kommentar",
-    "comments.leave_a_comment": "Hinterlassen Sie einen Kommentar",
-    "comments.must_be_approved": "Bitte beachten Sie, dass Kommentare vor der Veröffentlichung freigegeben werden müssen",
-    "comments.post": "Kommentar posten",
-    "comments.posted_successfully": "Ihr Kommentar wurde erfolgreich gepostet. Danke!",
-    "comments.posted_successfully_moderated": "Ihr Kommentar wurde erfolgreich gepostet. Da unser Blog moderiert wird, werden wir ihn erst kurze Zeit später veröffentlichen.",
+    "comments": {
+        "count": {
+            "plural": "{{ count }} Kommentare",
+            "singular": "{{ count }} Kommentar"
+        },
+        "leave_a_comment": "Hinterlassen Sie einen Kommentar",
+        "must_be_approved": "Bitte beachten Sie, dass Kommentare vor der Veröffentlichung freigegeben werden müssen",
+        "post": "Kommentar posten",
+        "posted_successfully": "Ihr Kommentar wurde erfolgreich gepostet. Danke!",
+        "posted_successfully_moderated": "Ihr Kommentar wurde erfolgreich gepostet. Da unser Blog moderiert wird, werden wir ihn erst kurze Zeit später veröffentlichen."
+    },
     "company": "Firma",
     "confirm_delete_address": "Sind Sie sicher, dass Sie diese Adresse löschen möchten?",
     "confirm_password": "Passwort bestätigen",
     "confrim_password": "Passwort bestätigen",
-    "contact.thanks": "Danke, dass Sie uns kontaktiert haben. Wir werden uns so schnell wie möglich bei Ihnen melden.",
+    "contact": {
+        "thanks": "Danke, dass Sie uns kontaktiert haben. Wir werden uns so schnell wie möglich bei Ihnen melden."
+    },
     "continue": "Fortsetzen",
     "continue_as_guest": "Als Gast fortsetzen",
     "continue_reading": "Weiterlesen",
@@ -61,7 +77,9 @@
     "create_your_password_to_activate": "Erstellen Sie ein Passwort, um Ihren Account zu aktiveren.",
     "currency": "Währung",
     "date": "Datum",
-    "date_formats.month_day_year": "%b %d, %Y",
+    "date_formats": {
+        "month_day_year": "%b %d, %Y"
+    },
     "decline_invitation": "Einladung ablehnen",
     "default": "Standard",
     "delete": "Löschen",
@@ -82,40 +100,54 @@
     "first_name": "Vorname",
     "follow_us": "Folge uns",
     "forgot_password": "Haben Sie Ihr Passwort vergessen?",
-    "form.max_characters": "Maximal {{ max_chars }} Zeichen",
-    "form.newsletter.confirmation": "Danke fürs Anmelden",
-    "form.newsletter.input_placeholder": "Melden Sie sich für unsere Mailingliste an",
-    "form.newsletter.submit": "Abonnieren",
-    "form.password.admin_link_html": "Sind Sie der Geschäftsinhaber? <a href=\"/admin\" class=\"text-link\">Melden Sie sich hier an</a>",
-    "form.password.password_input_placeholder": "Ihr Passwort",
-    "form.password.submit": "Betreten",
-    "form.password.title": "Shop mit Passwort betreten:",
-    "form.recipient.email": "Empfänger E-Mail",
-    "form.recipient.message_optional": "Nachricht (optional)",
-    "form.recipient.name_optional": "Name des Empfängers (optional)",
-    "form.recipient.send_as_gift": "Ich möchte dies als Geschenk senden",
-    "form.signup.confirmation": "Wir senden Ihnen eine E-Mail, kurz bevor wir eröffnen!",
+    "form": {
+        "max_characters": "Maximal {{ max_chars }} Zeichen",
+        "newsletter": {
+            "confirmation": "Danke fürs Anmelden",
+            "input_placeholder": "Melden Sie sich für unsere Mailingliste an",
+            "submit": "Abonnieren"
+        },
+        "password": {
+            "admin_link_html": "Sind Sie der Geschäftsinhaber? <a href=\"/admin\" class=\"text-link\">Melden Sie sich hier an</a>",
+            "password_input_placeholder": "Ihr Passwort",
+            "submit": "Betreten",
+            "title": "Shop mit Passwort betreten:"
+        },
+        "recipient": {
+            "email": "Empfänger E-Mail",
+            "message_optional": "Nachricht (optional)",
+            "name_optional": "Name des Empfängers (optional)",
+            "send_as_gift": "Ich möchte dies als Geschenk senden"
+        },
+        "signup": {
+            "confirmation": "Wir senden Ihnen eine E-Mail, kurz bevor wir eröffnen!"
+        }
+    },
     "from_text_html": "<span>Von</span> {{ price }}",
     "fulfilled_date": "Geliefert am {{ date }}",
     "fulfillment_status": "Lieferstatus",
     "get_in_touch": "In Kontakt kommen",
-    "gift_card.add_to_apple_wallet": "Hinzufügen zu Apple Wallet",
-    "gift_card.cta": "Einkauf beginnen",
-    "gift_card.expired_on": "Abgelaufen am {{ expiry }}",
-    "gift_card.expires_on_date": "Läuft ab am {{ expiry }}",
-    "gift_card.redeem": "Nutzen Sie an der Kasse diesen Code, um Ihre Geschenkkarte einzulösen",
-    "gift_card.subtitle": "Hier ist Ihre Geschenkkarte!",
-    "gift_card.title": "Hier ist Ihre {{ value }} Geschenkkarte für {{ shop }}!",
+    "gift_card": {
+        "add_to_apple_wallet": "Hinzufügen zu Apple Wallet",
+        "cta": "Einkauf beginnen",
+        "expired_on": "Abgelaufen am {{ expiry }}",
+        "expires_on_date": "Läuft ab am {{ expiry }}",
+        "redeem": "Nutzen Sie an der Kasse diesen Code, um Ihre Geschenkkarte einzulösen",
+        "subtitle": "Hier ist Ihre Geschenkkarte!",
+        "title": "Hier ist Ihre {{ value }} Geschenkkarte für {{ shop }}!"
+    },
     "goes_great_with": "Geht mit",
     "home": "Startseite",
     "increase_item_quantity": "Artikelmenge um eins erhöhen",
-    "inventory.back_in_stock_on": "Wird nach dem {{ date }} auf Lager sein",
-    "inventory.backordered": "Nachbestellt, bald verfügbar",
-    "inventory.in_stock": "Auf Lager",
-    "inventory.preorder": "Vorbestellung",
-    "inventory.ready_to_ship_on": "Wird nach dem {{ date }} versendet",
-    "inventory.sold_out": "Ausverkauft",
-    "inventory.unavailable": "Nicht verfügbar",
+    "inventory": {
+        "back_in_stock_on": "Wird nach dem {{ date }} auf Lager sein",
+        "backordered": "Nachbestellt, bald verfügbar",
+        "in_stock": "Auf Lager",
+        "preorder": "Vorbestellung",
+        "ready_to_ship_on": "Wird nach dem {{ date }} versendet",
+        "sold_out": "Ausverkauft",
+        "unavailable": "Nicht verfügbar"
+    },
     "language": "Sprache",
     "last_name": "Nachname",
     "latest_posts": "Neueste Artikel",
@@ -125,11 +157,13 @@
     "log_in": "Einloggen",
     "log_out": "Ausloggen",
     "login": "Login",
-    "map.address_error": "Kann die Adresse nicht finden",
-    "map.address_no_results": "Keine Ergebnisse für diese Adresse",
-    "map.address_query_limit_html": "Sie haben die Google- API-Nutzungsgrenze überschritten. Betrachten wir zu einem <a href=\"https://developers.google.com/maps/premium/usage-limits\">Premium-Paket</a> zu aktualisieren.",
-    "map.auth_error_html": "Es gab ein Problem bei Google Maps Konto zu authentifizieren. Erstellen und die <a href=\"https://developers.google.com/maps/documentation/javascript/get-api-key\">JavaScript- API</a> und <a href=\"https://developers.google.com/maps/documentation/geocoding/get-api-key\">Geocoding API</a> -Berechtigungen der App aktivieren.",
-    "map.get_directions": "Richtungen",
+    "map": {
+        "address_error": "Kann die Adresse nicht finden",
+        "address_no_results": "Keine Ergebnisse für diese Adresse",
+        "address_query_limit_html": "Sie haben die Google- API-Nutzungsgrenze überschritten. Betrachten wir zu einem <a href=\"https://developers.google.com/maps/premium/usage-limits\">Premium-Paket</a> zu aktualisieren.",
+        "auth_error_html": "Es gab ein Problem bei Google Maps Konto zu authentifizieren. Erstellen und die <a href=\"https://developers.google.com/maps/documentation/javascript/get-api-key\">JavaScript- API</a> und <a href=\"https://developers.google.com/maps/documentation/geocoding/get-api-key\">Geocoding API</a> -Berechtigungen der App aktivieren.",
+        "get_directions": "Richtungen"
+    },
     "message": "Nachricht",
     "more_from": "Mehr von",
     "more_from_html": "Mehr von {{ link }}",
@@ -150,17 +184,21 @@
     "phone": "Telefon",
     "phone_number": "Telefonnummer",
     "pin_it": "Pinnen",
-    "placeholder.example_collection": "Beispielhafter Zusammenstellungstitel",
-    "placeholder.example_product": "Beispielhafter Produkttitel",
-    "placeholder.no_content": "Dieser Bereich hat zur Zeit keinen Inhalt. Füge diesem Bereich über die Seitenleiste Inhalte hinzu.",
-    "placeholder.product_description": "Diesen Abschnitt können Sie nutzen, um die Details Ihres Produkts zu beschreiben. Erzählen Sie den Kunden, wie Ihr Produkt aussieht, sich anfühlt und designt ist. Fügen Sie Einzelheiten zu Farbe, verwendeten Materialien, Größe und Produktionsort hinzu.",
+    "placeholder": {
+        "example_collection": "Beispielhafter Zusammenstellungstitel",
+        "example_product": "Beispielhafter Produkttitel",
+        "no_content": "Dieser Bereich hat zur Zeit keinen Inhalt. Füge diesem Bereich über die Seitenleiste Inhalte hinzu.",
+        "product_description": "Diesen Abschnitt können Sie nutzen, um die Details Ihres Produkts zu beschreiben. Erzählen Sie den Kunden, wie Ihr Produkt aussieht, sich anfühlt und designt ist. Fügen Sie Einzelheiten zu Farbe, verwendeten Materialien, Größe und Produktionsort hinzu."
+    },
     "popular_posts": "Populäre Artikel",
     "previous": "Zurück",
     "price": "Preis",
     "print": "Drucken",
     "product": "Artikel",
-    "product_count.plural": "{{ count }} Produkte",
-    "product_count.singular": "{{ count }} Produkt",
+    "product_count": {
+        "plural": "{{ count }} Produkte",
+        "singular": "{{ count }} Produkt"
+    },
     "products": "Produkte",
     "province": "Bundesland",
     "quantity": "Menge",
@@ -179,12 +217,16 @@
     "sale": "Reduziert",
     "sale_price": "Sonderpreis",
     "save_amount": "Sparen {{ saved_amount }}",
-    "search.no_results_html": "Suche nach \"{{ terms }}\"",
-    "search.result_count.one": "{{ count }} Ergebnis",
-    "search.result_count.other": "{{ count }} Ergebnisse",
-    "search.results_for_html": "Ihre Suche nach \"{{ terms }}\" hat folgende Ergebnisse hervorgebracht:",
-    "search.show_all_results": "Alle Ergebnisse für \"{{ terms }}\" anzeigen",
-    "search.title": "Suche",
+    "search": {
+        "no_results_html": "Suche nach \"{{ terms }}\"",
+        "result_count": {
+            "one": "{{ count }} Ergebnis",
+            "other": "{{ count }} Ergebnisse"
+        },
+        "results_for_html": "Ihre Suche nach \"{{ terms }}\" hat folgende Ergebnisse hervorgebracht:",
+        "show_all_results": "Alle Ergebnisse für \"{{ terms }}\" anzeigen",
+        "title": "Suche"
+    },
     "send": "Absenden",
     "set_default_address": "Als Standard-Adresse festlegen",
     "share": "Teilen",
@@ -197,16 +239,22 @@
     "show_more": "Zeig mehr",
     "sign_in": "Anmelden",
     "site_navigation": "Seitennavigation",
-    "size.large": "groß",
-    "size.small": "Klein",
+    "size": {
+        "large": "groß",
+        "small": "Klein"
+    },
     "size_chart": "Größentabelle",
     "skip_to_content": "Direkt zum Inhalt",
     "sku": "SKU",
-    "slideshow.pause": "Pause Diashow",
-    "slideshow.play": "Diashow abspielen",
-    "social.pin_on_pinterest": "Auf Pinterest pinnen",
-    "social.share_on_facebook": "Auf Facebook teilen",
-    "social.share_on_x": "Auf Twitter twittern",
+    "slideshow": {
+        "pause": "Pause Diashow",
+        "play": "Diashow abspielen"
+    },
+    "social": {
+        "pin_on_pinterest": "Auf Pinterest pinnen",
+        "share_on_facebook": "Auf Facebook teilen",
+        "share_on_x": "Auf Twitter twittern"
+    },
     "sort": "Sortieren",
     "submit": "Absenden",
     "subtotal": "Zwischensumme",
@@ -215,13 +263,17 @@
     "tags": "Tags",
     "tax": "Steuern",
     "tax_included": "inkl. MwSt.",
-    "terms.i_agree": "Ich stimme den Nutzungsbedingungen zu",
-    "terms.i_agree_html": "Ich stimme den <a href='{{ url }}' target='_blank'>Nutzungsbedingungen</a> zu",
-    "terms.you_must_agree": "Sie müssen den Verkaufsbedingungen zustimmen, um auszuchecken",
+    "terms": {
+        "i_agree": "Ich stimme den Nutzungsbedingungen zu",
+        "i_agree_html": "Ich stimme den <a href='{{ url }}' target='_blank'>Nutzungsbedingungen</a> zu",
+        "you_must_agree": "Sie müssen den Verkaufsbedingungen zustimmen, um auszuchecken"
+    },
     "top_searched": "Top gesucht",
     "total": "Gesamt",
-    "trigger.color_swatch": "Farbe",
-    "trigger.size": "Größe",
+    "trigger": {
+        "color_swatch": "Farbe",
+        "size": "Größe"
+    },
     "update_address": "Adresse aktualisieren",
     "view_addresses": "Adressen ansehen",
     "view_all": "Alle anzeigen",
