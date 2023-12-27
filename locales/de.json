@@ -48,8 +48,8 @@
     "collections": "Kollektionen",
     "comments": {
         "count": {
-            "plural": "{{ count }} Kommentare",
-            "singular": "{{ count }} Kommentar"
+            "other": "{{ count }} Kommentare",
+            "one": "{{ count }} Kommentar"
         },
         "leave_a_comment": "Hinterlassen Sie einen Kommentar",
         "must_be_approved": "Bitte beachten Sie, dass Kommentare vor der Veröffentlichung freigegeben werden müssen",
@@ -193,8 +193,8 @@
     "print": "Drucken",
     "product": "Artikel",
     "product_count": {
-        "plural": "{{ count }} Produkte",
-        "singular": "{{ count }} Produkt"
+        "other": "{{ count }} Produkte",
+        "one": "{{ count }} Produkt"
     },
     "products": "Produkte",
     "province": "Bundesland",

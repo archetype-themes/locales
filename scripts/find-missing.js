@@ -12,27 +12,34 @@ function readJsonFile(filePath) {
 }
 
 function findKeyMappings(fileA, fileB) {
-    const mappings = {};
-    const missingMappings = [];
+  const mappings = {};
+  const missingMappings = [];
 
-    function findMapping(keyPath, obj) {
-        for (let key in obj) {
-            const newKeyPath = keyPath ? `${keyPath}.${key}` : key;
-            if (typeof obj[key] === 'object') {
-                findMapping(newKeyPath, obj[key]);
-            } else {
-                const matchingKeyA = Object.keys(fileA).find(k => fileA[k].toLowerCase() === obj[key].toLowerCase());
-                if (matchingKeyA) {
-                    mappings[newKeyPath] = matchingKeyA;
-                } else {
-                    missingMappings.push(newKeyPath);
-                }
-            }
-        }
-    }
+  function flattenObject(obj, prefix = '') {
+      return Object.keys(obj).reduce((acc, k) => {
+          const pre = prefix.length ? prefix + '.' : '';
+          if (typeof obj[k] === 'object' && obj[k] !== null) {
+              Object.assign(acc, flattenObject(obj[k], pre + k));
+          } else {
+              acc[pre + k] = obj[k];
+          }
+          return acc;
+      }, {});
+  }
 
-    findMapping('', fileB);
-    return { mappings, missingMappings };
+  const flatFileA = flattenObject(fileA);
+  const flatFileB = flattenObject(fileB);
+
+  for (let keyB in flatFileB) {
+      const matchingKeyA = Object.keys(flatFileA).find(k => flatFileA[k].toLowerCase() === flatFileB[keyB].toLowerCase());
+      if (matchingKeyA) {
+          mappings[keyB] = matchingKeyA;
+      } else {
+          missingMappings.push(keyB);
+      }
+  }
+
+  return { mappings, missingMappings };
 }
 
 function searchAndReplaceInLiquidFiles(directoryPattern, mappings) {
@@ -66,4 +73,4 @@ const { mappings, missingMappings } = findKeyMappings(fileA, fileB);
 
 console.log('Missing mappings:', missingMappings);
 
-searchAndReplaceInLiquidFiles(liquidFilesPattern, mappings);
+// searchAndReplaceInLiquidFiles(liquidFilesPattern, mappings);

@@ -197,6 +197,10 @@
     "price": "Price",
     "print": "Print",
     "product": "Product",
+    "product_count": {
+      "one": "{{ count }} product",
+      "other": "{{ count }} products"
+    },
     "products": "Products",
     "province": "Province",
     "quantity": "Quantity",

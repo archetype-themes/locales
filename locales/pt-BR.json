@@ -49,8 +49,8 @@
     "collections": "Colecções:",
     "comments": {
         "count": {
-            "plural": "{{ count }} comentários",
-            "singular": "{{ count }} comentário"
+            "other": "{{ count }} comentários",
+            "one": "{{ count }} comentário"
         },
         "leave_a_comment": "Deixe um comentário",
         "must_be_approved": "Observe que os comentários precisam ser aprovados antes de serem publicados",
@@ -187,8 +187,8 @@
     "print": "Imprimir",
     "product": "Produto",
     "product_count": {
-        "plural": "{{ count }} produtos",
-        "singular": "{{ count }} produto"
+        "other": "{{ count }} produtos",
+        "one": "{{ count }} produto"
     },
     "province": "Estado",
     "quantity": "Quantidade",
