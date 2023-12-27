@@ -1,6 +1,8 @@
 // Utility script used to update a locale key from an old path to a new path across all files
 // and then update any matching liquid files with that new path
 //
+// Useful for re-organizing locale keys in this repo
+//
 // node ./scripts/move-replace.js '../components/components/**/*.liquid' some.old.path some.new.path
 //
 

@@ -1,7 +1,9 @@
-// Utility script to compare locale files for matching values and update liquid files with new locale keys
+// Utility script to compare locales files across this repo + theme project for matching values 
+// and then update liquid files in theme project with locale repo keys
+//
 // Useful for updating your theme project to use locale keys from this project.
 // 
-// node ./scripts/find-and-replace.js fileA fileB directoryPattern ignorePattern
+// node ./scripts/find-and-replace.js localesRepoFile themeLocalesFile directoryPattern ignorePattern
 // 
 // Example:
 // node ./scripts/find-and-replace.js ./locales/en.default.json ../expanse/locales/en.default.json ../expanse/**/*.liquid ../expanse/snippets/*.liquid

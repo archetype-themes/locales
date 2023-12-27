@@ -1,3 +1,5 @@
+// Compares two JSON files and logs if they have any differences in keys
+//
 // node ./scripts/compare-json.js path/to/fileA.json path/to/fileB.json
 
 const fs = require('fs');
