@@ -134,6 +134,10 @@
         "back_in_stock_on": "Em estoque a partir de {{ date }}",
         "backordered": "Inventory no caminho",
         "in_stock": "Em estoque",
+        "low_stock": {
+            "one": "{{ count }} em estoque",
+            "other": "{{ count }} em estoque"
+        },
         "preorder": "Pedido antecipado",
         "ready_to_ship_on": "Envio a partir de {{ date }}",
         "sold_out": "Esgotado",

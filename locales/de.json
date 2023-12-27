@@ -141,6 +141,10 @@
         "back_in_stock_on": "Wird nach dem {{ date }} auf Lager sein",
         "backordered": "Nachbestellt, bald verfügbar",
         "in_stock": "Auf Lager",
+        "low_stock": {
+            "one": "{{ count }} auf Lager",
+            "other": "{{ count }} auf Lager"
+        },
         "preorder": "Vorbestellung",
         "ready_to_ship_on": "Wird nach dem {{ date }} versendet",
         "sold_out": "Ausverkauft",

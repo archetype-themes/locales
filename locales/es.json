@@ -141,6 +141,10 @@
         "back_in_stock_on": "Estará disponible después {{ date }}",
         "backordered": "Pedido pendiente, envío pronto",
         "in_stock": "En stock",
+        "low_stock": {
+            "one": "{{ count }} en stock",
+            "other": "{{ count }} en stock"
+        },
         "preorder": "Hacer un pedido",
         "ready_to_ship_on": "Será enviado después {{ date }}",
         "sold_out": "Agotado",
