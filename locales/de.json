@@ -29,6 +29,7 @@
     "cart": {
         "close": "Einkaufswagen schließen",
         "empty": "Ihr Einkaufswagen ist im Moment leer.",
+        "max_quantity": "Sie können nur {{ quantity }} von {{ title }} in Ihrem Warenkorb haben.",
         "shipping_at_checkout": "Rabattcodes, Versandkosten und Steuern werden bei der Bezahlung berechnet.",
         "title": "Einkaufswagen",
         "update": "Einkaufswagen aktualisieren"
