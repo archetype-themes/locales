@@ -29,9 +29,6 @@
     "cart": {
         "close": "Fechar Carrinho de Compras",
         "empty": "O seu carrinho de compras está neste momento vazio.",
-        "general": {
-            "title": "Carrinho de Compras"
-        },
         "max_quantity": "Solo puedes tener {{ quantity }} de {{ title }} en tu carrito.",
         "shipping_at_checkout": "Códigos de desconto, custos de envio e impostos adicionados na finalização de compra.",
         "title": "Carrinho de Compras",

@@ -29,9 +29,6 @@
     "cart": {
         "close": "Cerrar carrito",
         "empty": "Su carrito actualmente está vacío.",
-        "general": {
-            "title": "Carrito de compra"
-        },
         "max_quantity": "Solo puedes tener {{ quantity }} de {{ title }} en tu carrito.",
         "shipping_at_checkout": "Los códigos de descuento, los costes de envío y los impuestos se añaden durante el pago.",
         "title": "Carrito",

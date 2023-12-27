@@ -29,9 +29,6 @@
     "cart": {
         "close": "Chiudi il carrello",
         "empty": "Il tuo carrello è attualmente vuoto.",
-        "general": {
-            "title": "Carrello"
-        },
         "max_quantity": "Puoi solo avere {{ quantity }} di {{ title }} nel tuo carrello.",
         "shipping_at_checkout": "Spedizione, tasse e codici sconto calcolati alla cassa.",
         "title": "Carrello",

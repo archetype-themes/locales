@@ -29,9 +29,6 @@
     "cart": {
         "close": "Close cart",
         "empty": "Your cart is currently empty.",
-        "general": {
-            "title": "Cart"
-        },
         "max_quantity": "You can only have {{ quantity }} of {{ title }} in your cart.",
         "shipping_at_checkout": "Shipping, taxes, and discount codes calculated at checkout.",
         "title": "Cart",

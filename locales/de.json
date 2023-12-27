@@ -29,9 +29,6 @@
     "cart": {
         "close": "Einkaufswagen schließen",
         "empty": "Ihr Einkaufswagen ist im Moment leer.",
-        "general": {
-            "title": "Einkaufswagen"
-        },
         "shipping_at_checkout": "Rabattcodes, Versandkosten und Steuern werden bei der Bezahlung berechnet.",
         "title": "Einkaufswagen",
         "update": "Einkaufswagen aktualisieren"

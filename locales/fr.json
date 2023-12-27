@@ -29,9 +29,6 @@
     "cart": {
         "close": "Fermer le panier",
         "empty": "Votre panier est vide.",
-        "general": {
-            "title": "Panier"
-        },
         "max_quantity": "Vous ne pouvez avoir que {{ quantity }} de {{ title }} dans votre panier.",
         "shipping_at_checkout": "Les codes promo, les frais d'envoi et les taxes seront ajoutés à la caisse.",
         "title": "Panier",
