@@ -63,22 +63,31 @@ async function translateText(text, targetLanguage, keyPath) {
   }
 }
 
-function compareObjects(obj1, obj2) {
+function compareNestedObjects(obj1, obj2, parentKey = '') {
   let addedKeys = [];
   let removedKeys = [];
   let changedKeys = [];
 
   Object.keys(obj1).forEach(key => {
+      const fullKey = parentKey ? `${parentKey}.${key}` : key;
+
       if (!obj2.hasOwnProperty(key)) {
-          removedKeys.push(key);
+          removedKeys.push(fullKey);
+      } else if (typeof obj1[key] === 'object' && obj1[key] !== null && typeof obj2[key] === 'object' && obj2[key] !== null) {
+          const { added, removed, changed } = compareNestedObjects(obj1[key], obj2[key], fullKey);
+          addedKeys = addedKeys.concat(added);
+          removedKeys = removedKeys.concat(removed);
+          changedKeys = changedKeys.concat(changed);
       } else if (obj1[key] !== obj2[key]) {
-          changedKeys.push(key);
+          changedKeys.push(fullKey);
       }
   });
 
   Object.keys(obj2).forEach(key => {
+      const fullKey = parentKey ? `${parentKey}.${key}` : key;
+
       if (!obj1.hasOwnProperty(key)) {
-          addedKeys.push(key);
+          addedKeys.push(fullKey);
       }
   });
 
@@ -99,7 +108,7 @@ async function updateAllLocaleFiles() {
 
   const currentFileContent = JSON.parse(fs.readFileSync(currentFilePath, 'utf8'));
   const previousFileContent = JSON.parse(fs.readFileSync(previousFilePath, 'utf8'));
-  const changes = compareObjects(previousFileContent, currentFileContent);
+  const changes = compareNestedObjects(previousFileContent, currentFileContent);
 
   for (const localePath of otherLocalePaths) {
       const language = localePath.split('/').pop().split('.')[0]
@@ -112,24 +121,34 @@ async function updateLocaleFile(localePath, changes, targetLanguage, currentFile
   let localeData = JSON.parse(fs.readFileSync(localePath, 'utf8'));
 
   // Process new translations
-for (const keyPath of changes.added) {
-  if (typeof localeData[keyPath] === 'undefined') {
-      let originalText = currentFileContent[keyPath];
-      let translatedText = await translateText(originalText, targetLanguage, keyPath);
+  for (const keyPath of changes.added) {
+      let keyParts = keyPath.split('.');
+      let lastKey = keyParts.pop();
+      let lastObj = keyParts.reduce((obj, key) => obj[key] = obj[key] || {}, localeData);
 
-      localeData[keyPath] = translatedText;
-  } else {
-      console.log(`"${keyPath}": Skip translating to: '${targetLanguage}' because a translation was already provided`);
+      // Only translate a new locale if a value has not already been set. 
+      // This allows contributors to manually add translations if they know the other language
+      if (typeof lastObj[lastKey] === 'undefined') {
+        let originalText = keyParts.reduce((obj, key) => obj[key], currentFileContent)[lastKey];
+        let translatedText = await translateText(originalText, targetLanguage, keyPath);
+
+        lastObj[lastKey] = translatedText;
+      } else {
+        console.log (`"${keyPath}": Skip translating to: '${targetLanguage}' because a translation was already provided`)
+      }   
   }
-}
 
-// Process changed translations
-for (const keyPath of changes.changed) {
-  let originalText = currentFileContent[keyPath];
-  let translatedText = await translateText(originalText, targetLanguage, keyPath);
+  // Process changed translations
+  for (const keyPath of changes.changed) {
+    let keyParts = keyPath.split('.');
+    let lastKey = keyParts.pop();
+    let lastObj = keyParts.reduce((obj, key) => obj[key] = obj[key] || {}, localeData);
 
-  localeData[keyPath] = translatedText;
-}
+    let originalText = keyParts.reduce((obj, key) => obj[key], currentFileContent)[lastKey];
+    let translatedText = await translateText(originalText, targetLanguage, keyPath);
+
+    lastObj[lastKey] = translatedText;
+  }
 
   removeKeysFromLocale(localeData, changes.removed);
 
