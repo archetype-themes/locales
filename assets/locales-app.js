@@ -160,21 +160,21 @@ export class LocalesApp extends LitElement {
     const locales = {};
 
     await Promise.all(this.storefrontLocaleCodes.map(async (code) => {
-      if (this.repo === 'archetype-themes/locales') {
-        const url = `locales/${code}.json`
-        const resp = await fetch(url)
-        locales[code] = dotNotate(await resp.json())
-      } else {
-        let filename = code;
-        if (this.defaultCode === code) {
-          filename += '.default'
-        }
-        filename += '.json';
-
-        const url = `https://raw.githubusercontent.com/${this.repo}/main/locales/${filename}`
-        const resp = await fetch(url)
-        locales[code] = dotNotate(await resp.json())
+      let filename = code;
+      let url;
+      
+      if (this.defaultCode === code) {
+        filename += '.default'
       }
+
+      filename += '.json';
+      
+     let url = this.repo === 'archetype-themes/locales' ?
+        `locales/${filename}` :
+        `https://raw.githubusercontent.com/${this.repo}/main/locales/${filename}`
+
+      const resp = await fetch(url)
+      locales[code] = dotNotate(await resp.json())
     }))
     return locales
   }
