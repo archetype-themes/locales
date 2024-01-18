@@ -6,7 +6,7 @@ Introducing the Archetype Themes Ecommerce Locales Library, your (open) source f
 
 ### How to use
 
-Using these translations in your next Shopify theme project is as easy as:
+Using these [locales files](https://shopify.dev/docs/themes/architecture/locales) in your next Shopify theme project is as easy as:
 
 1. **Copy the JSON files, in their entirety, into your latest theme project.** There is no penalty to having extra translations included in your theme (just a [limit of 3400](https://shopify.dev/docs/themes/architecture/locales#requirements-and-limitations)).
 2. **Use the [Locales Detective](https://archetype-themes.github.io/locales/) to find a translation you need.** You can search this repo or [shopify/dawn](https://github.com/Shopify/dawn) and you can select your search input language.
