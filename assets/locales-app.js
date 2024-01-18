@@ -161,7 +161,6 @@ export class LocalesApp extends LitElement {
 
     await Promise.all(this.storefrontLocaleCodes.map(async (code) => {
       let filename = code;
-      let url;
       
       if (this.defaultCode === code) {
         filename += '.default'
@@ -169,7 +168,7 @@ export class LocalesApp extends LitElement {
 
       filename += '.json';
       
-     let url = this.repo === 'archetype-themes/locales' ?
+      let url = this.repo === 'archetype-themes/locales' ?
         `locales/${filename}` :
         `https://raw.githubusercontent.com/${this.repo}/main/locales/${filename}`
 
