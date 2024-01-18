@@ -23,9 +23,28 @@ function sortObjectKeys(obj) {
   return sortedObject;
 }
 
+function removeEmpty(obj) {
+  Object.keys(obj).forEach(key => {
+      // If the value is an object, recursively call the function
+      if (typeof obj[key] === 'object' && obj[key] !== null) {
+          removeEmpty(obj[key]);
+
+          // If the nested object is now empty after the recursive call, delete it
+          if (Object.keys(obj[key]).length === 0) {
+              delete obj[key];
+          }
+      } else if (obj[key] === null || obj[key] === '' || obj[key] === undefined) {
+          // If the value is null, empty string, or undefined, delete the key
+          delete obj[key];
+      }
+  });
+
+  return obj;
+}
+
 const files = glob.sync('./locales/*.json');
 
 files.forEach(file => {
   const data = JSON.parse(fs.readFileSync(file, 'utf8'));
-  fs.writeFileSync(file, JSON.stringify(sortObjectKeys(data), null, 4));
+  fs.writeFileSync(file, JSON.stringify(removeEmpty(sortObjectKeys(data)), null, 4));
 });

@@ -62,14 +62,16 @@ function unsetKeyPath(obj, keyPath) {
     delete current[keys[keys.length - 1]];
 }
 
-function findSimilarKeys(obj, valueToMatch, prefix = '') {
+function findSimilarKeys(obj, keyPath, prefix = '') {
     let keys = [];
-    for (let key in obj) {
-        const fullPath = prefix ? `${prefix}.${key}` : key;
-        if (typeof obj[key] === 'object' && obj[key] !== null) {
-            keys = [...keys, ...findSimilarKeys(obj[key], valueToMatch, fullPath)];
-        } else if (obj[key] === valueToMatch) {
+    const nestedObj = getKeyPathValue(obj, keyPath);
+    if (typeof nestedObj === 'object' && nestedObj !== null) {
+        for (let key in nestedObj) {
+            const fullPath = `${keyPath}.${key}`;
             keys.push(fullPath);
+            if (typeof nestedObj[key] === 'object' && nestedObj[key] !== null) {
+                keys = [...keys, ...findSimilarKeys(nestedObj[key], fullPath, fullPath)];
+            }
         }
     }
     return keys;
@@ -81,12 +83,20 @@ function modifyJsonFiles(oldPath, newPath, similarKeys) {
     files.forEach(file => {
         const data = JSON.parse(fs.readFileSync(file, 'utf8'));
         const originalValue = getKeyPathValue(data, oldPath);
-        similarKeys.forEach(key => {
-            if (key !== newPath) {
-                unsetKeyPath(data, key);
-            }
-        });
-        setKeyPathValue(data, newPath, originalValue);
+
+        if (similarKeys.length === 1) {
+            setKeyPathValue(data, newPath, originalValue);
+            unsetKeyPath(data, oldPath);
+        } else {
+            similarKeys.forEach(key => {
+                const updatedKey = key.replace(oldPath, newPath);
+                if (updatedKey !== newPath) {
+                    setKeyPathValue(data, updatedKey, getKeyPathValue(data, key));
+                    unsetKeyPath(data, key);
+                }
+            });
+        }
+        
         fs.writeFileSync(file, JSON.stringify(sortObjectKeys(data), null, 4));
     });
 }
@@ -95,21 +105,22 @@ function onlyUnique(value, index, array) {
   return array.indexOf(value) === index;
 }
 
-function updateLiquidFiles(liquidFilesPattern, similarKeys, newPath) {
+function updateLiquidFiles(liquidFilesPattern, similarKeys, oldPath, newPath) {
   const files = glob.sync(liquidFilesPattern);
   console.log(`Found ${files.length} .liquid files to process.`);
 
   files.forEach(file => {
       let content = fs.readFileSync(file, 'utf8');
       let modified = false;
-      similarKeys.filter(onlyUnique).forEach(oldPath => {
+      similarKeys.filter(onlyUnique).forEach(key => {
           // Regex pattern to match {{ 'old.path' | t: }} pattern
-          const regex = new RegExp(`'${oldPath.replace(/\./g, '\\.')}'`, 'g');
+          const regex = new RegExp(`'${key.replace(/\./g, '\\.')}'`, 'g');
+          const updatedKey = key.replace(oldPath, newPath);
 
           // Check if the current file contains the old path
           if (regex.test(content)) {
-              console.log(`Updating key '${oldPath}' to '${newPath}' in ${file}`);
-              content = content.replace(regex, `'${newPath}'`);
+              console.log(`Updating key '${key}' to '${updatedKey}' in ${file}`);
+              content = content.replace(regex, `'${updatedKey}'`);
               modified = true;
           }
       });
@@ -126,11 +137,9 @@ function updateLiquidFiles(liquidFilesPattern, similarKeys, newPath) {
 const [liquidFilesPattern, oldPath, newPath] = process.argv.slice(2);
 
 const enDefaultData = JSON.parse(fs.readFileSync('./locales/en.default.json', 'utf8'));
-const valueToMatch = getKeyPathValue(enDefaultData, oldPath);
-const similarKeys = findSimilarKeys(enDefaultData, valueToMatch);
-
-console.log(similarKeys)
+const similarKeys = findSimilarKeys(enDefaultData, oldPath);
 
 similarKeys.push(oldPath); // Include the original oldPath in similarKeys for replacement
+console.log(similarKeys)
 modifyJsonFiles(oldPath, newPath, similarKeys);
-updateLiquidFiles(liquidFilesPattern, similarKeys, newPath); 
+updateLiquidFiles(liquidFilesPattern, similarKeys, oldPath, newPath);
