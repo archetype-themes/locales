@@ -18,4 +18,4 @@ As a bonus, the copy button can even handle translations with [interpolations](h
 
 Don't have translations for every language? No problem! Thanks to Github Actions + Microsoft Azure AI Translator, a followup pull request containing any missing translations you contribute will be automatically created. Yes, the AI translations even respect interpolated value placeholders and HTML, leaving them unmodified!
 
-Check out the [CONTRIBUTING.md](/archetype-themes/locales/blob/main/CONTRIBUTING.md) for more details
+Check out the [CONTRIBUTING.md](/CONTRIBUTING.md) for more details
