@@ -13,3 +13,9 @@ Using these [locales files](https://shopify.dev/docs/themes/architecture/locales
 3. **Use the copy button to copy the Liquid** (e.g. `{{ add_to_cart | t }}`) to your clipboard and paste into your theme!
 
 As a bonus, the copy button can even handle translations with [interpolations](https://shopify.dev/docs/themes/architecture/locales/storefront-locale-files#interpolation). So a translation like `"You save {{ saved_amount }}"` will generate Liquid like `{{ 'you_save_amount' | t: saved_amount: "[saved_amount]" }}`! 
+
+### Contributing
+
+Don't have translations for every language? No problem! Thanks to Github Actions + Microsoft Azure AI Translator, a followup pull request containing any missing translations you contribute will be automatically created. Yes, the AI translations even respect interpolated value placeholders and HTML, leaving them unmodified!
+
+Check out the [CONTRIBUTING.md](/archetype-themes/locales/blob/main/CONTRIBUTING.md) for more details
