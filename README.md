@@ -1,7 +1,6 @@
 # Ecommerce Locales Library
 
-![Export-1705940777601](https://github.com/archetype-themes/locales/assets/4837696/cc952903-07ee-4974-b5b0-a221e928205d)
-
+![Export-1705940990576](https://github.com/archetype-themes/locales/assets/4837696/4ad28bdd-6ea9-4a88-8ec8-18733a8b1486)
 
 Ecommerce websites, like those powered by [Shopify themes](https://shopify.dev/docs/themes), contain strings of text like "Add to cart" or "Continue shopping". If you want your website to be accessible in multiple languages, those strings need to be translated. Why should you do the work of translating strings that have already been translated!?
 
