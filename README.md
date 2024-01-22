@@ -1,4 +1,4 @@
-# Ecommerce Locales Library
+# Archetype Ecommerce Locales
 
 ![Export-1705940990576](https://github.com/archetype-themes/locales/assets/4837696/4ad28bdd-6ea9-4a88-8ec8-18733a8b1486)
 
