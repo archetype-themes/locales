@@ -2,6 +2,8 @@
 
 ![Export-1705940990576](https://github.com/archetype-themes/locales/assets/4837696/4ad28bdd-6ea9-4a88-8ec8-18733a8b1486)
 
+[Watch the video introduction](https://youtu.be/Q4Nx2KgUd0s)
+
 Ecommerce websites, like those powered by [Shopify themes](https://shopify.dev/docs/themes), contain strings of text like "Add to cart" or "Continue shopping". If you want your website to be accessible in multiple languages, those strings need to be translated. Why should you do the work of translating strings that have already been translated!?
 
 Introducing the Archetype Themes Ecommerce Locales Library, your (open) source for all of your e-commerce translations! Instead of translating the same strings over and over again in private silos, let's pool translations into one place so that everyone wins!
