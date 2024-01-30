@@ -151,6 +151,7 @@
         "search_results_for_html": "Sua busca por \"{{ terms }}\" encontrou os itens a seguir:",
         "section_no_content": "Atualmente, esta seção não inclui nenhum conteúdo. Adicione conteúdo nesta seção usando a barra lateral.",
         "shipping_at_checkout": "Os códigos de desconto, o frete e os impostos são adicionados no encerramento.",
+        "shipping_at_checkout_taxes_included": "Taxas incluídas. Códigos de frete e desconto calculados no checkout.",
         "shipping_policy_html": "<a href='{{ link }}'>Frete</a> calculado no checkout.",
         "signup_success": "Nós lhe enviaremos um e-mail logo antes de abrirmos!",
         "sold_out": "Esgotado",

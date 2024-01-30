@@ -151,6 +151,7 @@
         "search_results_for_html": "Su búsqueda de \"{{ terms }}\" muestra lo siguiente:",
         "section_no_content": "Esta secção não inclui de momento qualquer conteúdo. Adicione conteúdo a esta secção através da barra lateral.",
         "shipping_at_checkout": "Los códigos de descuento, los costes de envío y los impuestos se añaden durante el pago.",
+        "shipping_at_checkout_taxes_included": "Impuestos incluidos. Envío y códigos de descuento calculados al finalizar la compra.",
         "shipping_policy_html": "Los <a href='{{ link }}'>gastos de envío</a> se calculan en la pantalla de pagos.",
         "signup_success": "¡Te enviaremos un correo electrónico antes de inaugurar!",
         "sold_out": "Agotado",

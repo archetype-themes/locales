@@ -151,6 +151,7 @@
         "search_results_for_html": "Ihre Suche nach \"{{ terms }}\" hat folgende Ergebnisse hervorgebracht:",
         "section_no_content": "Dieser Bereich hat zur Zeit keinen Inhalt. Füge diesem Bereich über die Seitenleiste Inhalte hinzu.",
         "shipping_at_checkout": "Rabattcodes, Versandkosten und Steuern werden bei der Bezahlung berechnet.",
+        "shipping_at_checkout_taxes_included": "Steuern inbegriffen. Rabattcodes und Steuern werden bei der Bezahlung berechnet.",
         "shipping_policy_html": "zzgl. <a href='{{ link }}'>Versandkosten</a>",
         "signup_success": "Wir senden Ihnen eine E-Mail, kurz bevor wir eröffnen!",
         "sold_out": "Ausverkauft",
