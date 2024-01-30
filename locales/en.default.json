@@ -151,6 +151,7 @@
         "search_results_for_html": "Your search for \"{{ terms }}\" revealed the following:",
         "section_no_content": "This section doesn’t currently include any content. Add content to this section using the sidebar.",
         "shipping_at_checkout": "Shipping, taxes, and discount codes calculated at checkout.",
+        "shipping_at_checkout_taxes_included": "Taxes included. Shipping and discount codes calculated at checkout.",
         "shipping_policy_html": "<a href='{{ link }}'>Shipping</a> calculated at checkout.",
         "signup_success": "We will send you an email when we open!",
         "sold_out": "Sold Out",

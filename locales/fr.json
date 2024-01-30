@@ -151,6 +151,7 @@
         "search_results_for_html": "Votre recherche pour \"{{ terms }}\" a généré les résultats suivants:",
         "section_no_content": "Cette section ne contient actuellement aucun contenu. Ajoutez-en en utilisant la barre latérale.",
         "shipping_at_checkout": "Les codes promo, les frais d'envoi et les taxes seront ajoutés à la caisse.",
+        "shipping_at_checkout_taxes_included": "Taxes incluses. Expédition et codes de réduction calculés à la caisse.",
         "shipping_policy_html": "<a href='{{ link }}'>Frais d'expédition</a> calculés lors du passage à la caisse.",
         "signup_success": "Nous vous ferons parvenir un courriel juste avant l'ouverture!",
         "sold_out": "Épuisé",

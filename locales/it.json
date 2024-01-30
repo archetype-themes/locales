@@ -151,6 +151,7 @@
         "search_results_for_html": "La tua ricerca di \"{{ terms }}\" ha rivelato quanto segue:",
         "section_no_content": "Questa sezione non include attualmente alcun contenuto. Aggiungi contenuti a questa sezione utilizzando la barra laterale.",
         "shipping_at_checkout": "Spedizione, tasse e codici sconto calcolati alla cassa.",
+        "shipping_at_checkout_taxes_included": "Tasse incluse. Spedizione e codici sconto calcolati al momento del pagamento.",
         "shipping_policy_html": "<a href='{{ link }}'>Spedizione</a> calcolata alla cassa.",
         "signup_success": "Ti invieremo un'email quando apriremo!",
         "sold_out": "Esaurito",
