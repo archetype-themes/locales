@@ -1,3 +1,12 @@
+// Utility script to compare locales files across this repo + theme project for matching values 
+// and then update liquid files in theme project with locale repo keys
+//
+// Useful for updating your theme project to use locale keys from this project.
+//
+// node scripts/update-to-new-locales.js ../fetch/locales/en.default.schema.json locales/en.default.schema.json ../fetch
+//
+
+
 const fs = require('fs');
 const path = require('path');
 
@@ -13,6 +22,44 @@ function flattenObject(obj, prefix = '') {
     }, {});
 }
 
+function findMissingValues(oldObj, newObj) {
+    const flatOldObj = flattenObject(oldObj);
+    const flatNewObj = flattenObject(newObj);
+    const missingValues = [];
+
+    // Collect values from the new JSON for comparison
+    const newValues = new Set(Object.values(flatNewObj));
+
+    for (const [keyOld, valueOld] of Object.entries(flatOldObj)) {
+        if (!newValues.has(valueOld)) {
+            missingValues.push(keyOld);
+        }
+    }
+    return missingValues;
+}
+
+function checkKeysInFiles(missingKeys, directory) {
+    const files = fs.readdirSync(directory, { withFileTypes: true });
+    const usedKeys = new Set();
+
+    files.forEach(file => {
+        if (file.isFile()) {
+            const filePath = path.join(directory, file.name);
+            const fileContent = fs.readFileSync(filePath, 'utf8');
+            missingKeys.forEach(key => {
+                const keyWithPrefix = `t:${key}`;
+                if (fileContent.includes(keyWithPrefix)) {
+                    usedKeys.add(key);
+                }
+            });
+        } else if (file.isDirectory()) {
+            const subdirUsedKeys = checkKeysInFiles(missingKeys, path.join(directory, file.name));
+            subdirUsedKeys.forEach(key => usedKeys.add(key));
+        }
+    });
+
+    return usedKeys;
+}
 
 function createValueMapping(oldObj, newObj) {
     const flatOldObj = flattenObject(oldObj);
@@ -120,6 +167,53 @@ function updateFilesInDirectory(directory, mapping) {
     });
 }
 
+function addMissingKeysToJson(newJson, oldJson, missingKeys) {
+    if (!newJson.unsorted) {
+        newJson.missing = {};
+    }
+
+    let count = 0;
+    missingKeys.forEach((key) => {
+        // Handle nested keys
+        const keys = key.split('.');
+        let currentLevel = oldJson;
+        let keyFound = true;
+
+        for (let i = 0; i < keys.length; i++) {
+            if (currentLevel[keys[i]] !== undefined) {
+                currentLevel = currentLevel[keys[i]];
+            } else {
+                keyFound = false;
+                break;
+            }
+        }
+
+        if (keyFound && !Object.values(newJson.missing).includes(currentLevel)) {
+            count += 1
+            newJson.missing[`${count}`] = currentLevel;
+        }
+    });
+
+    return newJson;
+}
+
+function updateAssociatedJsonFiles(oldDirectory, newDirectory, oldJson, missingKeys) {
+    const schemaFiles = fs.readdirSync(oldDirectory).filter(file => file.endsWith('.schema.json'));
+
+    schemaFiles.forEach(file => {
+        const oldFilePath = path.join(oldDirectory, file);
+        const newFilePath = path.join(newDirectory, file);
+
+        if (fs.existsSync(newFilePath)) {
+            const oldFileJson = JSON.parse(fs.readFileSync(oldFilePath, 'utf8'));
+            let newFileJson = JSON.parse(fs.readFileSync(newFilePath, 'utf8'));
+
+            newFileJson = addMissingKeysToJson(newFileJson, oldFileJson, missingKeys);
+            fs.writeFileSync(newFilePath, JSON.stringify(newFileJson, null, 2), 'utf8');
+        }
+    });
+}
+
 function main() {
     const [jsonFileOldPath, jsonFileNewPath, filesDirectory] = process.argv.slice(2);
 
@@ -130,6 +224,21 @@ function main() {
 
     const jsonFileOld = JSON.parse(fs.readFileSync(jsonFileOldPath, 'utf8'));
     const jsonFileNew = JSON.parse(fs.readFileSync(jsonFileNewPath, 'utf8'));
+    const oldDirectory = path.dirname(jsonFileOldPath);
+    const newDirectory = path.dirname(jsonFileNewPath);
+
+    const potentiallyMissingValues = findMissingValues(jsonFileOld, jsonFileNew);
+    const actuallyUsedKeys = checkKeysInFiles(potentiallyMissingValues, filesDirectory);
+
+    actuallyUsedKeys.forEach(key => console.log(`Key with missing value in new JSON and used in files: ${key}`));
+
+    if (actuallyUsedKeys.size > 0) {
+        addMissingKeysToJson(jsonFileNew, jsonFileOld, actuallyUsedKeys);
+        updateAssociatedJsonFiles(oldDirectory, newDirectory, jsonFileOld, actuallyUsedKeys);
+        console.log('Missing keys in new locales file detected. Added missing keys to new locales file in a "unsorted" nested object. Please confirm key name of new keys and rerun this script.')
+        return;
+    } 
+
 
     const valueMapping = createValueMapping(jsonFileOld, jsonFileNew);
 

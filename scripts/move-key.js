@@ -3,11 +3,10 @@
 //
 // Useful for re-organizing locale keys in this repo
 //
-// node ./scripts/move-replace.js '../components/components/**/*.liquid' some.old.path some.new.path
+// node ./scripts/move-key.js locales/en.default.schema.json some.old.path some.new.path
 //
 
 const fs = require('fs');
-const path = require('path');
 const glob = require('glob');
 
 function getKeyPathValue(obj, keyPath) {
@@ -41,8 +40,12 @@ function sortObjectKeys(obj) {
     Object.keys(obj).sort().forEach(key => {
         // Check if the value is an object and not an array
         if (typeof obj[key] === 'object' && !Array.isArray(obj[key])) {
-            // Recursively sort the keys of the nested object
-            sortedObject[key] = sortObjectKeys(obj[key]);
+            if (Object.entries(obj[key]).length === 0) {
+                delete obj[key]
+            } else {
+                // Recursively sort the keys of the nested object
+                sortedObject[key] = sortObjectKeys(obj[key]);
+            }
         } else {
             // Directly assign the value if it's not an object
             sortedObject[key] = obj[key];
@@ -78,7 +81,13 @@ function findSimilarKeys(obj, keyPath, prefix = '') {
 }
 
 function modifyJsonFiles(oldPath, newPath, similarKeys) {
-    const files = glob.sync('./locales/*.json');
+    let files;
+
+    if (defaultFile.endsWith('.schema.json')) {
+        files = glob.sync('./locales/*.schema.json');
+    } else {
+        files = glob.sync('./locales/*.json', {ignore: './locales/*.schema.json'});
+    }
 
     files.forEach(file => {
         const data = JSON.parse(fs.readFileSync(file, 'utf8'));
@@ -101,45 +110,11 @@ function modifyJsonFiles(oldPath, newPath, similarKeys) {
     });
 }
 
-function onlyUnique(value, index, array) {
-  return array.indexOf(value) === index;
-}
+const [defaultFile, oldPath, newPath] = process.argv.slice(2);
 
-function updateLiquidFiles(liquidFilesPattern, similarKeys, oldPath, newPath) {
-  const files = glob.sync(liquidFilesPattern);
-  console.log(`Found ${files.length} .liquid files to process.`);
-
-  files.forEach(file => {
-      let content = fs.readFileSync(file, 'utf8');
-      let modified = false;
-      similarKeys.filter(onlyUnique).forEach(key => {
-          // Regex pattern to match {{ 'old.path' | t: }} pattern
-          const regex = new RegExp(`'${key.replace(/\./g, '\\.')}'`, 'g');
-          const updatedKey = key.replace(oldPath, newPath);
-
-          // Check if the current file contains the old path
-          if (regex.test(content)) {
-              console.log(`Updating key '${key}' to '${updatedKey}' in ${file}`);
-              content = content.replace(regex, `'${updatedKey}'`);
-              modified = true;
-          }
-      });
-
-      if (modified) {
-          fs.writeFileSync(file, content);
-          console.log(`File ${file} has been updated.`);
-      } else {
-          // console.log(`No changes made to ${file}.`);
-      }
-  });
-}
-
-const [liquidFilesPattern, oldPath, newPath] = process.argv.slice(2);
-
-const enDefaultData = JSON.parse(fs.readFileSync('./locales/en.default.json', 'utf8'));
+const enDefaultData = JSON.parse(fs.readFileSync(defaultFile, 'utf8'));
 const similarKeys = findSimilarKeys(enDefaultData, oldPath);
 
 similarKeys.push(oldPath); // Include the original oldPath in similarKeys for replacement
 console.log(similarKeys)
 modifyJsonFiles(oldPath, newPath, similarKeys);
-updateLiquidFiles(liquidFilesPattern, similarKeys, oldPath, newPath);
