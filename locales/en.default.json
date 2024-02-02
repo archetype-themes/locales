@@ -245,7 +245,6 @@
         "zip": "Postal/Zip code"
     },
     "trigger": {
-        "color_swatch": "Color",
-        "size": "Size"
+        "color_swatch": "Color"
     }
 }

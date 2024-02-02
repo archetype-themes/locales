@@ -231,7 +231,7 @@
         "shipping": "Envío",
         "shipping_address": "Dirección de envío",
         "site_navigation": "Navegación",
-        "size_chart": "Tabla de tallas",
+        "size_chart": "Carta del tamaño",
         "sku": "SKU",
         "small": "Small",
         "subtotal": "Subtotal",
@@ -245,7 +245,6 @@
         "zip": "Código postal"
     },
     "trigger": {
-        "color_swatch": "Color",
-        "size": "Tamaño"
+        "color_swatch": "Color"
     }
 }

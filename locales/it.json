@@ -245,7 +245,6 @@
         "zip": "Codice postale"
     },
     "trigger": {
-        "color_swatch": "Colore",
-        "size": "Dimensioni"
+        "color_swatch": "Colore"
     }
 }

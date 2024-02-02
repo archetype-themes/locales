@@ -245,7 +245,6 @@
         "zip": "PLZ"
     },
     "trigger": {
-        "color_swatch": "Farbe",
-        "size": "Größe"
+        "color_swatch": "Farbe"
     }
 }
