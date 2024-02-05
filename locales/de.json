@@ -223,6 +223,7 @@
         "recently_viewed": "Zuletzt Angesehen",
         "recipient_email": "Empfänger E-Mail",
         "recipient_name_optional": "Name des Empfängers (optional)",
+        "recipient_send_on": "Senden an (optional)",
         "regular_price": "Normaler Preis",
         "reviews": "Rezensionen",
         "sale": "Reduziert",
