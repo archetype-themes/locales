@@ -28,6 +28,7 @@
         "edit": "Editar",
         "edit_address": "Editar Endereço",
         "email_us": "Envia-nos um email",
+        "enter": "Entrar",
         "enter_email": "Subscreva a nossa lista de emails",
         "enter_new_password": "Insira uma nova senha para {{ email }}",
         "expand_submenu": "Expandir menu",
@@ -96,6 +97,7 @@
         "address_error": "Não é possível localizar o endereço",
         "address_no_results": "Nenhum resultado para este endereço",
         "address_query_limit_html": "Você excedeu a cota de uso da API do Google. Considere a atualização para um <a href=\"https://developers.google.com/maps/premium/usage-limits\">Plano Premium</a>.",
+        "admin_link_html": "É o dono da loja? <a href=\"/admin\" class=\"text-link\">Inicie sessão aqui</a>",
         "back_in_stock_on": "Estará disponível após {{ date }}",
         "backordered": "Inventory no caminho",
         "cart_empty": "O seu carrinho de compras está neste momento vazio.",
@@ -243,6 +245,7 @@
         "top_searched": "Mais pesquisados",
         "total": "Total",
         "we_accept": "Nós aceitamos",
+        "your_password": "A sua palavra-passe",
         "zip": "Código Postal"
     },
     "trigger": {

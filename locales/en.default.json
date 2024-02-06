@@ -28,6 +28,7 @@
         "edit": "Edit",
         "edit_address": "Edit address",
         "email_us": "Email us",
+        "enter": "Enter",
         "enter_email": "Enter your email",
         "enter_new_password": "Enter a new password for {{ email }}",
         "expand_submenu": "Expand submenu",
@@ -96,6 +97,7 @@
         "address_error": "Error looking up that address",
         "address_no_results": "No results for that address",
         "address_query_limit_html": "You have exceeded the Google API usage limit. Consider upgrading to a <a href=\"https://developers.google.com/maps/premium/usage-limits\">Premium Plan</a>.",
+        "admin_link_html": "Store owner? <a href=\"/admin\" class=\"text-link\">Log in here</a>",
         "back_in_stock_on": "Back in stock {{ date }}",
         "backordered": "Backordered, shipping soon",
         "cart_empty": "Your cart is currently empty.",
@@ -243,6 +245,7 @@
         "top_searched": "Top searched",
         "total": "Total",
         "we_accept": "We accept",
+        "your_password": "Your password",
         "zip": "Postal/Zip code"
     },
     "trigger": {
