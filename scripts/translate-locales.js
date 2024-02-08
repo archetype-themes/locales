@@ -95,17 +95,21 @@ function compareNestedObjects(obj1, obj2, parentKey = '') {
 }
 
 function getFilePaths() {
-  const {defaultCode, storefront} = config.repos.find(({repo}) => repo === "archetype-themes/locales");
-  const currentFilePath = `locales/${defaultCode}.default.json`;
-  const previousFilePath = `locales/${defaultCode}.default.old.json`;
-  const otherLocalePaths = storefront.map(code => `locales/${code}.json`).filter(code => code !== `locales/${defaultCode}.json`);
-
-  return { currentFilePath,previousFilePath,otherLocalePaths}
+  const {defaultCode, storefront, schema} = config.repos.find(({repo}) => repo === "archetype-themes/locales");
+  const storefrontLocales = {
+    currentFilePath: `locales/${defaultCode}.default.json`,
+    previousFilePath: `locales/${defaultCode}.default.old.json`,
+    otherLocalePaths: storefront.map(code => `locales/${code}.json`).filter(code => code !== `locales/${defaultCode}.json` && !code.includes('.schema.json'))
+  }
+  const schemaLocales = {
+    currentFilePath: `locales/${defaultCode}.default.schema.json`,
+    previousFilePath: `locales/${defaultCode}.default.old.schema.json`,
+    otherLocalePaths: schema.map(code => `locales/${code}.schema.json`).filter(code => code !== `locales/${defaultCode}.schema.json` && code.includes('.schema.json'))
+  }
+  return { storefrontLocales, schemaLocales }
 }
 
-async function updateAllLocaleFiles() {
-  const {currentFilePath, previousFilePath, otherLocalePaths} = getFilePaths()
-
+async function updateAllLocaleFiles({currentFilePath, previousFilePath, otherLocalePaths}) {
   const currentFileContent = JSON.parse(fs.readFileSync(currentFilePath, 'utf8'));
   const previousFileContent = JSON.parse(fs.readFileSync(previousFilePath, 'utf8'));
   const changes = compareNestedObjects(previousFileContent, currentFileContent);
@@ -213,6 +217,9 @@ function sortObjectKeys(obj) {
   return sortedObject;
 }
 
-updateAllLocaleFiles()
+const {storefrontLocales, schemaLocales} = getFilePaths()
+
+updateAllLocaleFiles(storefrontLocales)
+    .then(() => updateAllLocaleFiles(schemaLocales))
     .then(() => console.log('Locale files updated.'))
     .catch(err => console.error('Error updating locale files:', err));

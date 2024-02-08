@@ -49,7 +49,9 @@ jobs:
         echo "DEFAULT_CODE=$DEFAULT_CODE" >> $GITHUB_ENV
 
     - name: Output Previous Version of the File
-      run: git show HEAD~1:locales/${{ env.DEFAULT_CODE }}.default.json > locales/${{ env.DEFAULT_CODE }}.default.old.json
+      run: |
+        git show HEAD~1:locales/${{ env.DEFAULT_CODE }}.default.json > locales/${{ env.DEFAULT_CODE }}.default.old.json
+        git show HEAD~1:locales/${{ env.DEFAULT_CODE }}.default.schema.json > locales/${{ env.DEFAULT_CODE }}.default.old.schema.json
 
     - name: Run Translation Script
       run: node scripts/translate-locales.js
