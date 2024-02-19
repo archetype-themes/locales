@@ -85,7 +85,7 @@
         "update_cart": "Update cart",
         "view_addresses": "View addresses",
         "view_all": "View all",
-        "view_all_products_count": "View all<br>{{ count }} products",
+        "view_all_products_count_html": "View all<br>{{ count }} products",
         "view_in_space": "View in your space",
         "view_store_info": "View store information"
     },
