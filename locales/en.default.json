@@ -85,7 +85,7 @@
         "update_cart": "Update cart",
         "view_addresses": "View addresses",
         "view_all": "View all",
-        "view_all_products_count": "View all<br>{{ count }} products",
+        "view_all_products_count_html": "View all<br>{{ count }} products",
         "view_in_space": "View in your space",
         "view_store_info": "View store information"
     },
@@ -131,7 +131,7 @@
         "order_cancelled_on": "Order cancelled on {{ date }}",
         "order_cancelled_reason": "Reason: {{ reason }}",
         "order_placed_on": "Placed on {{ date }}",
-        "page_does_not_exist": "<p>The page you were looking for does not exist. </p><p><a href='{{ url }}'>Continue shopping</a></p>",
+        "page_does_not_exist_html": "<p>The page you were looking for does not exist. </p><p><a href='{{ url }}'>Continue shopping</a></p>",
         "pick_up_available": "Pickup available",
         "pick_up_available_at_html": "Pickup available at <strong>{{ location_name }}</strong>",
         "pick_up_currently_unavailable": "Pickup currently unavailable",
