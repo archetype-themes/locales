@@ -85,7 +85,7 @@
         "update_cart": "Mettre à jour",
         "view_addresses": "Voir les adresses",
         "view_all": "Voir toutes",
-        "view_all_products_count": "Voir tous les<br>{{ count }} produits",
+        "view_all_products_count_html": "Voir tous les<br>{{ count }} produits",
         "view_in_space": "Afficher dans votre espace",
         "view_store_info": "Afficher les informations de magasin"
     },
@@ -131,7 +131,7 @@
         "order_cancelled_on": "Commande annulée le {{ date }}",
         "order_cancelled_reason": "Motif: {{ reason }}",
         "order_placed_on": "Placée le {{ date }}",
-        "page_does_not_exist": "Cette page n'est pas disponible. <a href='{{ url }}'>Retourner au magasinage</a>",
+        "page_does_not_exist_html": "Cette page n'est pas disponible. <a href='{{ url }}'>Retourner au magasinage</a>",
         "pick_up_available": "Récupération disponible",
         "pick_up_available_at_html": "Récupération disponible à <strong> {{location_name}} </strong>",
         "pick_up_currently_unavailable": "Récupération actuellement indisponible",
