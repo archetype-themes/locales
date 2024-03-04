@@ -577,7 +577,9 @@
             "extra_large": "Extra groß",
             "large": "Groß",
             "medium": "Mittel",
-            "small": "Klein"
+            "small": "Klein",
+            "large_grid": "Großes Raster",
+            "small_grid": "Kleines Raster"
         },
         "slide": "Folie",
         "slide_link": "Slide-Link",
