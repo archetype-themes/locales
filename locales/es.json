@@ -85,7 +85,7 @@
         "update_cart": "Actualizar carrito",
         "view_addresses": "Ver direcciones",
         "view_all": "Ver todo",
-        "view_all_products_count": "ver los<br>{{ count }} productos",
+        "view_all_products_count_html": "ver los<br>{{ count }} productos",
         "view_in_space": "Ver en tu espacio",
         "view_store_info": "Información de la tienda"
     },
@@ -131,7 +131,7 @@
         "order_cancelled_on": "Pedido cancelado en {{ date }}",
         "order_cancelled_reason": "Motivo: {{ reason }}",
         "order_placed_on": "Realizado en {{ date }}",
-        "page_does_not_exist": "La página que ha solicitado no existe. Haga clic <a href='{{ url }}'>aquí</a> para continuar la compra.",
+        "page_does_not_exist_html": "La página que ha solicitado no existe. Haga clic <a href='{{ url }}'>aquí</a> para continuar la compra.",
         "pick_up_available": "Recogida en la",
         "pick_up_available_at_html": "Recogida disponible en <strong> {{location_name}} </strong>",
         "pick_up_currently_unavailable": "Recogida disponible en este momento",

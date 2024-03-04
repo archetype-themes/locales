@@ -85,7 +85,7 @@
         "update_cart": "Atualizar Carrinho",
         "view_addresses": "Ver endereços",
         "view_all": "Ver todo",
-        "view_all_products_count": "Ver todos os<br>{{ count }} produtos",
+        "view_all_products_count_html": "Ver todos os<br>{{ count }} produtos",
         "view_in_space": "Ver no seu espaço",
         "view_store_info": "Exibir informações de loja"
     },
@@ -131,7 +131,7 @@
         "order_cancelled_on": "Pedido cancelado em {{ date }}",
         "order_cancelled_reason": "Motivo: {{ reason }}",
         "order_placed_on": "Efetuado em {{ date }}",
-        "page_does_not_exist": "A página que você solicitou não existe. Clique <a href='{{ url }}'>aqui</a> para voltar às compras.",
+        "page_does_not_exist_html": "A página que você solicitou não existe. Clique <a href='{{ url }}'>aqui</a> para voltar às compras.",
         "pick_up_available": "transbordo",
         "pick_up_available_at_html": "Captador disponível em <strong> {{location_name}} </strong>",
         "pick_up_currently_unavailable": "Captador atualmente indisponível",

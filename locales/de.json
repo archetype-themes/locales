@@ -85,7 +85,7 @@
         "update_cart": "Einkaufswagen aktualisieren",
         "view_addresses": "Adressen ansehen",
         "view_all": "Alle anzeigen",
-        "view_all_products_count": "zeige alle<br>{{ count }} Produkte an",
+        "view_all_products_count_html": "zeige alle<br>{{ count }} Produkte an",
         "view_in_space": "In Ihrem Bereich ansehen",
         "view_store_info": "Ansicht speichern Informationen"
     },
@@ -131,7 +131,7 @@
         "order_cancelled_on": "Bestellung storniert am {{ date }}",
         "order_cancelled_reason": "Grund: {{ reason }}",
         "order_placed_on": "Aufgegeben am {{ date }}",
-        "page_does_not_exist": "Die von Ihnen angeforderte Seite existiert nicht. Klicken Sie <a href='{{ url }}'>hier</a>, um den Einkauf fortzusetzen.",
+        "page_does_not_exist_html": "Die von Ihnen angeforderte Seite existiert nicht. Klicken Sie <a href='{{ url }}'>hier</a>, um den Einkauf fortzusetzen.",
         "pick_up_available": "Pickup verfügbar",
         "pick_up_available_at_html": "Pickup verfügbar unter <strong> {{location_name}} </strong>",
         "pick_up_currently_unavailable": "Pickup derzeit nicht verfügbar",

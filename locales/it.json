@@ -85,7 +85,7 @@
         "update_cart": "Aggiorna il carrello",
         "view_addresses": "Visualizza indirizzi",
         "view_all": "Visualizza tutto",
-        "view_all_products_count": "Visualizza tutti i<br>{{ count }} prodotti",
+        "view_all_products_count_html": "Visualizza tutti i<br>{{ count }} prodotti",
         "view_in_space": "Visualizza nel tuo spazio",
         "view_store_info": "Visualizza i dettagli del negozio"
     },
@@ -131,7 +131,7 @@
         "order_cancelled_on": "Ordine cancellato il {{ date }}",
         "order_cancelled_reason": "Motivo: {{ reason }}",
         "order_placed_on": "Effettuato il {{ date }}",
-        "page_does_not_exist": "<p>La pagina che stavi cercando non esiste. </p><p><a href='{{ url }}'>Continua a comprare</a></p>",
+        "page_does_not_exist_html": "<p>La pagina che stavi cercando non esiste. </p><p><a href='{{ url }}'>Continua a comprare</a></p>",
         "pick_up_available": "Ritiro disponibile",
         "pick_up_available_at_html": "Ritiro disponibile a <strong>{{ location_name }}</strong>",
         "pick_up_currently_unavailable": "Ritiro attualmente non disponibile",
