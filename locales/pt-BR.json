@@ -160,7 +160,7 @@
         "tax_included": "Taxas incluídas.",
         "unavailable": "Indisponível",
         "view_in_space_explanation": "Ver em seu espaço, carregar item na janela de realidade aumentada",
-        "will_be_powered_by": "Esta loja será patrocinada por {{ shopify }}",
+        "will_be_powered_by_html": "Esta loja será patrocinada por {{ shopify }}",
         "you_must_agree": "Você deve concordar com os termos e condições de vendas para verificar",
         "you_save_amount": "Economize {{ saved_amount }}"
     },

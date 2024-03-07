@@ -160,7 +160,7 @@
         "tax_included": "Imposte incluse.",
         "unavailable": "Non disponibile",
         "view_in_space_explanation": "Visualizza nel tuo spazio, carica l'articolo nella finestra della realtà aumentata",
-        "will_be_powered_by": "Questo negozio sarà ospitato su {{ shopify }}",
+        "will_be_powered_by_html": "Questo negozio sarà ospitato su {{ shopify }}",
         "you_must_agree": "Devi accettare i termini e le condizioni di vendita per procedere al pagamento",
         "you_save_amount": "Risparmi {{ saved_amount }}"
     },

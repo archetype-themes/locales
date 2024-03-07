@@ -160,7 +160,7 @@
         "tax_included": "Tax included.",
         "unavailable": "Unavailable",
         "view_in_space_explanation": "View in your space, loads item in augmented reality window",
-        "will_be_powered_by": "This shop will be powered by {{ shopify }}",
+        "will_be_powered_by_html": "This shop will be powered by {{ shopify }}",
         "you_must_agree": "You must agree with the terms and conditions of sales to check out",
         "you_save_amount": "You save {{ saved_amount }}"
     },
