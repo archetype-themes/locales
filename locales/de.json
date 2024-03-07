@@ -160,7 +160,7 @@
         "tax_included": "inkl. MwSt.",
         "unavailable": "Nicht verfügbar",
         "view_in_space_explanation": "„Ansicht in Ihrem Raum“ lädt den Artikel im Augmented-Reality-Fenster",
-        "will_be_powered_by": "Dieser Shop wird mit Hilfe von {{ shopify }} betrieben werden",
+        "will_be_powered_by_html": "Dieser Shop wird mit Hilfe von {{ shopify }} betrieben werden",
         "you_must_agree": "Sie müssen den Verkaufsbedingungen zustimmen, um auszuchecken",
         "you_save_amount": "Sparen {{ saved_amount }}"
     },
