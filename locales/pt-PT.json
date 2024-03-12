@@ -85,7 +85,7 @@
         "update_cart": "Atualizar Carrinho de Compras",
         "view_addresses": "Ver Endereços",
         "view_all": "Ver todo",
-        "view_all_products_count": "Ver todos os<br>{{ count }} produtos",
+        "view_all_products_count_html": "Ver todos os<br>{{ count }} produtos",
         "view_in_space": "Ver no seu espaço",
         "view_store_info": "Exibir informações de loja"
     },
@@ -131,7 +131,7 @@
         "order_cancelled_on": "Pedido Cancelado em {{ date }}",
         "order_cancelled_reason": "Motivo: {{ reason }}",
         "order_placed_on": "Efetuado em {{ date }}",
-        "page_does_not_exist": "A página que solicitou não existe. Clique <a href='{{ url }}'>aqui</a> para continuar as suas compras.",
+        "page_does_not_exist_html": "A página que solicitou não existe. Clique <a href='{{ url }}'>aqui</a> para continuar as suas compras.",
         "pick_up_available": "transbordo",
         "pick_up_available_at_html": "Captador disponível em <strong> {{location_name}} </strong>",
         "pick_up_currently_unavailable": "Captador atualmente indisponível",
@@ -160,7 +160,7 @@
         "tax_included": "Imposto incluído.",
         "unavailable": "Indisponível",
         "view_in_space_explanation": "Ver no seu espaço, carrega item na janela de realidade aumentada",
-        "will_be_powered_by": "Esta loja será movida por {{ shopify }}",
+        "will_be_powered_by_html": "Esta loja será movida por {{ shopify }}",
         "you_must_agree": "Você deve concordar com os termos e condições de vendas para verificar",
         "you_save_amount": "Poupe {{ saved_amount }}"
     },

@@ -577,7 +577,9 @@
             "extra_large": "Extra-grande",
             "large": "Grand",
             "medium": "Moyen",
-            "small": "Petit"
+            "small": "Petit",
+            "large_grid": "Grande grille",
+            "small_grid": "Petite grille"
         },
         "slide": "Diapositive",
         "slide_link": "Lien de la diapositive",

@@ -579,7 +579,9 @@
       "extra_large": "Extra large",
       "large": "Large",
       "medium": "Medium",
-      "small": "Small"
+      "small": "Small",
+      "large_grid": "Large grid",
+      "small_grid": "Small grid"
     },
     "slide": "Slide",
     "slide_link": "Slide link",
