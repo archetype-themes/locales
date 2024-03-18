@@ -252,5 +252,8 @@
     },
     "trigger": {
         "color_swatch": "Color"
+    },
+    "tags": {
+
     }
 }
