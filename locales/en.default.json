@@ -120,6 +120,7 @@
         "gift_card_redeem": "Use this code at checkout to redeem your gift card",
         "gift_card_title": "Here's your {{ value }} gift card for {{ shop }}!",
         "in_stock": "In stock, ready to ship",
+        "learn_to_setup_product_tags": "Learn how to setup this feature [here](#)",
         "low_stock_count": {
             "one": "Low stock - {{ count }} item left",
             "other": "Low stock - {{ count }} items left"
@@ -199,7 +200,6 @@
         "large": "Large",
         "last_name": "Last name",
         "latest_posts": "Latest posts",
-        "learn_to_setup_product_tags": "Learn how to setup this feature [here](#)",
         "list": "List",
         "message": "Message",
         "message_optional": "Message (optional)",
