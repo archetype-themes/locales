@@ -252,8 +252,5 @@
     },
     "trigger": {
         "color_swatch": "Color"
-    },
-    "tags": {
-        "heart": "Heart"
     }
 }
