@@ -120,6 +120,7 @@
         "gift_card_redeem": "Usa questo codice alla cassa per riscattare la tua carta regalo",
         "gift_card_title": "Ecco il tuo buono regalo dal valore di {{ value }} per {{ shop }}!",
         "in_stock": "In magazzino, pronto per la spedizione",
+        "learn_to_setup_product_tags": "Scopri come impostare questa funzionalità [qui](#)",
         "low_stock_count": {
             "one": "Magazzino basso, {{ count }} articolo rimasto",
             "other": "Magazzino basso, {{ count }} articoli rimasti"
@@ -219,6 +220,7 @@
         "price": "Prezzo",
         "product": "Prodotto",
         "products": "prodotti",
+        "product_tags": "Tag del prodotto",
         "province": "Provincia",
         "quantity": "Quantità",
         "quick_shop": "Negozio rapido",

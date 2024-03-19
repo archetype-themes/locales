@@ -119,6 +119,7 @@
         "gift_card_expires_on": "Läuft ab am {{ expiry }}",
         "gift_card_redeem": "Nutzen Sie an der Kasse diesen Code, um Ihre Geschenkkarte einzulösen",
         "gift_card_title": "Hier ist Ihre {{ value }} Geschenkkarte für {{ shop }}!",
+        "learn_to_setup_product_tags": "Erfahren Sie, wie Sie diese Funktion einrichten können [hier](#)",
         "in_stock": "Auf Lager",
         "low_stock_count": {
             "one": "{{ count }} auf Lager",
@@ -219,6 +220,7 @@
         "price": "Preis",
         "product": "Artikel",
         "products": "Produkte",
+        "product_tags": "Produkt Tags",
         "province": "Bundesland",
         "quantity": "Menge",
         "quick_shop": "Schnellkauf",
