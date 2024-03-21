@@ -1,5 +1,4 @@
 // Utility script used to update a locale key from an old path to a new path across all files
-// and then update any matching liquid files with that new path
 //
 // Useful for re-organizing locale keys in this repo
 //
