@@ -120,6 +120,7 @@
         "gift_card_redeem": "Entrez ce code lors du paiement pour utiliser votre carte-cadeau",
         "gift_card_title": "Votre carte-cadeau {{ shop }} d'une valeur de {{ value }}!",
         "in_stock": "En stock",
+        "learn_to_setup_product_tags": "Découvrez comment configurer cette fonctionnalité [ici](#)",
         "low_stock_count": {
             "one": "{{ count }} en stock",
             "other": "{{ count }} en stock"
@@ -219,6 +220,7 @@
         "price": "Prix",
         "product": "Produit",
         "products": "Produits",
+        "product_tags": "Étiquettes de produits",
         "province": "Province",
         "quantity": "Quantité",
         "quick_shop": "Boutique rapide",

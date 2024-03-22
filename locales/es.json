@@ -120,6 +120,7 @@
         "gift_card_redeem": "Use este código al terminar la comprar para canjear su tarjeta de regalo",
         "gift_card_title": "¡Aquí está su tarjeta de regalo de {{ value }} para {{ shop }}!",
         "in_stock": "En stock",
+        "learn_to_setup_product_tags": "Aprenda cómo configurar esta función [aquí](#)",
         "low_stock_count": {
             "one": "{{ count }} en stock",
             "other": "{{ count }} en stock"
@@ -219,6 +220,7 @@
         "price": "Precio",
         "product": "Producto",
         "products": "Productos",
+        "product_tags": "Etiquetas de productos",
         "province": "Provincia",
         "quantity": "Cantidad",
         "quick_shop": "Compra rápida",
