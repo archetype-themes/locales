@@ -120,7 +120,6 @@
         "gift_card_redeem": "Nutzen Sie an der Kasse diesen Code, um Ihre Geschenkkarte einzulösen",
         "gift_card_title": "Hier ist Ihre {{ value }} Geschenkkarte für {{ shop }}!",
         "in_stock": "Auf Lager",
-        "learn_to_setup_product_tags": "Erfahren Sie, wie Sie diese Funktion einrichten können [hier](#)",
         "low_stock_count": {
             "one": "{{ count }} auf Lager",
             "other": "{{ count }} auf Lager"
