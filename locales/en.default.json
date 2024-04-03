@@ -120,7 +120,6 @@
         "gift_card_redeem": "Use this code at checkout to redeem your gift card",
         "gift_card_title": "Here's your {{ value }} gift card for {{ shop }}!",
         "in_stock": "In stock, ready to ship",
-        "learn_to_setup_product_tags": "Learn how to setup this feature [here](#)",
         "low_stock_count": {
             "one": "Low stock - {{ count }} item left",
             "other": "Low stock - {{ count }} items left"
