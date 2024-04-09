@@ -169,7 +169,7 @@
         "sign_up_creates_customer": "Les clients qui s'inscrivent verront leur adresse e-mail ajoutée à la [liste des clients] qui acceptent le marketing (/admin/customers?query=&accepts_marketing=1).",
         "sorting_applies_when_all_selected": "Le tri s'applique uniquement lorsque « Tout » est sélectionné.",
         "styles_online_apply_to_ital_text": "Les styles s'appliquent uniquement au texte en italique dans le titre",
-        "supported_video_formats": "Prend en charge YouTube, .MP4 et Vimeo. Toutes les fonctionnalités ne sont pas prises en charge par Vimeo. [En savoir plus](https://archetypethemes.co/blogs/expanse/how-do-i-add-background-videos)",
+        "supported_video_formats": "Prend en charge YouTube, .MP4 et Vimeo. Toutes les fonctionnalités ne sont pas prises en charge par Vimeo. [En savoir plus](https://help.archetypethemes.co/en/articles/2740)",
         "text_below_on_mobile": "Le texte est toujours sous l'image sur mobile",
         "to_add_currency_settings": "Pour ajouter une devise, accédez à vos [paramètres de devise](/admin/settings/payments).",
         "to_add_language_settings": "Pour ajouter une langue, allez à vos [paramètres de langue.](/admin/settings/languages)",
