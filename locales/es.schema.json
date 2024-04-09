@@ -169,7 +169,7 @@
         "sign_up_creates_customer": "Cada registro creará un cliente en su tienda. [Ver clientes](/admin/customers?query=&accepts_marketing=1).",
         "sorting_applies_when_all_selected": "La clasificación sólo se aplica cuando se selecciona \"todo\".",
         "styles_online_apply_to_ital_text": "Los estilos solo se aplican al texto en cursiva dentro del encabezado",
-        "supported_video_formats": "Admite YouTube, .MP4 y Vimeo. No todas las funciones son compatibles con Vimeo. [Más información](https://archetypethemes.co/blogs/expanse/how-do-i-add-background-videos)",
+        "supported_video_formats": "Admite YouTube, .MP4 y Vimeo. No todas las funciones son compatibles con Vimeo. [Más información](https://help.archetypethemes.co/en/articles/2740)",
         "text_below_on_mobile": "El texto siempre está debajo de la imagen en el móvil",
         "to_add_currency_settings": "Para añadir una moneda, vaya a su [configuración de moneda](/admin/settings/payments)",
         "to_add_language_settings": "Para agregar un idioma, ve a tu [configuración de idiomas.](/admin/settings/languages)",
