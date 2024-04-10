@@ -65,7 +65,7 @@
         "set_default_address": "Set as default address",
         "share": "Share",
         "share_on_facebook": "Share on Facebook",
-        "share_on_x": "Tweet on Twitter",
+        "share_on_x": "Tweet on X",
         "share_this": "Share this",
         "shop_on_social": "{{ name }} on {{ platform }}",
         "show_all_results": "Show all results for \"{{ terms }}\"",
