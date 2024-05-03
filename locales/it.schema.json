@@ -144,6 +144,7 @@
     "links_to_collections_appear_here": "I collegamenti alle collezioni dal tuo menu appariranno qui. [Per saperne di più](https://archetypethemes.co/blogs/expanse/how-do-i-create-subcollections)",
     "links_to_youtube_video_player": "I link ai video di YouTube saranno aperti in un lettore video",
     "menu_shows_top_level": "Questo menu mostrerà solo i link di primo livello",
+    "model_media_type_required": "Il prodotto deve avere un tipo di supporto del modello 3D",
     "no_effect_when_size_natural": "Nessun effetto quando la dimensione dell'immagine della griglia è impostata su \"Naturale\".",
     "not_shown_to_customers_with_accounts": "Non verrà mostrata ai clienti che hanno creato un account nel tuo negozio.",
     "number_of_days_popup_reappears": "Numero di giorni prima che un popup eliminato riappaia",
@@ -469,6 +470,7 @@
     "mobile_logo_height": "Altezza del logo per mobile",
     "mobile_logo_width": "Larghezza logo mobile",
     "mobile_text": "Testo su mobile",
+    "model": "Modello",
     "month": "Mese",
     "months": {
       "april": "Aprile",
@@ -737,6 +739,7 @@
     "width": "Larghezza",
     "wildflower": "Fiore di campo",
     "year": "Anno",
-    "youtube": "YouTube"
+    "youtube": "YouTube",
+    "youtube_vimeo": "YouTube/Vimeo"
   }
 }
