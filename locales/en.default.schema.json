@@ -144,6 +144,7 @@
     "links_to_collections_appear_here": "Links to collections from your menu will appear here. [Learn more](https://archetypethemes.co/blogs/expanse/how-do-i-create-subcollections)",
     "links_to_youtube_video_player": "Links to YouTube videos will be opened in a video player",
     "menu_shows_top_level": "This menu will only show top-level links",
+    "model_media_type_required": "Product must have a 3D model media type",
     "no_effect_when_size_natural": "No effect when grid image size set to 'Natural'",
     "not_shown_to_customers_with_accounts": "Will not be shown to customers who have created an account on your shop.",
     "number_of_days_popup_reappears": "Number of days before a dismissed popup reappears",
@@ -469,6 +470,7 @@
     "mobile_logo_height": "Mobile logo height",
     "mobile_logo_width": "Mobile logo width",
     "mobile_text": "Mobile text",
+    "model": "Model",
     "month": "Month",
     "months": {
       "april": "April",
@@ -737,6 +739,7 @@
     "width": "Width",
     "wildflower": "Wildflower",
     "year": "Year",
-    "youtube": "YouTube"
+    "youtube": "YouTube",
+    "youtube_vimeo": "YouTube/Vimeo"
   }
 }
