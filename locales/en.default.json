@@ -223,6 +223,7 @@
     "province": "Province",
     "quantity": "Quantity",
     "quick_shop": "Quick shop",
+    "quick_shop_button_text": "Quick shop button text",
     "recently_viewed": "Recently viewed",
     "recipient_email": "Recipient email",
     "recipient_name_optional": "Recipient name (optional)",
