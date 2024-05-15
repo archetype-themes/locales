@@ -752,6 +752,7 @@
     "two_blocks_per_row_mobile": "Two blocks per row on mobile",
     "type": "Type",
     "typography": "Typography",
+    "use_compact_style": "Use compact style",
     "value": "Value",
     "vertical": "Vertical",
     "vertical_alignment": "Vertical alignment",
