@@ -299,6 +299,7 @@
     "collection_tiles_font": "Collection tiles font",
     "collection_tiles_size": "Collection tiles size",
     "collections_list_page": "Collections list page",
+    "collections_per_row": "Collections per row",
     "color_scheme": "Color scheme",
     "color_schemes": {
       "1": "Color scheme 1",
