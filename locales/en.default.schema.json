@@ -742,5 +742,121 @@
     "year": "Year",
     "youtube": "YouTube",
     "youtube_vimeo": "YouTube/Vimeo"
+  },
+  "general": {
+    "buttons": {
+      "label": "Button",
+      "settings": {
+        "text": {
+          "label": "Button text"
+        },
+        "link": {
+          "label": "Button link"
+        },
+        "style": {
+          "label": "Button style",
+          "options": {
+            "option_1__label": "Primary (default)",
+            "option_2__label": "Secondary",
+            "option_3__label": "Tertiary"
+          }
+        },
+        "color": {
+          "label": "Button color",
+          "options": {
+            "option_1__label": "Default",
+            "option_2__label": "Light"
+          }
+        },
+        "open_new_tab": {
+          "label": "Open in new tab"
+        }
+      }
+    },
+    "icons": {
+      "label": "Icon",
+      "settings": {
+        "options": {
+          "option_1__label": "None",
+          "option_2__label": "Arrow Right",
+          "option_3__label": "Arrow Left"
+        }
+      }
+    },
+    "icon_alignment": {
+      "label": "Icon alignment",
+      "settings": {
+        "options": {
+          "option_1__label": "Right",
+          "option_2__label": "Left"
+        }
+      }
+    },
+    "subtitle": {
+      "name": "Subtitle",
+      "settings": {
+        "label": "Subtitle text",
+        "default": "Subtitle"
+      }
+    },
+    "headings": {
+      "name": "Heading",
+      "settings": {
+        "label": "Heading text",
+        "default": "Your heading",
+        "size": {
+          "label": "Heading size",
+          "options": {
+            "option_1__label": "Default",
+            "option_2__label": "h1",
+            "option_3__label": "h2",
+            "option_4__label": "h3",
+            "option_5__label": "h4",
+            "option_6__label": "h5",
+            "option_7__label": "h6"
+          }
+        },
+        "level": {
+          "label": "Heading level",
+          "info": "Changes the HTML tag, eg. <h2>. Defaults to most appropriate level for SEO.",
+          "options": {
+            "option_1__label": "Default",
+            "option_2__label": "h1",
+            "option_3__label": "h2",
+            "option_4__label": "h3",
+            "option_5__label": "h4",
+            "option_6__label": "h5",
+            "option_7__label": "h6"
+          }
+        }
+      }
+    }
+  },
+  "settings_schema": {
+    "typography": {
+      "name": "Typography",
+      "settings": {
+        "type_header_font": {
+          "label": "Font",
+          "info": "Selecting a different font can affect the speed of your store. [Learn more about system fonts.](https:\/\/help.shopify.com\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
+        },
+        "heading_scale": {
+          "label": "Font size scale"
+        },
+        "header__1": {
+          "content": "Headings"
+        },
+        "header__2": {
+          "content": "Body"
+        },
+        "type_body_font": {
+          "label": "Font",
+          "info": "Selecting a different font can affect the speed of your store. [Learn more about system fonts.](https:\/\/help.shopify.com\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
+        },
+        "body_scale": {
+          "label": "Font size scale"
+        }
+      }
+    }
   }
 }
