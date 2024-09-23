@@ -89,9 +89,6 @@
     "view_in_space": "In Ihrem Bereich ansehen",
     "view_store_info": "Ansicht speichern Informationen"
   },
-  "date_formats": {
-    "month_day_year": "%b %d, %Y"
-  },
   "info": {
     "404_page_not_found": "404 Seite nicht gefunden",
     "added": "Zugefügt",

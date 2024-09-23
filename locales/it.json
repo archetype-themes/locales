@@ -89,9 +89,6 @@
     "view_in_space": "Visualizza nel tuo spazio",
     "view_store_info": "Visualizza i dettagli del negozio"
   },
-  "date_formats": {
-    "month_day_year": "%b %d, %Y"
-  },
   "info": {
     "404_page_not_found": "404 Pagina non trovata",
     "added": "Aggiunto",
