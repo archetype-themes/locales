@@ -94,6 +94,7 @@
   },
   "info": {
     "404_page_not_found": "404 Page Not Found",
+    "added": "Added",
     "address_error": "Error looking up that address",
     "address_no_results": "No results for that address",
     "address_query_limit_html": "You have exceeded the Google API usage limit. Consider upgrading to a <a href=\"https://developers.google.com/maps/premium/usage-limits\">Premium Plan</a>.",
@@ -155,6 +156,7 @@
     "shipping_at_checkout": "Shipping, taxes, and discount codes calculated at checkout.",
     "shipping_at_checkout_taxes_included": "Taxes included. Shipping and discount codes calculated at checkout.",
     "shipping_policy_html": "<a href='{{ link }}'>Shipping</a> calculated at checkout.",
+    "show_options": "Show options",
     "signup_success": "We will send you an email when we open!",
     "sold_out": "Sold Out",
     "tax_included": "Tax included.",
