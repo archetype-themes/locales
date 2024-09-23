@@ -1,4 +1,4 @@
-/* 
+/*
 Tests to write at some point:
 - Adding a new translation to en.default.json will translate and add missing translations to other locales
 - Adding a new translation to en.default.json with skip translating if other translation is provided/exists
@@ -121,7 +121,7 @@ async function updateAllLocaleFiles({currentFilePath, previousFilePath, otherLoc
       await getMissingTranslations(localeData, currentFileContent, language);
       await updateLocaleFile(localePath, changes, language, currentFileContent);
 
-      fs.writeFileSync(localePath, JSON.stringify(sortObjectKeys(localeData), null, 4));
+      fs.writeFileSync(localePath, JSON.stringify(sortObjectKeys(localeData), null, 2));
   }
 }
 
@@ -169,7 +169,7 @@ async function updateLocaleFile(localePath, changes, targetLanguage, currentFile
       let lastKey = keyParts.pop();
       let lastObj = keyParts.reduce((obj, key) => obj[key] = obj[key] || {}, localeData);
 
-      // Only translate a new locale if a value has not already been set. 
+      // Only translate a new locale if a value has not already been set.
       // This allows contributors to manually add translations if they know the other language
       if (typeof lastObj[lastKey] === 'undefined') {
         let originalText = keyParts.reduce((obj, key) => obj[key], currentFileContent)[lastKey];
@@ -178,7 +178,7 @@ async function updateLocaleFile(localePath, changes, targetLanguage, currentFile
         lastObj[lastKey] = translatedText;
       } else {
         console.log (`"${keyPath}": Skip translating to: '${targetLanguage}' because a translation was already provided`)
-      }   
+      }
   }
 
   // Process changed translations
@@ -195,7 +195,7 @@ async function updateLocaleFile(localePath, changes, targetLanguage, currentFile
 
   removeKeysFromLocale(localeData, changes.removed);
 
-  fs.writeFileSync(localePath, JSON.stringify(sortObjectKeys(localeData), null, 4));
+  fs.writeFileSync(localePath, JSON.stringify(sortObjectKeys(localeData), null, 2));
 }
 
 function sortObjectKeys(obj) {
