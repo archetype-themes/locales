@@ -89,9 +89,6 @@
     "view_in_space": "View in your space",
     "view_store_info": "View store information"
   },
-  "date_formats": {
-    "month_day_year": "%b %d, %Y"
-  },
   "info": {
     "404_page_not_found": "404 Page Not Found",
     "added": "Added",
