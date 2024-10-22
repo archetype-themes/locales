@@ -175,7 +175,7 @@
     "to_add_currency_settings": "Pour ajouter une devise, accédez à vos [paramètres de devise](/admin/settings/payments).",
     "to_add_language_settings": "Pour ajouter une langue, allez à vos [paramètres de langue.](/admin/settings/languages)",
     "to_select_complementary_add_search_discovery": "Pour sélectionner des produits complémentaires, ajoutez l'application Search & Discovery. [En savoir plus](https://help.shopify.com/manual/online-store/search-and-discovery/product-recommendations#complementary-products)",
-    "use_instead_of_api": "À utiliser à la place d'une clé API",
+    "use_instead_of_google_maps_api": "À utiliser à la place d'une clé API",
     "used_when_on_top_of_image": "Utilisé lorsqu'il se trouve au-dessus d'une image",
     "values_below_10_not_recommended": "Le délai est désactivé dans l'éditeur de thème pour des raisons de visibilité",
     "video_with_sound_not_autoplay": "La vidéo avec du son ne sera pas lue automatiquement"
