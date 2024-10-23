@@ -152,6 +152,7 @@
     "number_of_days_popup_reappears": "Anzahl der Tage, bevor ein geschlossenes Pop-up erneut angezeigt wird",
     "only_appear_on_articles": "Erscheint nur auf Artikeln",
     "only_applies_on_desktop": "Gilt nur für den Desktop-Viewport",
+    "overrides_video_url_if_both_set": "Überschreibt die Einstellung der Video-URL, wenn beide festgelegt sind",
     "recently_viewed_products_only_visible": "Kürzlich angesehene Produkte sind nur sichtbar, wenn man außerhalb des Editors browst",
     "recommended_a_square_image": "Für ein optimales Nutzererlebnis auf mobilen Geräten wird ein quadratisches Seitenverhältnis empfohlen",
     "requires_square_images": "Erfordert quadratische Bilder",

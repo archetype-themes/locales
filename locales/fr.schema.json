@@ -152,6 +152,7 @@
     "number_of_days_popup_reappears": "Nombre de jours avant qu'une fenêtre contextuelle rejetée ne réapparaisse.",
     "only_appear_on_articles": "Apparaîtra uniquement sur les articles",
     "only_applies_on_desktop": "S’applique uniquement dans la fenêtre du bureau",
+    "overrides_video_url_if_both_set": "Remplace le paramètre d’URL de la vidéo si les deux sont définis",
     "recently_viewed_products_only_visible": "Les produits récemment consultés sont uniquement visibles lorsque vous naviguez en dehors de l'éditeur.",
     "recommended_a_square_image": "A recommandé un format carré pour une expérience mobile optimale",
     "requires_square_images": "Requiert des images carrées",

@@ -152,6 +152,7 @@
     "number_of_days_popup_reappears": "Numero di giorni prima che un popup eliminato riappaia",
     "only_appear_on_articles": "Apparirà solo sugli articoli",
     "only_applies_on_desktop": "Si applica solo al riquadro di visualizzazione desktop",
+    "overrides_video_url_if_both_set": "Sostituisce l'impostazione dell'URL del video se entrambe sono impostate",
     "recently_viewed_products_only_visible": "I prodotti visti di recente sono visibili solo quando si naviga fuori dall'editor",
     "recommended_a_square_image": "Consigliato un rapporto d'aspetto quadrato per un'esperienza mobile ottimale",
     "requires_square_images": "Richiede immagini quadrate",
