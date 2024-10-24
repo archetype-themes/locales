@@ -462,6 +462,8 @@
     "media": "Contenuti multimediali",
     "media_crop": "Ritaglio multimediale",
     "media_gallery_layout": "Layout della galleria multimediale",
+    "media_gallery_layout_on_desktop": "Layout galleria multimediale su desktop",
+    "media_gallery_layout_on_mobile": "Layout galleria multimediale su dispositivo mobile",
     "media_on_left": "Supporto a sinistra",
     "media_on_right": "Supporto a destra",
     "media_width": "Larghezza del supporto",
