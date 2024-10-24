@@ -158,6 +158,7 @@
     "sold_out": "Sold Out",
     "tax_included": "Tax included.",
     "unavailable": "Unavailable",
+    "variant_sold_out_or_unavailable": "Variant sold out or unavailable",
     "view_in_space_explanation": "View in your space, loads item in augmented reality window",
     "will_be_powered_by_html": "This shop will be powered by {{ shopify }}",
     "you_must_agree": "You must agree with the terms and conditions of sales to check out",
