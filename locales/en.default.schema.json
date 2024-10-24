@@ -462,6 +462,8 @@
     "media": "Media",
     "media_crop": "Media crop",
     "media_gallery_layout": "Media gallery layout",
+    "media_gallery_layout_on_desktop": "Media gallery layout on desktop",
+    "media_gallery_layout_on_mobile": "Media gallery layout on mobile",
     "media_on_left": "Media on left",
     "media_on_right": "Media on right",
     "media_width": "Media width",
