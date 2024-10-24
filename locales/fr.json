@@ -158,6 +158,7 @@
     "sold_out": "Épuisé",
     "tax_included": "Taxes incluses.",
     "unavailable": "Non disponible",
+    "variant_sold_out_or_unavailable": "Variante épuisée ou indisponible",
     "view_in_space_explanation": "Affichage dans votre espace, charge l'article dans une fenêtre de réalité augmentée",
     "will_be_powered_by_html": "Cette boutique sera propulsée par {{ shopify }}",
     "you_must_agree": "Vous devez accepter les termes et conditions de vente pour vérifier",
