@@ -462,6 +462,8 @@
     "media": "Medien",
     "media_crop": "Medienausschnitt",
     "media_gallery_layout": "Layout der Mediengalerie",
+    "media_gallery_layout_on_desktop": "Layout der Mediengalerie auf dem Desktop",
+    "media_gallery_layout_on_mobile": "Layout der Mediengalerie auf Mobilgeräten",
     "media_on_left": "Medien links",
     "media_on_right": "Medien rechts",
     "media_width": "Medienbreite",

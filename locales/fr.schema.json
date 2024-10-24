@@ -462,6 +462,8 @@
     "media": "Support multimédia",
     "media_crop": "Recadrage média",
     "media_gallery_layout": "Mise en page de la galerie multimédia",
+    "media_gallery_layout_on_desktop": "Disposition de la galerie multimédia sur le bureau",
+    "media_gallery_layout_on_mobile": "Mise en page de la galerie multimédia sur mobile",
     "media_on_left": "Médias à gauche",
     "media_on_right": "Médias à droite",
     "media_width": "Largeur du support",

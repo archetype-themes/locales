@@ -462,6 +462,8 @@
     "media": "Multimedia",
     "media_crop": "Recorte de medios",
     "media_gallery_layout": "Diseño de la galería de medios",
+    "media_gallery_layout_on_desktop": "Diseño de la galería de medios en el escritorio",
+    "media_gallery_layout_on_mobile": "Diseño de la galería multimedia en dispositivos móviles",
     "media_on_left": "Medios a la izquierda",
     "media_on_right": "Medios a la derecha",
     "media_width": "Ancho de medios",
