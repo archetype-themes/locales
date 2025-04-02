@@ -605,6 +605,7 @@
       "large": "Large",
       "medium": "Medium",
       "small": "Small",
+      "extra_small": "Extra small",
       "large_grid": "Large grid",
       "small_grid": "Small grid"
     },
