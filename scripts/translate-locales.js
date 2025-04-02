@@ -199,13 +199,19 @@ async function updateLocaleFile(localePath, changes, targetLanguage, currentFile
 }
 
 function sortObjectKeys(obj) {
+  // Add null/undefined check to prevent errors
+  if (obj === null || obj === undefined) {
+    console.error('Attempted to sort keys of null or undefined object');
+    return {}; // Return empty object instead of failing
+  }
+
   // Create a new object with sorted keys
   const sortedObject = {};
 
   // Sort the keys of the current object
   Object.keys(obj).sort().forEach(key => {
       // Check if the value is an object and not an array
-      if (typeof obj[key] === 'object' && !Array.isArray(obj[key])) {
+      if (typeof obj[key] === 'object' && obj[key] !== null && !Array.isArray(obj[key])) {
           // Recursively sort the keys of the nested object
           sortedObject[key] = sortObjectKeys(obj[key]);
       } else {
