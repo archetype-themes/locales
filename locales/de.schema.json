@@ -581,6 +581,11 @@
     "sand": "Sand",
     "save_price": "Preis speichern",
     "savings_display_style": "Anzeigeart der Ersparnisse",
+    "schemes": {
+      "1": "Schema 1",
+      "2": "Schema 2",
+      "3": "Schema 3"
+    },
     "scrolling_text": "Lauftext",
     "search": "Suchen",
     "search_field": "Suchfeld",
@@ -602,6 +607,7 @@
     "size_chart_page": "Seite mit Größentabelle",
     "sizes": {
       "extra_large": "Extra groß",
+      "extra_small": "Extra klein",
       "large": "Groß",
       "large_grid": "Großes Raster",
       "medium": "Mittel",

@@ -581,6 +581,11 @@
     "sand": "Sable",
     "save_price": "Sauvegarde du prix",
     "savings_display_style": "Style d'affichage du montant épargné",
+    "schemes": {
+      "1": "Schéma 1",
+      "2": "Schéma 2",
+      "3": "Schéma 3"
+    },
     "scrolling_text": "Texte défilant",
     "search": "Recherche",
     "search_field": "Champ de recherche",
@@ -602,6 +607,7 @@
     "size_chart_page": "Dimenssionnez la page des graphiques",
     "sizes": {
       "extra_large": "Extra-grande",
+      "extra_small": "Très petit",
       "large": "Grand",
       "large_grid": "Grande grille",
       "medium": "Moyen",

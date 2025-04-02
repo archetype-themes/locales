@@ -581,6 +581,11 @@
     "sand": "Arena",
     "save_price": "Guardar precio",
     "savings_display_style": "Estilo de visualización del ahorro",
+    "schemes": {
+      "1": "Esquema 1",
+      "2": "Esquema 2",
+      "3": "Esquema 3"
+    },
     "scrolling_text": "Desplazamiento de texto",
     "search": "Búsqueda",
     "search_field": "Campo de búsqueda",
@@ -602,6 +607,7 @@
     "size_chart_page": "Página de la tabla de medidas",
     "sizes": {
       "extra_large": "Extra larga",
+      "extra_small": "Extra pequeño",
       "large": "Grande",
       "large_grid": "Rejilla grande",
       "medium": "Mediana",
