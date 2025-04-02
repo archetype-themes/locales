@@ -8,6 +8,7 @@ on:
     paths:
       - 'locales/en.default.json'
       - 'locales/en.default.schema.json'
+  workflow_dispatch:
 
 env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
