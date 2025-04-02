@@ -581,6 +581,11 @@
     "sand": "Sabbia",
     "save_price": "Salva prezzo",
     "savings_display_style": "Stile di visualizzazione del risparmio",
+    "schemes": {
+      "1": "Schema 1",
+      "2": "Schema 2",
+      "3": "Schema 3"
+    },
     "scrolling_text": "Testo scorrevole",
     "search": "Cerca",
     "search_field": "Campo di ricerca",
@@ -602,6 +607,7 @@
     "size_chart_page": "Pagina della guida alle taglie",
     "sizes": {
       "extra_large": "Extra grande",
+      "extra_small": "Molto piccolo",
       "large": "Grande",
       "large_grid": "Griglia grande",
       "medium": "Media",
