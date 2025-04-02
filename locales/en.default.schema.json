@@ -581,6 +581,11 @@
     "sand": "Sand",
     "save_price": "Save price",
     "savings_display_style": "Savings display style",
+    "schemes": {
+      "1": "Scheme 1",
+      "2": "Scheme 2",
+      "3": "Scheme 3"
+    },
     "scrolling_text": "Scrolling text",
     "search": "Search",
     "search_field": "Search field",
