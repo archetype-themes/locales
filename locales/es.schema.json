@@ -124,6 +124,7 @@
     "customers_who_subscribe_accept_marketing": "Los clientes que se suscriban se les añadirá su dirección de correo electrónico a la [lista de clientes] que aceptan comunicaciones de marketing (/admin/customers?query=&accepts_marketing=1).",
     "darkens_your_image": "Oscurece su imagen para asegurar que su texto sea legible",
     "darkens_your_video": "Oscurece el vídeo para que el texto sea legible",
+    "defaults": "Defectos",
     "defaults_to_collection_title": "Por defecto, el título de la colección",
     "defaults_to_menu_title": "Por defecto, el título del menú",
     "does_not_appear_on_mobile": "Non appare su mobile per soddisfare le [linee guida interstiziali] di Google (https://webmasters.googleblog.com/2016/08/helping-users-easily-access-content-on.html) per migliorare il SEO",
