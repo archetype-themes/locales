@@ -124,7 +124,6 @@
     "customers_who_subscribe_accept_marketing": "Les clients qui s'inscrivent verront leur adresse e-mail ajoutée à la [liste des clients] qui acceptent le marketing (/admin/customers?query=&accepts_marketing=1).",
     "darkens_your_image": "Assombrit votre image pour garantir la lisibilité de votre texte",
     "darkens_your_video": "Assombrit votre vidéo pour que votre texte soit lisible",
-    "defaults": "Par défaut",
     "defaults_to_collection_title": "Le titre de la collection s'affiche par défaut",
     "defaults_to_menu_title": "Titre du menu par défaut",
     "does_not_appear_on_mobile": "N'apparaît pas sur les téléphones mobiles afin de respecter les [directives interstitielles de Google] (https://developers.google.com/search/blog/2016/08/helping-users-easily-access-content-on) pour un meilleur référencement.",

@@ -124,7 +124,6 @@
     "customers_who_subscribe_accept_marketing": "Kunden, die ein Abonnement abschließen, werden mit ihrer E-Mail-Adresse in die „akzeptiert Marketing“-[Kundenliste](/admin/customers?query=&accepts_marketing=1) aufgenommen.",
     "darkens_your_image": "Dunkelt dein Bild ab, damit der Text lesbar ist",
     "darkens_your_video": "Verdunkelt dein Video, damit dein Text lesbar ist",
-    "defaults": "Fehlwert",
     "defaults_to_collection_title": "Standardmäßig wird der Titel der Kategorie verwendet",
     "defaults_to_menu_title": "Standardmäßig wird der Menütitel verwendet",
     "does_not_appear_on_mobile": "Erscheint nicht auf Mobilgeräten, um die [Interstitial-Richtlinien](https://webmasters.googleblog.com/2016/08/helping-users-easily-access-content-on.html) von Google für eine bessere Suchmaschinenoptimierung zu erfüllen.",
