@@ -191,6 +191,7 @@
     "example_product": "Titre du produit",
     "featured_product": "Produit en vedette",
     "first_name": "Prénom",
+    "from_price": "à partir de {{ price }}",
     "from_price_html": "<span>À partir de</span> {{ price }}",
     "fulfillment_status": "Statut du traitement de la commande",
     "goes_great_with": "Bien avec",
