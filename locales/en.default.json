@@ -191,7 +191,7 @@
     "example_product": "Example product",
     "featured_product": "Featured product",
     "first_name": "First name",
-    "from_price_html": "<span>from</span> {{ price }}",
+    "from_price": "from {{ price }}",
     "fulfillment_status": "Fulfillment status",
     "goes_great_with": "Goes great with",
     "home": "Home",
