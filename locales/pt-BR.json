@@ -144,7 +144,7 @@
     "ready_to_ship_on": "Envio a partir de {{ date }}",
     "recovery_email_sent": "Nós lhe enviamos um e-mail com o link para atualizar a sua senha.",
     "save_amount": "Economize {{ saved_amount }}",
-    "search_no_results_html": "Sua busca por \"{{ terms }}\" não gerou resultados.",
+    "search_no_results_html": "Nenhum resultado para \"{{ terms }}\". Tente uma palavra-chave diferente",
     "search_result_count": {
       "one": "{{ count }} resultado",
       "other": "{{ count }} resultados"

@@ -143,7 +143,7 @@
     "ready_to_ship_on": "Sera expédié après {{ date }}",
     "recovery_email_sent": "Nous vous avons fait parvenir un courriel pour réinitialiser votre mot de passe.",
     "save_amount": "Épargnez {{ saved_amount }}",
-    "search_no_results_html": "Rechercher \"{{ terms }}\"",
+    "search_no_results_html": "Aucun résultat pour \"{{ terms }}\". Essayez un autre mot-clé",
     "search_result_count": {
       "one": "{{ count }} résultat",
       "other": "{{ count }} résultats"

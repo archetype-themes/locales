@@ -143,7 +143,7 @@
     "ready_to_ship_on": "Wird nach dem {{ date }} versendet",
     "recovery_email_sent": "Wir haben Ihnen eine E-Mail mit einem Link zum Aktualisieren des Passworts geschickt.",
     "save_amount": "Sparen {{ saved_amount }}",
-    "search_no_results_html": "Suche nach \"{{ terms }}\"",
+    "search_no_results_html": "Keine Ergebnisse für \"{{ terms }}\". Versuchen Sie es mit einem anderen Keyword",
     "search_result_count": {
       "one": "{{ count }} Ergebnis",
       "other": "{{ count }} Ergebnisse"
