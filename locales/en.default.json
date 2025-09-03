@@ -143,7 +143,7 @@
     "ready_to_ship_on": "Ready to ship {{ date }}",
     "recovery_email_sent": "We've sent you an email with a link to update your password.",
     "save_amount": "Save {{ saved_amount }}",
-    "search_no_results_html": "Search for \"{{ terms }}\"",
+    "search_no_results_html": "No results for \"{{ terms }}\". Try a different keyword",
     "search_result_count": {
       "one": "{{ count }} result",
       "other": "{{ count }} results"
