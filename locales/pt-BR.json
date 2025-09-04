@@ -125,6 +125,7 @@
     },
     "map_auth_error_html": "Houve um problema autenticação de sua conta do Google Maps. Criar e ativar a <a href=\"https://developers.google.com/maps/documentation/javascript/get-api-key\">API JavaScript</a> e permissões de <a href=\"https://developers.google.com/maps/documentation/geocoding/get-api-key\">geocodificação da API</a> do seu aplicativo.",
     "max_characters": "{{ max_chars }} caracteres max",
+    "newsletter_invalid_message": "Insira um endereço de e-mail válido, por exemplo, name@example.com",
     "newsletter_success": "Obrigado por assinar",
     "no_orders": "Você ainda não efetuou nenhum pedido.",
     "order_cancelled_on_html": "Pedido cancelado em {{ date }}",
