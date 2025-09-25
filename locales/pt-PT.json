@@ -118,7 +118,7 @@
     "gift_card_redeem": "Use este código ao fazer o check-out para redimir o seu cartão-presente",
     "gift_card_title": "Aqui está o seu cartão-presente de {{ value }} para {{ shop }}!",
     "in_stock": "Em estoque",
-    "item_added_to_cart_html": null,
+    "item_added_to_cart_html": "{{ product_title }} adicionado ao carrinho!",
     "learn_to_setup_product_tags": "Saiba como configurar este recurso [aqui](#)",
     "low_stock_count": {
       "one": "{{ count }} em estoque",
@@ -160,7 +160,7 @@
     "signup_success": "Iremos enviar-lhe um email imediatamente antes de abrirmos!",
     "sold_out": "Esgotado",
     "tax_included": "Imposto incluído.",
-    "unable_to_add_item_to_cart": null,
+    "unable_to_add_item_to_cart": "Não é possível adicionar o item ao carrinho",
     "unavailable": "Indisponível",
     "variant_sold_out_or_unavailable": "Variante esgotada ou indisponível",
     "view_in_space_explanation": "Ver no seu espaço, carrega item na janela de realidade aumentada",

@@ -118,7 +118,7 @@
     "gift_card_redeem": "Para resgatar o seu vale-presente, utilize este código no fechamento do pedido",
     "gift_card_title": "Aqui está o seu vale-presente de {{ value }} na {{ shop }}!",
     "in_stock": "Em estoque",
-    "item_added_to_cart_html": null,
+    "item_added_to_cart_html": "{{ product_title }} adicionado ao carrinho!",
     "learn_to_setup_product_tags": "Saiba como configurar esse recurso [aqui](#)",
     "low_stock_count": {
       "one": "{{ count }} em estoque",

@@ -118,7 +118,7 @@
     "gift_card_redeem": "Usa questo codice alla cassa per riscattare la tua carta regalo",
     "gift_card_title": "Ecco il tuo buono regalo dal valore di {{ value }} per {{ shop }}!",
     "in_stock": "In magazzino, pronto per la spedizione",
-    "item_added_to_cart_html": null,
+    "item_added_to_cart_html": "{{ product_title }} aggiunto al carrello!",
     "low_stock_count": {
       "one": "Magazzino basso, {{ count }} articolo rimasto",
       "other": "Magazzino basso, {{ count }} articoli rimasti"
@@ -159,7 +159,7 @@
     "signup_success": "Ti invieremo un'email quando apriremo!",
     "sold_out": "Esaurito",
     "tax_included": "Imposte incluse.",
-    "unable_to_add_item_to_cart": null,
+    "unable_to_add_item_to_cart": "Impossibile aggiungere l'articolo al carrello",
     "unavailable": "Non disponibile",
     "variant_sold_out_or_unavailable": "Variante esaurita o non disponibile",
     "view_in_space_explanation": "Visualizza nel tuo spazio, carica l'articolo nella finestra della realtà aumentata",
