@@ -118,6 +118,7 @@
     "gift_card_redeem": "Use this code at checkout to redeem your gift card",
     "gift_card_title": "Here's your {{ value }} gift card for {{ shop }}!",
     "in_stock": "In stock, ready to ship",
+    "item_added_to_cart_html": "{{ product_title }} added to cart!",
     "low_stock_count": {
       "one": "Low stock - {{ count }} item left",
       "other": "Low stock - {{ count }} items left"
@@ -158,6 +159,7 @@
     "signup_success": "We will send you an email when we open!",
     "sold_out": "Sold Out",
     "tax_included": "Tax included.",
+    "unable_to_add_item_to_cart": "Unable to add item to cart",
     "unavailable": "Unavailable",
     "variant_sold_out_or_unavailable": "Variant sold out or unavailable",
     "view_in_space_explanation": "View in your space, loads item in augmented reality window",
