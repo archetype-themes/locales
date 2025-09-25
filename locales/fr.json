@@ -118,6 +118,7 @@
     "gift_card_redeem": "Entrez ce code lors du paiement pour utiliser votre carte-cadeau",
     "gift_card_title": "Votre carte-cadeau {{ shop }} d'une valeur de {{ value }}!",
     "in_stock": "En stock",
+    "item_added_to_cart_html": "{{ product_title }} ajouté au panier !",
     "low_stock_count": {
       "one": "{{ count }} en stock",
       "other": "{{ count }} en stock"
@@ -158,6 +159,7 @@
     "signup_success": "Nous vous ferons parvenir un courriel juste avant l'ouverture!",
     "sold_out": "Épuisé",
     "tax_included": "Taxes incluses.",
+    "unable_to_add_item_to_cart": "Impossible d’ajouter l’article au panier",
     "unavailable": "Non disponible",
     "variant_sold_out_or_unavailable": "Variante épuisée ou indisponible",
     "view_in_space_explanation": "Affichage dans votre espace, charge l'article dans une fenêtre de réalité augmentée",

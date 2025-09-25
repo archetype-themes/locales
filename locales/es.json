@@ -118,6 +118,7 @@
     "gift_card_redeem": "Use este código al terminar la comprar para canjear su tarjeta de regalo",
     "gift_card_title": "¡Aquí está su tarjeta de regalo de {{ value }} para {{ shop }}!",
     "in_stock": "En stock",
+    "item_added_to_cart_html": "{{ product_title }} añadido al carrito!",
     "low_stock_count": {
       "one": "{{ count }} en stock",
       "other": "{{ count }} en stock"
@@ -158,6 +159,7 @@
     "signup_success": "¡Te enviaremos un correo electrónico antes de inaugurar!",
     "sold_out": "Agotado",
     "tax_included": "Impuesto incluido.",
+    "unable_to_add_item_to_cart": "No se puede agregar el artículo al carrito",
     "unavailable": "No disponible",
     "variant_sold_out_or_unavailable": "Variante agotada o no disponible",
     "view_in_space_explanation": "Ver en tu espacio, carga el artículo en la ventana de realidad aumentada",

@@ -118,6 +118,7 @@
     "gift_card_redeem": "Nutzen Sie an der Kasse diesen Code, um Ihre Geschenkkarte einzulösen",
     "gift_card_title": "Hier ist Ihre {{ value }} Geschenkkarte für {{ shop }}!",
     "in_stock": "Auf Lager",
+    "item_added_to_cart_html": "{{ product_title }} In den Warenkorb gelegt!",
     "low_stock_count": {
       "one": "{{ count }} auf Lager",
       "other": "{{ count }} auf Lager"
@@ -158,6 +159,7 @@
     "signup_success": "Wir senden Ihnen eine E-Mail, kurz bevor wir eröffnen!",
     "sold_out": "Ausverkauft",
     "tax_included": "inkl. MwSt.",
+    "unable_to_add_item_to_cart": "Artikel kann nicht in den Warenkorb gelegt werden",
     "unavailable": "Nicht verfügbar",
     "variant_sold_out_or_unavailable": "Variante ausverkauft oder nicht verfügbar",
     "view_in_space_explanation": "„Ansicht in Ihrem Raum“ lädt den Artikel im Augmented-Reality-Fenster",
