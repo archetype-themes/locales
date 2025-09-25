@@ -118,6 +118,7 @@
     "gift_card_redeem": "Para resgatar o seu vale-presente, utilize este código no fechamento do pedido",
     "gift_card_title": "Aqui está o seu vale-presente de {{ value }} na {{ shop }}!",
     "in_stock": "Em estoque",
+    "item_added_to_cart_html": null,
     "learn_to_setup_product_tags": "Saiba como configurar esse recurso [aqui](#)",
     "low_stock_count": {
       "one": "{{ count }} em estoque",
@@ -159,6 +160,7 @@
     "signup_success": "Nós lhe enviaremos um e-mail logo antes de abrirmos!",
     "sold_out": "Esgotado",
     "tax_included": "Taxas incluídas.",
+    "unable_to_add_item_to_cart": "Não é possível adicionar o item ao carrinho",
     "unavailable": "Indisponível",
     "variant_sold_out_or_unavailable": "Variante esgotada ou indisponível",
     "view_in_space_explanation": "Ver em seu espaço, carregar item na janela de realidade aumentada",
