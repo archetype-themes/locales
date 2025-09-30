@@ -190,7 +190,7 @@
     "use_instead_of_mapbox_api": "Usar en lugar de un token de acceso a la API",
     "used_when_on_top_of_image": "Utilizar cuando está encima de una imagen",
     "values_below_10_not_recommended": "No se recomiendan valores inferiores a 10 segundos. Retraso desactivado en el editor.",
-    "variant_picker_display_options": "Muestra las opciones de producto como botones y muestras o menús desplegables. [Aprende a configurar muestras de color](https://help.shopify.com/en/manual/custom-data/metafields/category-metafields/using-category-metafields).",
+    "variant_picker_display_options": "Muestra las opciones de producto como botones y muestras o menús desplegables. [Aprende a configurar muestras de color.](https://help.shopify.com/en/manual/custom-data/metafields/category-metafields/using-category-metafields)",
     "video_with_sound_not_autoplay": "El vídeo con sonido no se reproducirá de forma automática"
   },
   "labels": {

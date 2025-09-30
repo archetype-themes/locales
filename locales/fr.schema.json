@@ -190,7 +190,7 @@
     "use_instead_of_mapbox_api": "Utiliser à la place d’un jeton d’accès API",
     "used_when_on_top_of_image": "Utilisé lorsqu'il se trouve au-dessus d'une image",
     "values_below_10_not_recommended": "Le délai est désactivé dans l'éditeur de thème pour des raisons de visibilité",
-    "variant_picker_display_options": "Affichez les options du produit sous forme de boutons et d’échantillons ou de listes déroulantes. [Découvrez comment configurer des échantillons de couleurs](https://help.shopify.com/en/manual/custom-data/metafields/category-metafields/using-category-metafields).",
+    "variant_picker_display_options": "Affichez les options du produit sous forme de boutons et d’échantillons ou de listes déroulantes. [Découvrez comment configurer des échantillons de couleurs.](https://help.shopify.com/en/manual/custom-data/metafields/category-metafields/using-category-metafields)",
     "video_with_sound_not_autoplay": "La vidéo avec du son ne sera pas lue automatiquement"
   },
   "labels": {
