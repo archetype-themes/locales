@@ -190,7 +190,7 @@
     "use_instead_of_mapbox_api": "Utilizzare al posto di un token di accesso API",
     "used_when_on_top_of_image": "Usato quando si trova sopra un'immagine",
     "values_below_10_not_recommended": "I valori inferiori a 10 secondi non sono raccomandati. Ritardo disabilitato nell'editor.",
-    "variant_picker_display_options": "Mostra le opzioni del prodotto come pulsanti e campioni o menu a discesa. [Scopri come impostare i campioni di colore](https://help.shopify.com/en/manual/custom-data/metafields/category-metafields/using-category-metafields).",
+    "variant_picker_display_options": "Mostra le opzioni del prodotto come pulsanti e campioni o menu a discesa. [Scopri come impostare i campioni di colore.](https://help.shopify.com/en/manual/custom-data/metafields/category-metafields/using-category-metafields)",
     "video_with_sound_not_autoplay": "I video sonori non verranno riprodotti automaticamente."
   },
   "labels": {
