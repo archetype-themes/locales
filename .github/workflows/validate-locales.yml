@@ -1,0 +1,61 @@
+name: Validate Locale Files
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'locales/**'
+  pull_request:
+    paths:
+      - 'locales/**'
+
+jobs:
+  validate:
+    name: Validate JSON
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Validate JSON syntax
+        run: |
+          echo "Validating locale JSON files..."
+
+          errors=0
+          for file in locales/*.json; do
+            if ! node -e "JSON.parse(require('fs').readFileSync('$file', 'utf8'))" 2>/dev/null; then
+              echo "::error file=$file::Invalid JSON syntax"
+              node -e "try { JSON.parse(require('fs').readFileSync('$file', 'utf8')) } catch(e) { console.log(e.message) }"
+              errors=$((errors + 1))
+            fi
+          done
+
+          if [ $errors -gt 0 ]; then
+            echo ""
+            echo "Found $errors file(s) with invalid JSON."
+            echo "Common issue: Mismatched quotation marks (e.g., „text\" instead of „text")"
+            exit 1
+          fi
+
+          echo "All locale files valid!"
+
+      - name: Check for quote mismatches
+        run: |
+          echo "Checking for potential quotation mark issues..."
+
+          # Find opening „ followed by ASCII " (potential mismatch)
+          if grep -Pn '„[^„"""]*" ' locales/*.json 2>/dev/null; then
+            echo "::warning::Found potential mismatched quotation marks (opening „ with ASCII closing \")"
+          fi
+
+          if grep -Pn '„[^„"""]*""' locales/*.json 2>/dev/null; then
+            echo "::warning::Found potential mismatched quotation marks at end of values"
+          fi
+
+          echo "Quote check complete."
