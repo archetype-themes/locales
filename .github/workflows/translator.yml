@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - main
-      - test
     paths:
       - 'locales/en.default.json'
       - 'locales/en.default.schema.json'
@@ -30,17 +29,10 @@ jobs:
       uses: actions/setup-node@v6
       with:
         node-version: '20'
-
-    - name: Cache node_modules
-      uses: actions/cache@v4
-      with:
-        path: node_modules
-        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }} # Unique key for the cache
-        restore-keys: |
-          ${{ runner.os }}-node-
+        cache: 'npm'
 
     - name: Install Dependencies
-      run: npm install
+      run: npm ci
 
     - name: Extract defaultCode from locales.config.json
       id: extract
