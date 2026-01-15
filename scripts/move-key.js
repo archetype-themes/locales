@@ -105,7 +105,7 @@ function modifyJsonFiles(oldPath, newPath, similarKeys) {
             });
         }
         
-        fs.writeFileSync(file, JSON.stringify(sortObjectKeys(data), null, 2));
+        fs.writeFileSync(file, JSON.stringify(sortObjectKeys(data), null, 2) + '\n');
     });
 }
 

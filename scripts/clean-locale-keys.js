@@ -46,5 +46,5 @@ const files = glob.sync('./locales/*.json');
 
 files.forEach(file => {
   const data = JSON.parse(fs.readFileSync(file, 'utf8'));
-  fs.writeFileSync(file, JSON.stringify(removeEmpty(sortObjectKeys(data)), null, 2));
+  fs.writeFileSync(file, JSON.stringify(removeEmpty(sortObjectKeys(data)), null, 2) + '\n');
 });

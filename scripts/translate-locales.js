@@ -133,7 +133,7 @@ async function updateAllLocaleFiles({ currentFilePath, previousFilePath, otherLo
     await getMissingTranslations(localeData, currentFileContent, language);
     await updateLocaleFile(localePath, changes, language, currentFileContent);
 
-    fs.writeFileSync(localePath, JSON.stringify(sortObjectKeys(localeData), null, 2));
+    fs.writeFileSync(localePath, JSON.stringify(sortObjectKeys(localeData), null, 2) + '\n');
   }
 }
 
@@ -201,7 +201,7 @@ async function updateLocaleFile(localePath, changes, targetLanguage, currentFile
   }
 
   removeKeysFromLocale(localeData, changes.removed);
-  fs.writeFileSync(localePath, JSON.stringify(sortObjectKeys(localeData), null, 2));
+  fs.writeFileSync(localePath, JSON.stringify(sortObjectKeys(localeData), null, 2) + '\n');
 }
 
 function sortObjectKeys(obj) {

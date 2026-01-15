@@ -97,7 +97,7 @@ function updateOtherJsonFiles(directory, oldFile, mapping) {
 
             // Sort keys alphabetically and write back
             const sortedJsonData = sortObjectKeys(updatedJsonData);
-            fs.writeFileSync(filePath, JSON.stringify(sortedJsonData, null, 2), 'utf8');
+            fs.writeFileSync(filePath, JSON.stringify(sortedJsonData, null, 2) + '\n', 'utf8');
         }
     });
 
@@ -209,7 +209,7 @@ function updateAssociatedJsonFiles(oldDirectory, newDirectory, oldJson, missingK
             let newFileJson = JSON.parse(fs.readFileSync(newFilePath, 'utf8'));
 
             newFileJson = addMissingKeysToJson(newFileJson, oldFileJson, missingKeys);
-            fs.writeFileSync(newFilePath, JSON.stringify(newFileJson, null, 2), 'utf8');
+            fs.writeFileSync(newFilePath, JSON.stringify(newFileJson, null, 2) + '\n', 'utf8');
         }
     });
 }
