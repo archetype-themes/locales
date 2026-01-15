@@ -41,7 +41,3 @@ Instead of translating common strings like "Add to cart" or "Out of stock" from 
 ## Usage
 
 Copy the JSON files into your theme's `locales/` directory. See Shopify's [locale file documentation](https://shopify.dev/docs/themes/architecture/locales) for usage details.
-
-## Contributing
-
-See [CONTRIBUTING.md](CONTRIBUTING.md).
