@@ -134,14 +134,14 @@
     "order_placed_on_html": "Placée le {{ date }}",
     "page_does_not_exist_html": "Cette page n'est pas disponible. <a href='{{ url }}'>Retourner au magasinage</a>",
     "pick_up_available": "Récupération disponible",
-    "pick_up_available_at_html": "Récupération disponible à <strong> {{location_name}} </strong>",
+    "pick_up_available_at_html": "Récupération disponible à <strong>{{ location_name }}</strong>",
     "pick_up_currently_unavailable": "Récupération actuellement indisponible",
-    "pick_up_unavailable_at_html": "Récupération actuellement indisponible à <strong> {{location_name}} </strong>",
+    "pick_up_unavailable_at_html": "Récupération actuellement indisponible à <strong>{{ location_name }}</strong>",
     "placeholder_product_description": "Cette partie est utilisée pour la fiche du produit. Parlez aux clients de l'allure, du ressenti et du style de votre produit. Ajoutez des détails sur la couleur, les matériaux utilisés, le dimensionnement, et où il a été fabriqué.",
     "posted_successfully_moderated": "Votre commentaire a été soumis avec succès. Nous le publierons sous peu, suite à notre processus de modération.",
     "product_count": {
-      "one": "{{ count }} item",
-      "other": "{{ count }} items"
+      "one": "{{ count }} produit",
+      "other": "{{ count }} produits"
     },
     "ready_to_ship_on": "Sera expédié après {{ date }}",
     "recovery_email_sent": "Nous vous avons fait parvenir un courriel pour réinitialiser votre mot de passe.",
@@ -196,7 +196,6 @@
     "featured_product": "Produit en vedette",
     "first_name": "Prénom",
     "from_price": "à partir de {{ price }}",
-    "from_price_html": "<span>À partir de</span> {{ price }}",
     "fulfillment_status": "Statut du traitement de la commande",
     "goes_great_with": "Bien avec",
     "home": "Accueil",
