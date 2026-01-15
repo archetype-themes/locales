@@ -39,7 +39,7 @@ jobs:
           if [ $errors -gt 0 ]; then
             echo ""
             echo "Found $errors file(s) with invalid JSON."
-            echo "Common issue: Mismatched quotation marks (e.g., „text\" instead of „text")"
+            echo 'Common issue: Mismatched quotation marks (e.g., „text" instead of „text")'
             exit 1
           fi
 
