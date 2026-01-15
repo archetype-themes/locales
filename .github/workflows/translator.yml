@@ -42,12 +42,10 @@ jobs:
     - name: Install Dependencies
       run: npm install
 
-    - name: Extract defaultCode from current repo locales.config.json
+    - name: Extract defaultCode from locales.config.json
       id: extract
       run: |
-        REPO_NAME="${{ github.repository }}"
-        echo "Current Repository: $REPO_NAME"
-        DEFAULT_CODE=$(jq --raw-output --arg REPO_NAME "$REPO_NAME" '.repos[] | select(.repo == $REPO_NAME) | .defaultCode' locales.config.json)
+        DEFAULT_CODE=$(jq --raw-output '.defaultCode' locales.config.json)
         echo "DEFAULT_CODE=$DEFAULT_CODE" >> $GITHUB_ENV
 
     - name: Output Previous Version of the File

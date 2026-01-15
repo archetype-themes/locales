@@ -100,7 +100,7 @@ function compareNestedObjects(obj1, obj2, parentKey = '') {
 }
 
 function getFilePaths() {
-  const { defaultCode, storefront, schema } = config.repos.find(({ repo }) => repo === "archetype-themes/locales");
+  const { defaultCode, storefront, schema } = config;
 
   const storefrontLocales = {
     currentFilePath: `locales/${defaultCode}.default.json`,

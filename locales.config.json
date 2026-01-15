@@ -1,25 +1,5 @@
 {
-  "repos": [
-    {
-      "repo": "archetype-themes/locales",
-      "directory": "https://github.com/archetype-themes/locales/tree/main/locales",
-      "defaultCode": "en",
-      "storefront": [
-        "de",
-        "en",
-        "es",
-        "fr",
-        "it",
-        "pt-BR",
-        "pt-PT"
-      ],
-      "schema": [
-        "de",
-        "en",
-        "es",
-        "fr",
-        "it"
-      ]
-    }
-  ]
+  "defaultCode": "en",
+  "storefront": ["de", "en", "es", "fr", "it", "pt-BR", "pt-PT"],
+  "schema": ["de", "en", "es", "fr", "it"]
 }
