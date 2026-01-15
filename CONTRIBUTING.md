@@ -1,17 +1,42 @@
-Have some translations that are missing from the repo? Spotted a translation that could be improved? Please open a pull-request and contribute!
+# Contributing
 
-Don't have translations for every language? No problem! Thanks to Github Actions + [Microsoft Azure AI Translator](https://azure.microsoft.com/en-us/products/ai-services/ai-translator), a followup pull request containing any missing translations you contribute will be automatically created. Yes, the AI translations even respect interpolated value placeholders and HTML, leaving them unmodified!
+## Adding a Translation
 
-Here are a few things to keep in mind:
+1. Add the English string to `en.default.json` (storefront) or `en.default.schema.json` (theme editor)
+2. Open a pull request
+3. Once merged, a GitHub Action automatically translates and creates a follow-up PR
 
-- This is an English centric library and the `en.default.json` will act as the source of truth for translations keys and values.
-- A new proposed translation should always include an English version inside of `en.default.json`.
+### Structure
 
-To contribute a new translation:
+Storefront translations use three categories:
 
-1. Fork this repo
-2. Add your new key:value to `en.default.json`
-3. Add any translated values you have to other locales files
-4. Commit your change and open a pull request with your changes
-5. Merge your changes
-6. A Github Action will be triggered to add any missing translations to other locales files!
+```json
+{
+  "actions": { },   // Verbs: "Add to cart", "Subscribe", "Continue shopping"
+  "info": { },      // Messages: "Out of stock", "Thanks for subscribing"
+  "labels": { }     // Nouns: "Email", "Quantity", "Price"
+}
+```
+
+### Interpolation
+
+Use `{{ variable }}` for dynamic values:
+
+```json
+{
+  "actions": {
+    "back_to": "Back to {{ collection }}"
+  },
+  "info": {
+    "you_save_amount": "You save {{ saved_amount }}"
+  }
+}
+```
+
+## Manual Translations
+
+If you know the correct translation for other languages, add them in the same PR. The automation will skip any keys that already have translations.
+
+## Fixing a Translation
+
+Edit the translation directly in the appropriate locale file and open a PR.
