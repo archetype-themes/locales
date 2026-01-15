@@ -22,12 +22,12 @@ jobs:
 
     steps:
     - name: Checkout Repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v6
       with:
         fetch-depth: 2
 
     - name: Set up Node.js
-      uses: actions/setup-node@v2
+      uses: actions/setup-node@v6
       with:
         node-version: '20'
 
@@ -72,7 +72,7 @@ jobs:
         rm locales/${{ env.DEFAULT_CODE }}.default.old.schema.json
 
     - name: Create Pull Request
-      uses: peter-evans/create-pull-request@v5
+      uses: peter-evans/create-pull-request@v7
       with:
         commit-message: Update locale translations
         title: 'Automated Locale Updates'
