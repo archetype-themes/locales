@@ -6,15 +6,37 @@ Instead of translating common strings like "Add to cart" or "Out of stock" from 
 
 ## Supported Languages
 
-| Language | Storefront | Schema |
-|----------|:----------:|:------:|
-| English (default) | ✓ | ✓ |
-| German | ✓ | ✓ |
-| Spanish | ✓ | ✓ |
-| French | ✓ | ✓ |
-| Italian | ✓ | ✓ |
-| Portuguese (Brazil) | ✓ | |
-| Portuguese (Portugal) | ✓ | |
+- Bulgarian
+- Chinese (Simplified)
+- Chinese (Traditional)
+- Croatian
+- Czech
+- Danish
+- Dutch
+- English
+- Finnish
+- French
+- German
+- Greek
+- Hungarian
+- Indonesian
+- Italian
+- Japanese
+- Korean
+- Lithuanian
+- Norwegian
+- Polish
+- Portuguese (Brazil)
+- Portuguese (Portugal)
+- Romanian
+- Russian
+- Slovak
+- Slovenian
+- Spanish
+- Swedish
+- Thai
+- Turkish
+- Vietnamese
 
 ## Usage
 

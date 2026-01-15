@@ -1,5 +1,12 @@
 {
   "defaultCode": "en",
-  "storefront": ["de", "en", "es", "fr", "it", "pt-BR", "pt-PT"],
-  "schema": ["de", "en", "es", "fr", "it"]
+  "storefront": [
+    "bg", "cs", "da", "de", "el", "en", "es", "fi", "fr", "hr",
+    "hu", "id", "it", "ja", "ko", "lt", "nb", "nl", "pl", "pt-BR",
+    "pt-PT", "ro", "ru", "sk", "sl", "sv", "th", "tr", "vi", "zh-CN", "zh-TW"
+  ],
+  "schema": [
+    "cs", "da", "de", "en", "es", "fi", "fr", "it", "ja", "ko",
+    "nb", "nl", "pl", "pt-BR", "pt-PT", "sv", "th", "tr", "zh-CN", "zh-TW"
+  ]
 }
