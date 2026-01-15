@@ -52,14 +52,24 @@ jobs:
 
     - name: Output Previous Version of the File
       run: |
-        git show HEAD~1:locales/${{ env.DEFAULT_CODE }}.default.json > locales/${{ env.DEFAULT_CODE }}.default.old.json
-        git show HEAD~1:locales/${{ env.DEFAULT_CODE }}.default.schema.json > locales/${{ env.DEFAULT_CODE }}.default.old.schema.json
+        if git cat-file -e HEAD~1:locales/${{ env.DEFAULT_CODE }}.default.json 2>/dev/null; then
+          git show HEAD~1:locales/${{ env.DEFAULT_CODE }}.default.json > locales/${{ env.DEFAULT_CODE }}.default.old.json
+        else
+          echo '{}' > locales/${{ env.DEFAULT_CODE }}.default.old.json
+        fi
+        if git cat-file -e HEAD~1:locales/${{ env.DEFAULT_CODE }}.default.schema.json 2>/dev/null; then
+          git show HEAD~1:locales/${{ env.DEFAULT_CODE }}.default.schema.json > locales/${{ env.DEFAULT_CODE }}.default.old.schema.json
+        else
+          echo '{}' > locales/${{ env.DEFAULT_CODE }}.default.old.schema.json
+        fi
 
     - name: Run Translation Script
       run: node scripts/translate-locales.js
 
     - name: Delete Previous Version of the File
-      run: rm locales/${{ env.DEFAULT_CODE }}.default.old.json
+      run: |
+        rm locales/${{ env.DEFAULT_CODE }}.default.old.json
+        rm locales/${{ env.DEFAULT_CODE }}.default.old.schema.json
 
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v5
