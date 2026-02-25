@@ -11,6 +11,13 @@ const region = process.env.AZURE_TRANSLATOR_REGION;
 
 const translationClient = TextTranslationClient(endpoint, { key, region });
 
+const MAX_RETRIES = 3;
+const BASE_DELAY_MS = 500;
+
+function delay(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
 // Replaces Liquid placeholders (e.g., {{ variable }}) with tokens to prevent translation
 function protectPlaceholders(text) {
   const placeholders = [];
@@ -40,32 +47,35 @@ function removeKeysFromLocale(localeData, keysToRemove) {
 }
 
 async function translateText(text, targetLanguage, keyPath) {
-  try {
-    const { protectedText, placeholders } = protectPlaceholders(text);
-    const translateResponse = await translationClient.path("/translate").post({
-      body: [{ text: protectedText }],
-      queryParameters: { to: targetLanguage, from: "en" },
-    });
+  const { protectedText, placeholders } = protectPlaceholders(text);
 
-    if (isUnexpected(translateResponse)) {
-      throw translateResponse.body;
-    }
+  for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
+    try {
+      const translateResponse = await translationClient.path("/translate").post({
+        body: [{ text: protectedText }],
+        queryParameters: { to: targetLanguage, from: "en" },
+      });
 
-    const translations = translateResponse.body;
-    for (const translation of translations) {
-      const translatedText = restorePlaceholders(
-        translation?.translations[0]?.text,
-        placeholders
-      );
+      if (isUnexpected(translateResponse)) {
+        throw translateResponse.body;
+      }
+
+      const translation = translateResponse.body[0].translations[0];
+      const translatedText = restorePlaceholders(translation.text, placeholders);
       console.log(
-        `"${keyPath}": Translated to: '${translation?.translations[0]?.to}' and the result is: '${translatedText}'.`
+        `"${keyPath}": Translated to: '${translation.to}' and the result is: '${translatedText}'.`
       );
       return translatedText;
+    } catch (error) {
+      console.error(`"${keyPath}": Translation attempt ${attempt}/${MAX_RETRIES} failed:`, error);
+      if (attempt < MAX_RETRIES) {
+        await delay(BASE_DELAY_MS * Math.pow(2, attempt - 1));
+      }
     }
-  } catch (error) {
-    console.error('Error translating text:', error);
-    return null;
   }
+
+  console.warn(`"${keyPath}": All ${MAX_RETRIES} attempts failed for '${targetLanguage}', leaving empty for review.`);
+  return "";
 }
 
 function compareNestedObjects(obj1, obj2, parentKey = '') {

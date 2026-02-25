@@ -45,6 +45,44 @@ jobs:
 
           echo "All locale files valid!"
 
+      - name: Check for empty translation values
+        run: |
+          echo "Checking for empty translation values..."
+
+          errors=0
+          for file in locales/*.json; do
+            # Skip default English files
+            case "$file" in
+              locales/en.default.json|locales/en.default.schema.json) continue ;;
+            esac
+
+            empties=$(node -e "
+              const data = JSON.parse(require('fs').readFileSync('$file', 'utf8'));
+              (function check(obj, path) {
+                for (const [k, v] of Object.entries(obj)) {
+                  const full = path ? path + '.' + k : k;
+                  if (typeof v === 'object' && v !== null) check(v, full);
+                  else if (v === '') console.log(full);
+                }
+              })(data, '');
+            ")
+
+            if [ -n "$empties" ]; then
+              while IFS= read -r key; do
+                echo "::error file=$file::Empty translation value for \"$key\""
+              done <<< "$empties"
+              errors=$((errors + 1))
+            fi
+          done
+
+          if [ $errors -gt 0 ]; then
+            echo ""
+            echo "Found empty translation values in $errors file(s). These need to be translated before merging."
+            exit 1
+          fi
+
+          echo "No empty translation values found."
+
       - name: Check for quote mismatches
         run: |
           echo "Checking for potential quotation mark issues..."
