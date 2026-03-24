@@ -203,6 +203,7 @@
     "address_and_hours": "Address and hours",
     "advanced_accordion": "Advanced accordion",
     "age_verification_popup": "Age Verification Popup",
+    "adapt_to_image": "Adapt to image",
     "age_verification_question": "Age Verification question",
     "alignment": "Alignment",
     "alignments": {
@@ -235,6 +236,7 @@
     "arrows": "Arrows",
     "article": "Article",
     "article_pages": "Article pages",
+    "aspect_ratio": "Aspect ratio",
     "author": "Author",
     "author_info": "Author info",
     "authors_image": "Author's image",
@@ -247,6 +249,7 @@
     "banner": "Banner",
     "bars": "Bars",
     "base_size": "Base size",
+    "before_after": "Before/after",
     "below_media": "Below media",
     "bills": "Bills",
     "blocks_per_row": "Blocks per row",
