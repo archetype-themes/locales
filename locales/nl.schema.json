@@ -331,6 +331,7 @@
     "content_alignment": "Inhoudsuitlijning",
     "content_alignment_desktop": "Inhoudsuitlijning op desktop",
     "content_position": "Inhoudspositie",
+    "content_width": "Inhoudsbreedte",
     "countdown": "Aftelling",
     "custom_1": "Aangepast 1",
     "custom_2": "Aangepast 2",
@@ -648,6 +649,7 @@
     "sizes": {
       "extra_large": "Extra groot",
       "extra_small": "Extra klein",
+      "fit_screen": "Fit-scherm",
       "large": "Groot",
       "large_grid": "Groot raster",
       "medium": "Medium",

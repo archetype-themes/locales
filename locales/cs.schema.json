@@ -331,6 +331,7 @@
     "content_alignment": "Zarovnání obsahu",
     "content_alignment_desktop": "Zarovnání obsahu na desktopu",
     "content_position": "Pozice obsahu",
+    "content_width": "Šířka obsahu",
     "countdown": "Odpočítávání",
     "custom_1": "Vlastní 1",
     "custom_2": "Vlastní 2",
@@ -648,6 +649,7 @@
     "sizes": {
       "extra_large": "Extra velká",
       "extra_small": "Extra malá",
+      "fit_screen": "Fit screen",
       "large": "Velká",
       "large_grid": "Velká mřížka",
       "medium": "Střední",

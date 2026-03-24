@@ -331,6 +331,7 @@
     "content_alignment": "Textausrichtung",
     "content_alignment_desktop": "Inhaltsausrichtung auf dem Desktop",
     "content_position": "Inhaltliche Position",
+    "content_width": "Inhaltsbreite",
     "countdown": "Countdown",
     "custom_1": "Benutzerdefiniert 1",
     "custom_2": "Benutzerdefiniert 2",
@@ -648,6 +649,7 @@
     "sizes": {
       "extra_large": "Extra groß",
       "extra_small": "Extra klein",
+      "fit_screen": "Fit-Screen",
       "large": "Groß",
       "large_grid": "Großes Raster",
       "medium": "Mittel",

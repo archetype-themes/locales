@@ -331,6 +331,7 @@
     "content_alignment": "內容對齊",
     "content_alignment_desktop": "桌面內容對齊",
     "content_position": "內容位置",
+    "content_width": "內容寬度",
     "countdown": "倒數計時",
     "custom_1": "自訂1",
     "custom_2": "自訂2",
@@ -648,6 +649,7 @@
     "sizes": {
       "extra_large": "特大",
       "extra_small": "特小",
+      "fit_screen": "合身篩網",
       "large": "大",
       "large_grid": "大網格",
       "medium": "中",

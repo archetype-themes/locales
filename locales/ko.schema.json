@@ -331,6 +331,7 @@
     "content_alignment": "콘텐츠 정렬",
     "content_alignment_desktop": "데스크톱 콘텐츠 정렬",
     "content_position": "콘텐츠 위치",
+    "content_width": "내용 폭",
     "countdown": "카운트다운",
     "custom_1": "사용자 정의 1",
     "custom_2": "사용자 정의 2",
@@ -648,6 +649,7 @@
     "sizes": {
       "extra_large": "특대",
       "extra_small": "특소",
+      "fit_screen": "핏 스크린",
       "large": "대",
       "large_grid": "큰 그리드",
       "medium": "중",
