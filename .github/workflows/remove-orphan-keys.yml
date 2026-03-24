@@ -1,0 +1,30 @@
+name: Remove Orphan Keys
+
+on:
+  schedule:
+    - cron: '0 0 * * 0'
+  workflow_dispatch:
+
+jobs:
+  remove-orphan-keys:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v6
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v6
+      with:
+        node-version: '20'
+
+    - name: Remove Orphan Keys
+      run: node scripts/remove-orphan-keys.js
+
+    - name: Create Pull Request
+      uses: peter-evans/create-pull-request@v7
+      with:
+        commit-message: Remove orphan locale keys
+        title: 'Remove orphan locale keys'
+        body: 'This PR removes translation keys that no longer exist in the default locale files.'
+        branch: 'action/remove-orphan-keys'
