@@ -328,6 +328,7 @@
     "content_alignment": "Content alignment",
     "content_alignment_desktop": "Content alignment on desktop",
     "content_position": "Content position",
+    "content_width": "Content width",
     "countdown": "Countdown",
     "custom_1": "Custom 1",
     "custom_2": "Custom 2",
@@ -645,6 +646,7 @@
     "sizes": {
       "extra_large": "Extra large",
       "extra_small": "Extra small",
+      "fit_screen": "Fit screen",
       "large": "Large",
       "large_grid": "Large grid",
       "medium": "Medium",
