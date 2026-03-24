@@ -331,6 +331,7 @@
     "content_alignment": "Innehållsjustering",
     "content_alignment_desktop": "Innehållsjustering på skrivbord",
     "content_position": "Innehållsposition",
+    "content_width": "Innehållsbredd",
     "countdown": "Nedräkning",
     "custom_1": "Anpassad 1",
     "custom_2": "Anpassad 2",
@@ -648,6 +649,7 @@
     "sizes": {
       "extra_large": "Extra stor",
       "extra_small": "Extra liten",
+      "fit_screen": "Passformsskärm",
       "large": "Stor",
       "large_grid": "Stort rutnät",
       "medium": "Medium",

@@ -331,6 +331,7 @@
     "content_alignment": "Sisallon kohdistus",
     "content_alignment_desktop": "Sisallon kohdistus tyopoydalla",
     "content_position": "Sisallon sijainti",
+    "content_width": "Sisällön leveys",
     "countdown": "Lahtolaskenta",
     "custom_1": "Mukautettu 1",
     "custom_2": "Mukautettu 2",
@@ -648,6 +649,7 @@
     "sizes": {
       "extra_large": "Erittain suuri",
       "extra_small": "Erittain pieni",
+      "fit_screen": "Sovitusnäyttö",
       "large": "Suuri",
       "large_grid": "Suuri ruudukko",
       "medium": "Keskikokoinen",

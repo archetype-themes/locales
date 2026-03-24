@@ -331,6 +331,7 @@
     "content_alignment": "İçerik hizalama",
     "content_alignment_desktop": "Masaüstünde içerik hizalama",
     "content_position": "İçerik konumu",
+    "content_width": "İçerik genişliği",
     "countdown": "Geri sayım",
     "custom_1": "Özel 1",
     "custom_2": "Özel 2",
@@ -648,6 +649,7 @@
     "sizes": {
       "extra_large": "Çok büyük",
       "extra_small": "Çok küçük",
+      "fit_screen": "Fit ekran",
       "large": "Büyük",
       "large_grid": "Büyük ızgara",
       "medium": "Orta",

@@ -331,6 +331,7 @@
     "content_alignment": "Wyrównanie zawartości",
     "content_alignment_desktop": "Wyrównanie zawartości na komputerze",
     "content_position": "Pozycja zawartości",
+    "content_width": "Szerokość treści",
     "countdown": "Odliczanie",
     "custom_1": "Niestandardowy 1",
     "custom_2": "Niestandardowy 2",
@@ -648,6 +649,7 @@
     "sizes": {
       "extra_large": "Bardzo duży",
       "extra_small": "Bardzo mały",
+      "fit_screen": "Sita dopasowania",
       "large": "Duży",
       "large_grid": "Duża siatka",
       "medium": "Średni",

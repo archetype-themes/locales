@@ -331,6 +331,7 @@
     "content_alignment": "การจัดแนวเนื้อหา",
     "content_alignment_desktop": "การจัดแนวเนื้อหาบนเดสก์ท็อป",
     "content_position": "ตำแหน่งเนื้อหา",
+    "content_width": "ความกว้างของเนื้อหา",
     "countdown": "นับถอยหลัง",
     "custom_1": "กำหนดเอง 1",
     "custom_2": "กำหนดเอง 2",
@@ -648,6 +649,7 @@
     "sizes": {
       "extra_large": "ใหญ่พิเศษ",
       "extra_small": "เล็กพิเศษ",
+      "fit_screen": "พอดีกับหน้าจอ",
       "large": "ใหญ่",
       "large_grid": "กริดใหญ่",
       "medium": "กลาง",

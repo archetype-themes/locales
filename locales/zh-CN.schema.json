@@ -331,6 +331,7 @@
     "content_alignment": "内容对齐",
     "content_alignment_desktop": "桌面内容对齐",
     "content_position": "内容位置",
+    "content_width": "内容宽度",
     "countdown": "倒计时",
     "custom_1": "自定义1",
     "custom_2": "自定义2",
@@ -648,6 +649,7 @@
     "sizes": {
       "extra_large": "特大",
       "extra_small": "特小",
+      "fit_screen": "贴合筛",
       "large": "大",
       "large_grid": "大网格",
       "medium": "中",

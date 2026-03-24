@@ -331,6 +331,7 @@
     "content_alignment": "Alignement du texte",
     "content_alignment_desktop": "Alignement du contenu sur le bureau",
     "content_position": "Emplacement du contenu",
+    "content_width": "Largeur du contenu",
     "countdown": "Compte à rebours",
     "custom_1": "Personnalisé 1",
     "custom_2": "Personnalisé 2",
@@ -648,6 +649,7 @@
     "sizes": {
       "extra_large": "Extra-grande",
       "extra_small": "Très petit",
+      "fit_screen": "Écran d’ajustement",
       "large": "Grand",
       "large_grid": "Grande grille",
       "medium": "Moyen",

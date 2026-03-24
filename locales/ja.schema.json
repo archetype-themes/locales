@@ -331,6 +331,7 @@
     "content_alignment": "コンテンツの配置",
     "content_alignment_desktop": "デスクトップでのコンテンツ配置",
     "content_position": "コンテンツの位置",
+    "content_width": "内容幅",
     "countdown": "カウントダウン",
     "custom_1": "カスタム 1",
     "custom_2": "カスタム 2",
@@ -648,6 +649,7 @@
     "sizes": {
       "extra_large": "特大",
       "extra_small": "極小",
+      "fit_screen": "フィットスクリーン",
       "large": "大",
       "large_grid": "大きいグリッド",
       "medium": "中",

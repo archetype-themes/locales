@@ -331,6 +331,7 @@
     "content_alignment": "Innholdsjustering",
     "content_alignment_desktop": "Innholdsjustering på skrivebord",
     "content_position": "Innholdsposisjon",
+    "content_width": "Innholdsbredde",
     "countdown": "Nedtelling",
     "custom_1": "Tilpasset 1",
     "custom_2": "Tilpasset 2",
@@ -648,6 +649,7 @@
     "sizes": {
       "extra_large": "Ekstra stor",
       "extra_small": "Ekstra liten",
+      "fit_screen": "Fit-skjerm",
       "large": "Stor",
       "large_grid": "Stort rutenett",
       "medium": "Middels",

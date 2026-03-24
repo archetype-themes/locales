@@ -331,6 +331,7 @@
     "content_alignment": "Alineación de texto",
     "content_alignment_desktop": "Alineación de contenido en el escritorio",
     "content_position": "Posición del contenido",
+    "content_width": "Ancho de contenido",
     "countdown": "Cuenta regresiva",
     "custom_1": "Personalizado 1",
     "custom_2": "Personalizado 2",
@@ -648,6 +649,7 @@
     "sizes": {
       "extra_large": "Extra larga",
       "extra_small": "Extra pequeño",
+      "fit_screen": "Pantalla de ajuste",
       "large": "Grande",
       "large_grid": "Rejilla grande",
       "medium": "Mediana",
