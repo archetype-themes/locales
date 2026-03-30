@@ -193,6 +193,7 @@ async function updateLocaleFile(localePath, changes, targetLanguage, currentFile
     // Skip translation if a value already exists (allows manual translations)
     if (typeof lastObj[lastKey] === 'undefined') {
       const originalText = keyParts.reduce((obj, key) => obj[key], currentFileContent)[lastKey];
+      if (typeof originalText !== 'string') continue;
       const translatedText = await translateText(originalText, targetLanguage, keyPath);
       lastObj[lastKey] = translatedText;
     } else {
@@ -206,6 +207,7 @@ async function updateLocaleFile(localePath, changes, targetLanguage, currentFile
     const lastObj = keyParts.reduce((obj, key) => obj[key] = obj[key] || {}, localeData);
 
     const originalText = keyParts.reduce((obj, key) => obj[key], currentFileContent)[lastKey];
+    if (typeof originalText !== 'string') continue;
     const translatedText = await translateText(originalText, targetLanguage, keyPath);
     lastObj[lastKey] = translatedText;
   }
@@ -238,4 +240,7 @@ const { storefrontLocales, schemaLocales } = getFilePaths();
 updateAllLocaleFiles(storefrontLocales)
   .then(() => updateAllLocaleFiles(schemaLocales))
   .then(() => console.log('Locale files updated.'))
-  .catch(err => console.error('Error updating locale files:', err));
+  .catch(err => {
+    console.error('Error updating locale files:', err);
+    process.exit(1);
+  });
