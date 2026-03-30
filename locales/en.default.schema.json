@@ -354,6 +354,10 @@
     "desktop_logo_width": "Desktop logo width",
     "desktop_products_per": "Desktop products per row",
     "direction": "Direction",
+    "directions": {
+      "left": "Left",
+      "right": "Right"
+    },
     "divider": "Divider",
     "dot": "Dot",
     "dots": "Dots",
@@ -729,6 +733,7 @@
     "text_position": "Text position",
     "text_protection": "Text protection",
     "text_size": "Text size",
+    "text_style": "Text style",
     "texture": "Texture",
     "textures": "Textures",
     "thick_grid": "Thick grid",
