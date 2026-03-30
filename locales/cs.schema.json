@@ -354,6 +354,10 @@
     "desktop_logo_width": "Šířka loga na desktopu",
     "desktop_products_per": "Produktů na desktopu na řádek",
     "direction": "Směr",
+    "directions": {
+      "left": "Levá",
+      "right": "Správně"
+    },
     "divider": "Oddělovač",
     "dot": "Tečka",
     "dots": "Tečky",
@@ -729,6 +733,7 @@
     "text_position": "Pozice textu",
     "text_protection": "Ochrana textu",
     "text_size": "Velikost textu",
+    "text_style": "Styl textu",
     "texture": "Textura",
     "textures": "Textury",
     "thick_grid": "Tlustá mřížka",

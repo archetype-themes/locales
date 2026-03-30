@@ -354,6 +354,10 @@
     "desktop_logo_width": "Szerokość logo na komputerze",
     "desktop_products_per": "Produkty na komputerze na wiersz",
     "direction": "Kierunek",
+    "directions": {
+      "left": "Lewo",
+      "right": "Prawy"
+    },
     "divider": "Separator",
     "dot": "Kropka",
     "dots": "Kropki",
@@ -729,6 +733,7 @@
     "text_position": "Pozycja tekstu",
     "text_protection": "Ochrona tekstu",
     "text_size": "Rozmiar tekstu",
+    "text_style": "Styl tekstu",
     "texture": "Tekstura",
     "textures": "Tekstury",
     "thick_grid": "Gruba siatka",

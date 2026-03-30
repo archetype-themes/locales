@@ -354,6 +354,10 @@
     "desktop_logo_width": "데스크톱 로고 너비",
     "desktop_products_per": "데스크톱 행당 상품 수",
     "direction": "방향",
+    "directions": {
+      "left": "왼쪽",
+      "right": "맞아"
+    },
     "divider": "구분선",
     "dot": "점",
     "dots": "점들",
@@ -729,6 +733,7 @@
     "text_position": "텍스트 위치",
     "text_protection": "텍스트 보호",
     "text_size": "텍스트 크기",
+    "text_style": "텍스트 스타일",
     "texture": "텍스처",
     "textures": "텍스처",
     "thick_grid": "두꺼운 그리드",

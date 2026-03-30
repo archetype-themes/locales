@@ -354,6 +354,10 @@
     "desktop_logo_width": "Larghezza logo desktop",
     "desktop_products_per": "Prodotti su desktop per riga",
     "direction": "Direzione",
+    "directions": {
+      "left": "Sinistra",
+      "right": "A destra"
+    },
     "divider": "Divisore",
     "dot": "Punto",
     "dots": "Punti",
@@ -729,6 +733,7 @@
     "text_position": "Posizione del testo",
     "text_protection": "Protezione del testo",
     "text_size": "Dimensione del testo",
+    "text_style": "Stile del testo",
     "texture": "Trama",
     "textures": "Texture",
     "thick_grid": "Griglia fitta",

@@ -354,6 +354,10 @@
     "desktop_logo_width": "Skrivbordslogotypbredd",
     "desktop_products_per": "Skrivbordsprodukter per rad",
     "direction": "Riktning",
+    "directions": {
+      "left": "Vänster",
+      "right": "Just det"
+    },
     "divider": "Avdelare",
     "dot": "Punkt",
     "dots": "Punkter",
@@ -729,6 +733,7 @@
     "text_position": "Textposition",
     "text_protection": "Textskydd",
     "text_size": "Textstorlek",
+    "text_style": "Textstil",
     "texture": "Textur",
     "textures": "Texturer",
     "thick_grid": "Tjockt rutnät",

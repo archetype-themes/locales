@@ -354,6 +354,10 @@
     "desktop_logo_width": "Tyopoydanpuoleinen logon leveys",
     "desktop_products_per": "Tyopoydanpuoleiset tuotteet per rivi",
     "direction": "Suunta",
+    "directions": {
+      "left": "Vasen",
+      "right": "Oikea"
+    },
     "divider": "Erotin",
     "dot": "Piste",
     "dots": "Pisteet",
@@ -729,6 +733,7 @@
     "text_position": "Tekstin sijainti",
     "text_protection": "Tekstin suojaus",
     "text_size": "Tekstin koko",
+    "text_style": "Tekstityyli",
     "texture": "Tekstuuri",
     "textures": "Tekstuurit",
     "thick_grid": "Paksu ruudukko",

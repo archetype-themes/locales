@@ -354,6 +354,10 @@
     "desktop_logo_width": "Desktop logobreedte",
     "desktop_products_per": "Producten per rij op desktop",
     "direction": "Richting",
+    "directions": {
+      "left": "Links",
+      "right": "Goed"
+    },
     "divider": "Scheidingslijn",
     "dot": "Stip",
     "dots": "Stippen",
@@ -729,6 +733,7 @@
     "text_position": "Tekstpositie",
     "text_protection": "Tekstbescherming",
     "text_size": "Tekstgrootte",
+    "text_style": "Tekststijl",
     "texture": "Textuur",
     "textures": "Texturen",
     "thick_grid": "Dik raster",
