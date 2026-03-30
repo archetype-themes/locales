@@ -354,6 +354,10 @@
     "desktop_logo_width": "デスクトップロゴの幅",
     "desktop_products_per": "デスクトップの行あたりの商品数",
     "direction": "方向",
+    "directions": {
+      "left": "左",
+      "right": "そうだ"
+    },
     "divider": "区切り線",
     "dot": "ドット",
     "dots": "ドット",
@@ -729,6 +733,7 @@
     "text_position": "テキストの位置",
     "text_protection": "テキスト保護",
     "text_size": "テキストサイズ",
+    "text_style": "テキストスタイル",
     "texture": "テクスチャ",
     "textures": "テクスチャ",
     "thick_grid": "太いグリッド",

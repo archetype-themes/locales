@@ -354,6 +354,10 @@
     "desktop_logo_width": "Largeur du logo pour ordinateur de bureau",
     "desktop_products_per": "Produits sur l'ordinateur de bureau par ligne",
     "direction": "Direction",
+    "directions": {
+      "left": "À gauche",
+      "right": "Exact"
+    },
     "divider": "Diviseur",
     "dot": "Point",
     "dots": "Points",
@@ -729,6 +733,7 @@
     "text_position": "Position du texte",
     "text_protection": "Protection du texte",
     "text_size": "Taille du texte",
+    "text_style": "Style du texte",
     "texture": "Texture",
     "textures": "Textures",
     "thick_grid": "Grille épaisse",

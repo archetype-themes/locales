@@ -354,6 +354,10 @@
     "desktop_logo_width": "Masaüstü logo genişliği",
     "desktop_products_per": "Satır başına masaüstü ürünleri",
     "direction": "Yön",
+    "directions": {
+      "left": "Sol",
+      "right": "Sağ"
+    },
     "divider": "Ayırıcı",
     "dot": "Nokta",
     "dots": "Noktalar",
@@ -729,6 +733,7 @@
     "text_position": "Metin konumu",
     "text_protection": "Metin koruması",
     "text_size": "Metin boyutu",
+    "text_style": "Metin stili",
     "texture": "Doku",
     "textures": "Dokular",
     "thick_grid": "Kalın ızgara",

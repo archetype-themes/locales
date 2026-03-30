@@ -354,6 +354,10 @@
     "desktop_logo_width": "ความกว้างโลโก้เดสก์ท็อป",
     "desktop_products_per": "สินค้าเดสก์ท็อปต่อแถว",
     "direction": "ทิศทาง",
+    "directions": {
+      "left": "ซ้าย",
+      "right": "ขวา"
+    },
     "divider": "ตัวแบ่ง",
     "dot": "จุด",
     "dots": "จุด",
@@ -729,6 +733,7 @@
     "text_position": "ตำแหน่งข้อความ",
     "text_protection": "การป้องกันข้อความ",
     "text_size": "ขนาดข้อความ",
+    "text_style": "รูปแบบข้อความ",
     "texture": "พื้นผิว",
     "textures": "พื้นผิว",
     "thick_grid": "กริดหนา",

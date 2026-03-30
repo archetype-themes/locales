@@ -354,6 +354,10 @@
     "desktop_logo_width": "Breite des Desktop-Logos",
     "desktop_products_per": "Desktop-Produkte pro Zeile",
     "direction": "Richtung",
+    "directions": {
+      "left": "Links",
+      "right": "Rechts"
+    },
     "divider": "Teiler",
     "dot": "Punkt",
     "dots": "Punkte",
@@ -729,6 +733,7 @@
     "text_position": "Textposition",
     "text_protection": "Textschutz",
     "text_size": "Textgröße",
+    "text_style": "Textstil",
     "texture": "Textur",
     "textures": "Gewebe",
     "thick_grid": "Dickes Raster",

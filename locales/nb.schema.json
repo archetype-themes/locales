@@ -354,6 +354,10 @@
     "desktop_logo_width": "Skrivebordslogobredde",
     "desktop_products_per": "Produkter per rad på skrivebord",
     "direction": "Retning",
+    "directions": {
+      "left": "Venstre",
+      "right": "Høyre"
+    },
     "divider": "Skillelinje",
     "dot": "Prikk",
     "dots": "Prikker",
@@ -729,6 +733,7 @@
     "text_position": "Tekstposisjon",
     "text_protection": "Tekstbeskyttelse",
     "text_size": "Tekststørrelse",
+    "text_style": "Tekststil",
     "texture": "Tekstur",
     "textures": "Teksturer",
     "thick_grid": "Tykt rutenett",

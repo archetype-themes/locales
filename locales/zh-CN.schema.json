@@ -354,6 +354,10 @@
     "desktop_logo_width": "桌面徽标宽度",
     "desktop_products_per": "桌面每行产品数",
     "direction": "方向",
+    "directions": {
+      "left": "左",
+      "right": "右"
+    },
     "divider": "分隔符",
     "dot": "点",
     "dots": "点",
@@ -729,6 +733,7 @@
     "text_position": "文本位置",
     "text_protection": "文本保护",
     "text_size": "文本大小",
+    "text_style": "文本风格",
     "texture": "纹理",
     "textures": "纹理",
     "thick_grid": "粗网格",
