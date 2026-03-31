@@ -184,7 +184,7 @@
     "shown_when_age_verification_declined": "Det vises, når en kunde afviser aldersbekræftelsen.",
     "sidebar_is_first_two_sections": "Sørg for at din sidebar er en af de to første sektioner",
     "sign_up_creates_customer": "Hver tilmelding opretter en Kunde i din butik. [Se kunder](/admin/customers?query=&accepts_marketing=1).",
-    "social_links_configure": "Konfigurer dine sociale links i dine [brand-indstillinger](/admin/settings/brand).",
+    "social_links_configure": "Konfigurer dine sociale links i dine [brand-indstillinger](/admin/settings/general/branding).",
     "sorting_applies_when_all_selected": "Sortering gælder kun når 'Alle' er valgt",
     "styles_online_apply_to_ital_text": "Stilarter gælder kun for kursiveret tekst i overskriften",
     "supported_video_formats": "Understøtter YouTube, .MP4 og Vimeo. Ikke alle funktioner understøttes af Vimeo. [Læs mere](https://help.archetypethemes.co/en/articles/2740)",

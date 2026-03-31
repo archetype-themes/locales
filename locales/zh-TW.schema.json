@@ -184,7 +184,7 @@
     "shown_when_age_verification_declined": "當顧客拒絕年齡驗證時會顯示。",
     "sidebar_is_first_two_sections": "確保您的側邊欄是前兩個區段之一",
     "sign_up_creates_customer": "每次註冊都會在您的商店建立一個客戶。[檢視客戶](/admin/customers?query=&accepts_marketing=1)。",
-    "social_links_configure": "請在你的[brand settings](/admin/settings/brand)中設定你的社群連結。",
+    "social_links_configure": "請在你的[brand settings](/admin/settings/general/branding)中設定你的社群連結。",
     "sorting_applies_when_all_selected": "僅當選擇「全部」時排序才適用",
     "styles_online_apply_to_ital_text": "樣式僅適用於標題中的斜體文字",
     "supported_video_formats": "支援YouTube、.MP4和Vimeo。Vimeo不支援所有功能。[了解更多](https://help.archetypethemes.co/en/articles/2740)",

@@ -184,7 +184,7 @@
     "shown_when_age_verification_declined": "Se muestra cuando un cliente rechaza la verificación de edad.",
     "sidebar_is_first_two_sections": "Asegúrese de que su barra lateral es una de las dos primeras secciones",
     "sign_up_creates_customer": "Cada registro creará un cliente en su tienda. [Ver clientes](/admin/customers?query=&accepts_marketing=1).",
-    "social_links_configure": "Configura tus enlaces sociales en tu [brand settings](/admin/settings/brand).",
+    "social_links_configure": "Configura tus enlaces sociales en tu [brand settings](/admin/settings/general/branding).",
     "sorting_applies_when_all_selected": "La clasificación sólo se aplica cuando se selecciona \"todo\".",
     "styles_online_apply_to_ital_text": "Los estilos solo se aplican al texto en cursiva dentro del encabezado",
     "supported_video_formats": "Admite YouTube, .MP4 y Vimeo. No todas las funciones son compatibles con Vimeo. [Más información](https://help.archetypethemes.co/en/articles/2740)",

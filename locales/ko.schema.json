@@ -184,7 +184,7 @@
     "shown_when_age_verification_declined": "고객이 나이 확인을 거부할 때 표시됩니다.",
     "sidebar_is_first_two_sections": "사이드바가 처음 두 섹션 중 하나인지 확인하세요",
     "sign_up_creates_customer": "모든 가입은 스토어에 고객을 생성합니다. [고객 보기](/admin/customers?query=&accepts_marketing=1)",
-    "social_links_configure": "소셜 링크를 [brand settings에서 설정하세요](/admin/settings/brand).",
+    "social_links_configure": "소셜 링크를 [brand settings에서 설정하세요](/admin/settings/general/branding).",
     "sorting_applies_when_all_selected": "정렬은 '전체'가 선택된 경우에만 적용됩니다",
     "styles_online_apply_to_ital_text": "스타일은 제목 내 이탤릭체 텍스트에만 적용됩니다",
     "supported_video_formats": "YouTube, .MP4 및 Vimeo를 지원합니다. Vimeo는 모든 기능을 지원하지 않습니다. [자세히 알아보기](https://help.archetypethemes.co/en/articles/2740)",

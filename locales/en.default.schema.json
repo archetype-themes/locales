@@ -184,7 +184,7 @@
     "sidebar_is_first_two_sections": "Make sure your sidebar is one of the first two sections",
     "sign_up_creates_customer": "Every sign up will create a Customer on your store. [View customers](/admin/customers?query=&accepts_marketing=1).",
     "shown_when_age_verification_declined": "Shown when a customer declines the age verification.",
-    "social_links_configure": "Configure your social links in your [brand settings](/admin/settings/brand).",
+    "social_links_configure": "Configure your social links in your [brand settings](/admin/settings/general/branding).",
     "sorting_applies_when_all_selected": "Sorting only applies when 'All' is selected",
     "styles_online_apply_to_ital_text": "Styles only apply to italicized text within the heading",
     "supported_video_formats": "Supports YouTube, .MP4 and Vimeo. Not all features supported by Vimeo. [Learn more](https://help.archetypethemes.co/en/articles/2740)",

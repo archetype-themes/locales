@@ -184,7 +184,7 @@
     "shown_when_age_verification_declined": "Näytetään, kun asiakas kieltäytyy ikävarmistuksesta.",
     "sidebar_is_first_two_sections": "Varmista, etta sivupalkki on yksi kahdesta ensimmaisesta osiosta",
     "sign_up_creates_customer": "Jokainen rekisteroityminen luo Asiakkaan kauppaasi. [Nayta asiakkaat](/admin/customers?query=&accepts_marketing=1).",
-    "social_links_configure": "Määritä sosiaaliset linkkisi [brand asetuksissa](/admin/settings/brand).",
+    "social_links_configure": "Määritä sosiaaliset linkkisi [brand asetuksissa](/admin/settings/general/branding).",
     "sorting_applies_when_all_selected": "Lajittelu patee vain kun 'Kaikki' on valittu",
     "styles_online_apply_to_ital_text": "Tyylit patevat vain kursivoituun tekstiin otsikossa",
     "supported_video_formats": "Tukee YouTubea, .MP4:aa ja Vimeota. Vimeo ei tue kaikkia ominaisuuksia. [Lue lisaa](https://help.archetypethemes.co/en/articles/2740)",
