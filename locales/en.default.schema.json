@@ -734,9 +734,9 @@
     "store_availability": "Store availability",
     "style": "Style",
     "styles": {
-      "ghost": "Ghost",
       "primary": "Primary",
-      "secondary": "Secondary"
+      "secondary": "Secondary",
+      "transparent": "Transparent"
     },
     "subcollections": "Subcollections",
     "subheading": "Subheading",
