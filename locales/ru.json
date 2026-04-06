@@ -121,7 +121,6 @@
     "comments_must_be_approved": "Обратите внимание: комментарии должны быть одобрены перед публикацией",
     "contact_confirmation": "Спасибо за обращение. Мы свяжемся с вами как можно скорее.",
     "create_your_password_to_activate": "Создайте пароль для активации вашего аккаунта.",
-    "darkens_image_for_readability": "Затемняет изображение, чтобы текст был читаем",
     "disabled": "Отключено",
     "email_to_reset_password": "Мы отправим вам письмо для сброса пароля.",
     "fulfilled_date_html": "Выполнено {{ date }}",

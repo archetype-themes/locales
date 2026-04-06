@@ -121,7 +121,6 @@
     "comments_must_be_approved": "コメントは承認後に公開されます",
     "contact_confirmation": "お問い合わせいただきありがとうございます。できるだけ早くご連絡いたします。",
     "create_your_password_to_activate": "パスワードを作成してアカウントを有効化してください。",
-    "darkens_image_for_readability": "テキストを読みやすくするために画像を暗くします",
     "disabled": "無効",
     "email_to_reset_password": "パスワードリセット用のメールをお送りします。",
     "fulfilled_date_html": "{{ date }}に発送済み",

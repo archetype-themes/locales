@@ -121,7 +121,6 @@
     "comments_must_be_approved": "Kérjük, vegye figyelembe, hogy a megjegyzéseket jóváhagyni kell a megjelenés előtt",
     "contact_confirmation": "Köszönjük, hogy felkerestél minket. Amint lehetséges, visszajelzünk.",
     "create_your_password_to_activate": "Hozz létre egy jelszót a fiókod aktiválásához.",
-    "darkens_image_for_readability": "Sötétíti a képet, hogy a szöveg olvasható legyen",
     "disabled": "Letiltva",
     "email_to_reset_password": "E-mailt küldünk a jelszó visszaállításához.",
     "fulfilled_date_html": "Teljesítve {{ date }}",

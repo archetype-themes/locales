@@ -121,7 +121,6 @@
     "comments_must_be_approved": "请注意，评论必须经过审核后才能发布",
     "contact_confirmation": "感谢您联系我们。我们会尽快回复您。",
     "create_your_password_to_activate": "创建密码以激活您的账户。",
-    "darkens_image_for_readability": "调暗你的图像，确保文字清晰可读",
     "disabled": "已禁用",
     "email_to_reset_password": "我们将向您发送一封电子邮件以重置密码。",
     "fulfilled_date_html": "{{ date }} 已发货",

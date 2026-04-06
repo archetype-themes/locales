@@ -121,7 +121,6 @@
     "comments_must_be_approved": "Let op: reacties moeten worden goedgekeurd voordat ze worden gepubliceerd",
     "contact_confirmation": "Bedankt voor je bericht. We nemen zo snel mogelijk contact met je op.",
     "create_your_password_to_activate": "Maak je wachtwoord aan om je account te activeren.",
-    "darkens_image_for_readability": "Maakt je afbeelding donkerder zodat je tekst leesbaar is",
     "disabled": "Uitgeschakeld",
     "email_to_reset_password": "We sturen je een e-mail om je wachtwoord te resetten.",
     "fulfilled_date_html": "Vervuld {{ date }}",

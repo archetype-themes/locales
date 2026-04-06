@@ -121,7 +121,6 @@
     "comments_must_be_approved": "Atminkite, kad komentarai turi būti patvirtinti prieš juos paskelbiant",
     "contact_confirmation": "Ačiū, kad susisiekėte. Atsakysime kuo greičiau.",
     "create_your_password_to_activate": "Sukurkite slaptažodį, kad aktyvuotumėte paskyrą.",
-    "darkens_image_for_readability": "Patamsina vaizdą, kad tekstas būtų įskaitomas",
     "disabled": "Išjungta",
     "email_to_reset_password": "Atsiųsime jums el. laišką slaptažodžiui atstatyti.",
     "fulfilled_date_html": "Įvykdyta {{ date }}",

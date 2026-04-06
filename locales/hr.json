@@ -121,7 +121,6 @@
     "comments_must_be_approved": "Molimo imajte na umu da komentari moraju biti odobreni prije objave",
     "contact_confirmation": "Hvala što ste nas kontaktirali. Javit ćemo vam se što je prije moguće.",
     "create_your_password_to_activate": "Kreirajte lozinku za aktivaciju računa.",
-    "darkens_image_for_readability": "Potamni vašu sliku kako bi tekst bio čitljiv",
     "disabled": "Onemogućeno",
     "email_to_reset_password": "Poslat ćemo vam e-mail za resetiranje lozinke.",
     "fulfilled_date_html": "Ispunjeno {{ date }}",
