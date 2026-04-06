@@ -98,6 +98,7 @@
     "view_all": "Посмотреть все",
     "view_all_products_count_html": "Посмотреть все<br>{{ count }} товаров",
     "view_in_space": "Посмотреть в вашем пространстве",
+    "view_product": "Просмотр продукта",
     "view_store_info": "Информация о магазине"
   },
   "info": {

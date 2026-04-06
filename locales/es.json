@@ -98,6 +98,7 @@
     "view_all": "Ver todo",
     "view_all_products_count_html": "ver los<br>{{ count }} productos",
     "view_in_space": "Ver en tu espacio",
+    "view_product": "Ver producto",
     "view_store_info": "Información de la tienda"
   },
   "info": {

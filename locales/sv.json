@@ -98,6 +98,7 @@
     "view_all": "Visa alla",
     "view_all_products_count_html": "Visa alla<br>{{ count }} produkter",
     "view_in_space": "Visa i ditt utrymme",
+    "view_product": "Visa produkt",
     "view_store_info": "Visa butiksinformation"
   },
   "info": {

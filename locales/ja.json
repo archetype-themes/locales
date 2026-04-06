@@ -98,6 +98,7 @@
     "view_all": "すべて見る",
     "view_all_products_count_html": "すべて見る<br>{{ count }}点の商品",
     "view_in_space": "AR表示",
+    "view_product": "製品を見る",
     "view_store_info": "店舗情報を見る"
   },
   "info": {

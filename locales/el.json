@@ -98,6 +98,7 @@
     "view_all": "Προβολή όλων",
     "view_all_products_count_html": "Προβολή όλων<br>{{ count }} προϊόντων",
     "view_in_space": "Προβολή στο χώρο σας",
+    "view_product": "Δείτε το προϊόν",
     "view_store_info": "Προβολή πληροφοριών καταστήματος"
   },
   "info": {

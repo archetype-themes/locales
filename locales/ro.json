@@ -98,6 +98,7 @@
     "view_all": "Vezi tot",
     "view_all_products_count_html": "Vezi toate<br>{{ count }} produse",
     "view_in_space": "Vezi în spațiul tău",
+    "view_product": "Vezi produsul",
     "view_store_info": "Vezi informații magazin"
   },
   "info": {
