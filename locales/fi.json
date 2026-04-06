@@ -98,6 +98,7 @@
     "view_all": "Näytä kaikki",
     "view_all_products_count_html": "Näytä kaikki<br>{{ count }} tuotetta",
     "view_in_space": "Näytä omassa tilassasi",
+    "view_product": "Katso tuote",
     "view_store_info": "Näytä myymälän tiedot"
   },
   "info": {

@@ -98,6 +98,7 @@
     "view_all": "Žiūrėti viską",
     "view_all_products_count_html": "Žiūrėti viską<br>{{ count }} prekių",
     "view_in_space": "Peržiūrėti savo erdvėje",
+    "view_product": "Peržiūrėti produktą",
     "view_store_info": "Peržiūrėti parduotuvės informaciją"
   },
   "info": {

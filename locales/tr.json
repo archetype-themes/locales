@@ -98,6 +98,7 @@
     "view_all": "Tümünü görüntüle",
     "view_all_products_count_html": "Tümünü görüntüle<br>{{ count }} ürün",
     "view_in_space": "Alanınızda görüntüleyin",
+    "view_product": "Ürünü görüntüle",
     "view_store_info": "Mağaza bilgilerini görüntüle"
   },
   "info": {

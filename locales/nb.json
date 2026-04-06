@@ -98,6 +98,7 @@
     "view_all": "Se alle",
     "view_all_products_count_html": "Se alle<br>{{ count }} produkter",
     "view_in_space": "Se i ditt rom",
+    "view_product": "Se produkt",
     "view_store_info": "Se butikkinformasjon"
   },
   "info": {

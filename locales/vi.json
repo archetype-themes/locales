@@ -98,6 +98,7 @@
     "view_all": "Xem tất cả",
     "view_all_products_count_html": "Xem tất cả<br>{{ count }} sản phẩm",
     "view_in_space": "Xem trong không gian của bạn",
+    "view_product": "Xem sản phẩm",
     "view_store_info": "Xem thông tin cửa hàng"
   },
   "info": {

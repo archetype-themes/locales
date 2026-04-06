@@ -98,6 +98,7 @@
     "view_all": "Виж всички",
     "view_all_products_count_html": "Виж всички<br>{{ count }} продукта",
     "view_in_space": "Преглед в пространството",
+    "view_product": "Вижте продукта",
     "view_store_info": "Преглед на информация за магазина"
   },
   "info": {

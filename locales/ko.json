@@ -98,6 +98,7 @@
     "view_all": "전체 보기",
     "view_all_products_count_html": "전체 보기<br>{{ count }}개 상품",
     "view_in_space": "AR로 보기",
+    "view_product": "제품 보기",
     "view_store_info": "매장 정보 보기"
   },
   "info": {

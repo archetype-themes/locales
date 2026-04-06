@@ -98,6 +98,7 @@
     "view_all": "Összes megtekintése",
     "view_all_products_count_html": "Összes megtekintése<br>{{ count }} termék",
     "view_in_space": "Megtekintés a saját térben",
+    "view_product": "Termék megtekintése",
     "view_store_info": "Üzlet információk megtekintése"
   },
   "info": {

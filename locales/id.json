@@ -98,6 +98,7 @@
     "view_all": "Lihat semua",
     "view_all_products_count_html": "Lihat semua<br>{{ count }} produk",
     "view_in_space": "Lihat di ruang Anda",
+    "view_product": "Lihat produk",
     "view_store_info": "Lihat informasi toko"
   },
   "info": {

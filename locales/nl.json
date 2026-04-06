@@ -98,6 +98,7 @@
     "view_all": "Alles bekijken",
     "view_all_products_count_html": "Bekijk alle<br>{{ count }} producten",
     "view_in_space": "Bekijk in je ruimte",
+    "view_product": "Bekijk het product",
     "view_store_info": "Winkelinformatie bekijken"
   },
   "info": {

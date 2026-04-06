@@ -98,6 +98,7 @@
     "view_all": "查看全部",
     "view_all_products_count_html": "查看全部<br>{{ count }} 件商品",
     "view_in_space": "在您的空间中查看",
+    "view_product": "查看产品",
     "view_store_info": "查看店铺信息"
   },
   "info": {

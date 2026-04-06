@@ -98,6 +98,7 @@
     "view_all": "Prikaži vse",
     "view_all_products_count_html": "Prikaži vseh<br>{{ count }} izdelkov",
     "view_in_space": "Poglej v svojem prostoru",
+    "view_product": "Oglejte si izdelek",
     "view_store_info": "Prikaži informacije o trgovini"
   },
   "info": {
