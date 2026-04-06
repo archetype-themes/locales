@@ -121,6 +121,7 @@
     "comments_must_be_approved": "Veuillez noter que les commentaires doivent être approvés avant d'être affichés",
     "contact_confirmation": "Merci de nous avoir avoir contacté. Nous vous reviendrons le plus rapidement possible.",
     "create_your_password_to_activate": "Créez votre mot de passe pour activer le compte.",
+    "darkens_image_for_readability": "Assombrit votre image pour garantir que votre texte soit lisible",
     "disabled": "Désactivée",
     "email_to_reset_password": "Nous vous ferons parvenir un courriel pour réinitialiser votre mot de passe.",
     "fulfilled_date_html": "Traitée le {{ date }}",

@@ -121,6 +121,7 @@
     "comments_must_be_approved": "Harap dicatat, komentar harus disetujui sebelum dipublikasikan",
     "contact_confirmation": "Terima kasih telah menghubungi kami. Kami akan segera menghubungi Anda.",
     "create_your_password_to_activate": "Buat kata sandi untuk mengaktifkan akun Anda.",
+    "darkens_image_for_readability": "Menggelapkan gambar Anda untuk memastikan teks Anda dapat dibaca",
     "disabled": "Dinonaktifkan",
     "email_to_reset_password": "Kami akan mengirim email untuk mereset kata sandi Anda.",
     "fulfilled_date_html": "Dipenuhi {{ date }}",

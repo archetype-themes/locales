@@ -121,6 +121,7 @@
     "comments_must_be_approved": "Huomioithan, että kommentit tarkistetaan ennen julkaisua",
     "contact_confirmation": "Kiitos yhteydenotostasi. Palaamme asiaan mahdollisimman pian.",
     "create_your_password_to_activate": "Luo salasana aktivoidaksesi tilisi.",
+    "darkens_image_for_readability": "Tummentaa kuvaasi, jotta tekstisi on luettavaa",
     "disabled": "Poistettu käytöstä",
     "email_to_reset_password": "Lähetämme sinulle sähköpostin salasanan nollaamiseksi.",
     "fulfilled_date_html": "Toimitettu {{ date }}",

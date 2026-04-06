@@ -121,6 +121,7 @@
     "comments_must_be_approved": "Bemærk venligst, at kommentarer skal godkendes, før de offentliggøres",
     "contact_confirmation": "Tak fordi du kontaktede os. Vi vender tilbage hurtigst muligt.",
     "create_your_password_to_activate": "Opret din adgangskode for at aktivere din konto.",
+    "darkens_image_for_readability": "Mørkner dit billede for at sikre, at din tekst er læsbar",
     "disabled": "Deaktiveret",
     "email_to_reset_password": "Vi sender dig en e-mail til at nulstille din adgangskode.",
     "fulfilled_date_html": "Opfyldt {{ date }}",

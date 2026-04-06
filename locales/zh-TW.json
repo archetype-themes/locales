@@ -121,6 +121,7 @@
     "comments_must_be_approved": "請注意，評論必須經過審核後才會發布",
     "contact_confirmation": "感謝您與我們聯繫。我們會盡快回覆您。",
     "create_your_password_to_activate": "建立密碼以啟用您的帳戶。",
+    "darkens_image_for_readability": "讓圖片變暗，確保文字清晰可讀",
     "disabled": "已停用",
     "email_to_reset_password": "我們將寄送電子郵件給您以重設密碼。",
     "fulfilled_date_html": "{{ date }} 已出貨",

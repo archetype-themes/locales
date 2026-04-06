@@ -121,6 +121,7 @@
     "comments_must_be_approved": "Xin lưu ý, bình luận phải được phê duyệt trước khi được xuất bản",
     "contact_confirmation": "Cảm ơn bạn đã liên hệ. Chúng tôi sẽ phản hồi sớm nhất có thể.",
     "create_your_password_to_activate": "Tạo mật khẩu để kích hoạt tài khoản của bạn.",
+    "darkens_image_for_readability": "Làm tối hình ảnh của bạn để đảm bảo văn bản của bạn có thể đọc được",
     "disabled": "Đã vô hiệu hóa",
     "email_to_reset_password": "Chúng tôi sẽ gửi email để bạn đặt lại mật khẩu.",
     "fulfilled_date_html": "Đã hoàn thành {{ date }}",

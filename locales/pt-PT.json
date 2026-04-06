@@ -121,6 +121,7 @@
     "comments_must_be_approved": "Tenha em atenção que os comentários precisam de ser aprovados antes de serem exibidos",
     "contact_confirmation": "Obrigado por entrar em contacto connosco. Responder-lhe-emos logo que possível.",
     "create_your_password_to_activate": "Crie a sua senha para ativar a sua conta.",
+    "darkens_image_for_readability": "Escurece a sua imagem para garantir que o texto é legível",
     "disabled": "Inválido",
     "email_to_reset_password": "Vamos enviar-lhe um email para repor a sua senha.",
     "fulfilled_date_html": "Concluído em {{ date }}",

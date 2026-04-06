@@ -121,6 +121,7 @@
     "comments_must_be_approved": "Uwaga: komentarze muszą zostać zatwierdzone przed publikacją",
     "contact_confirmation": "Dziękujemy za kontakt. Odpowiemy tak szybko, jak to możliwe.",
     "create_your_password_to_activate": "Utwórz hasło, aby aktywować swoje konto.",
+    "darkens_image_for_readability": "Ściemnia obraz, aby tekst był czytelny",
     "disabled": "Wyłączone",
     "email_to_reset_password": "Wyślemy Ci e-mail z linkiem do zresetowania hasła.",
     "fulfilled_date_html": "Zrealizowano {{ date }}",

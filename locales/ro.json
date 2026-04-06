@@ -121,6 +121,7 @@
     "comments_must_be_approved": "Atenție, comentariile trebuie aprobate înainte de a fi publicate",
     "contact_confirmation": "Mulțumim că ne-ai contactat. Îți vom răspunde cât mai curând posibil.",
     "create_your_password_to_activate": "Creează-ți parola pentru a-ți activa contul.",
+    "darkens_image_for_readability": "Îți întunecă imaginea pentru a te asigura că textul este ușor de citit",
     "disabled": "Dezactivat",
     "email_to_reset_password": "Îți vom trimite un e-mail pentru a-ți reseta parola.",
     "fulfilled_date_html": "Îndeplinit {{ date }}",

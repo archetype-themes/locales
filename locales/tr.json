@@ -121,6 +121,7 @@
     "comments_must_be_approved": "Lütfen dikkat, yorumlar yayınlanmadan önce onaylanmalıdır",
     "contact_confirmation": "Bizimle iletişime geçtiğiniz için teşekkür ederiz. En kısa sürede size geri döneceğiz.",
     "create_your_password_to_activate": "Hesabınızı etkinleştirmek için şifrenizi oluşturun.",
+    "darkens_image_for_readability": "Metninizin okunabilir olmasını sağlamak için görüntünü karartır",
     "disabled": "Devre dışı",
     "email_to_reset_password": "Şifrenizi sıfırlamanız için size bir e-posta göndereceğiz.",
     "fulfilled_date_html": "{{ date }} tarihinde tamamlandı",
